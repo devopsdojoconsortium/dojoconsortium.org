@@ -1,13 +1,13 @@
 ---
 published: true
-title: Getting Started with CI/CD
+title: Getting Started with CD
 menus:
   - Continuous Delivery
 tags:
   - cd
 ---
 
-- [Introduction to CI/CD](#introduction-to-cicd)
+- [Introduction to CD](#introduction-to-cd)
 - [Goals](#goals)
   - [Continuous Integration](#continuous-integration)
   - [Continuous Delivery/Deploy](#continuous-deliverydeploy)
@@ -23,7 +23,7 @@ tags:
 - [Tips](#tips)
 - [References](#references)
 
-## Introduction to CI/CD
+## Introduction to CD
 
 The path to [Continuous Integration](../../glossary.html#continuous-integration)
 and [Continuous Delivery](./glossary.html#continuous-delivery) may seem
@@ -115,7 +115,7 @@ Assigning tasks for the sprint results in each team member working in isolation 
 
 #### Testing Process
 
-In CI/CD, testing is completed before submitting code for review. There are no handoffs to QA for testing.
+In CD, testing is completed before submitting code for review. There are no handoffs to QA for testing.
 
 Manual testing is neither repeatable nor deterministic. Do not use manual testing as a stage gate. Use continuous exploratory testing to find missing tests that should be added.
 
@@ -145,11 +145,11 @@ steps that should be done whenever starting the CD journey.
   - Fixing a broken build is the team's highest priority.
 </pre>
 
-- Build and continuously improve a single CI/CD automated pipeline for each
+- Build and continuously improve a single CD automated pipeline for each
   repository. There should only be a single configuration for each repository
   that will deploy to all test and production environments.
 
-**A valid CI/CD process will have only a single method to build and deploy any
+**A valid CD process will have only a single method to build and deploy any
 change. Any deviation for emergencies indicates an incomplete CD process that
 puts the team and business at risk and must be improved.**
 

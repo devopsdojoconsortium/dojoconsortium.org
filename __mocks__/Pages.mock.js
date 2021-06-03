@@ -214,7 +214,7 @@ const Pages = {
       {
         fields: { slug: '/Continuous Delivery/starting-ci-cd/' },
         frontmatter: {
-          title: 'Getting Started with CI/CD',
+          title: 'Getting Started with CD',
           tags: ['cd'],
           menus: ['Continuous Delivery'],
           navPriority: null,

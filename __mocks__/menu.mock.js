@@ -44,7 +44,7 @@ const menu = [
           '/Continuous Delivery/dora-recommendations/-452af379-1bf4-4149-8d88-1ab7745535bd',
       },
       {
-        name: 'Getting Started with CI/CD',
+        name: 'Getting Started with CD',
         linkRoute: '/Continuous Delivery/starting-ci-cd/',
         menus: ['Continuous Delivery'],
         navPriority: 99,

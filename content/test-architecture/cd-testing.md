@@ -1,6 +1,6 @@
 ---
 published: true
-title: Designing Tests for CI/CD
+title: Designing Tests for CD
 menus:
   - Test Architecture
 navPriority: 1
@@ -27,8 +27,8 @@ Excerpt From: Gerard Meszaros. "xUnit Test Patterns: Refactoring Test Code
 - [Recommended Test Pattern](#recommended-test-pattern)
   - [Testing Matrix](#testing-matrix)
   - [Testing Anti-pattern](#testing-anti-pattern)
-- [Test Pattern Resources](#test-pattern-resources)
 - [Tests that should run in the pipeline](#tests-that-should-run-in-the-pipeline)
+- [Test Pattern Resources](#test-pattern-resources)
 
 ## Mindset
 
@@ -47,34 +47,29 @@ Excerpt From: Gerard Meszaros. "xUnit Test Patterns: Refactoring Test Code
 
 ## Recommended Test Pattern
 
-Trophy tessting emphasizes integration testing to maximize deterministic test coverage in process with the development cycle, so developers can find errors sooner. [E2E](./e2e) tests should primarily focus on happy/critical path and tests that absolutely require a browser/app.
+[Trophy testing][trophy-def] emphasizes integration testing to maximize deterministic test coverage in process with the development cycle, so developers can find errors sooner. [E2E][e2e-def] tests should primarily focus on happy/critical path and tests that absolutely require a browser/app.
 
 When executing continuous delivery, test code is a first class citizen that requires as much design and maintenance as
 production code. Flakey tests undermine confidence and should be terminated with extreme prejudice.
 
 ### Testing Matrix
 
-| Feature                 | Static | Unit |  Integration   |   Functional   | Visual Regression |    Contract    | E2E |
-| ----------------------- | :----: | :--: | :------------: | :------------: | :---------------: | :------------: | :-: |
-| Deterministic           |  Yes   | Yes  |      Yes       |      Yes       |        Yes        |       No       | No  |
-| PR Verify, Trunk Verify |  Yes   | Yes  |      Yes       |      Yes       |        Yes        |       No       | No  |
-| Break Build             |  Yes   | Yes  |      Yes       |      Yes       |        Yes        |       No       | No  |
-| Test Doubles            |  Yes   | Yes  |      Yes       |      Yes       |        Yes        | See Definition | No  |
-| Network Access          |   No   |  No  | localhost only | localhost only |        No         |      Yes       | Yes |
-| File System Access      |   No   |  No  |       No       |       No       |        No         |       No       | Yes |
-| Database                |   No   |  No  | localhost only | localhost only |        No         |      Yes       | Yes |
+|                             | Static | [Unit][unit-def] | [Integration][integration-def] | [Functional][functional-def] | [Contract][contract-def] | [E2E][e2e-def] |
+| --------------------------- | :----: | :--------------: | :----------------------------: | :--------------------------: | :----------------------: | :------------: |
+| **Deterministic**           |  Yes   |       Yes        |              Yes               |             Yes              |            No            |       No       |
+| **PR Verify, Trunk Verify** |  Yes   |       Yes        |              Yes               |             Yes              |            No            |       No       |
+| **Break Build**             |  Yes   |       Yes        |              Yes               |             Yes              |            No            |       No       |
+| **Use Test Doubles**        |  Yes   |       Yes        |              Yes               |             Yes              |      See Definition      |       No       |
+| **Network Access**          |   No   |        No        |         localhost only         |        localhost only        |           Yes            |      Yes       |
+| **File System Access**      |   No   |        No        |               No               |              No              |            No            |      Yes       |
+| **Include Database**        |   No   |        No        |         localhost only         |        localhost only        |           Yes            |      Yes       |
 
 ### Testing Anti-pattern
 
 - "Ice cream cone testing" is the anti-pattern where the most expensive, fragile, [non-deterministic](./glossary/index#non-deterministic-test) tests are prioritized over faster and less expensive [deterministic](./glossary/index#deterministic-test) tests because it "feels" right.
-  - ![Ice cream cone testing](../images/testing-images/ice-cream-cones-software-testing.png#width=400px)
+  - ![Ice cream cone testing](../images/testing-images/ice-cream-cones-software-testing.png#width=300px)
 - Excessive E2E testing. [Google Test Blog \* Just Say No to More End-to-End
-  Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
-
-## Test Pattern Resources
-
-- [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
-- [Testing Pyramids & Ice-Cream Cones](https://watirmelon.blog/testing-pyramids/)
+  Tests][e2e-google]
 
 ## Tests that should run in the pipeline
 
@@ -84,7 +79,19 @@ test. It is also impacted by activities like loading production data for the tes
 are anti-patterns for determinism.
 
 - Static Tests: Are there code smells or security issues?
-- [Unit Tests](../unit): Does this method / function work?
-- [Integration Tests (Network)](../integration): Do I understand this API response?
-- [Integration Tests (Functional)](../integration): Does this group of method/function perform the expected business flow?
-- [Component Functional Tests](../functional): Does this component work well as a whole?
+- [Unit Tests][unit-def]: Does this method / function work?
+- [Integration Tests][integration-def]: Do I understand this API response?
+- [Functional Tests][functional-def]: Does this component work well as a whole?
+
+## Test Pattern Resources
+
+- [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+- [Testing Pyramids & Ice-Cream Cones](https://watirmelon.blog/testing-pyramids/)
+
+[e2e-google]: https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html
+[unit-def]: https://martinfowler.com/articles/practical-test-pyramid.html#UnitTests
+[integration-def]: https://martinfowler.com/articles/practical-test-pyramid.html#IntegrationTests
+[functional-def]: https://martinfowler.com/articles/practical-test-pyramid.html#acceptance
+[e2e-def]: https://martinfowler.com/articles/practical-test-pyramid.html#End-to-endTests
+[contract-def]: https://martinfowler.com/articles/practical-test-pyramid.html#ContractTests
+[trophy-def]: https://kentcdodds.com/blog/write-tests
