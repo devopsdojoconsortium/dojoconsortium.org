@@ -7,6 +7,7 @@ menus:
 tags:
   - teamwork
   - workflow management
+  - Work Decomposition
 ---
 
 > Is it DONE, is it DONE DONE, or is it DONE DONE DONE?

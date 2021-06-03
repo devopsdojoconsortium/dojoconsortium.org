@@ -8,8 +8,7 @@ tags:
   - workflow management
 ---
 
-Workflow management is the processes we use to move things from started to done,
-as rapidly as possible in value sequence.
+Workflow management is the process the team uses to move things from "In Progress" to "Done", as rapidly as possible in value sequence. It's important for minimizing WIP that the team looks at the backlog as the team's work and does not pre-assign work to individuals.
 
 ## Workflow Management Process
 
@@ -44,7 +43,7 @@ is delivered, and can be completed in less than two days.
 Process smells identified for completing work include:
 
 - [Context switching](../team-dynamics)
-- [Ineffective demoes, or lack thereof](../feedback-loops)
+- [Ineffective demos, or lack thereof](../feedback-loops)
 - [Multiple teams owning pieces of the process](../team-dynamics)
 - [Status and visibility of work is unclear](../visualizing-workflow)
 - [Siloed work](../team-dynamics)
@@ -58,7 +57,7 @@ process](../delivery-system-improvement-journey#3-continuous-improvement) in pla
 
 Challenges associated with the improvement process:
 
-- [Infrequent or nonexistent demoes](../feedback-loops)
+- [Infrequent or nonexistent demos](../feedback-loops)
 - [Infrequent and unactionable retrospectives](../../retrospective-playbook)
 
 ---
