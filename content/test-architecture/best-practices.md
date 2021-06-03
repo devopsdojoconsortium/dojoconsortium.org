@@ -55,7 +55,7 @@ Defining tests prior to writing code is the best way to lock in behavior and pro
 
 ### BDD
 
-Behavior Driven Development is the process of defining business requirements as testable acceptance criteria and then implementing them using a test-first development approach. Examples and references for BDD can be found in the [playbook on BDD](http://devops.walmart.com/bifrost/playbooks/work-decomposition/behavior-driven-development.html).
+Behavior Driven Development is the process of defining business requirements as testable acceptance criteria and then implementing them using a test-first development approach. Examples and references for BDD can be found in the [playbook on BDD](../work-decomposition/behavior-driven-development.html).
 
 When coding tests, the test statements should clearly describe what is being executed so that we can create a shared understanding of what's getting build by all stakeholders. Tests are the living documentation for what the application is doing and test results should be effective on-boarding documentation.
 
@@ -133,8 +133,6 @@ Make sure it's still covering for valid use cases
 ## Shift Left
 
 **_["Write tests, not too many, mostly integration." - Guillermo Rauch.](https://kentcdodds.com/blog/write-tests)_**
-
-At Walmart we have slightly modified the [testing trophy pattern](https://kentcdodds.com/blog/write-tests) and are calling it the testing lava lamp, but the idea is the same. From bottom to top, in the diagram below, you can see Static, Unit, Integration, Functional and E2E. As you go up the lava lamp, confidence improves, but speed, cost, development time and stability gets worse. For this reason the lion's share of tests should be integration tests which has the best balance of cost & confidence. [More details on the lava lamp can be found here.](/docs/testing)
 
 As part of your build & release pipeline, everything except for E2E tests (i.e. all deterministic tests) should be executed as part of a pull request gate, only allowing a merge to trunk when they all pass. Vertical E2E tests should be run in each environment to which they are deployed and used as gates to promote them to the next environment or rolled back automatically if they fail. Horizontal E2E tests should not be run as part of the release pipeline, but still executed as part of a cron or other regularly scheduled check.
 

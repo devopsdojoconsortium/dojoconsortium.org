@@ -38,11 +38,6 @@ Because of the inherent complexity of horizontal tests (multi-team), they are un
 - CD pipelines should be optimized for the rapid recovery of production issues. Therefore, horizontal E2E tests should not be used to block delivery due to their size and relative failure surface area.
 - A team may choose to run vertical E2E in their pipeline to block delivery, but efforts must be made to decrease false positives to make this valuable.
 
-## Alternate Terms
-
-- Integration test
-  - **Note:** This should **not** be used internally to describe these types of tests to avoid confusion with the Walmart definition of [integration testing](../glossary#integration-test).
-
 ## Resources
 
 - [Testing Strategies in a Microservice Architecture: E2E Introduction](https://martinfowler.com/articles/microservice-testing/#testing-end-to-end-introduction)

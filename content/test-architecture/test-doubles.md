@@ -66,18 +66,17 @@ public void cleanUp() {
 
 ### Platform Independent Mocking Frameworks
 
-| Framework                                              | Reasoning                                                                                                                                                                |
-| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [JSON-Server](https://github.com/typicode/json-server) | <ul><li>Simple, great for scaffolding</li><li>Follows REST conventions</li><li>Stateful</li></ul>                                                                        |
-| [Shifu](https://gecgithub01.walmart.com/otto/shifu)    | <ul><li>Flexible and can be used in many scenarios.</li><li>Uses smocks internally.</li><li>Offers a nice interface for variant manipulation.</li><li>Stateful</li></ul> |
-| [Mountebank](https://github.com/bbyars/mountebank)     | <ul><li>Allows for more than just HTTP (multi-protocol)</li><li>Simple to use and configure</li><li>Large language support</li></ul>                                     |
+| Framework                                              | Reasoning                                                                                                                            |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [JSON-Server](https://github.com/typicode/json-server) | <ul><li>Simple, great for scaffolding</li><li>Follows REST conventions</li><li>Stateful</li></ul>                                    |
+| [Mountebank](https://github.com/bbyars/mountebank)     | <ul><li>Allows for more than just HTTP (multi-protocol)</li><li>Simple to use and configure</li><li>Large language support</li></ul> |
 
 ### GraphQL
 
-| Framework                                                   | Reasoning                                                                                                                                                                                                                                               |
-| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [GraphQL-Faker](https://github.com/APIs-guru/graphql-faker) | <ul><li>Supports proxying existing GraphQL APIs.</li><li>Simple GraphQL directive-based data mocking.</li><li>Uses faker.js under the hood.</li></ul>                                                                                                   |
-| [GraphQL-Tools](https://github.com/ardatan/graphql-tools)   | <ul><li>Built-in utilities for mocking collections (MockList)</li><li>Great documentation and interoperability with existing GraphQL (NodeJS) solutions.</li><li>ApolloServer uses this internally so fits great into the Walmart/OAOH world.</li></ul> |
+| Framework                                                   | Reasoning                                                                                                                                                          |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [GraphQL-Faker](https://github.com/APIs-guru/graphql-faker) | <ul><li>Supports proxying existing GraphQL APIs.</li><li>Simple GraphQL directive-based data mocking.</li><li>Uses faker.js under the hood.</li></ul>              |
+| [GraphQL-Tools](https://github.com/ardatan/graphql-tools)   | <ul><li>Built-in utilities for mocking collections (MockList)</li><li>Great documentation and interoperability with existing GraphQL (NodeJS) solutions.</li></ul> |
 
 ### Platform Specific
 
