@@ -1,3 +1,4 @@
+import { GitHub } from '@material-ui/icons'
 import { StaticQuery, graphql } from 'gatsby'
 import { makeStyles, useTheme } from '@material-ui/core/styles'
 import AppBar from '@material-ui/core/AppBar'
@@ -36,6 +37,11 @@ const useStyles = makeStyles(theme => ({
       easing: theme.transitions.easing.easeOut,
       duration: theme.transitions.duration.enteringScreen,
     }),
+  },
+  toolbar: {
+    alignItems: 'flex-start',
+    paddingTop: theme.spacing(1),
+    paddingBottom: theme.spacing(2),
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -125,7 +131,7 @@ export default function NavLayout({ children }) {
             <Divider />
             <ContentMenu />
           </Drawer>
-          <Grid container>
+          <Grid container spacing={2}>
             <Grid item xs={12}>
               <AppBar
                 position="fixed"
@@ -133,7 +139,7 @@ export default function NavLayout({ children }) {
                   [classes.appBarShift]: open,
                 })}
               >
-                <Toolbar>
+                <Toolbar className={classes.toolbar}>
                   <IconButton
                     color="inherit"
                     aria-label="open drawer"
@@ -143,9 +149,23 @@ export default function NavLayout({ children }) {
                   >
                     <MenuIcon />
                   </IconButton>
+
                   <Typography variant="h6" noWrap>
                     {data.site.siteMetadata.title}
                   </Typography>
+
+                  <IconButton
+                    component="span"
+                    color="inherit"
+                    title="Fork me on GitHub"
+                    onClick={() =>
+                      window.open(
+                        'https://github.com/devopsdojoconsortium/dojoconsortium.org',
+                      )
+                    }
+                  >
+                    <GitHub />
+                  </IconButton>
                 </Toolbar>
               </AppBar>
             </Grid>
