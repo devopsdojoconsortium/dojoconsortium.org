@@ -14,10 +14,9 @@
   "homepage": ".",
   "scripts": {
     "develop": "gatsby develop",
-    "deploy": "node ./_deploy.js",
     "start": "npm run clean && npm run develop",
-    "build": "npm run clean && cross-env INLINE_RUNTIME_CHUNK=false gatsby build --prefix-paths && mv public dist",
-    "clean": "rimraf .cache public dist",
+    "build": "npm run clean && cross-env INLINE_RUNTIME_CHUNK=false gatsby build --prefix-paths",
+    "clean": "rimraf .cache public",
     "serve": "gatsby serve",
     "now-build": "npm run build",
     "format:fix": "prettier --write '**/*.{js,jsx,yml,json,css,md}'",
