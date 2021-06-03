@@ -1,0 +1,13 @@
+.cache/
+.eslintcache
+.gatsby-context.js
+.history/
+.idea/
+coverage/
+gatsby-starter-lumen.iml
+node_modules/
+npm-debug.log
+public/
+dist/
+.DS_Store
+postBuildScripts/testFiles/
