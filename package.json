@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "description": "Recommended practices for CD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devopsdojoconsortium/dojoconsortium.org.git"
+  },
   "keywords": [
     "gatsby"
   ],
