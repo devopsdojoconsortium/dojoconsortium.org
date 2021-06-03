@@ -6,19 +6,6 @@ module.exports = {
     author: 'Dojo Consortium',
   },
   plugins: [
-    'gatsby-plugin-uninline-styles',
-    {
-      resolve: `gatsby-plugin-csp`,
-      // options: {
-      //   mergeScriptHashes: false, // you can disable scripts sha256 hashes
-      //   mergeStyleHashes: false, // you can disable styles sha256 hashes
-      //   directives: {
-      //     'script-src': `'self' 'nonce-dnVldGlmeQ==' *.dso.mil"`,
-      //     'style-src': `'self' 'nonce-dnVldGlmeQ==' *.dso.mil www.google-analytics.com`,
-      //     //   // you can add your directives or override defaults
-      //   },
-      // },
-    },
     'gatsby-plugin-catch-links',
     {
       resolve: 'gatsby-source-filesystem',
@@ -145,27 +132,6 @@ module.exports = {
           })),
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-netlify`,
-    //   options: {
-    //     headers: {
-    //       '/*': [
-    //         'Content-Security-Policy: __REPLACE_ME__',
-    //         'Access-Control-Allow-Origin: null',
-    //         'Referrer-Policy: origin',
-    //         'Strict-Transport-Security: max-age=31536000; includeSubDomains; preload',
-    //         'Upgrade-Insecure-Requests: 1',
-    //         'X-Content-Type-Options: nosniff',
-    //         'X-Frame-Options: deny',
-    //         'X-XSS-Protection: 1; mode=block',
-    //       ],
-    //     }, // option to add more headers. `Link` headers are transformed by the below criteria
-    //     allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
-    //     mergeSecurityHeaders: true, // boolean to turn off the default security headers
-    //     mergeLinkHeaders: true, // boolean to turn off the default gatsby js headers
-    //     mergeCachingHeaders: true, // boolean to turn off the default caching headers
-    //     generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
-    //   },
-    // },
+    `gatsby-plugin-netlify`,
   ],
 }
