@@ -39,7 +39,7 @@ CD is based on and extends the extreme programming practice of continuous integr
 The path to continuous integration and continuous delivery may seem daunting to teams that are just starting out. We offer this guide to getting started with a focus on outcome metrics to track progress.
 
 <a href="../../CD_Pipeline_Full_Tranparent.png" target="_blank">
-  <img src="../../CD_Pipeline_Full_Tranparent.png" width="100%">
+ <img src="../../CD_Pipeline_Full_Tranparent.png" width="100%">
 </a>
 
 Continuous Delivery is far more than automation. It is the entire cycle of identifying value, delivering the value, and verifying
@@ -50,7 +50,7 @@ be.
 
 ## Goals
 
-Both CI and CD are behaviors intended to improve certain goals. CI is very effective at uncovering issues in work decomposition and testing within the team's processes so that the team can improve them. CD is effective at uncovering external dependencies, organizational process issues,  and test architecture issues that add waste and cost.
+Both CI and CD are behaviors intended to improve certain goals. CI is very effective at uncovering issues in work decomposition and testing within the team's processes so that the team can improve them. CD is effective at uncovering external dependencies, organizational process issues, and test architecture issues that add waste and cost.
 
 The relentless improvement of how we implement CD reduces overhead, improves quality feedback, and improves both the outcomes of the end-user and the work/life balance of the team.
 
@@ -65,8 +65,8 @@ There should never be an understanding that we are "mature" or "immature" with d
 Each developer on the team has tested changes integrated into the trunk at least daily.
 Changes always use the same process to deliver. There is no difference between deploying a feature or a fix.
 There are no manual quality gates.
-Changes are made using a trunk-based development pattern.
-All test and production environments use the same artifact. If the release cadence requires release branches, then the release branches deploy to all test environments and to production.
+Changes are made using a trunk-based development pattern.
+All test and production environments use the same artifact. If the release cadence requires release branches, then the release branches deploy to all test environments and to production.
 
 #### Good
 
@@ -142,7 +142,7 @@ This working agreement for CI puts focus on developing teamwork and delivering q
 
 | Issue              | Description                                                                                                | Good Practice                                                                                                                                                              |
 | ------------------ | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Outsourced testing | Some or all of acceptance testing performed by a different team or an assigned subset of the product team. | Building in the quality feedback and continupisly improving the same is the responsibility of the development team.                                                        |
+| Outsourced testing | Some or all of acceptance testing performed by a different team or an assigned subset of the product team. | Building in the quality feedback and continuously improving the same is the responsibility of the development team.                                                        |
 | Manual testing     | Using manual testing for functional acceptance testing.                                                    | Manual tests should only be used for things that cannot be automated. In addition, manual tests should not be blockers to delivery but should be asynchronous validations. |
 
 ---
@@ -159,12 +159,12 @@ steps that should be done whenever starting the CD journey.
   to remove the constraints.
 - Align to the Continuous Integration team working agreement and use the
   impediments to feed the team's improvement process.
-  - We always branch from Trunk.
-  - Branches last less than 24 hours.
-  - Changes must be tested and not break existing tests.
-  - Changes are not required to be "feature complete".
-  - Code review is more important than starting new work.
-  - Fixing a broken build is the team's highest priority.
+- We always branch from Trunk.
+- Branches last less than 24 hours.
+- Changes must be tested and not break existing tests.
+- Changes are not required to be "feature complete".
+- Code review is more important than starting new work.
+- Fixing a broken build is the team's highest priority.
 - Build and continuously improve a single CD automated pipeline for each
   repository. There should only be a single configuration for each repository
   that will deploy to all test and production environments.
