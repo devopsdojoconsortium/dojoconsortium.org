@@ -35,8 +35,8 @@ Continuous Delivery is far more than automation. It is the entire cycle of ident
 with the end user that we delivered the expected value. The shorter we can make that feedback loop, the better our bottom line will
 be.
 
-<a href="../../CD Pipeline Full - transparent.png" target="_blank">
-  <img src="../../CD Pipeline Full - transparent.png" width="100%">
+<a href="../../CD_Pipeline_Full_Tranparent.png" target="_blank">
+  <img src="../../CD_Pipeline_Full_Tranparent.png" width="100%">
 </a>
 
 ---
