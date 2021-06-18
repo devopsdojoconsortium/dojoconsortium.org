@@ -1,6 +1,6 @@
 ---
 published: true
-title: Glossary
+title: Test Glossary
 navPriority: 1
 menus:
   - Test Architecture
