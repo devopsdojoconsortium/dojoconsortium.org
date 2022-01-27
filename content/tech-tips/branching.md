@@ -15,7 +15,7 @@ navPriority: 1
   - Branches should live no longer than 24 hours. The smaller the PR, the easier it is to identify issues. The smaller the change, the less risk associated with that change.
   - Pull requests reviewed by a second party are a compliance requirement.
 - Trunk can always be built and deployed without breaking production.
-  - When needed, use techniques like the Branch by Abstraction pattern or feature flags to ensure backwards compatability.
+  - When needed, use techniques like the Branch by Abstraction pattern or feature flags to ensure backwards compatibility.
 - All changes to trunk include _all_ appropriate automated tests.
   - [Unit tests](../../test-architecture/unit)
   - [Functional test](../../test-architecture/functional)
