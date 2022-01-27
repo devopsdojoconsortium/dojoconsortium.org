@@ -10,7 +10,7 @@ tags:
 
 > "Our research has uncovered 24 key capabilities that drive improvements in software delivery performance in a statistically significant way. Our book details these findings."
 
-- Excerpt From: Nicole Forsgren PhD, Jez Humble & Gene Kim. <a href="https://learning.oreilly.com/library/view/accelerate/9781457191435/">"Accelerate"</a>
+- Excerpt From: Nicole Forsgren PhD, Jez Humble & Gene Kim. [Accelerate](<https://learning.oreilly.com/library/view/accelerate/9781457191435/>]
 
 ---
 
