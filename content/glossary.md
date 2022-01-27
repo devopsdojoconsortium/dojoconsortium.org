@@ -71,7 +71,7 @@ maintaining an application.
 
 ## Unplanned Work
 
-Any work that the the team inserts before the curret planned work. Critical defects and "walk up" requests are unplanned
+Any work that the the team inserts before the current planned work. Critical defects and "walk up" requests are unplanned
 work. It's important that the team track all unplanned work and the reason so that steps can be taken by the team to
 reduce the future impact.
 
