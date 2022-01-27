@@ -42,7 +42,7 @@ Continuous integration is a requirement for CD. It requires very frequent integr
 "Any organization that designs a system will produce a design whose structure is a copy of the
 organization's communication structure." - Melvin Conway
 
-Loosly couple teams create loosly coupled systems. The opposite is also true.
+Loosely couple teams create loosely coupled systems. The opposite is also true.
 
 - Videos
   - [Don't Forget Conway's Law](https://www.youtube.com/watch?v=zA1EXJV1JWQ) Sarah Novotny - 8:50 mins.
