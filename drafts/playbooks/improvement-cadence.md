@@ -44,8 +44,8 @@ begin the journey of improvement.
 
 ### Demo/Retrospective (Time-box 30 min)
 
-1.  If nothing to demo, we retro as to why.
-2.  Reflect as to whether the target condition is still the target condition
+1. If nothing to demo, we retro as to why.
+2. Reflect as to whether the target condition is still the target condition
 
 - Utilize [improvement kata](./improvement-kata.html), awesome board, etc.
 - Have actionable items and _implement_ those items

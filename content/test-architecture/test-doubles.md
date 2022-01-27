@@ -60,7 +60,7 @@ public void verifySpyUserDetails() throws Exception {
 
 @After
 public void cleanUp() {
-  reset(userService);// Reseting the userServiceSpy
+  reset(userService);// Resetting the userServiceSpy
 }
 ```
 

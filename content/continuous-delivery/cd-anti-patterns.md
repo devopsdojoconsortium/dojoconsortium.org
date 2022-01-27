@@ -17,8 +17,8 @@ The following are very frequent issues that teams encounter that become critical
 All stories should be defined with declarative and testable acceptance criteria. This dramatically reduces the amount
 of waiting and rework once coding begins and enables a much smoother testing workflow.
 
-Acceptance criteria should define "done" for the story. No behavior other than that specificed by the acceptance
-criteria should be implemented. This prevents scope creep and gold-plating and makes delivery much more consistant.
+Acceptance criteria should define "done" for the story. No behavior other than that specified by the acceptance
+criteria should be implemented. This prevents scope creep and gold-plating and makes delivery much more consistent.
 
 ### Stories too large
 
@@ -34,7 +34,7 @@ Large stories hide complexity, uncertainty, and dependencies.
 Teams should have a working agreement about the definition of "ready" for a story or task. Until the team agrees it has
 the information it needs, no commitments should be made and the story should not be added to the "ready" backlog.
 
-```bash
+```shell
 Definition of Ready
 
 - Story
@@ -51,7 +51,7 @@ Definition of Ready
 
 Having an explicit definition of done is important to keeping [WIP](../../glossary#WIP) low and finishing work.
 
-```bash
+```shell
 Definition of Done
 
 - Sub-task

@@ -167,7 +167,7 @@ unstable tests.
 
 ### Remediating Test Instability
 
-Unstable test results will create lack of trust in the test results and encourage baypassing test failure. To correct this:
+Unstable test results will create lack of trust in the test results and encourage bypassing test failure. To correct this:
 
 - Remove flaky tests from the pipeline
   to ensure that tests in the pipeline are trusted by the team
