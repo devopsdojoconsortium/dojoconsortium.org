@@ -17,8 +17,8 @@ The following are very frequent issues that teams encounter that become critical
 All stories should be defined with declarative and testable acceptance criteria. This dramatically reduces the amount
 of waiting and rework once coding begins and enables a much smoother testing workflow.
 
-Acceptance criteria should define "done" for the story. No behavior other than that specificed by the acceptance
-criteria should be implemented. This prevents scope creep and gold-plating and makes delivery much more consistant.
+Acceptance criteria should define "done" for the story. No behavior other than that specified by the acceptance
+criteria should be implemented. This prevents scope creep and gold-plating and makes delivery much more consistent.
 
 ### Stories too large
 
