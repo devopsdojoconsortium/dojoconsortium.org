@@ -33,7 +33,7 @@ changes to trunk very frequently or at least once per day. Trunk is kept ready t
 > set of automated tests is run against it. Crucially, if the build or test process fails, the development team stops whatever they
 > are doing and fixes the problem immediately. The goal of continuous integration is that the software is in a working state all the
 > time.
-
+>
 > Continuous integration is a practice, not a tool. It requires a degree of commitment and discipline from your development team.
 > You need everyone to check in small incremental changes frequently to mainline and agree that the highest priority task on the
 > project is to fix any change that breaks the application. If people don't adopt the discipline necessary for it to work, your
