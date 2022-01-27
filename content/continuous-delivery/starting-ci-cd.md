@@ -15,7 +15,7 @@ tags:
   - [Continuous Integration](#continuous-integration)
   - [Continuous Delivery/Deploy](#continuous-deliverydeploy)
 - [CD Anti-Patterns](#cd-anti-patterns)
-    - [Work breakdown](#work-breakdown)
+    - [Work reakdown](#work-reakdown)
     - [Workflow Management](#workflow-management)
     - [Teams](#teams)
     - [Testing Process](#testing-process)
@@ -115,7 +115,7 @@ This working agreement for CI puts focus on developing teamwork and delivering q
 
 ## CD Anti-Patterns
 
-#### Work breakdown
+#### Work Breakdown
 
 | Issue                 | Description                                      | Good Practice                                                                                                                     |
 | --------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
