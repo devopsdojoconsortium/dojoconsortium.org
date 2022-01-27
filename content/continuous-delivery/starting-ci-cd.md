@@ -45,9 +45,7 @@ CD is based on and extends the extreme programming practice of continuous integr
 
 The path to continuous integration and continuous delivery may seem daunting to teams that are just starting out. We offer this guide to getting started with a focus on outcome metrics to track progress.
 
-<a href="../../CD_Pipeline_Full_Tranparent.png" target="_blank">
- <img src="../../CD_Pipeline_Full_Tranparent.png" width="100%">
-</a>
+![CD_Pipeline_Full_Tranparent.png](./../CD_Pipeline_Full_Tranparent.png "CD_Pipeline_Full_Tranparent.png")
 
 Continuous Delivery is far more than automation. It is the entire cycle of identifying value, delivering the value, and verifying
 with the end user that we delivered the expected value. The shorter we can make that feedback loop, the better our bottom line will
