@@ -10,15 +10,15 @@ tags:
 - [Introduction to CD](#introduction-to-cd)
 - [Goals](#goals)
 - [CD Maturity](#cd-maturity)
-    - [Minimums](#minimums)
-    - [Good](#good)
+  - [Minimums](#minimums)
+  - [Good](#good)
   - [Continuous Integration](#continuous-integration)
   - [Continuous Delivery/Deploy](#continuous-deliverydeploy)
 - [CD Anti-Patterns](#cd-anti-patterns)
-    - [Work reakdown](#work-reakdown)
-    - [Workflow Management](#workflow-management)
-    - [Teams](#teams)
-    - [Testing Process](#testing-process)
+  - [Work Breakdown](#work-breakdown)
+  - [Workflow Management](#workflow-management)
+  - [Teams](#teams)
+  - [Testing Process](#testing-process)
 - [Recommended Practices](#recommended-practices)
   - [Pipeline](#pipeline)
   - [Short CI Cycle Time](#short-ci-cycle-time)
@@ -65,7 +65,7 @@ It has been common for organizations to apply "maturity models" to activities su
 
 There should never be an understanding that we are "mature" or "immature" with delivery. We can always improve. However, there should be an understanding of what competency looks like.
 
-#### Minimums
+### Minimums
 
 Each developer on the team has tested changes integrated into the trunk at least daily.
 Changes always use the same process to deliver. There is no difference between deploying a feature or a fix.
@@ -73,7 +73,7 @@ There are no manual quality gates.
 Changes are made using a trunk-based development pattern.
 All test and production environments use the same artifact. If the release cadence requires release branches, then the release branches deploy to all test environments and to production.
 
-#### Good
+### Good
 
 New work requires less than 2 days from start to delivery
 All changes deliver from the trunk
@@ -115,14 +115,14 @@ This working agreement for CI puts focus on developing teamwork and delivering q
 
 ## CD Anti-Patterns
 
-#### Work Breakdown
+### Work Breakdown
 
 | Issue                 | Description                                      | Good Practice                                                                                                                     |
 | --------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
 | Unclear requirements  | Stories without testable acceptance criteria     | Work should be defined with acceptance tests to improve clarity and enable developer driven testing.                              |
 | Long development Time | Stories take too long to deliver to the end user | Use BDD to decompose work to testable acceptance criteria to find smaller deliverables that can be completed in less than 2 days. |
 
-#### Workflow Management
+### Workflow Management
 
 | Issue                                   | Description                                                                                                                                                                                                           | Good Practice                                                                                                                                                                                |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -135,7 +135,7 @@ This working agreement for CI puts focus on developing teamwork and delivering q
 | One or fewer deliveries per sprint      | The sprint results in one or fewer changes that are production ready                                                                                                                                                  | Sprints are planning increments, not delivery increments. Plan what will be delivered daily during the sprint. Uncertainty increases with time. Distant deliverables need detailed analysis. |
 | Pre-assigned work                       | Assigning the list of tasks each person will do as part of sprint planning. This results in each team member working in isolation on a task list instead of the team focusing on delivering the next high value item. | The whole team should own the team's work. Work should be pulled in priority sequence and the t4eam should work daily to remove knowledge silos.                                             |
 
-#### Teams
+### Teams
 
 | Issue                | Description                                                                                                                                                                                       | Good Practice                                                                                                                                                    |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -143,7 +143,7 @@ This working agreement for CI puts focus on developing teamwork and delivering q
 | Poor teamwork        | Poor communication between team members due to time delays or "expert knowledge" silos                                                                                                            | Make sure there is sufficient time overlap and that specific portions of the system are not assigned to individuals                                              |
 | Multi-team deploys   | Requiring more than one team to deliver synchronously reduces the ability to respond to production issues in a timely manner and delays delivery of any feature to the speed of he slowest teams. | Make sure all dependencies between teams are handled in ways that allow teams to deploy independently in any sequence.                                           |
 
-#### Testing Process
+### Testing Process
 
 | Issue              | Description                                                                                                | Good Practice                                                                                                                                                              |
 | ------------------ | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
