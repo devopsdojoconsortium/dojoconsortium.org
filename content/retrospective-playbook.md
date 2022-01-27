@@ -63,7 +63,7 @@ There are some important things to consider when scheduling a retrospective.
 3. Include everyone responsible for delivery
    1. Ideally this will include business colleagues (PO), operations, testing,
       and developers involved in the process.
-   2. If there are more than 10-12 people in the meeting, you're team is
+   2. If there are more than 10-12 people in the meeting, your team is
       probably too big.
 4. Co-location concerns
    1. If the team is split across timezones, then accommodations
