@@ -34,7 +34,7 @@ Large stories hide complexity, uncertainty, and dependencies.
 Teams should have a working agreement about the definition of "ready" for a story or task. Until the team agrees it has
 the information it needs, no commitments should be made and the story should not be added to the "ready" backlog.
 
-```bash
+```shell
 Definition of Ready
 
 - Story
@@ -51,7 +51,7 @@ Definition of Ready
 
 Having an explicit definition of done is important to keeping [WIP](../../glossary#WIP) low and finishing work.
 
-```bash
+```shell
 Definition of Done
 
 - Sub-task
