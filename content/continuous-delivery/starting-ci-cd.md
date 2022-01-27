@@ -22,8 +22,8 @@ tags:
 - [Recommended Practices](#recommended-practices)
   - [Pipeline](#pipeline)
   - [Short CI Cycle Time](#short-ci-cycle-time)
-  - [Integrate outside the pipeline. Virtualize inside the pipeline.](#integrate-outside-the-pipeline-virtualize-inside-the-pipeline)
-  - [Developers should be responsible for the full pipeline.](#developers-should-be-responsible-for-the-full-pipeline)
+  - [Integrate outside the pipeline. Virtualize inside the pipeline](#integrate-outside-the-pipeline-virtualize-inside-the-pipeline)
+  - [Developers should be responsible for the full pipeline](#developers-should-be-responsible-for-the-full-pipeline)
   - [All test automation pre-commit](#all-test-automation-pre-commit)
 - [Tips](#tips)
 - [References](#references)
@@ -194,11 +194,11 @@ Developers are responsible for the full pipeline. No handoffs. Handoffs cause de
 
 CI cycle time should be less than 10 minutes from commit to artifact creation. CD cycle time should be less than 60 minutes from commit to Production.
 
-### Integrate outside the pipeline. Virtualize inside the pipeline.
+### Integrate outside the pipeline. Virtualize inside the pipeline
 
 Direct integration to stateful dependencies (end-to-end testing) should be avoided in the pipeline. Tests in the pipeline should be deterministic and the larger the number of integration points the more difficult it is to manage state and maintain determinism. It is a good way to validate service mocks. However, if done in the pipeline it puts fixing production at risk if the dependency is unstable/unavailable.
 
-### Developers should be responsible for the full pipeline.
+### Developers should be responsible for the full pipeline
 
 No handoffs. Handoffs cause delay and dilute ownership. The team owns their pipeline and the application they deploy from birth to death.
 
