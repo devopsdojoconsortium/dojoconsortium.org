@@ -1,8 +1,6 @@
 ---
 title: Definition of Ready
-
-  - Teamwork
-tags: [pending]
+tags: [teamwork, decomposition]
 ---
 
 _Is it REALLY Ready?_

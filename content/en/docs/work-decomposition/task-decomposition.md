@@ -1,7 +1,7 @@
 ---
 title: Task Decomposition
-
-tags: [pending]
+weight: 10
+tags: [decomposition]
 ---
 
 ## What does a good task look like?
@@ -24,7 +24,7 @@ Task: Add Integration Frequency as Score Entry.
 Task: Update Score Entry for Integration Frequency.
 ```
 
-Use [Definition of Done](../../workflow-management/definition-of-done) as your
+Use [Definition of Done](/docs/workflow-management/definition-of-done) as your
 checklist for completing a development task.
 
 ---

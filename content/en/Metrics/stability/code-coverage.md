@@ -1,4 +1,5 @@
 ---
+type: docs
 weight: 10
 title: Code Coverage
 ---

@@ -1,6 +1,7 @@
 ---
-weight: 1.1
+weight: 2
 title: Metrics Cheat Sheet
+type: docs
 ---
 
 ## Organizational Metrics

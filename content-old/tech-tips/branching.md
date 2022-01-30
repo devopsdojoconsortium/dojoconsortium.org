@@ -43,7 +43,7 @@ The main reasons teams struggle with CI are:
 - [Test architecture](../../test-architecture/cd-testing)
 - [Work that is too big and / or lacks proper refinement](../../work-decomposition/work-breakdown)
 - Issues with [source code ownership](../source-ownership) (one repo owned by more than one team)
-- [Workflow management](../../workflow-management/workflow-process) within the team
+- [Workflow management](/docs/workflow-management/workflow-process) within the team
 
 ---
 

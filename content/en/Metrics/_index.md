@@ -1,11 +1,15 @@
 ---
-weight: 10
-title: Metrics
-type: docs
+title: "Measuring Improvement"
+linkTitle: "Measuring Improvement"
 simple_list: true
+type: docs
+weight: 20
 menu:
   main:
-    weight: 40
+    weight: 20
 ---
 
-<!--add blocks of content here to add more sections to the community page -->
+{{% pageinfo %}}
+Making metrics matter
+
+{{% /pageinfo %}}

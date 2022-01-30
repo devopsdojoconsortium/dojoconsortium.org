@@ -1,7 +1,7 @@
 ---
 title: Contract Driven Development
 
-tags: [pending]
+tags: [testing, architecture]
 ---
 
 Contract Driven Development is the process of defining the contract changes

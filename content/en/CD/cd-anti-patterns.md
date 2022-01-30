@@ -1,12 +1,13 @@
 ---
 title: "Common Blockers"
 linkTitle: "Common Blockers"
+draft: true
 weight: 1
 tags:
   - cd
 ---
   
-The following are very frequent issues that teams encounter that become critical roadblocks to [continuous delivery](../../glossary#continuous-delivery)
+The following are very frequent issues that teams encounter that become critical roadblocks to [continuous delivery](/docs/glossary#continuous-delivery)
 
 ## Work Breakdown
 
@@ -47,7 +48,7 @@ Definition of Ready
 
 ### No definition of "Done"
 
-Having an explicit definition of done is important to keeping [WIP](../../glossary#WIP) low and finishing work.
+Having an explicit definition of done is important to keeping [WIP](/docs/glossary#WIP) low and finishing work.
 
 ```shell
 Definition of Done

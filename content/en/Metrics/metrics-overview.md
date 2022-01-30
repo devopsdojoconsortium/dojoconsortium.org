@@ -1,6 +1,7 @@
 ---
 weight: 1
 title: Metrics Overview
+type: docs
 ---
 
 Metrics are key to organizational improvement. If we do not measure, then any attempt at improvement is aimless.

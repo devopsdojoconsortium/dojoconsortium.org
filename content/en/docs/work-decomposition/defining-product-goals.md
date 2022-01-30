@@ -1,7 +1,7 @@
 ---
 title: Defining Product Goals
 
-tags: [pending]
+tags: [product management]
 ---
 
 ## Product Goals

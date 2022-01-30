@@ -1,5 +1,6 @@
 ---
-
+type: docs
+weight: 10
 title: Velocity / Throughput
 ---
 
@@ -14,7 +15,7 @@ and focusing on teamwork.
 ## How to improve it
 
 - Reduce story size so they are easier to understand and more predictable.
-- Minimize [hard dependencies](../../glossary/#dependency-hard). Each hard dependency reduces the odds of on-time
+- Minimize [hard dependencies](/docs/glossary/#dependency-hard). Each hard dependency reduces the odds of on-time
   delivery by 50%.
 - Swarm stories by decomposing them into tasks that can be executed in parallel so that the team is working as a unit to deliver faster.
 

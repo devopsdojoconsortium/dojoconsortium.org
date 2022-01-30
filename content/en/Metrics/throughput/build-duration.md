@@ -1,4 +1,5 @@
 ---
+type: docs
 weight: 10
 title: Build Cycle Time
 ---

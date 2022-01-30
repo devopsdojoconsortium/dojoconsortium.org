@@ -1,7 +1,8 @@
 ---
-title: Continuous Delivery
-draft: true
+weight: 10
+title: Metrics
 type: docs
+simple_list: true
 menu:
   main:
     weight: 40

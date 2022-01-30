@@ -1,15 +1,14 @@
 ---
 title: Work Decomposition
 weight: 1
-
-tags: [pending]
+tags: [decomposition]
 ---
 
 In order to effectively understand and implement the work breakdown flow, the
 team needs to have the following prerequisites and understandings.
 
 - [Definition of Ready](../definition-of-ready)
-- [Definition of Done](../../workflow-management/definition-of-done)
+- [Definition of Done](/docs/workflow-management/definition-of-done)
 - Backlog refinement cadence with the appropriate team members and stakeholders involved
 
 ---
@@ -62,7 +61,7 @@ Common struggles for teams when breaking down ideas into epics and features:
 Stories are observable changes that have clear acceptance criteria, and can be
 completed in less than two days. Stories are made up of one or more tasks.
 
-Typic al problems teams experience with work decomposition are:
+Typic al problems teams experience with decomposition are:
 
 - [Stories are too big](../story-slicing)
 - [Stories are too complex](../complexity-workbreakdown)
@@ -87,5 +86,5 @@ to understand what a [good task](../task-decomposition) looks like.
 ### Measuring Success
 
 Tracking the team's [Development Cycle Time](../../metrics/development-cycle-time) is the best way to judge improvements
-to work decomposition. Stories should take 1-2 days to deliver and should not have rework, delays waiting for
+to decomposition. Stories should take 1-2 days to deliver and should not have rework, delays waiting for
 explanations, or dependencies on other stories or teams.
