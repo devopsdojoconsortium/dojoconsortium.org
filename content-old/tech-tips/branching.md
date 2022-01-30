@@ -29,7 +29,7 @@ weight: 1
 
 ### Tips
 
-- [Story Slicing](../../work-decomposition/story-slicing) helps break
+- [Story Slicing](..//docs/work-decomposition/story-slicing) helps break
   development work into more easily consumable, testable chunks.
 - You don't have to wait to be story/feature complete as long as you have tested
   and won't break production.
@@ -41,7 +41,7 @@ Trunk based continuous integration often takes workflow adjustments on the team.
 The main reasons teams struggle with CI are:
 
 - [Test architecture](../../test-architecture/cd-testing)
-- [Work that is too big and / or lacks proper refinement](../../work-decomposition/work-breakdown)
+- [Work that is too big and / or lacks proper refinement](..//docs/work-decomposition/work-breakdown)
 - Issues with [source code ownership](../source-ownership) (one repo owned by more than one team)
 - [Workflow management](/docs/workflow-management/workflow-process) within the team
 

@@ -85,6 +85,6 @@ to understand what a [good task](../task-decomposition) looks like.
 
 ### Measuring Success
 
-Tracking the team's [Development Cycle Time](../../metrics/development-cycle-time) is the best way to judge improvements
+Tracking the team's [Development Cycle Time](/metrics/development-cycle-time) is the best way to judge improvements
 to decomposition. Stories should take 1-2 days to deliver and should not have rework, delays waiting for
 explanations, or dependencies on other stories or teams.

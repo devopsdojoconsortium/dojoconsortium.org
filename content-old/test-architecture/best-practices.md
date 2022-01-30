@@ -52,7 +52,7 @@ Defining tests prior to writing code is the best way to lock in behavior and pro
 
 ### BDD
 
-Behavior Driven Development is the process of defining business requirements as testable acceptance criteria and then implementing them using a test-first development approach. Examples and references for BDD can be found in the [playbook on BDD](../work-decomposition/behavior-driven-development.html).
+Behavior Driven Development is the process of defining business requirements as testable acceptance criteria and then implementing them using a test-first development approach. Examples and references for BDD can be found in the [playbook on BDD](/docs/work-decomposition/behavior-driven-development.html).
 
 When coding tests, the test statements should clearly describe what is being executed so that we can create a shared understanding of what's getting build by all stakeholders. Tests are the living documentation for what the application is doing and test results should be effective on-boarding documentation.
 

@@ -26,14 +26,14 @@ to, or prioritized. This can include feature requests, support tickets, etc.
 Common struggles teams face with unplanned work can be:
 
 - [Work that has not been prioritized](../unplanned-work)
-- [Work that has not been decomposed](../../work-decomposition/work-breakdown)
+- [Work that has not been decomposed](..//docs/work-decomposition/work-breakdown)
 - [Work that is unplanned](../unplanned-work)
 
 ---
 
 ### Do Work
 
-Completed work meets the [Definition of Ready](../../work-decomposition/definition-of-ready)
+Completed work meets the [Definition of Ready](..//docs/work-decomposition/definition-of-ready)
 when work begins, the [Definition of Done](../definition-of-done) when work
 is delivered, and can be completed in less than two days.
 
@@ -64,5 +64,5 @@ Challenges associated with the improvement process:
 A good measure to implement in your team's workflow is [WIP](../limiting-wip).
 Limiting work in progress can help reduce constraints in your workflow.
 
-[Development cycle time](../../metrics/development-cycle-time) is a key
+[Development cycle time](/metrics/development-cycle-time) is a key
 measure of success when trying to optimize and automate your team's workflow.
