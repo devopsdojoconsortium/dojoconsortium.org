@@ -1,5 +1,6 @@
 ---
 title: Continuous Delivery
+type: docs
 menu:
   main:
     weight: 40

@@ -1,6 +1,7 @@
 ---
-title: "Playbooks"
-linkTitle: "Playbooks"
+title: "Process Improvement"
+linkTitle: "Process Improvement"
+simple_list: true
 weight: 20
 menu:
   main:

@@ -1,4 +1,5 @@
 ---
+weight: 10
 title: Defect Rate
 ---
 

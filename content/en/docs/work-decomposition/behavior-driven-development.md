@@ -1,7 +1,9 @@
 ---
 title: Behavior Driven Development
 
-tags: [pending]
+tags: 
+ - testing
+ - work decomposition
 ---
 
 Behavior Driven Development is the collaborative process where we discuss the intent and behaviors of a feature and
