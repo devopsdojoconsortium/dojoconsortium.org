@@ -1,8 +1,5 @@
 ---
-published: true
 title: Visualizing Workflow
-menus:
-  - Workflow Management
 tags:
   - workflow management
 ---

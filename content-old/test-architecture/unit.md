@@ -1,8 +1,6 @@
 ---
-published: true
 title: Unit Testing
-menus:
-  - Test Architecture
+
 tags:
   - test
 ---

@@ -1,8 +1,5 @@
 ---
-published: true
 title: Feedback Loops
-menus:
-  - Workflow Management
 tags:
   - workflow management
 ---

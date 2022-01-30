@@ -1,8 +1,5 @@
 ---
-published: true
 title: Contract Testing
-menus:
-  - Test Architecture
 tags:
   - test
 ---

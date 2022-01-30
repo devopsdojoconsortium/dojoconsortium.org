@@ -1,8 +1,5 @@
 ---
-published: true
 title: Integration Testing
-menus:
-  - Test Architecture
 tags:
   - test
 ---

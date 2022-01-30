@@ -1,8 +1,5 @@
 ---
 title: Retrospectives
-published: true
-menus:
-  - Teamwork
 tags:
   - teamwork
 ---

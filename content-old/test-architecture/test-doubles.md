@@ -1,8 +1,6 @@
 ---
-published: true
 title: Test Doubles
-menus:
-  - Test Architecture
+
 tags:
   - test
 ---

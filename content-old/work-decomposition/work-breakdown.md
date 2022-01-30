@@ -1,9 +1,7 @@
 ---
-published: true
 title: Work Decomposition
-navPriority: 1
-menus:
-  - Work Decomposition
+weight: 1
+
 tags: [pending]
 ---
 

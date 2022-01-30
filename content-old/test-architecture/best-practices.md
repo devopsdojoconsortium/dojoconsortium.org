@@ -1,10 +1,7 @@
 ---
-published: true
 title: Testing Best Practices
-navPriority: 2
+weight: 2
 navTitle: Best Practices
-menus:
-  - Test Architecture
 tags:
   - test
 ---

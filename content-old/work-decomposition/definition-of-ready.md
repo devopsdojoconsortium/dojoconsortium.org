@@ -1,8 +1,6 @@
 ---
-published: true
 title: Definition of Ready
-menus:
-  - Work Decomposition
+
   - Teamwork
 tags: [pending]
 ---

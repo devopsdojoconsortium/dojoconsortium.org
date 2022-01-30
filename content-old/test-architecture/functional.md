@@ -1,9 +1,6 @@
 ---
-published: true
 title: Component Functional Testing
 navTitle: Functional Testing
-menus:
-  - Test Architecture
 tags:
   - test
 ---

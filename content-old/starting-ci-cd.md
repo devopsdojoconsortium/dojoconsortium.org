@@ -1,8 +1,6 @@
 ---
-published: true
 title: Getting Started with CD
-menus:
-  - Continuous Delivery
+
 tags:
   - cd
 ---

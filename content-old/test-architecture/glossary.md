@@ -1,9 +1,6 @@
 ---
-published: true
 title: Test Glossary
-navPriority: 1
-menus:
-  - Test Architecture
+weight: 1
 tags:
   - test
 ---

@@ -1,9 +1,7 @@
 ---
-published: true
 title: 24 Capabilities to Drive Improvement
 navTitle: DORA Recommendations
-menus:
-  - Continuous Delivery
+
 tags:
   - cd
 ---

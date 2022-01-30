@@ -1,8 +1,5 @@
 ---
-published: true
 title: End to End Testing
-menus:
-  - Test Architecture
 tags:
   - test
 ---

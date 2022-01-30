@@ -1,9 +1,6 @@
 ---
-published: true
 title: Behavior Driven Development
-menus:
-  - Work Decomposition
-  - Test Architecture
+
 tags: [pending]
 ---
 

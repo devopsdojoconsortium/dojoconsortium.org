@@ -1,9 +1,5 @@
 ---
-published: true
 title: Work in Progress
-menus:
-  - Workflow Management
-  - Teamwork
 tags:
   - workflow management
   - teamwork

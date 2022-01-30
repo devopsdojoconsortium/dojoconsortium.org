@@ -1,9 +1,6 @@
 ---
-published: true
 title: Designing Tests for CD
-menus:
-  - Test Architecture
-navPriority: 1
+weight: 1
 tags:
   - test
   - cd

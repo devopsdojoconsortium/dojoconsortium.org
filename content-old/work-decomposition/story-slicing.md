@@ -1,8 +1,6 @@
 ---
-published: true
 title: Story Slicing
-menus:
-  - Work Decomposition
+
 tags: [pending]
 ---
 

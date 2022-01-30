@@ -1,8 +1,6 @@
 ---
-published: true
 title: Complexity and Estimation
-menus:
-  - Work Decomposition
+
 tags: [pending]
 ---
 

@@ -1,9 +1,6 @@
 ---
 published: false
 title: Value Stream Mapping
-menus:
-  - Process Analysis
-  - Workflow Management
 tags:
   - cd
 ---

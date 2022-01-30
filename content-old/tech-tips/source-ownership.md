@@ -1,9 +1,6 @@
 ---
 title: Source Ownership
-menus:
-  - Tech Tips
-published: true
-navPriority: 1
+weight: 1
 ---
 
 **_Delivery and quality is being significantly impacted by teams sharing

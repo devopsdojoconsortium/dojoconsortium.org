@@ -1,5 +1,4 @@
 ---
-published: true
 title: Glossary
 tags:
   - glossary

@@ -1,8 +1,5 @@
 ---
-published: true
 title: Unplanned Work
-menus:
-  - Workflow Management
 tags:
   - workflow management
 ---

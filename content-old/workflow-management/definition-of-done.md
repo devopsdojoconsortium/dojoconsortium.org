@@ -1,9 +1,5 @@
 ---
-published: true
 title: Definition of Done
-menus:
-  - Workflow Management
-  - Teamwork
 tags:
   - teamwork
   - workflow management

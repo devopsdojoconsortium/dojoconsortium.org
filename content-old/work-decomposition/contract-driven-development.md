@@ -1,9 +1,6 @@
 ---
-published: true
 title: Contract Driven Development
-menus:
-  - Work Decomposition
-  - Test Architecture
+
 tags: [pending]
 ---
 

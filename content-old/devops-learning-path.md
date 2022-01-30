@@ -1,10 +1,6 @@
 ---
-published: true
 title: DevOps Learning Path
-NavPriority: 1
-menus:
-  - Learning Paths
-  - Continuous Delivery
+weight: 1
 ---
 
 These are the core skills we recommend everyone learn to execute CD.

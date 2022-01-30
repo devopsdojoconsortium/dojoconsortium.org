@@ -1,9 +1,7 @@
 ---
-published: true
 title: Common Blockers
-navPriority: 1
-menus:
-  - Continuous Delivery
+weight: 1
+
 tags:
   - cd
 ---

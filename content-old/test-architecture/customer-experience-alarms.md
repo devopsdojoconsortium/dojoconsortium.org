@@ -1,8 +1,5 @@
 ---
-published: true
 title: Customer Experience Alarms
-menus:
-  - Test Architecture
 tags:
   - test
 ---

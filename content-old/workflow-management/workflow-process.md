@@ -1,9 +1,6 @@
 ---
-published: true
-navPriority: 1
+weight: 1
 title: Workflow Process
-menus:
-  - Workflow Management
 tags:
   - workflow management
 ---

@@ -1,9 +1,5 @@
 ---
 title: From Program to User Story
-menus:
-  - Tech Tips
-  - Work Decomposition
-published: true
 ---
 
 Aligning priorities across multi-team products can be challenging. However, the process used at the team level to decompose work

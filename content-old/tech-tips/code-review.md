@@ -1,9 +1,6 @@
 ---
 title: Code Review
-menus:
-  - Tech Tips
-published: true
-navPriority: 1
+weight: 1
 ---
 
 As Wikipedia puts it, "Code review is systematic examination of computer

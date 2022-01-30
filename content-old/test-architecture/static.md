@@ -1,8 +1,6 @@
 ---
-published: true
 title: Static Testing
-menus:
-  - Test Architecture
+
 tags:
   - test
 ---

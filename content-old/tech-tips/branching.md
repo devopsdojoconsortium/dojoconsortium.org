@@ -1,10 +1,6 @@
 ---
 title: Source Branching
-menus:
-  - Tech Tips
-  - Continuous Delivery
-published: true
-navPriority: 1
+weight: 1
 ---
 
 > _Trunk-based development, is a requirement for Continuous Integration._
