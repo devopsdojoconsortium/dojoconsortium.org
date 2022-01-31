@@ -9,7 +9,7 @@ tags:
 >
 > -- [Testing Glossary](../glossary#test-doubles)
 
-![Test Double](../images/testing-images/test-double.png#width=300px)
+![Test Double](/images/testing-images/test-double.png#width=300px)
 
 - **Test Double**: A test double is a generic term for any case where you replace a production object for testing purposes.
 - **Dummy**: A dummy is passed around but never actually used. Usually it is just used to fill parameter lists.

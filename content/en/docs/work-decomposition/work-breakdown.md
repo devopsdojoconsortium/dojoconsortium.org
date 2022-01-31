@@ -21,7 +21,7 @@ value faster with less rework.
 
 The general work breakdown process involves:
 
-![Work Breakdown Flow](../images/work-breakdown.png#width=80%)
+![Work Breakdown Flow](/images/work-breakdown.png#width=80%)
 
 It is important that the team keep these tips in mind when decomposing work:
 
@@ -42,7 +42,7 @@ It is important that the team keep these tips in mind when decomposing work:
    development". Stop refining a story when we agree on the acceptance criteria or agree it's blocked and needs more
    information. Only then should we move to the next story. Stop the meeting at the scheduled time.
 
-![Workflow](../images/work-breakdown-flow.png#width=40%)
+![Workflow](/images/work-breakdown-flow.png#width=10%)
 
 ### Intake/Product Ideas
 

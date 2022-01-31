@@ -1,5 +1,5 @@
 ---
-published: false
+draft: true
 title: CD Dependencies
 tags:
   - CD Dependencies

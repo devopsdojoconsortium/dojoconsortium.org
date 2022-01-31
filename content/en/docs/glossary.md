@@ -1,5 +1,6 @@
 ---
 title: Glossary
+weight: 1
 tags:
   - glossary
 ---

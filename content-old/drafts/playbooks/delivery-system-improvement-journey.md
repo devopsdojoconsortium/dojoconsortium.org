@@ -1,5 +1,5 @@
 ---
-published: false
+draft: true
 title: Improving Pipeline Architecture
 ---
 
@@ -37,7 +37,7 @@ future occurrences.
 
 ### Entangled Architecture - Requires Remediation
 
-<img src="../images/entangled-pipelines.png" width="100%">
+<img src="/images/entangled-pipelines.png" width="100%">
 
 With an entangled architecture there is no clear ownership of individual components or their quality. Every team could cause a
 defect anywhere in the system because they are not working within product boundaries. The pipeline's quality signal will
@@ -50,7 +50,7 @@ The journey to CD begins with each team executing [continuous
 integration](../improvement-capabilities.html#implement-continuous-integration) on a team branch and those branches are
 integrated automatically into a master CI flow daily.
 
-<img src="../images/multi-team-branching.png" width="80%">
+<img src="/images/multi-team-branching.png" width="80%">
 
 Any breaks in the pipeline should be addressed immediately by the team who owns the branch.
 
@@ -84,7 +84,7 @@ allow them to further decouple the system with the
 
 ### Tightly Coupled Architecture - Transitional
 
-<img src="../images/coupled-pipelines.png" width="100%">
+<img src="/images/coupled-pipelines.png" width="100%">
 
 With tightly coupled architecture, changes in one portion of the application can cause unexpected changes in another portion of
 the application. It's quite common for even simple changes to take days or weeks of analysis to verify the implications of the
@@ -127,7 +127,7 @@ for the outcomes of poor testing, such as L1 support. This is a critical feedbac
 
 ### Loosely Coupled Architecture - Goal
 
-<img src="../images/decoupled-pipelines.png" width="100%">
+<img src="/images/decoupled-pipelines.png" width="100%">
 
 With a loosely coupled architecture, components are delivered independently of each other in any sequence. This reduces
 complexity and improves quality feedback loops. This not only relies on clean separations of teams and sub-assemblies,

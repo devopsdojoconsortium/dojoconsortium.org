@@ -11,7 +11,7 @@ tags:
 
 When testing the specs of functions, prefer testing public API (methods, interfaces, functions) to private API: the spec of private functions and methods are meant to change easily in the future, and unit-testing them would amount to writing a Change Detector Test, which is an anti-pattern.
 
-![Unit Test](../images/testing-images/unit-test.png#width=50%)
+![Unit Test](/images/testing-images/unit-test.png#width=50%)
 
 The purpose of unit tests are to:
 

@@ -1,7 +1,7 @@
 ---
 title: Testing Best Practices
 weight: 2
-navTitle: Best Practices
+linkTitle: Best Practices
 tags:
   - test
 ---

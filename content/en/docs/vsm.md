@@ -1,5 +1,5 @@
 ---
-published: false
+draft: true
 title: Value Stream Mapping
 tags:
   - cd

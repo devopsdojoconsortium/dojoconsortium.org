@@ -10,7 +10,7 @@ functions just as well at the program level.
 In order to have an effective work breakdown process, goals and priorities need
 to be established and understood.
 
-<img src="../images/program-roadmap.png" width="60%">
+<img src="/images/program-roadmap.png" width="60%">
 
 Stakeholders and leadership teams must define the high-level initiatives, and
 their priorities, so that work may be dispersed among product teams.
@@ -22,7 +22,7 @@ Leadership teams can be made up of a core group of product owners.
 The program roadmap should breakdown into the product roadmap, which includes
 the prioritized list of epics for each product.
 
-<img src="../images/product-vision.png" width="40%">
+<img src="/images/product-vision.png" width="40%">
 
 The leadership team should define the product vision, roadmap, and dependencies
 for each product.
@@ -31,7 +31,7 @@ for each product.
 
 The team backlog should be comprised of the prioritized epics from the product roadmap.
 
-<img src="../images/feature-backlog.png" width="50%">
+<img src="/images/feature-backlog.png" width="50%">
 
 The core group needed to effectively break down high level requirements so that
 the team may decompose work includes product owners,

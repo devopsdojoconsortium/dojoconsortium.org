@@ -64,7 +64,7 @@ production code. Flakey tests undermine confidence and should be terminated with
 ### Testing Anti-pattern
 
 - "Ice cream cone testing" is the anti-pattern where the most expensive, fragile, [non-deterministic](./glossary/index#non-deterministic-test) tests are prioritized over faster and less expensive [deterministic](./glossary/index#deterministic-test) tests because it "feels" right.
-  - ![Ice cream cone testing](../images/testing-images/ice-cream-cones-software-testing.png#width=300px)
+  - ![Ice cream cone testing](/images/testing-images/ice-cream-cones-software-testing.png#width=300px)
 - Excessive E2E testing. [Google Test Blog \* Just Say No to More End-to-End
   Tests][e2e-google]
 

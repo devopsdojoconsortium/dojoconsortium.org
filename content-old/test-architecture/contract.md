@@ -10,7 +10,7 @@ tags:
 >
 > -- [Testing Glossary](../glossary#contract-test)
 
-![Contract Test](../images/testing-images/contract-test.png#width=50%)
+![Contract Test](/images/testing-images/contract-test.png#width=50%)
 
 ### Provider
 

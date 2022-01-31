@@ -1,6 +1,6 @@
 ---
 title: Getting Started with CD
-
+weight: 1
 tags:
   - cd
 ---
@@ -28,13 +28,6 @@ tags:
 
 ## Introduction to CD
 
-```mermaid
-graph LR
-install[Install Plugin]
-install --> configure[Configure Plugin]
-configure --> draw[Draw Fancy Diagrams]
-```
-
 Continuous delivery is the ability to deliver the latest changes on-demand. CD is not build/deploy automation. It is the continuous flow of changes to the end-user with no human touchpoints between code integrating to the trunk and delivery to production. This can take the form of triggered delivery of small batches or the immediate release of the most recent code change.
 
 CD is not a reckless throwing of random change into production. Instead, it is a disciplined team activity of relentlessly automating all of the validations required for a release candidate, improving the speed and reliability of quality feedback, and collaborating to improve the quality of the information used to develop changes.
@@ -43,7 +36,7 @@ CD is based on and extends the extreme programming practice of continuous integr
 
 The path to continuous integration and continuous delivery may seem daunting to teams that are just starting out. We offer this guide to getting started with a focus on outcome metrics to track progress.
 
-![CD_Pipeline_Full_Transparent.png](./../CD_Pipeline_Full_Transparent.png "CD_Pipeline_Full_Transparent.png")
+![CD Pipeline](/images/CD_Pipeline_Full_Transparent.png "CD_Pipeline_Full_Transparent.png")
 
 Continuous Delivery is far more than automation. It is the entire cycle of identifying value, delivering the value, and verifying
 with the end user that we delivered the expected value. The shorter we can make that feedback loop, the better our bottom line will

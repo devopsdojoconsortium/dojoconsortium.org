@@ -13,7 +13,7 @@ offsetting groups and to focus improvement efforts on the group of metrics as a 
 The [Metrics Cheat Sheet](../metrics-cheat-sheet) has a high level view of the key metrics, their intent, and how to
 use them appropriately.
 
-![Goodhart's Law](../images/Goodharts-law.jpg#width=50%)
+![Goodhart's Law](/images/Goodharts-law.jpg#width=50%)
 
 ## CD Execution
 

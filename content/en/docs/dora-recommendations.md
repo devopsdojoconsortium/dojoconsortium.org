@@ -1,7 +1,7 @@
 ---
 title: 24 Capabilities to Drive Improvement
-navTitle: DORA Recommendations
-
+linkTitle: DORA Recommendations
+weight: 1
 tags:
   - cd
 ---

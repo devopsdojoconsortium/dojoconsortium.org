@@ -10,11 +10,11 @@ tags:
 
 Some examples of an integration test are validating how multiple units work together (sometimes called a "sociable unit test") or validating the portion of the code that interfaces to an external network sub-system while using a test double to represent that sub-system.
 
-![Functional Integration](../images/testing-images/integration-test.png#width=400px)
+![Functional Integration](/images/testing-images/integration-test.png#width=400px)
 
 Validating the behavior of multiple units with no external sub-systems
 
-![Network Integration](../images/testing-images/network-integration-test.png#width=200px)
+![Network Integration](/images/testing-images/network-integration-test.png#width=200px)
 
 Validating the portion of the code that interfaces to an external network sub-system
 

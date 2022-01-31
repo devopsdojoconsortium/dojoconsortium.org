@@ -1,6 +1,6 @@
 ---
 title: Component Functional Testing
-navTitle: Functional Testing
+linkTitle: Functional Testing
 tags:
   - test
 ---
@@ -9,7 +9,7 @@ tags:
 >
 > -- [Testing Glossary](../glossary#functional-test)
 
-![Functional Test](../images/testing-images/functional-test.png#width=300px)
+![Functional Test](/images/testing-images/functional-test.png#width=300px)
 
 At a high level functional testing is a means of verifying a systems specification and fundamental requirements in a
 systematic and deterministic way. Functional tests further unit and integration tests by introducing an actor, typically

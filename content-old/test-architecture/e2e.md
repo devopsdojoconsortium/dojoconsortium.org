@@ -12,7 +12,7 @@ End to end tests have the advantage of exercising the system in ways that [funct
 the disadvantage of being slower to provide feedback, require more state management, constant maintenance, and can fail for reasons unrelated to code defects. As such, it is recommended
 that they be the smallest number of tests executed.
 
-!["E2E Test"](../images/testing-images/e2e-test.png#width=300px)
+!["E2E Test"](/images/testing-images/e2e-test.png#width=300px)
 
 End-to-end tests are segmented into two categories: vertical and horizontal tests.
 
