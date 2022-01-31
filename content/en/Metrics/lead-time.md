@@ -2,6 +2,9 @@
 type: docs
 weight: 10
 title: Lead Time
+tags:
+  - metrics
+  - flow
 ---
 
 This shows the average time it takes for a new request to be delivered. This is

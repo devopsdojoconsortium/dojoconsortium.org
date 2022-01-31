@@ -2,6 +2,9 @@
 type: docs
 weight: 10
 title: Code Integration Frequency
+tags:
+  - metrics
+  - throughput
 ---
 
 The average number of production-ready pull requests a team closes per day, normalized by the number of developers on

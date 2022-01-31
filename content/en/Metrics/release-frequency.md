@@ -2,6 +2,9 @@
 type: docs
 weight: 10
 title: Delivery Frequency
+tags:
+  - metrics
+  - throughput
 ---
 
 How frequently per day the team releases changes to production.

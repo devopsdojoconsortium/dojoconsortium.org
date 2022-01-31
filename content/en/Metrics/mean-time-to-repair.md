@@ -2,6 +2,9 @@
 type: docs
 weight: 10
 title: MTTR
+tags:
+  - metrics
+  - stability
 ---
 
 Mean Time to Repair is the average time between when a incidents is

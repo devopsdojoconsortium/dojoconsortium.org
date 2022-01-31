@@ -2,6 +2,9 @@
 type: docs
 weight: 10
 title: WIP
+tags:
+  - metrics
+  - flow
 ---
 
 Work in Progress (WIP) is the total work that has been started but not

@@ -2,6 +2,9 @@
 type: docs
 weight: 10
 title: Defect Rate
+tags:
+  - metrics
+  - stability
 ---
 
 Defect rates are the total number of defects by severity reported for a period of time.

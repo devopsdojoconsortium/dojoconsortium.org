@@ -2,6 +2,9 @@
 type: docs
 weight: 10
 title: Build Cycle Time
+tags:
+  - metrics
+  - throughput
 ---
 
 The time from code commit to production deploy. This is the minimum time changes can be applied to production. This is

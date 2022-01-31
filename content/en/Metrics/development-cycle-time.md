@@ -2,6 +2,9 @@
 type: docs
 weight: 10
 title: Development Cycle Time
+tags:
+  - metrics
+  - flow
 ---
 
 The average time from starting work until release to production.

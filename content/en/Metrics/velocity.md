@@ -2,6 +2,8 @@
 type: docs
 weight: 10
 title: Velocity / Throughput
+tags:
+  - metrics
 ---
 
 The average amount of the backlog delivered during a sprint by the team. Used by the product team for planning. There is no such thing as good or bad velocity. This is commonly misunderstood to be a productivity metric. It is not.

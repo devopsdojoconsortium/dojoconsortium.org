@@ -2,6 +2,9 @@
 type: docs
 weight: 10
 title: Change Fail Rate
+tags:
+  - metrics
+  - stability
 ---
 
 The percentage of changes that result in negative customer impact, or rollback.

@@ -2,6 +2,9 @@
 type: docs
 weight: 10
 title: Quality
+tags:
+  - metrics
+  - stability
 ---
 
 Quality is measured as the percentage of finished work that is unused, unstable, unavailable, or defective according to the end user.

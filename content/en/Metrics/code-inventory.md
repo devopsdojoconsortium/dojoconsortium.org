@@ -2,6 +2,9 @@
 type: docs
 weight: 10
 title: Code Inventory
+tags:
+  - metrics
+  - throughput
 ---
 
 The lines of code that have been changed but have not been delivered to production. This can be measured at several points in the

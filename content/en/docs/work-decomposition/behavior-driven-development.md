@@ -131,6 +131,6 @@ Then I will receive an error
 - [BDD Primer](https://lizkeogh.com/behaviour-driven-development/) - Liz Keogh
 - [Better Executable Specifications](https://www.youtube.com/watch?v=5CXSEINRojM) - Dave Farley
 - [A Real world Example of BDD](https://www.youtube.com/watch?v=9P5WG8CkPrQ) - Dave Farley
-- <a href="../../ATDD - How to Guide.pdf" target="_blank">ATDD - How to Guide</a> - Dave Farley
+- <a href="/assets/ATDD - How to Guide.pdf" target="_blank">ATDD - How to Guide</a> - Dave Farley
 
 ---

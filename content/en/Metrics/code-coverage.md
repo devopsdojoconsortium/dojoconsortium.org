@@ -2,6 +2,9 @@
 type: docs
 weight: 10
 title: Code Coverage
+tags:
+  - metrics
+  - stability
 ---
 
 Measure of the amount of code that is executed by test code.
