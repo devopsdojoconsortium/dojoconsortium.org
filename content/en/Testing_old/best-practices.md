@@ -1,4 +1,6 @@
 ---
+draft: true
+type: docs
 title: Testing Best Practices
 weight: 2
 linkTitle: Best Practices

@@ -1,4 +1,6 @@
 ---
+draft: true
+type: docs
 title: Component Functional Testing
 linkTitle: Functional Testing
 tags:

@@ -1,6 +1,6 @@
 ---
-title: "Process Improvement"
-linkTitle: "Process Improvement"
+title: "Flow Improvement"
+linkTitle: "Flow Improvement"
 simple_list: true
 weight: 20
 menu:

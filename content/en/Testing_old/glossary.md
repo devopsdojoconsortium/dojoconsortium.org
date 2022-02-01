@@ -1,4 +1,6 @@
 ---
+draft: true
+type: docs
 title: Test Glossary
 weight: 1
 tags:

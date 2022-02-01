@@ -1,4 +1,6 @@
 ---
+draft: true
+type: docs
 title: Customer Experience Alarms
 tags:
   - test

@@ -1,6 +1,6 @@
 ---
-title: "Measuring Improvement"
-linkTitle: "Measuring Improvement"
+title: "Metrics"
+linkTitle: "Metrics"
 simple_list: true
 type: docs
 weight: 20

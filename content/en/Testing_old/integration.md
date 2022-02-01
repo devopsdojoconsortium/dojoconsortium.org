@@ -1,4 +1,6 @@
 ---
+draft: true
+type: docs
 title: Integration Testing
 tags:
   - test

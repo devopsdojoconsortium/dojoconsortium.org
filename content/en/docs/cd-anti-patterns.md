@@ -1,12 +1,12 @@
 ---
 title: Common Blockers
-weight: 1
+weight: 2
 
 tags:
   - cd
 ---
 
-The following are very frequent issues that teams encounter that become critical roadblocks to [continuous delivery](/docs/glossary#continuous-delivery)
+The following are very frequent issues that teams encounter when working to improve the flow of delivery.
 
 ## Work Breakdown
 

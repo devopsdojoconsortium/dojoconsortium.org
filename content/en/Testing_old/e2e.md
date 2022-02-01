@@ -1,4 +1,6 @@
 ---
+draft: true
+type: docs
 title: End to End Testing
 tags:
   - test

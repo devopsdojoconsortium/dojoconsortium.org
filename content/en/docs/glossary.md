@@ -1,6 +1,7 @@
 ---
 title: Glossary
 weight: 1
+aliases: [/glossary/]
 tags:
   - glossary
 ---

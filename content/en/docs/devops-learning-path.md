@@ -1,6 +1,6 @@
 ---
 title: DevOps Learning Path
-weight: 1
+weight: 2
 ---
 
 These are the core skills we recommend everyone learn to execute CD.

@@ -1,5 +1,7 @@
 ---
-title: Designing Tests for CD
+draft: true
+type: docs
+title: Testing for CD
 weight: 1
 tags:
   - test
