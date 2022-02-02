@@ -35,8 +35,7 @@ Because of the inherent complexity of horizontal tests (multi-team), they are un
 
 ## Alternate Terms
 
-- Integration test
-  - **Note:** This should **not** be used internally to describe these types of tests to avoid confusion with the Walmart definition of [integration testing](glossary#integration-test).
+Integration test and end to end are often used internchangeably.
 
 ## Resources
 

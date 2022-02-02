@@ -53,7 +53,7 @@ Defining tests prior to writing code is the best way to lock in behavior and pro
 
 ### BDD
 
-Behavior Driven Development is the process of defining business requirements as testable acceptance criteria and then implementing them using a test-first development approach. Examples and references for BDD can be found in the [playbook on BDD](http://devops.walmart.com/bifrost/playbooks/work-decomposition/behavior-driven-development.html).
+Behavior Driven Development is the process of defining business requirements as testable acceptance criteria and then implementing them using a test-first development approach. Examples and references for BDD can be found in the [playbook on BDD](/docs/work-decomposition/behavior-driven-development/).
 
 When coding tests, the test statements should clearly describe what is being executed so that we can create a shared understanding of what's getting build by all stakeholders. Tests are the living documentation for what the application is doing and test results should be effective on-boarding documentation.
 
@@ -97,18 +97,3 @@ Make sure it's still covering for valid use cases
 ## Shift Left
 
 ***["Write tests, not too many, mostly integration." - Guillermo Rauch.](https://kentcdodds.com/blog/write-tests)***
-
-At Walmart we have slightly modified the [testing trophy pattern](https://kentcdodds.com/blog/write-tests) and are calling it the testing lava lamp, but the idea is the same.  From bottom to top, in the diagram below, you can see Static, Unit, Integration, Functional and E2E. As you go up the lava lamp, confidence improves, but speed, cost, development time and stability gets worse.  For this reason the lion's share of tests should be integration tests which has the best balance of cost & confidence.  [More details on the lava lamp can be found here.](/docs/testing)
-
-As part of your build & release pipeline, everything except for E2E tests (i.e. all deterministic tests) should be executed as part of a pull request gate, only allowing a merge to trunk when they all pass.  Vertical E2E tests should be run in each environment to which they are deployed and used as gates to promote them to the next environment or rolled back automatically if they fail. Horizontal E2E tests should not be run as part of the release pipeline, but still executed as part of a cron or other regularly scheduled check.
-
-### Test Type Specific
-
-| Test Type | Standards and Requirements |
-| -- | -- | -- |
-| [Static](static) | <ul><li>Tools must be able to operate both locally (e.g. manually or pre-commit/push hooks) and on CI</li><li>Tests must be executed without running the application being tested</li>  <li>Tooling must support different types of static tests (e.g. linting, formatting, complexity, type checking, security, dependency scanning)</li><li>Tools must support running scans in realtime through IDEs, during the build or as a pre-commit step, or on the CI server. Whatever the test, drive it left.</li></ul> | 
-| [Unit](unit)<br/>[Integration](integration)  | <ul>          <li>All libraries must be able to operate from within a CI environment and form developers' local systems.</li>          <li>Frameworks must provide, at a minimum, an explicit or implicit BDD or TDD interface.</li>          <li>Frameworks must be able to parallelize their tests and suites.</li>          <li>Frameworks must provide either explicit test isolation or provided facilities to cleanup suites post-run.<ul>              <li>In the case where a framework allows for parallelization test isolation is required.</li>            </ul>          </li>          <li>Assertion libraries must at a minimum support the last few versions of a given platform or language.</li>          <li>Assertion libraries must have a comprehensive matching/expectation API that matches the need of the platform or language.<ul>              <li>A single assertion library for the context should be used, mixing assertion libraries in a non-typical way can lead to maintainability issues.</li>              <li>Extensions or plugins to the assertion library should be used where possible when needed for the context.</li>            </ul>          </li>          <li>Assertions must provide clear indications of what the failed expectation is.</li>          <li>Frameworks must be able to output test run data on lcov coverage format</li></ul> |
-| [Functional](functional) | <ul><li>All libraries <span>must</span> be able to operate from within a CI environment.</li> <li>Frameworks <span>must</span> be able to parallelize their tests.</li>    <li>Frameworks must support plugin/custom reporting.</li><li>Framework at a minimum support the last few versions of a given browser or language.</li><li>Framework should run both locally and on Saucelabs via tunnel - including headless mode.</li> <li>Errors should be easily visible and debuggable. </li> </ul>|
-| [Contract](contract) | |
-
-*** *Unit and Integration testing share the same tooling requirements ***

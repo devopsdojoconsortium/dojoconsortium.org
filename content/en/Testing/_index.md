@@ -1,7 +1,6 @@
 ---
 title: "Designing Tests"
 linkTitle: "Designing Tests"
-simple_list: true
 aliases: [/test-architecture/]
 type: docs
 weight: 20

@@ -1,14 +1,13 @@
 ---
 title: "Flow Improvement"
 linkTitle: "Flow Improvement"
-simple_list: true
 weight: 20
 menu:
   main:
-    weight: 20
+    weight: 10
 ---
 
 {{% pageinfo %}}
-Suggested process tips 
+Improving the flow of delivery requires a combination of tooling, process improvement, and teamwork. [Continuous delivery](minimumcd.org) is an excellent tool for finding what needs to be improved next.
 
 {{% /pageinfo %}}

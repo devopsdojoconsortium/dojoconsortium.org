@@ -11,8 +11,8 @@
 {{ with $promo_image }}
 {{ $promo_image_big := (.Fill (printf "1920x1080 %s" $image_anchor)) }}
 {{ $promo_image_small := (.Fill (printf "960x540 %s" $image_anchor)) }}
-<link rel="preload" as="image" href="{{ $promo_image_small.RelPermalink }}" media="(max-width: 1200px)">
-<link rel="preload" as="image" href="{{ $promo_image_big.RelPermalink }}" media="(min-width: 1200px)">
+<link rel="preload" as="image" href="{{ $promo_image_small.RelPermalink }}" media="(max-width: 800px)">
+<link rel="preload" as="image" href="{{ $promo_image_big.RelPermalink }}" media="(min-width: 800px)">
 <style>
   #{{ $blockID }}
 

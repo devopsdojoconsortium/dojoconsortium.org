@@ -1,7 +1,6 @@
 ---
 title: "Metrics"
 linkTitle: "Metrics"
-simple_list: true
 type: docs
 weight: 20
 menu:
