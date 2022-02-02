@@ -1,6 +1,6 @@
 ---
-title: "Testing 2"
-linkTitle: "Testing 2"
+title: "Designing Tests"
+linkTitle: "Designing Tests"
 simple_list: true
 aliases: [/test-architecture/]
 type: docs
@@ -11,7 +11,7 @@ menu:
 ---
 
 {{% pageinfo %}}
-Test patterns, frustratingly, have common definitions. Ask 2 people about an "integration test" and you will get three answers. The following are definitions some of us use so that we can speak to each other with a common language. 
+Test patterns, frustratingly, have no common definitions. Ask 2 people about an "integration test" and you will get three answers. The following are definitions some of us use so that we can speak to each other with a common language. 
 
 {{% /pageinfo %}}
 
