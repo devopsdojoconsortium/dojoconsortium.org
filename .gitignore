@@ -1,13 +1,6 @@
-.cache/
-.eslintcache
-.gatsby-context.js
-.history/
-.idea/
-coverage/
-gatsby-starter-lumen.iml
+/public
+resources/
 node_modules/
-npm-debug.log
-public/
-dist/
+.history/
+.hugo_build.lock
 .DS_Store
-postBuildScripts/testFiles/
