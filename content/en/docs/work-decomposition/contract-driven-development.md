@@ -1,6 +1,6 @@
 ---
 title: Contract Driven Development
-
+aliases: [/work-decomposition/contract-driven-development/]
 tags: [testing, architecture]
 ---
 

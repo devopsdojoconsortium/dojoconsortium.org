@@ -1,5 +1,6 @@
 ---
 draft: true
+aliases: [/test-architecture/customer-experience-alarms/]
 type: docs
 title: Customer Experience Alarms
 tags:

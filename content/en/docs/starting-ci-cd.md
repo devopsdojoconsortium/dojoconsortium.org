@@ -1,5 +1,6 @@
 ---
 title: Getting Started with CD
+aliases: [/continuous-delivery/starting-ci-cd/]
 weight: 1
 tags:
   - cd

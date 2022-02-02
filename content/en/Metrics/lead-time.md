@@ -2,6 +2,7 @@
 type: docs
 weight: 10
 title: Lead Time
+aliases: [/metrics/lead-time/]
 tags:
   - metrics
   - flow

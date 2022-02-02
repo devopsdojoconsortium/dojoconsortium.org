@@ -2,7 +2,7 @@
 draft: true
 type: docs
 title: Static Testing
-
+aliases: [/test-architecture/static/]
 tags:
   - test
 ---

@@ -1,6 +1,7 @@
 ---
 title: Work Decomposition
 weight: 1
+aliases: [/work-decomposition/work-breakdown/]
 tags: [decomposition]
 ---
 

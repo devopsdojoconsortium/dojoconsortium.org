@@ -1,5 +1,6 @@
 ---
 title: Visualizing Workflow
+aliases: [/workflow-management/visualizing-workflow/]
 tags:
   - workflow management
 ---

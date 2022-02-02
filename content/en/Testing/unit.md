@@ -1,5 +1,6 @@
 ---
 title: Unit Testing
+aliases: [/test-architecture/unit/]
 type: docs
 ---
 

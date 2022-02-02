@@ -1,5 +1,6 @@
 ---
 title: Integration Testing
+aliases: [/test-architecture/integration/]
 type: docs
 ---
 

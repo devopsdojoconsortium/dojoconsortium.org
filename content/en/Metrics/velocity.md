@@ -2,6 +2,7 @@
 type: docs
 weight: 10
 title: Velocity / Throughput
+aliases: [/metrics/velocity/]
 tags:
   - metrics
 ---

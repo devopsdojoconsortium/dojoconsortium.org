@@ -1,6 +1,6 @@
 ---
 title: Spikes
-
+aliases: [/work-decomposition/spikes/]
 tags: [teamwork, decomposition]
 ---
 

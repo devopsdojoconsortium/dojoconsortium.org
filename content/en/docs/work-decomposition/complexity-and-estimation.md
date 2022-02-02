@@ -1,6 +1,6 @@
 ---
 title: Complexity and Estimation
-
+aliases: [/work-decomposition/complexity-and-estimation/]
 tags: [estimation]
 ---
 

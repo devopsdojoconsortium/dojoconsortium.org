@@ -1,6 +1,6 @@
 ---
 title: Cloud Native Checklist
-
+aliases: [/continuous-delivery/cloud-checklist/]
 tags:
   - cd
 ---

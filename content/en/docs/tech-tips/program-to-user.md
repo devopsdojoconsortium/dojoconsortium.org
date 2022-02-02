@@ -1,5 +1,6 @@
 ---
 title: From Program to User Story
+aliases: [/tech-tips/program-to-user/]
 ---
 
 Aligning priorities across multi-team products can be challenging. However, the process used at the team level to decompose work

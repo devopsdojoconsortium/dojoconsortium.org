@@ -1,5 +1,6 @@
 ---
 title: Source Branching
+aliases: [/tech-tips/branching/]
 weight: 1
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Contract Testing
+aliases: [/test-architecture/contract/]
 type: docs
 ---
 

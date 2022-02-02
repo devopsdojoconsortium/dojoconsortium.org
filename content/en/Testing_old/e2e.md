@@ -1,6 +1,7 @@
 ---
 draft: true
 type: docs
+aliases: [/test-architecture/e2e/]
 title: End to End Testing
 tags:
   - test

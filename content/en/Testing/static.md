@@ -1,5 +1,6 @@
 ---
 title: Static Testing
+aliases: [/test-architecture/static/]
 type: docs
 ---
 

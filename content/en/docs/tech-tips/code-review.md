@@ -1,5 +1,6 @@
 ---
 title: Code Review
+aliases: [/tech-tips/code-review/]
 weight: 1
 ---
 

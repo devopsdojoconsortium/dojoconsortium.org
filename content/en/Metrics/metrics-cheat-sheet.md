@@ -2,6 +2,7 @@
 weight: 2
 title: Metrics Cheat Sheet
 type: docs
+aliases: [/metrics/metrics-cheat-sheet/]
 tags:
   - metrics
 ---

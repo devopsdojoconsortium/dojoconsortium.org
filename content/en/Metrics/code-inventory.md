@@ -2,6 +2,7 @@
 type: docs
 weight: 10
 title: Code Inventory
+aliases: [/metrics/code-inventory/]
 tags:
   - metrics
   - throughput

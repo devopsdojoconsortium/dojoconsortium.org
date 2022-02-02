@@ -1,5 +1,6 @@
 ---
 title: Behavior Driven Development
+aliases: [/work-decomposition/behavior-driven-development/]
 tags: 
  - testing
  - decomposition

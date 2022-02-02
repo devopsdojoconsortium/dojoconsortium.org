@@ -1,6 +1,7 @@
 ---
 draft: true
 type: docs
+aliases: [/test-architecture/integration/]
 title: Integration Testing
 tags:
   - test

@@ -2,6 +2,7 @@
 type: docs
 weight: 10
 title: WIP
+aliases: [/metrics/work-in-progress/]
 tags:
   - metrics
   - flow

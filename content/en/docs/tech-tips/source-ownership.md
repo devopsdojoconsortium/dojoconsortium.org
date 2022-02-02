@@ -1,5 +1,6 @@
 ---
 title: Source Ownership
+aliases: [/tech-tips/source-ownership/]
 weight: 1
 ---
 

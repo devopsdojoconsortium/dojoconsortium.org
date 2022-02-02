@@ -1,5 +1,6 @@
 ---
 title: Definition of Done
+aliases: [/workflow-management/definition-of-done]
 tags:
   - teamwork
   - workflow management

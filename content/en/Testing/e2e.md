@@ -1,5 +1,6 @@
 ---
 title: E2E Testing
+aliases: [/test-architecture/e2e/]
 type: docs
 ---
 

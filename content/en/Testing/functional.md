@@ -1,5 +1,6 @@
 ---
 title: Functional Testing
+aliases: [/test-architecture/functional/]
 type: docs
 ---
 

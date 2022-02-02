@@ -1,6 +1,6 @@
 ---
 title: Defining Product Goals
-
+aliases: [/work-decomposition/defining-product-goals/]
 tags: [product management]
 ---
 

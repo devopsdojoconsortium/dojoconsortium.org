@@ -1,5 +1,6 @@
 ---
 title: Testing Terms Glossary
+aliases: [/test-architecture/glossary/]
 linkTitle: Glossary
 type: docs
 ---

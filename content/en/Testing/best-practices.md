@@ -1,6 +1,7 @@
 ---
 title: Testing Best Practices
 linkTitle: Best Practices
+aliases: [/test-architecture/best-practices/]
 type: docs
 ---
 

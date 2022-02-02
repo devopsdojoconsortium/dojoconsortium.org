@@ -2,6 +2,7 @@
 draft: true
 type: docs
 title: Contract Testing
+aliases: [/test-architecture/contract/]
 tags:
   - test
 ---

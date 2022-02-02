@@ -2,6 +2,7 @@
 type: docs
 weight: 10
 title: Defect Rate
+aliases: [/metrics/defect-rate/]
 tags:
   - metrics
   - stability

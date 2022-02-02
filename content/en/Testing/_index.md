@@ -2,6 +2,7 @@
 title: "Testing 2"
 linkTitle: "Testing 2"
 simple_list: true
+aliases: [/test-architecture/]
 type: docs
 weight: 20
 menu:

@@ -1,5 +1,6 @@
 ---
 title: Test Doubles
+aliases: [/test-architecture/test-doubles/]
 type: docs
 ---
 

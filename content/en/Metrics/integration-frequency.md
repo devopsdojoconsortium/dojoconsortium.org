@@ -2,6 +2,7 @@
 type: docs
 weight: 10
 title: Code Integration Frequency
+aliases: [/metrics/integration-frequency/]
 tags:
   - metrics
   - throughput

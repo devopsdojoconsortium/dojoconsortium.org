@@ -1,6 +1,6 @@
 ---
 title: Story Slicing
-
+aliases: [/work-decomposition/story-slicing/]
 tags: [decomposition]
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Unplanned Work
+aliases: [/workflow-management/unplanned-work/]
 tags:
   - workflow management
 ---

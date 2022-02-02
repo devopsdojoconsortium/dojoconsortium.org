@@ -2,6 +2,7 @@
 type: docs
 weight: 10
 title: Change Fail Rate
+aliases: [/metrics/change-fail-rate/]
 tags:
   - metrics
   - stability

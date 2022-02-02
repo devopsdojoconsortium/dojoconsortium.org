@@ -1,5 +1,6 @@
 ---
 title: Feedback Loops
+aliases: [/workflow-management/feedback-loops/]
 tags:
   - workflow management
 ---

@@ -2,7 +2,7 @@
 draft: true
 type: docs
 title: Test Doubles
-
+aliases: [/test-architecture/test-doubles/]
 tags:
   - test
 ---

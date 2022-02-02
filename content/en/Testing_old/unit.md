@@ -2,7 +2,7 @@
 draft: true
 type: docs
 title: Unit Testing
-
+aliases: [/test-architecture/unit/]
 tags:
   - test
 ---

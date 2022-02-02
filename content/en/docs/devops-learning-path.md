@@ -1,5 +1,6 @@
 ---
 title: DevOps Learning Path
+aliases: [/devops-learning-path/]
 weight: 2
 ---
 

@@ -1,6 +1,7 @@
 ---
 draft: true
 type: docs
+aliases: [/test-architecture/functional/]
 title: Component Functional Testing
 linkTitle: Functional Testing
 tags:

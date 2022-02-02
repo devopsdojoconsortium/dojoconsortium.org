@@ -1,5 +1,6 @@
 ---
 title: Retrospectives
+aliases: [/retrospective-playbook/]
 tags:
   - teamwork
 ---

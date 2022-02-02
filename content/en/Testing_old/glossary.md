@@ -1,6 +1,7 @@
 ---
 draft: true
 type: docs
+aliases: [/test-architecture/glossary/]
 title: Test Glossary
 weight: 1
 tags:

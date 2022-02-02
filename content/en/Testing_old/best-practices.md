@@ -2,6 +2,7 @@
 draft: true
 type: docs
 title: Testing Best Practices
+aliases: [/test-architecture/best-practices/]
 weight: 2
 linkTitle: Best Practices
 tags:

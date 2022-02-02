@@ -1,6 +1,7 @@
 ---
 type: docs
 weight: 10
+aliases: [/metrics/average-build-downtime/]
 title: Average Build Downtime
 tags:
   - metrics
