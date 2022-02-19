@@ -16,8 +16,8 @@
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "linkinator": "^3.0.3",
-    "postcss": "^8.3.7",
-    "postcss-cli": "^9.0.2",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0",
     "start-server-and-test": "^1.14.0"
   }
 }
