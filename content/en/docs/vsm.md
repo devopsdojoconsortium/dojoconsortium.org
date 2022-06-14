@@ -1,5 +1,4 @@
 ---
-draft: true
 title: Value Stream Mapping
 tags:
   - cd
@@ -91,5 +90,3 @@ to delivery and identify ways to improve.
 
 - [Value Stream Mapping Guide](https://creately.com/blog/diagrams/value-stream-mapping-guide/)
 - [Value Stream Mapping: How to Visualize Work and Align Leadership for Organizational Transformation](https://learning.oreilly.com/library/view/value-stream-mapping/9780071828918/)
-- [Mapping the Improvement Roadmap](https://www.linkedin.com/learning/devops-foundations-transforming-the-enterprise/what-is-a-value-stream-map-vsm):
-  8 minutes
