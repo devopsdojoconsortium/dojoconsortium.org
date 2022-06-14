@@ -39,14 +39,14 @@ For each source of _Requests_
 Your team will need to identify these things for each step in the process. Don't forget to identify where your intake
 process is originated, whether that be stakeholder conversations, service desk, etc.
 
-<img src="./images/process-step.png" width="20%">
+<img src="/images/process-step.png" width="20%">
 
 ### Identify Rework Loops
 
 After your team has completed the initial value stream map, they have most likely identified a few rework loops. Rework
 loops are interruptions in the value stream where steps have to be corrected.
 
-<img src="./images/rework-loop.png" width="10%">
+<img src="/images/rework-loop.png" width="10%">
 
 In this example, the team had to fix code review comments 10% of the time before it could be reviewed and merged to
 master.
@@ -59,7 +59,7 @@ between each step in the process. Make sure to take your cadence into account wh
 Add your total process time/wait time to get an average lead time. Understand that the value stream is an
 estimate/average based on your teams feedback.
 
-<img src="./images/wait-time.png" width="20%">
+<img src="/images/wait-time.png" width="20%">
 
 ## Outcomes
 
@@ -68,8 +68,8 @@ estimate/average based on your teams feedback.
 - Possible constraints to your flow based on process time/wait time, rework loops, and percent complete/accurate. You
   can present these on your VSM as kaizen bursts.
 
-<a href="./images/value-stream-map.png" target="_blank">
-  <img src="./images/value-stream-map.png" width="100%">
+<a href="/images/value-stream-map.png" target="_blank">
+  <img src="/images/value-stream-map.png" width="100%">
 </a>
 
 ## Tips
