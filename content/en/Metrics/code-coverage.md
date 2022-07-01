@@ -60,6 +60,6 @@ it('Should add two whole numbers' () => {
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Development Cycle Time](../development-cycle-time) increases with additional development time dedicated to
+- [Defect rates](../defect-rate) will increase as poor quality tests are created to meet coverage targets.
+- [Development Cycle Time](../development-cycle-time) can increase with additional development time dedicated to
   chasing the coverage metric.
-- [Defect rates](../defect-rate) can increase as poor quality tests are created to meet the coverage minimums.
