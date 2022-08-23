@@ -8,7 +8,7 @@ tags:
   - stability
 ---
 
-Measure of the amount of code that is executed by test code.
+A measure of the amount of code that is executed by test code.
 
 ## What is the intended behavior?
 
@@ -17,15 +17,17 @@ taken not to confuse high coverage with good testing.
 
 ## How to improve it
 
-- Write tests for code that SHOULD be covered but isn't.
-- Refactor the application to improve testability.
-- Remove unreachable code.
+- Write tests for code that SHOULD be covered but isn't
+- Refactor the application to improve testability
+- Remove unreachable code
+- Delete pointless tests
+- Refactor tests to test behavior rather than implementation details
 
 ## How to game it
 
 - Tests are written for code that receives no value from testing.
 - Test code is written without assertions.
-- Code is inappropriately excluded from test coverage reporting.
+- Tests are written with meaningless assertions.
 
 Example: The following test will result in 100% function, branch, and line coverage with no behavior tested.
 
@@ -42,12 +44,12 @@ function addWholeNumbers(a, b) {
 }
 
 it('Should add two whole numbers' () => {
-  expect(addWholeNumbers(2, 2)).to.not.be.NaN;
-  expect(addWholeNumbers(1.1, 0)).to.not.be.null;
+  expect(addWholeNumbers(2, 2)).to.not.be.NaN; // This asserts that adding 2 + 2 will produce a number, but not which number.
+  expect(addWholeNumbers(1.1, 0)).to.not.be.null; // This is similar. It asserts that adding a whole number to an integer will not return a NULL result. Changing the code to return a whole number violates the requirements and will not fail the test.
 })
 ```
 
-The following will report the same code coverage results
+The following is an example of test code with no assertions. This will also produce 100% code coverage reporting but does not test anything because there are no assertions to cause the test to fail.
 
 ```javascript
 it('Should add two whole numbers' () => {
@@ -58,8 +60,7 @@ it('Should add two whole numbers' () => {
 
 ## Guardrail Metrics
 
-Metrics to use in combination with this metric to prevent unintended consequences.
+Test coverage should never be used as a goal or an indicator of application health. Measure outcomes. If testing is poor, the following metrics will show poor results.
 
-- [Defect rates](../defect-rate) will increase as poor quality tests are created to meet coverage targets.
-- [Development Cycle Time](../development-cycle-time) can increase with additional development time dedicated to
-  chasing the coverage metric.
+- [Defect Rates](../defect-rate) will increase as poor-quality tests are created to meet coverage targets that do not reliably catch defects.
+- [Development Cycle Time](../development-cycle-time) will increase as more emphasis is placed on improper testing methods (manual functional testing, testing teams, etc.) to overcome the lack of reliable tests.
