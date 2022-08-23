@@ -44,8 +44,20 @@ function addWholeNumbers(a, b) {
 }
 
 it('Should add two whole numbers' () => {
-  expect(addWholeNumbers(2, 2)).to.not.be.NaN; // This asserts that adding 2 + 2 will produce a number, but not which number.
-  expect(addWholeNumbers(1.1, 0)).to.not.be.null; // This is similar. It asserts that adding a whole number to an integer will not return a NULL result. Changing the code to return a whole number violates the requirements and will not fail the test.
+  /*
+  * This asserts that adding 2 + 2 will produce a 
+  * number, but not which number.
+  */
+  expect(addWholeNumbers(2, 2)).to.not.be.NaN; 
+
+  /* 
+  * This asserts that adding a whole number to an 
+  * integer will not return a NULL result. 
+  * Changing the code to return a whole number violates 
+  * the requirements and will not fail the test.
+  */  
+ expect(addWholeNumbers(1.1, 0)).to.not.be.null; 
+
 })
 ```
 
