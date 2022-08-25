@@ -32,41 +32,45 @@ taken not to confuse high coverage with good testing.
 Example: The following test will result in 100% function, branch, and line coverage with no behavior tested.
 
 ```javascript
-/* Returns the sum of two integers */
-/* Returns NaN for non-integers */
+/* Return the sum of two integers */
+/* Return null if one of that parms is not an integer */
 function addWholeNumbers(a, b) {
 
   if (a % 1 === 0 && b % 1 === 0) {
-    return a + b;
+    return a + b; 
   } else {
-    return NaN;
+    return null;
   }
 }
 
-it('Should add two whole numbers' () => {
+it('Should not return null of both numbers are integers' () => {
   /*
-  * This asserts that adding 2 + 2 will produce a 
-  * number, but not which number.
+  * This call will return 4, which is not null. 
+  * Pass 
   */
-  expect(addWholeNumbers(2, 2)).to.not.be.NaN; 
+  expect(addWholeNumbers(2, 2)).not.toBe(null);
+  
+  /*
+  * This returns "22" because JS sees a string will helpfully concatenate them.
+  * Pass
+  */
+  expect(addWholeNumbers(2, '2')).not.toBe(null);
 
   /* 
-  * This asserts that adding a whole number to an 
-  * integer will not return a NULL result. 
-  * Changing the code to return a whole number violates 
-  * the requirements and will not fail the test.
+  * The function will never return the JS `NaN` constant 
+  * Pass
   */  
- expect(addWholeNumbers(1.1, 0)).to.not.be.null; 
-
+  expect(addWholeNumbers(1.1, 0)).not.toBe(NaN);
 })
 ```
 
 The following is an example of test code with no assertions. This will also produce 100% code coverage reporting but does not test anything because there are no assertions to cause the test to fail.
 
 ```javascript
-it('Should add two whole numbers' () => {
-  addWholeNumbers(2, 2)
-  addWholeNumbers(1.1, 0)
+it('Should not return null if both numbers are integers' () => {
+  addWholeNumbers(2, 2);
+  addWholeNumbers(2, '2');
+  addWholeNumbers(1.1, 0);
 })
 ```
 
