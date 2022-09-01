@@ -104,7 +104,7 @@ The primary process analysis tool used to help identify and attack constraints t
 
 ## Wastes
 
-Our goal is to remove waste daily. We ust first learn to recognize it.
+Our goal is to remove waste daily. We must first learn to recognize it.
 
 - Videos
   - [The 7 Types of Waste in Software Development](https://www.youtube.com/watch?v=c8tAKBHO2i8) Alex Green - 10:34 mins.
