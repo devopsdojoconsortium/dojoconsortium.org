@@ -71,7 +71,7 @@ anchor = "smart"
 [languages]
 [languages.en]
 title = "Dojo Consortium"
-description = "Playbooks and recommendations that are tested in prodcution. Working solutions, not theory."
+description = "Playbooks and recommendations that are tested in production. Working solutions, not theory."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
