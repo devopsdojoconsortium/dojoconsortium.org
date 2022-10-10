@@ -33,7 +33,7 @@ rapid feedback on quality.
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Quality](../defect-rate) decreases if quality processes are skipped.
+- [Quality](/metrics/defect-rate) decreases if quality processes are skipped.
 - Standard deviation of the control chart can show issues being closed too rapidly.
 
 ## References
