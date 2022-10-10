@@ -6,9 +6,9 @@ type: docs
 
 > Test doubles are one of the main concepts we use to create fast, independent, deterministic and reliable tests. Similar to the way Hollywood uses a \_stunt double\* to film dangerous scenes in a movie to avoid the costly risk a high paid actor gets hurt, we use a _test double_ in early test stages to avoid the speed and dollar cost of using the piece of software the _test double_ is standing in for. We also use _test doubles_ to force certain conditions or states of the application we want to test. _Test doubles_ can be used in any stage of testing but in general, they are heavily used during the initial testing stages in our CD pipeline and used much less in the later stages. There are many different kinds of _test doubles_ such as _stubs_, _mocks_, _spies_, etc.
 >
-> -- [Testing Glossary](glossary#test-doubles)
+> -- [Testing Glossary](/testing/glossary#test-doubles)
 
-![Test Double](images/test-double.png)
+![Test Double](/images/testing-images/test-double.png)
 
 - **<mark>Test Double</mark>**: A test double is a generic term for any case where you replace a production object for testing purposes.
 - **<mark>Dummy</mark>**: A dummy is passed around but never actually used. Usually it is just used to fill parameter lists.
@@ -59,7 +59,7 @@ Recommendations are derived from the [Testing Strategy ADR](/adrs/001).
 | [supertest](https://github.com/visionmedia/supertest)   | For in-process test a http server                      |
 | [nock](https://github.com/nock/nock)                    | for http server endpoint assertion/mocking with NodeJS |
 
-For FE mocking, the recommendation is kept more open to allow for other frameworks as necessary, such as [msw](https://redd.gitbook.io/msw/) or [mirage](https://miragejs.com/)
+For FE mocking, the recommendation is kept more open to allow for other frameworks as necessary, such as [msw](https://mswjs.io/) or [mirage](https://miragejs.com/)
 
 #### Android
 

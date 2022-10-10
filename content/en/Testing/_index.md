@@ -43,7 +43,7 @@ When executing continuous delivery, test code is a first class citizen that requ
 
 ### Testing Anti-pattern
 
-"Ice cream cone testing" is the **anti-pattern** where the most expensive, fragile, [non-deterministic](testing/glossary#non-deterministic-test) tests are prioritized over faster and less expensive [deterministic](testing/glossary#deterministic-test) tests because it "feels" right.
+"Ice cream cone testing" is the **anti-pattern** where the most expensive, fragile, [non-deterministic](/testing/glossary#non-deterministic-test) tests are prioritized over faster and less expensive [deterministic](/testing/glossary#deterministic-test) tests because it "feels" right.
 
 [Google Test Blog: Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
 

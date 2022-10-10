@@ -76,7 +76,7 @@ Test names should generally be descriptive and inclusive of what is being tested
 
 ### Casing
 
-For test environments that require method names to describe its tests and suites it is recommended that they follow their language and environment conventions. See formatting under the [static testing page](static) for further best practices.
+For test environments that require method names to describe its tests and suites it is recommended that they follow their language and environment conventions. See formatting under the [static testing page](/testing/static) for further best practices.
 
 ### Grouping
 

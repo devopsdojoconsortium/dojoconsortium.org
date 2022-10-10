@@ -8,7 +8,7 @@ type: docs
 >
 > -- [Testing Glossary](/testing/glossary#end-to-end-test)
 
-End to end tests have the advantage of exercising the system in ways that [functional tests](glossary#functional-test) cannot. However, they also have
+End to end tests have the advantage of exercising the system in ways that [functional tests](/testing/glossary#functional-test) cannot. However, they also have
 the disadvantage of being slower to provide feedback, require more state management, constant maintenance, and can fail for reasons unrelated to code defects. As such, it is recommended
 that they be the smallest number of tests executed.
 
