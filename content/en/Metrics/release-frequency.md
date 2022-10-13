@@ -13,11 +13,11 @@ How frequently per day the team releases changes to production.
 ### What is the intended behavior?
 
 Small changes deployed very frequently to exercise the ability to fix production
-rapidly, reduce [MTTR](../mean-time-to-repair), increase quality, and reduce risk.
+rapidly, reduce [MTTR](/metrics/mean-time-to-repair), increase quality, and reduce risk.
 
 ### How to improve it
 
-- Reduce [Development Cycle Time](../development-cycle-time).
+- Reduce [Development Cycle Time](/metrics/development-cycle-time).
 - Remove handoffs to other teams.
 - Remove manual processes.
 - Improve testing and move quality ownership into the team.
@@ -34,5 +34,5 @@ rapidly, reduce [MTTR](../mean-time-to-repair), increase quality, and reduce ris
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Change Fail Rate](../change-fail-rate) increases as focus shifts to speed instead of quality.
-- [Quality](../defect-rate) decreases if steps are skipped in refining work for the sake of output.
+- [Change Fail Rate](/metrics/change-fail-rate) increases as focus shifts to speed instead of quality.
+- [Quality](/metrics/defect-rate) decreases if steps are skipped in refining work for the sake of output.

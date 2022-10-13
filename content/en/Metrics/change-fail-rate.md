@@ -31,8 +31,8 @@ Reduce the percentage of failed changes.
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Delivery frequency](../release-frequency) can decrease if focus is placed on "zero defect" changes.
-- [Defect rates](../defect-rate) can increase as reduced delivery frequency increases code change batch size and delivery risk.
+- [Delivery frequency](/metrics/release-frequency) can decrease if focus is placed on "zero defect" changes.
+- [Defect rates](/metrics/defect-rate) can increase as reduced delivery frequency increases code change batch size and delivery risk.
 
 ## References
 

@@ -23,29 +23,29 @@ A deterministic test is any test that always returns the same results for the sa
 
 A non-deterministic test is any test that may fail for reasons unrelated to adherence to specification. Reasons for this could include network instability, availability of external dependencies, state management issues, etc.
 
-### [Static Test](static)
+### [Static Test](/testing/static)
 
 A static test is a test that evaluates non-running code against rules for known good practices to check for security, structure, or practice issues.
 
-### [Unit Test](unit)
+### [Unit Test](/testing/unit)
 
 Unit tests are [deterministic tests](#deterministic-test) that exercise a discrete unit of the application, such as a function, method, or UI component, in isolation to determine whether it behaves as expected.
 
-[More on Unit Testing](unit)
+[More on Unit Testing](/testing/unit)
 
 ### Integration Test
 
 An integration test is a [deterministic](#deterministic-test) test to verify how the unit under test interacts with other units without directly accessing external sub-systems. For the purposes of clarity, "integration test" is not a test that broadly integrates multiple sub-systems. That is an [E2E test](#end-to-end-test).
 
-[More on Integration Testing](integration)
+[More on Integration Testing](/testing/integration)
 
-### [Contract Test](contract)
+### [Contract Test](/testing/contract)
 
 A contract test is used to validate the test doubles used in a network [integration test](#integration-test). Contract tests are run against the live external sub-system and exercises the portion of the code that interfaces to the sub-system. Because of this, they are [non-deterministic tests](#non-deterministic-test) and should not break the build, but should trigger work to review why they failed and potentially correct the contract.
 
 **A contact test validates contract format, not specific data.**
 
-[More on Contract Testing](contract)
+[More on Contract Testing](/testing/contract)
 
 ### [Visual Regression Test](visual)
 
@@ -53,17 +53,17 @@ A visual regression test (VRT) is a visual verification that the UI has rendered
 
 [More on Visual Testing](visual)
 
-### [Functional Test](functional)
+### [Functional Test](/testing/functional)
 
 A functional test is a [deterministic test](#deterministic-test) that verifies that all modules of a sub-system are working together. They should avoid integrating with other sub-systems as this tends to reduce determinism. Instead, test doubles are preferred. Examples could include testing the behavior of a user interface through the UI or testing the business logic of individual services through the API.
 
-[More on Functional Testing](functional)
+[More on Functional Testing](/testing/functional)
 
-### [End to End Test](e2e)
+### [End to End Test](/testing/e2e)
 
 End to end tests are typically [non-deterministic](#non-deterministic-test) tests that validate the software system along with its integration with external interfaces. The purpose of end-to-end Test is to exercise a complete production-like scenario. Along with the software system, it also validates batch/data processing from other upstream/downstream systems. Hence, the name "End-to-End". End to End Testing is usually executed after [functional testing](#functional-test). It uses actual production like data and test environment to simulate real-time settings.
 
-[More on E2E Testing](e2e)
+[More on E2E Testing](/testing/e2e)
 
 ### Customer Experience Alarms
 
@@ -75,4 +75,4 @@ Customer Experience Alarms are a type of active alarm. It is a piece of software
 
 Test doubles* are one of the main concepts we use to create fast, independent, deterministic and reliable tests. Similar to the way Hollywood uses a \_stunt double* to film dangerous scenes in a movie to avoid the costly risk a high paid actor gets hurt, we use a _test double_ in early test stages to avoid the speed and dollar cost of using the piece of software the _test double_ is standing in for. We also use _test doubles_ to force certain conditions or states of the application we want to test. _Test doubles_ can be used in any stage of testing but in general, they are heavily used during the initial testing stages in our CD pipeline and used much less in the later stages. There are many different kinds of _test doubles_ such as _stubs_, _mocks_, _spies_, etc.
 
-[More on Test Doubles](test-doubles)
+[More on Test Doubles](/testing/test-doubles)
