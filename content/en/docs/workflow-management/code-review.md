@@ -22,7 +22,7 @@ developers' skills."
 - Automated Code Review processes like linting and static code analysis.
 - Code review that there are tests that meet the acceptance criteria agreed upon by
   the team.
-- Keep pull requests small. Look in to [Work Decomposition](..//docs/work-decomposition/work-breakdown)
+- Keep pull requests small. Look in to [Work Decomposition](/docs/work-decomposition/work-breakdown)
   for guidance.
 - As the person being reviewed, remember the 10 Commandments of Code Review
   - Thou shalt not take it personally

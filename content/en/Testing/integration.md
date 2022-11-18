@@ -4,28 +4,28 @@ aliases: [/test-architecture/integration/]
 type: docs
 ---
 
-> An integration test is a [deterministic](glossary#deterministic-test) test to verify how the unit under test interacts with other units without directly accessing external sub-systems. For the purposes of clarity, "integration test" is not a test that broadly integrates multiple sub-systems. That is an [E2E test](e2e).
+> An integration test is a [deterministic](/testing/glossary#deterministic-test) test to verify how the unit under test interacts with other units without directly accessing external sub-systems. For the purposes of clarity, "integration test" is not a test that broadly integrates multiple sub-systems. That is an [E2E test](/testing/e2e).
 >
-> -- [Testing Glossary](glossary#integration-test)
+> -- [Testing Glossary](/testing/glossary#integration-test)
 
 Some examples of an integration test are validating how multiple units work together (sometimes called a "sociable unit test") or validating the portion of the code that interfaces to an external network sub-system while using a test double to represent that sub-system.
 
 <figure>
-  <img src="./images/integration-test.png" width="60%" />
+  <img src="/images/testing-images/integration-test.png" width="60%" />
   <figcaption>
     Validating the behavior of multiple units with no external sub-systems
   </figcaption>
 </figure>
 
 <figure>
-  <img src="./images/network-integration-test.png" width="15%" />
+  <img src="/images/testing-images/network-integration-test.png" width="15%" />
   <figcaption>
     Validating the portion of the code that interfaces to an external network
     sub-system
   </figcaption>
 </figure>
 
-When designing network integration tests, it's recommended to also have [contract tests](glossary#contract-test) running asynchronously to validate the service test doubles.
+When designing network integration tests, it's recommended to also have [contract tests](/testing/glossary#contract-test) running asynchronously to validate the service test doubles.
 
 ## Recommended Best Practices
 
@@ -78,8 +78,8 @@ Good practices include:
 
 ## Alternate Definitions
 
-- When integrating multiple sub-systems into a larger system: this is an [End to End Test](glossary#end-to-end-test).
-- When testing all modules within a sub-system through the API or user interface: this is a [Functional Test](glossary#functional-test).
+- When integrating multiple sub-systems into a larger system: this is an [End to End Test](/testing/glossary#end-to-end-test).
+- When testing all modules within a sub-system through the API or user interface: this is a [Functional Test](/testing/glossary#functional-test).
 
 ## Resources
 
@@ -99,5 +99,5 @@ Good practices include:
 
 Tooling recommendations based on [Testing Strategy ADR](/adrs/001)
 
-Integration Tooling is the same as recommended for [Unit Tests](unit)
+Integration Tooling is the same as recommended for [Unit Tests](/testing/unit)
 

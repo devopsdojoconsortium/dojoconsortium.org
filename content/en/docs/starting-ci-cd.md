@@ -87,18 +87,18 @@ This working agreement for CI focuses on developing teamwork and delivering qual
 
 **Desired outcomes:**
 
-- [More frequent](./metrics/integration-frequency.html) integration of smaller, higher quality, lower risk changes.
+- [More frequent](/metrics/integration-frequency) integration of smaller, higher quality, lower risk changes.
 - More efficient and effective test architecture
-- [Lean code review process](code-review)
-- Reduced [Work In Progress](workflow-management/limiting-wip) (WIP)
+- [Lean code review process](/docs/workflow-management/code-review)
+- Reduced [Work In Progress](/docs/workflow-management/limiting-wip) (WIP)
 
 ### Continuous Delivery/Deploy
 
-- Increased [delivery frequency](./metrics/release-frequency.html)
-- [Increased stability](./metrics/quality.html)
-- Improved [deploy success](./metrics/change-fail-rate.html)
-- Reduced [development cycle time](./metrics/development-cycle-time.html)
-- Improved [time to restore service](./metrics/mean-time-to-repair.html)
+- Increased [delivery frequency](/metrics/release-frequency)
+- [Increased stability](/metrics/quality)
+- Improved [deploy success](/metrics/change-fail-rate)
+- Reduced [development cycle time](/metrics/development-cycle-time)
+- Improved [time to restore service](/metrics/mean-time-to-repair)
 - Reduced process waste
 - Smaller, less risky production releases.
 - Small, cohesive, high morale, high-performing product teams with business domain expertise.
@@ -149,7 +149,7 @@ This working agreement for CI focuses on developing teamwork and delivering qual
 While implementation is contextual to the product, there are key
 steps that should be done whenever starting the CD journey.
 
-- [Value Stream Map](./playbooks/vsm.html): This is a standard Lean tool to make visible
+- [Value Stream Map](/docs/vsm): This is a standard Lean tool to make visible
   the development process and highlight any constraints the team has. This is a
   critical step to begin improvement.
 Build a road map of the constraints and use a [disciplined improvement process](./playbooks/improvement-kata.html)
@@ -201,16 +201,16 @@ There should be no manual intervention after the code is integrated into the tru
 
 ## Tips
 
-Use [trunk merge frequency](./metrics/integration-frequency.html),
-[development cycle time](./metrics/development-cycle-time.html), and
-[delivery frequency](./metrics/release-frequency.html) to uncover pain points. The team has
+Use [trunk merge frequency](/metrics/integration-frequency),
+[development cycle time](/metrics/development-cycle-time), and
+[delivery frequency](/metrics/release-frequency) to uncover pain points. The team has
 complete control merge frequency and development cycle time and can
 uncover most issues by working to improve those two metrics.
 
 Make sure to keep all metrics visible and refer to them often to help drive the
 change.
 
-See [CD best practices](./cd-best-practices.html) and [CD anti-patterns](./cd-anti-patterns.html) for more tips on effectively introducing CICD improvements to your team processes.
+See [CD best practices](/docs/starting-ci-cd/#recommended-practices) and [CD anti-patterns](/docs/cd-anti-patterns) for more tips on effectively introducing CICD improvements to your team processes.
 
 ---
 
