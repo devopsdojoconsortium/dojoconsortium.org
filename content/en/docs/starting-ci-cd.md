@@ -22,7 +22,6 @@ tags:
   - [Pipeline](#pipeline)
   - [Short CI Cycle Time](#short-ci-cycle-time)
   - [Integrate outside the pipeline. Virtualize inside the pipeline](#integrate-outside-the-pipeline-virtualize-inside-the-pipeline)
-  - [Developers should be responsible for the full pipeline](#developers-should-be-responsible-for-the-full-pipeline)
   - [All test automation pre-commit](#all-test-automation-pre-commit)
 - [Tips](#tips)
 - [References](#references)
@@ -59,27 +58,28 @@ There should never be an understanding that we are "mature" or "immature" with d
 
 ### Minimums
 
-Each developer on the team has tested changes integrated into the trunk at least daily.
-Changes always use the same process to deliver. There is no difference between deploying a feature or a fix.
-There are no manual quality gates.
-Changes are made using a trunk-based development pattern.
-All test and production environments use the same artifact. If the release cadence requires release branches, then the release branches deploy to all test environments and to production.
+- Each developer integrates tested changes to the trunk at least daily.
+- Changes always use the same process to deliver.
+- There are no process differences between deploying a feature or a fix.
+- There are no manual quality gates.
+- All test and production environments use the same artifact.
+- If the release cadence requires release branches, then the release branches deploy to all test environments and production.
 
 ### Good
 
-New work requires less than 2 days from start to delivery
-All changes deliver from the trunk
-The time from committing change and delivery to production is less than 60 minutes
-Less than 5% of changes require remediation
-The time to restore service is less than 60 minutes.
+- New work requires less than 2 days from start to delivery
+- All changes deliver from the trunk
+- The time from committing change and delivery to production is less than 60 minutes
+- Less than 5% of changes require remediation
+- The time to restore service is less than 60 minutes.
 
 ### Continuous Integration
 
-This working agreement for CI puts focus on developing teamwork and delivering quality outcomes while removing waste.
+This working agreement for CI focuses on developing teamwork and delivering quality outcomes while removing waste.
 
-- Branches originate from Trunk.
+- Branches originate from the trunk.
 - Branches are deleted in less than 24 hours.
-- Changes must be tested and not break existing tests before merging to trunk.
+- Changes must be tested and not break existing tests before merging to the trunk.
 - Changes are not required to be "feature complete".
 - Helping the team complete work in progress (code review, pairing) is more important than starting
   new work.
@@ -152,7 +152,7 @@ steps that should be done whenever starting the CD journey.
 - [Value Stream Map](./playbooks/vsm.html): This is a standard Lean tool to make visible
   the development process and highlight any constraints the team has. This is a
   critical step to begin improvement.
-- Build a road-map of the constraints and use a [disciplined improvement process](./playbooks/improvement-kata.html)
+Build a road map of the constraints and use a [disciplined improvement process](./playbooks/improvement-kata.html)
   to remove the constraints.
 - Align to the Continuous Integration team working agreement and use the
   impediments to feed the team's improvement process.
@@ -180,7 +180,7 @@ Integrate outside the pipeline. Virtualize inside the pipeline. Direct integrati
 
 There should be one or fewer stage gates. Until release and deploy are decoupled, one approval for production. No other stage gates.
 
-Developers are responsible for the full pipeline. No handoffs. Handoffs cause delay and dilute ownership. The team owns their pipeline and the application they deploy from birth to death.
+Developers are responsible for the full pipeline. No handoffs. Handoffs cause delays and dilute ownership. The team owns its pipelines and the applications they deploy from birth to death.
 
 ### Short CI Cycle Time
 
@@ -189,10 +189,6 @@ CI cycle time should be less than 10 minutes from commit to artifact creation. C
 ### Integrate outside the pipeline. Virtualize inside the pipeline
 
 Direct integration to stateful dependencies (end-to-end testing) should be avoided in the pipeline. Tests in the pipeline should be deterministic and the larger the number of integration points the more difficult it is to manage state and maintain determinism. It is a good way to validate service mocks. However, if done in the pipeline it puts fixing production at risk if the dependency is unstable/unavailable.
-
-### Developers should be responsible for the full pipeline
-
-No handoffs. Handoffs cause delay and dilute ownership. The team owns their pipeline and the application they deploy from birth to death.
 
 ### All test automation pre-commit
 
