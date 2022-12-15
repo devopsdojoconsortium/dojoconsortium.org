@@ -36,7 +36,7 @@ You produce something, measure information on that production, and use that info
   [Testing](../../test-architecture/cd-testing) is one of the most effective feedback loops a team can have in place.
   Automated tests for example, provide feedback about your system in seconds.
 
-- How well does what we're producing, match the users actual needs?
+- How well does what we're producing, match the users' actual needs?
 
   Understanding if we're meeting the needs of the consumer is critical feedback.
 

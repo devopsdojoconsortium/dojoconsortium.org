@@ -4,7 +4,7 @@ aliases: [/work-decomposition/spikes/]
 tags: [teamwork, decomposition]
 ---
 
-Spikes are an exploration of potential solutions for work. Spike are research items that cannot be estimated. They
+Spikes are an exploration of potential solutions for work or research items that cannot be estimated. They
 should be time-boxed in short increments (2-3 days).
 
 ---

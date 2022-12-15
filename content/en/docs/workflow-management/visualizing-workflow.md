@@ -29,7 +29,7 @@ that work is, and how long that work has been in progress.
 
 To make a Kanban board you need to create lanes on your board that represent
 your team's workflow. Adding work in progress (WIP) limits to swim-lanes will
-enhance the visibility of your teams workflow.
+enhance the visibility of your team's workflow.
 
 The team only works on cards that are in the "Ready to Start" lane and
 team members always pick from the top. No "Cherry Picking".

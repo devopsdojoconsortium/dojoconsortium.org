@@ -88,18 +88,18 @@ Multi-component release trains increase batch size and reduce delivered quality.
 
 ## Handoffs to other teams
 
-If the normal flow of work requires waiting on another team then natch sizes increase and quality is reduced.
+If the normal flow of work requires waiting on another team then batch sizes increase and quality is reduced.
 
 ## Excessive backlog
 
-Large product backlogs extend lead time and reduce customer satisfaction. LArge backlogs also indicate over utilized teams or ineffective backlog review.
+Large product backlogs extend lead time and reduce customer satisfaction. Large backlogs also indicate over utilized teams or ineffective backlog review.
 
 - Continuously review backlog for expired requests and remove them.
 - Reassign components to less utilized teams.
 
 ## Early story refining
 
-Stories refined too fr in advance create overproduction waste. Odds are that they will require re-refining. Time is better spent delivering the current priorities.
+Stories refined too far in advance create overproduction waste. Odds are that they will require re-refining. Time is better spent delivering the current priorities.
 
 ## Manual test as a stage gate
 

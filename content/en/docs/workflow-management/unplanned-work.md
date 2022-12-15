@@ -25,7 +25,7 @@ stakeholders want, etc.
 
 Cost of Delay makes it easier to decide priority based on value and urgency.
 
-How much money are we costing(or saving) the organization if _Feature A_ is
+How much money are we costing (or saving) the organization if _Feature A_ is
 delivered over _Feature B_?
 
 ---

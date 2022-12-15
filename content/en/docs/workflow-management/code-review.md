@@ -52,7 +52,7 @@ developers' skills."
 
 - Automated checks for standards and complexity.
 - Code is reviewed for testing and clarity.
-- Pull requests are small and last no more then a day.
+- Pull requests are small and last no more than a day.
 - CI tests run upon opening and modifying pull requests.
 
 ---

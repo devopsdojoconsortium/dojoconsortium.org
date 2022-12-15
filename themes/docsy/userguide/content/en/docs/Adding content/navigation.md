@@ -273,7 +273,7 @@ body {
 
 ### Excluding pages from local search results
 
-To exclude pages from local search results, add `exclude_search: true` to the the frontmatter of each page:
+To exclude pages from local search results, add `exclude_search: true` to the frontmatter of each page:
 
 ```yaml
 ---

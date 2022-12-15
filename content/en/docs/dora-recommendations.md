@@ -9,7 +9,7 @@ tags:
 
 > "Our research has uncovered 24 key capabilities that drive improvements in software delivery performance in a statistically significant way. Our book details these findings."
 
-- Excerpt From: Nicole Forsgren PhD, Jez Humble & Gene Kim. [Accelerate](<https://learning.oreilly.com/library/view/accelerate/9781457191435/>]
+- Excerpt From: Nicole Forsgren PhD, Jez Humble & Gene Kim. [Accelerate](<https://learning.oreilly.com/library/view/accelerate/9781457191435/>)
 
 ---
 
@@ -117,7 +117,7 @@ feedback, and making the flow of work visible.
 
 ## Lean Management and Monitoring Capabilities
 
-### Have a lightweight change approval processes
+### Have a lightweight change approval process
 
 Our research shows that a lightweight change approval process based on peer review (pair programming or intra-team code
 review) produces superior IT performance than using external change approval boards (CABs).
