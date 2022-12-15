@@ -23,7 +23,7 @@ The site should then show a "Print entire section" link in the right hand naviga
 
 ### Disabling the ToC
 
-To disable showing the the table of contents in the printable view, set the `disable_toc` param to `true`, either in the page front matter, or in `config.toml`:
+To disable showing the table of contents in the printable view, set the `disable_toc` param to `true`, either in the page front matter, or in `config.toml`:
 
 ```toml
 [params.print]

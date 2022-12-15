@@ -19,7 +19,7 @@ Example:
 Feature: I need to smite a rabbit so that I can find the Holy Grail
 
 Scenario: Use the Holy Hand Grenade of Antioch
-Given I have the the Holy Hand Grenade of Antioch
+Given I have the Holy Hand Grenade of Antioch
 When I pull the pin
 And I count to 3
 But I do not count to 5
@@ -69,7 +69,7 @@ With the above criteria, it may be acceptable to remove the time validation and
 accelerate delivery of the time logging ability. After delivery, the validation
 may not be required. If true, we've saved money and time by NOT delivering
 unneeded features.
-First we deliver the ability to clock in and see if we really do need the ability
+First, we deliver the ability to clock in and see if we really do need the ability
 to verify.
 
 ```gherkin

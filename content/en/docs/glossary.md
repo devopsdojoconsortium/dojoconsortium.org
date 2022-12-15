@@ -60,7 +60,7 @@ day". An ideal day is a day where there are no distractions, the code is flowing
 such day actually exists. ;)
 
 Story points should only be used for planned work. Unplanned work or [spikes](/docs/work-decomposition/spikes) should not be
-story pointed after the fact. Doing so artificially inflates teh average capacity of the team and results in teams
+story pointed after the fact. Doing so artificially inflates the average capacity of the team and results in teams
 over-committing to delivery.
 
 ## Toil
@@ -72,7 +72,7 @@ maintaining an application.
 
 ## Unplanned Work
 
-Any work that the the team inserts before the current planned work. Critical defects and "walk up" requests are unplanned
+Any work that the team inserts before the current planned work. Critical defects and "walk up" requests are unplanned
 work. It's important that the team track all unplanned work and the reason so that steps can be taken by the team to
 reduce the future impact.
 

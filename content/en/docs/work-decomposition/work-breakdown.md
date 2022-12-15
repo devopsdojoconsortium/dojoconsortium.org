@@ -17,7 +17,7 @@ team needs to have the following prerequisites and understandings.
 ## Work Breakdown Process
 
 The goal of the work breakdown process is to decompose work into small batches
-that can be delivered frequently, multiples times a week, in order to delivery
+that can be delivered frequently, multiples times a week, in order to deliver
 value faster with less rework.
 
 The general work breakdown process involves:
@@ -30,7 +30,7 @@ It is important that the team keep these tips in mind when decomposing work:
    acceptance criteria cannot be understood by the whole team then we are developing defects, not value.
 2. Refining work requires significant brainpower and is the primary quality process. Meetings should be planned around
    this. Hold them when people are mentally alert and time box them to prevent mental fatigue.
-3. Good acceptance criteria comes from good communication. Avoid the following anti-patterns:
+3. Good acceptance criteria come from good communication. Avoid the following anti-patterns:
    1. Someone outside the team writes acceptance criteria and hands it to the team. Since the team was not involved with
       the conversation, there's no chance to uncover assumptions and the team has less investment in the outcomes.
    2. One person on the team writes acceptance criteria. Same problem is above.

@@ -95,7 +95,7 @@ There are some important things to consider when scheduling a retrospective.
 Normally, a scrum-like retro involves 3 questions about the previous iteration:
 
 - What went well?
-- Would could we improve?
+- What could we improve?
 - What are some actions we can take?
 
 This is pretty open ended format that is very simple to go over in a training

@@ -10,7 +10,7 @@ dependencies, and estimating based on complexity and effort, not time.
 Small things can be estimated more accurately than big things because the margin
 of error is lower and dependencies are clear. Eliminating or reducing
 [hard dependencies](/docs/glossary/#dependency-hard) is critical because the probability that something will
-delivered late doubles for every hard dependency. Those
+be delivered late doubles for every hard dependency. Those
 could include database changes, coordination with other teams, or changes that are
 tightly coupled with another component.
 
