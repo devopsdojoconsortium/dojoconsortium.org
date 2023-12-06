@@ -23,7 +23,7 @@ We use the outcome to design an improved value stream so we can prioritize the c
 3. Understand terms associated with value stream mapping.
    - Wait time/non-value time: Time between processes where activity is not occurring.
    - Process time/value add time: Time spent executing a step in the value stream.
-   - Percent Complete/Accurate: Percentage of work that is rejected by the next step in the process. i.e. If code fails
+   - Percent Complete/Accurate: Percentage of work that is not rejected by the next step in the process. i.e. If code fails
      code review 20% of the time, the %C/A is 80%.
 
 ## Recommended Practices
