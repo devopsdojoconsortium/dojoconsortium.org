@@ -1,5 +1,4 @@
 ---
-draft: true
 type: docs
 title: Testing for CD
 aliases: [/test-architecture/cd-testing/]

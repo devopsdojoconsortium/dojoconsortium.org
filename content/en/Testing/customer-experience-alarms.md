@@ -11,14 +11,16 @@ tags:
 >
 > -- [Testing Glossary](../glossary#customer-experience-alarms)
 
-These are different than having log-based alarms because we can't guarantee that someone is working through all of the golden-path workflows for our system at all times. If we rely entirely on logs, we wouldn't know if the golden workflows are accurate when we deploy at 3am on a Saturday due to an automated process.
+These are different than having log-based alarms because we can't guarantee that someone is working through all of the
+golden-path workflows for our system at all times. If we rely entirely on logs, we wouldn't know if the golden workflows
+are accurate when we deploy at 3 am on a Saturday due to an automated process.
 
 These tests have a few important characteristics:
 
 - They are run in all environments, including production.
 - They aren't generated from UI workflows, but rather from direct API access
 - They ideally run every minute.
-- If they don't work (in production) they page someone. Even at 3am.
+- If they don't work (in production) they page someone. Even at 3 am.
 
 ### Alternate Terms
 
