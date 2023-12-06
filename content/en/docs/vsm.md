@@ -2,19 +2,25 @@
 title: Value Stream Mapping
 tags:
   - cd
+  - process improvement
+  - lean
 ---
 
-The purpose of Value Stream Mapping Workshop is to understand all of the steps needed to
-deliver value from conception to production. We can then use it as a tool to
-identify constraints and propose improvements to the value stream.
+The purpose of the Value Stream Mapping Workshop is to uncover all of the steps required to take an idea from conception to production. The goal is to uncover the following:
+
+- Steps that exist that can be removed
+- Steps that require waiting on another step to continue the flow
+- Steps that have a high defect rate
+
+We use the outcome to design an improved value stream so we can prioritize the changes required to reduce the waste in the current flow.
 
 ## Prerequisites
 
-1. Everyone who has a touch point in the value stream should be present for the exercise. This includes, but is not
+1. For a "to be" value stream, there must be an established process for value delivery.
+2. Everyone who has a touch point in the value stream should be present for the exercise. This includes, but is not
    limited to developers, managers, product owners, and representatives from external teams that have required steps
    between conception and production.
-
-2. Understand terms associated with value stream mapping.
+3. Understand terms associated with value stream mapping.
    - Wait time/non-value time: Time between processes where activity is not occurring.
    - Process time/value add time: Time spent executing a step in the value stream.
    - Percent Complete/Accurate: Percentage of work that is rejected by the next step in the process. i.e. If code fails
@@ -22,10 +28,9 @@ identify constraints and propose improvements to the value stream.
 
 ## Recommended Practices
 
-When value stream mapping your team, start from production and move backwards each step. You are less likely to miss
-steps in the process.
+When value stream mapping your team, start from delivery and move backward through each step. You are less likely to miss steps in the process.
 
-### Identify source of request
+## Identify the source
 
 _Example_ Team Demo
 
@@ -35,8 +40,7 @@ For each source of _Requests_
 - Who is involved in this step?
 - What percentage of work is rejected by the next step in the process?
 
-Your team will need to identify these things for each step in the process. Don't forget to identify where your intake
-process is originated, whether that be stakeholder conversations, service desk, etc.
+Your team will need to identify these things for each step in the process. Don't forget to identify where your intake process originated, whether that be stakeholder conversations, service desk, etc.
 
 ![Process step](/images/process-step.png "process-step.png")
 
@@ -47,8 +51,7 @@ loops are interruptions in the value stream where steps have to be corrected.
 
 ![Rework loops](/images/rework-loop.png "rework-loop.png")
 
-In this example, the team had to fix code review comments 10% of the time before it could be reviewed and merged to
-master.
+In this example, the team had to fix code review comments 10% of the time before they could be reviewed and merged into master.
 
 ### Identify Wait Time
 
@@ -56,7 +59,7 @@ Once your team has completed the above steps, you will go back through the value
 between each step in the process. Make sure to take your cadence into account when calculating.
 
 Add your total process time/wait time to get an average lead time. Understand that the value stream is an
-estimate/average based on your teams feedback.
+estimate/average based on your team's feedback.
 
 ![Wait time](/images/wait-time.png "wait-time.png")
 
@@ -73,7 +76,7 @@ estimate/average based on your teams feedback.
 
 ## Tips
 
-- Review and maintain value stream map to show wins associated to your team's improvement plan.
+- Review and maintain the value stream map to show wins associated with your team's improvement plan.
 - Take into account all potential flows for team processes, and value stream those as well.
 
 ## Value
@@ -83,7 +86,7 @@ to delivery and identify ways to improve.
 
 ## Acceptance Criteria
 
-- Value stream all things associated to delivering value.
+- Value stream all things associated with delivering value.
 - Create action items of improvement from exercise.
 
 ## References
