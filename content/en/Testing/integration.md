@@ -40,11 +40,11 @@ Integration tests provide the best balance of speed, confidence, and cost when b
   * End-User - when building a UI, what response will each input provide to the user?
   * Consumer - when building a library or service, what output will be expected for a given input?
   * Test User - a non-existent user/consumer that exists just for the purpose of writing a test.  **Avoid this type of user**.  [Kent Dodds has a great post about this user](https://kentcdodds.com/blog/avoid-the-test-user/).
-* Don't test implementation details. Tests should focus on **what** the outcomes are, not **how** the outcomes occurred. 
-   * Examples of testing implementation details include:
-      * internal state
-      * private methods/properties etc
-      * things a user won't see/know about.
+* Don't test implementation details. Tests should focus on **what** the outcomes are, not **how** the outcomes occurred.
+  * Examples of testing implementation details include:
+    * internal state
+    * private methods/properties etc
+    * things a user won't see/know about.
 * Integration tests are normally run with unit tests.
 
 ### Service Integration Tests
@@ -56,48 +56,79 @@ Service integration tests are focused on validating how the system under test re
 * Don't over-test. When validating service interactions, testing that a dependency returns a specific value is testing the behavior of the dependency instead of the behavior of the SUT.
 
 ### Database Integration Tests
+
 Test data management is one of the more complex problems, so whenever possible using live data should be avoided.
 
 Good practices include:
+
 * In-memory databases
 * Personalized datasets
 * Isolated DB instances
 * Mocked data transfer objects
 
-### Front End Driven Integration Tests 
+### Front End Driven Integration Tests
 
 * Don't use tools like Enzyme that let you peek behind the curtain.
-* Follow the Accessibility order of operations to get a reference to elements (in prioritized order): 
+* Follow the Accessibility order of operations to get a reference to elements (in prioritized order):
   1. Things accessible to all users (Text, placeholder, label, etc)
   2. Accessibility features (role, title, alt tag, etc)
   3. Only after exhausting the first 2, then use test ID or CSS/XPath selectors as an escape hatch.  But remember, the user doesn't know about these so try to avoid them.
 
 ## Alternate Terms
 
-- Sociable Unit Test
+* Sociable Unit Test
 
 ## Alternate Definitions
 
-- When integrating multiple sub-systems into a larger system: this is an [End to End Test](/testing/glossary#end-to-end-test).
-- When testing all modules within a sub-system through the API or user interface: this is a [Functional Test](/testing/glossary#functional-test).
+* When integrating multiple sub-systems into a larger system: this is an [End to End Test](/testing/glossary#end-to-end-test).
+* When testing all modules within a sub-system through the API or user interface: this is a [Functional Test](/testing/glossary#functional-test).
 
 ## Resources
 
-- [Integration Testing](https://martinfowler.com/bliki/IntegrationTest.html)
-- [Testing Strategies in a Microservice Architecture: Integration Testing Introduction](https://martinfowler.com/articles/microservice-testing/#testing-integration-introduction)
-- [Write tests, not too many, mostly integration](https://kentcdodds.com/blog/write-tests)
+* [Integration Testing](https://martinfowler.com/bliki/IntegrationTest.html)
+* [Testing Strategies in a Microservice Architecture: Integration Testing Introduction](https://martinfowler.com/articles/microservice-testing/#testing-integration-introduction)
+* [Write tests, not too many, mostly integration](https://kentcdodds.com/blog/write-tests)
 
 ## Examples
 
-<CodeTabs id="integration-test-examples">
+{{< tabpane langEqualsHeader="true" >}}
+  {{< tab header="JavaScript" >}}
+    describe("retrieving Hygieia data", () => {
+      it("should return counts of merged pull requests per day", async () => {
+        const successStatus = 200;
+        const result = await hygieiaConnector.getResultsByDay(
+          hygieiaConnector.hygieiaConfigs.integrationFrequencyRoute,
+          testConfig.HYGIEIA_TEAMS[0],
+          testConfig.getTestStartDate(),
+          testConfig.getTestEndDate()
+        );
 
-`embed:examples/integration-test.js`
+        expect(result.status).to.equal(successStatus);
+        expect(result.data).to.be.an("array");
+        expect(result.data[0]).to.haveOwnProperty("value");
+        expect(result.data[0]).to.haveOwnProperty("dateStr");
+        expect(result.data[0]).to.haveOwnProperty("dateTime");
+        expect(result.team).to.be.an("object");
+        expect(result.team).to.haveOwnProperty("totalAllocation");
+      });
 
-</CodeTabs>
+      it("should return an empty array if the team does not exist", async () => {
+        const result = await hygieiaConnector.getResultsByDay(
+          hygieiaConnector.hygieiaConfigs.integrationFrequencyRoute,
+          0,
+          testConfig.getTestStartDate(),
+          testConfig.getTestEndDate()
+        );
+        expect(result.status).to.equal(successStatus);
+        expect(result.data).to.be.an("array");
+        expect(result.data.length).to.equal(0);
+      });
+    });
+  {{< /tab >}}
+{{< /tabpane >}}
 
 ## Recommended Tooling
 
 Tooling recommendations based on [Testing Strategy ADR](/adrs/001)
 
 Integration Tooling is the same as recommended for [Unit Tests](/testing/unit)
-

@@ -67,12 +67,32 @@ People often confuse writing tests in general with TDD. Writing tests after impl
 
 Test names should generally be descriptive and inclusive of what is being tested. A good rule of thumb when deciding a test name is to follow the "given-when-then" or "arrange-act-assert" conventions focusing on the "when" and "act" terms respectively. In both of these cases there is an implied action or generalized assertion that is expected, a test name should include this implication explicitly with an appropriate result effect description. For example:
 
-<CodeTabs id="naming-convention-example">
+{{< tabpane langEqualsHeader="true" >}}
+  {{< tab header="JavaScript" >}}
+    // Jest Example
+    // "input validator with valid inputs should contain a single valid field caller receives success state"
+    describe("input validator", () => {
+      describe("with valid inputs", () => {
+        it("should contain a single valid field caller receives success state", () => {});
+      });
+    });
+  {{< /tab >}}
+  {{< tab header="Java" >}}
+    // JUnit Example
+    // "input validator with valid inputs should contain a single valid field caller receives success state"
 
-`embed:examples/naming-convention.js`
-`embed:examples/naming-convention.java`
-
-</CodeTabs>
+    @DisplayName("input validator") 
+    public class InputValidationTest { 
+        @Nested @DisplayName("with valid inputs") 
+        class ValidScenarios { 
+            @Test @DisplayName("should contain a single valid field caller receives success state") 
+                public void containsSingleValidField() { 
+                // 
+            } 
+        } 
+    }
+  {{< /tab >}}
+{{< /tabpane >}}
 
 ### Casing
 
@@ -82,12 +102,27 @@ For test environments that require method names to describe its tests and suites
 
 Where possible suites and their respective tests should be grouped to allow for higher readability and identification; If the environment supports it nested groups is also a useful and good practice to employ. For example a logical nesting of "unit-scenario-expectation" allows for encapsulating multiple scenarios that could potentially apply to a unit under test. For example:
 
-<CodeTabs id="naming-convention-grouping-example">
-
-`embed:examples/naming-convention-grouping.js`
-`embed:examples/naming-convention-grouping.java`
-
-</CodeTabs>
+{{< tabpane langEqualsHeader="true" >}}
+  {{< tab header="JavaScript" >}}
+    describe("unit-under-test", () => {
+        describe("scenario-for-unit", () => {
+            test("expectation-for-scenario", () => {});
+        });
+    });
+  {{< /tab >}}
+  {{< tab header="Java" >}}
+    @DisplayName("unit-under-test")
+    class ExampleTest {
+        @Nested @DisplayName("scenario-for-unit")
+        class ExampleScenario {
+            @Test @DisplayName("expectation-for-scenario")
+            void expectationForScenario() {
+                //
+            }
+        }
+    }
+  {{< /tab >}}
+{{< /tabpane >}}
 
 ## Continuously Assess your Tests Effectiveness
 
@@ -96,4 +131,4 @@ Make sure it's still covering for valid use cases
 
 ## Shift Left
 
-***["Write tests, not too many, mostly integration." - Guillermo Rauch.](https://kentcdodds.com/blog/write-tests)***
+***["Write tests, not too many, mostly integration." - Kent C. Dodds](https://kentcdodds.com/blog/write-tests)***

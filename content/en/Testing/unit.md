@@ -41,12 +41,63 @@ The purpose of unit tests are to:
 
 ## Examples
 
-<CodeTabs id="unit-test-examples">
+{{< tabpane langEqualsHeader="true" >}}
+  {{< tab header="JavaScript" >}}
+    // Example from lodash
+    describe('castArray', () => {
+        it('should wrap non-array items in an array', () => {
+            const values = falsey.concat(true, 1, 'a', { a: 1 });
+            const expected = lodashStable.map(values, (value) => [value]);
+            const actual = lodashStable.map(values, castArray);
 
-`embed:examples/unit-test.java`
-`embed:examples/unit-test.js`
+            expect(actual).toEqual(expected);
+        });
 
-</CodeTabs>
+        it('should return array values by reference', () => {
+            const array = [1];
+            expect(castArray(array)).toBe(array);
+        });
+
+        it('should return an empty array when no arguments are given', () => {
+            expect(castArray()).toEqual([]);
+        });
+    });
+  {{< /tab >}}
+  {{< tab header="Java" >}}
+    @Test
+    // Mock the userService
+    public void verifyMockedUserDetails() throws Exception {
+
+      // ===============Arrange===============
+      ObjectMapper mapper = new ObjectMapper();
+      User userMockData = mapper.readValue(new File(TestConstants.DATA_FILE_ROOT + "user_mock.json"), User.class);
+
+      // This code mocks the getUserInfo method for userService
+      // Any call made to the getUserInfo will not make actual method call instead
+      // returns the userMockData
+      Mockito.when(userService.getUserInfo(TestConstants.userId)).thenReturn(userMockData);
+
+      // ===============Act===============
+      RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/user/" + TestConstants.userId)
+      .accept(MediaType.APPLICATION_JSON);
+
+      MvcResult mvcResponse = mockMvc.perform(requestBuilder).andReturn();
+      String responsePayload = mvcResponse.getResponse().getContentAsString();
+      String status = JsonPath.parse(responsePayload).read("$.STATUS");
+        Map<String, String> userMap = JsonPath.parse(responsePayload).read("$.payload");
+
+      // ===============Assert===============
+      JSONAssert.assertEquals(TestConstants.PARTIAL_MOCK_SUCCESS_PAYLOAD, responsePayload, false); // disable strict
+      // validate the expected userMockData is matching with actual userMap Data
+      Assert.assertEquals(TestConstants.SUCCESS, status);
+      Assert.assertEquals(userMockData.getManager(), userMap.get("manager"));
+      Assert.assertEquals(userMockData.getVp(), userMap.get("vp"));
+      Assert.assertEquals(userMockData.getOrganization(), userMap.get("organization"));
+      Assert.assertEquals(userMockData.getDirector(), userMap.get("director"));
+      Assert.assertEquals(userMockData.getCostcenter(), userMap.get("costcenter"));
+    }
+  {{< /tab >}}
+{{< /tabpane >}}
 
 ## Recommended Tooling
 
