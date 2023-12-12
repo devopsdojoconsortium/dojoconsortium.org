@@ -19,15 +19,14 @@ tightly coupled with another component.
 ## Recommended Practices
 
 Decompose stories using [Behavior Driven Development](../behavior-driven-development).
-This not only helps with feature discovery and with uncovering dependencies, but
-also aids with [story slicing](../story-slicing) since each acceptance test
+This not only helps with feature discovery and uncovering dependencies but also aids with [story slicing](../story-slicing) since each acceptance test
 is naturally a thin, vertical
 slice.
 
-Prior to refining, use relative sizing to project order of magnitude estimates
+Before refining, use relative sizing to project order of magnitude estimates
 for delivery. However, these should not be used for commitments. Committing to
 unrefined deliveries increases team allocation with re-work and "Date Driven
-Development", reduces quality, and lowers end user satisfaction.
+Development", reduces quality, and lowers end-user satisfaction.
 
 To avoid hard dependencies, first slice stories as small as possible to minimize
 the number of possible dependencies. After that, attempt to make any hard
@@ -38,8 +37,7 @@ solutions.
 
 - Use [Cynefin](https://en.wikipedia.org/wiki/Cynefin_framework) to aid in
   estimating complexity.
-- If the team does not agree with the estimate, refine further. Avoid "averaging"
+- If the team does not agree with the estimate, refine it further. Avoid "averaging"
   the team's estimate.
-- Track estimates against actual to see how consistent the team is.
 
 ---

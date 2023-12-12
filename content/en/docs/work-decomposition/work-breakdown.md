@@ -17,8 +17,7 @@ team needs to have the following prerequisites and understandings.
 ## Work Breakdown Process
 
 The goal of the work breakdown process is to decompose work into small batches
-that can be delivered frequently, multiples times a week, in order to deliver
-value faster with less rework.
+that can be delivered frequently, multiple times a week, to deliver value faster with less rework.
 
 The general work breakdown process involves:
 
@@ -33,12 +32,12 @@ It is important that the team keep these tips in mind when decomposing work:
 3. Good acceptance criteria come from good communication. Avoid the following anti-patterns:
    1. Someone outside the team writes acceptance criteria and hands it to the team. Since the team was not involved with
       the conversation, there's no chance to uncover assumptions and the team has less investment in the outcomes.
-   2. One person on the team writes acceptance criteria. Same problem is above.
+   2. One person on the team writes acceptance criteria. The same problem is above.
    3. Each team member is assigned work based on their expertise. This removes communication and also ensures that
       people are only focused on understanding **their** tasks. Again, the team as a whole isn't invested in the
-      outcomes. This typically results in finger pointing when something fails. Also, if someone is unavailable, the
+      outcomes. This typically results in finger-pointing when something fails. Also, if someone is unavailable, the
       rest of the team lacks context to pick it up.
-4. Refining should be focused on outcomes, not volume. If we have a 1 hour meeting and 10 stories to refine, it's better
+4. Refining should be focused on outcomes, not volume. If we have a 1-hour meeting and 10 stories to refine, it's better
    to have one fully refined story we can work on than 10 partially refined stories that we'll "figure out during
    development". Stop refining a story when we agree on the acceptance criteria or agree it's blocked and needs more
    information. Only then should we move to the next story. Stop the meeting at the scheduled time.
@@ -59,10 +58,10 @@ Common struggles for teams when breaking down ideas into epics and features:
 
 ### Refining Epics/Features into Stories
 
-Stories are observable changes that have clear acceptance criteria, and can be
+Stories are observable changes that have clear acceptance criteria and can be
 completed in less than two days. Stories are made up of one or more tasks.
 
-Typic al problems teams experience with decomposition are:
+Typical problems teams experience with decomposition are:
 
 - [Stories are too big](../story-slicing)
 - [Stories are too complex](../complexity-workbreakdown)
@@ -74,13 +73,9 @@ Typic al problems teams experience with decomposition are:
 
 ### Refining Stories into Development Tasks
 
-Tasks are independently deployable changes that can be merged to trunk daily.
-
-Breaking stories down into tasks gives teams the ability to swarm work and deliver
-value faster.
-
-In order for teams to visualize tasks required to implement scenarios, they need
-to understand what a [good task](../task-decomposition) looks like.
+- Tasks are independently deployable changes that can be merged to trunk daily.
+- Breaking stories down into tasks gives teams the ability to swarm work and deliver value faster.
+- For teams to visualize tasks required to implement scenarios, they need to understand what a [good task](../task-decomposition) looks like.
 
 ---
 

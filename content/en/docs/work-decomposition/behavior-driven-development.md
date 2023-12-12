@@ -10,8 +10,8 @@ Behavior Driven Development is the collaborative process where we discuss the in
 document the understanding in a declarative, testable way. These testable acceptance criteria should be the
 [Definition of Done](/docs/workflow-management/definition-of-done) for a
 user story.
-BDD is **not** a technology or automated tool. BDD is the process for **defining** the behavior. We can then write
-automated tests for those behaviors.
+BDD is **not** a technology or automated tool. BDD is the process of **defining** the behavior. We can then
+automate tests for those behaviors.
 
 Example:
 
@@ -65,9 +65,9 @@ Then I will receive an error
 
 ### Using Acceptance Criteria to Negotiate and Split
 
-With the above criteria, it may be acceptable to remove the time validation and
-accelerate delivery of the time logging ability. After delivery, the validation
-may not be required. If true, we've saved money and time by NOT delivering
+With the above criteria, it may be acceptable to remove the time validation and accelerate the delivery of the time
+logging ability. After delivery, we may learn that the range validation
+isn't required. If true, we've saved money and time by NOT delivering
 unneeded features.
 First, we deliver the ability to clock in and see if we really do need the ability
 to verify.
@@ -121,7 +121,7 @@ Then I will receive an error
 - If a story has more than 6 acceptance criteria, it can probably be split.
 - No acceptance test should contain more than 10 conditions. In fact, much less
   is recommended.
-- Acceptance tests can be used to describe a full end to end user experience. They are also recommended for describing
+- Acceptance tests can be used to describe a full end-to-end user experience. They are also recommended for describing
   the behavior of a single component in the flow of the overall behavior.
 
 ---
@@ -131,7 +131,7 @@ Then I will receive an error
 - [Gherkin Reference](https://cucumber.io/docs/gherkin/reference/)
 - [BDD Primer](https://lizkeogh.com/behaviour-driven-development/) - Liz Keogh
 - [Better Executable Specifications](https://www.youtube.com/watch?v=5CXSEINRojM) - Dave Farley
-- [A Real world Example of BDD](https://www.youtube.com/watch?v=9P5WG8CkPrQ) - Dave Farley
+- [A Real-world Example of BDD](https://www.youtube.com/watch?v=9P5WG8CkPrQ) - Dave Farley
 - <a href="/assets/ATDD - How to Guide.pdf" target="_blank">ATDD - How to Guide</a> - Dave Farley
 
 ---
