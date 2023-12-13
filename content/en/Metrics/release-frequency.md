@@ -2,7 +2,7 @@
 type: docs
 weight: 10
 title: Delivery Frequency
-aliases: [/metrics/release-frequency/]
+
 tags:
   - metrics
   - throughput

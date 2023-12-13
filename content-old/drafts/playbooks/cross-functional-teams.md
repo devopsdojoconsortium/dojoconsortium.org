@@ -1,5 +1,5 @@
 ---
-draft: true
+
 title: Cross Functional Teams
 ---
 

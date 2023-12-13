@@ -1,6 +1,6 @@
 ---
 title: Definition of Ready
-aliases: [/work-decomposition/definition-of-ready/]
+
 tags: [teamwork, decomposition]
 ---
 

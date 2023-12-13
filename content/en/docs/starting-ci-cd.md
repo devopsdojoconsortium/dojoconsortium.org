@@ -1,6 +1,6 @@
 ---
 title: Getting Started with CD
-aliases: [/continuous-delivery/starting-ci-cd/]
+
 weight: 1
 tags:
   - cd
@@ -152,7 +152,7 @@ steps that should be done whenever starting the CD journey.
 - [Value Stream Map](/docs/vsm): This is a standard Lean tool to make visible
   the development process and highlight any constraints the team has. This is a
   critical step to begin improvement.
-Build a road map of the constraints and use a [disciplined improvement process](./playbooks/improvement-kata.html)
+Build a road map of the constraints and use a [disciplined improvement process](improvement-kata)
   to remove the constraints.
 - Align to the Continuous Integration team working agreement and use the
   impediments to feed the team's improvement process.
@@ -201,9 +201,9 @@ There should be no manual intervention after the code is integrated into the tru
 
 ## Tips
 
-Use [trunk merge frequency](/metrics/integration-frequency),
-[development cycle time](/metrics/development-cycle-time), and
-[delivery frequency](/metrics/release-frequency) to uncover pain points. The team has
+Use [trunk merge frequency](/en/metrics/integration-frequency),
+[development cycle time](/en/metrics/development-cycle-time), and
+[delivery frequency](/en/metrics/release-frequency) to uncover pain points. The team has
 complete control merge frequency and development cycle time and can
 uncover most issues by working to improve those two metrics.
 

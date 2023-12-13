@@ -2,7 +2,7 @@
 type: docs
 weight: 10
 title: Build Cycle Time
-aliases: [/metrics/build-duration/]
+
 tags:
   - metrics
   - throughput

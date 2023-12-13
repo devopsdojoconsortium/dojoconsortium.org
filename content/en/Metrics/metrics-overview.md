@@ -2,7 +2,7 @@
 weight: 1
 title: Metrics Overview
 type: docs
-aliases: [/metrics/metrics-overview/]
+
 tags:
   - metrics
 ---

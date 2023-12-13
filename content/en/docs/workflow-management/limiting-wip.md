@@ -1,6 +1,6 @@
 ---
 title: Work in Progress
-aliases: [/workflow-management/limiting-wip/]
+
 tags:
   - workflow management
   - teamwork

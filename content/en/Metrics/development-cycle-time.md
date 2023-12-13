@@ -2,7 +2,7 @@
 type: docs
 weight: 10
 title: Development Cycle Time
-aliases: [/metrics/development-cycle-time/]
+
 tags:
   - metrics
   - flow

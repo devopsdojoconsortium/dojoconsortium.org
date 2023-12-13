@@ -1,5 +1,5 @@
 ---
-draft: true
+
 title: Improving Pipeline Architecture
 ---
 
@@ -54,7 +54,7 @@ integrated automatically into a master CI flow daily.
 
 Any breaks in the pipeline should be addressed immediately by the team who owns the branch.
 
-#### Common Entangled Practices:
+#### Common Entangled Practices
 
 **Team Structure**: Feature teams focused on cross-cutting deliverables instead of product ownership and capability expertise.
 

@@ -1,6 +1,6 @@
 ---
 title: Source Branching
-aliases: [/tech-tips/branching/]
+
 weight: 1
 ---
 
@@ -14,9 +14,9 @@ weight: 1
 - Trunk can always be built and deployed without breaking production.
   - When needed, use techniques like the Branch by Abstraction pattern or feature flags to ensure backwards compatibility.
 - All changes to trunk include _all_ appropriate automated tests.
-  - [Unit tests](/testing/unit)
-  - [Functional test](/testing/functional)
-  - [Contract tests](/testing/contract)
+  - [Unit tests](/en/testing/unit)
+  - [Functional test](/en/testing/functional)
+  - [Contract tests](/en/testing/contract)
   - etc.
 - Branching vs. Forking: It is important that the right process be use for the right reason. Branches are the primary flow for CI
   and are critical for allowing the team to have visibility to work in progress that the team is responsible for completing. Forks

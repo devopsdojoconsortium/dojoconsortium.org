@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: Workflow Process
-aliases: [/workflow-management/workflow-process]
+
 tags:
   - workflow management
 ---

@@ -1,7 +1,7 @@
 ---
 title: Task Decomposition
 weight: 10
-aliases: [/work-decomposition/task-decomposition/]
+
 tags: [decomposition]
 ---
 

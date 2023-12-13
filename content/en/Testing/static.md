@@ -1,12 +1,12 @@
 ---
 title: Static Testing
-aliases: [/test-architecture/static/]
+
 type: docs
 ---
 
 > A static test is a test that evaluates non-running code against rules for known good practices to check for security, structure, or practice issues.
 >
-> -- [Testing Glossary](/testing/glossary#static-test)
+> -- [Testing Glossary](/en/testing/glossary#static-test)
 
 Static code analysis has many key purposes.
 
@@ -44,8 +44,6 @@ Static code analysis has many key purposes.
 - Write custom rules (lint, formatting, etc) for common code review feedback
 
 ## Recommended Tooling
-
-Tooling recommendations based on [Testing Strategy ADR](/adrs/001)
 
 | Platform   | Tools                                                                     |
 | ---------- | ------------------------------------------------------------------------- |

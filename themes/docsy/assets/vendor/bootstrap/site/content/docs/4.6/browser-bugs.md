@@ -2,10 +2,11 @@
 layout: docs
 title: Wall of browser bugs
 group: browser-bugs
-aliases: "/browser-bugs/"
+
 ---
 
 {{< callout danger >}}
+
 ##### Outdated content
 
 This page is outdated and is no longer applicable to the latest versions of Bootstrap. It's here purely for historical purposes now and will be removed in our next major release.
@@ -21,7 +22,6 @@ See also:
 * [Mozilla bug 1230801: Fix the issues that affect Bootstrap](https://bugzilla.mozilla.org/show_bug.cgi?id=1230801)
 * [WebKit bug 159753: [meta] Issues affecting Bootstrap](https://bugs.webkit.org/show_bug.cgi?id=159753)
 * [jQuery's browser bug workarounds](https://docs.google.com/document/d/1LPaPA30bLUB_publLIMF0RlhdnPx_ePXm7oW02iiT6o)
-
 
 {{< bug.inline >}}
 {{- $type := .Get "type" | default "bug" -}}

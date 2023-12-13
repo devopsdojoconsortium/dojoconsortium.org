@@ -2,7 +2,7 @@
 type: docs
 weight: 10
 title: Quality
-aliases: [/metrics/quality/]
+
 tags:
   - metrics
   - stability

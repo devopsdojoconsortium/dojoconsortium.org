@@ -2,7 +2,7 @@
 type: docs
 weight: 10
 title: MTTR
-aliases: [/metrics/mean-time-to-repair/]
+
 tags:
   - metrics
   - stability

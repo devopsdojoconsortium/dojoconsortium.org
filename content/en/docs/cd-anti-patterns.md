@@ -1,7 +1,6 @@
 ---
 title: Common Blockers
 weight: 2
-aliases: [/continuous-delivery/cd-anti-patterns/]
 tags:
   - cd
 ---

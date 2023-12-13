@@ -1,7 +1,7 @@
 ---
 title: 24 Capabilities to Drive Improvement
 linkTitle: DORA Recommendations
-aliases: [/continuous-delivery/dora-recommendations/]
+
 weight: 2
 tags:
   - cd

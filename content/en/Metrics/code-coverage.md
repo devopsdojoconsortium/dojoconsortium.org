@@ -2,7 +2,7 @@
 type: docs
 weight: 10
 title: Code Coverage
-aliases: [/metrics/code-coverage/]
+
 tags:
   - metrics
   - stability
