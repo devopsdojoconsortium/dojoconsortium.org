@@ -1,6 +1,6 @@
 ---
 title: From Program to User Story
-aliases: [/tech-tips/program-to-user/]
+
 ---
 
 Aligning priorities across multi-team products can be challenging. However, the process used at the team level to decompose work
@@ -11,7 +11,7 @@ functions just as well at the program level.
 In order to have an effective work breakdown process, goals and priorities need
 to be established and understood.
 
-<img src="/images/program-roadmap.png" width="60%">
+[![](/images/program-roadmap.png)](/images/program-roadmap.png)
 
 Stakeholders and leadership teams must define the high-level initiatives, and
 their priorities, so that work may be dispersed among product teams.
@@ -39,5 +39,5 @@ the team may decompose work includes product owners,
 tech leads, and project managers.
 
 Product teams should use the processes effective for
-[Work Decomposition](./../work-breakdown), to breakdown
+[Work Decomposition](/en/docs/work-decomposition/work-breakdown), to breakdown
 epics into smaller epics, stories, and tasks.

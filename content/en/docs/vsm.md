@@ -70,9 +70,7 @@ estimate/average based on your team's feedback.
 - Possible constraints to your flow based on process time/wait time, rework loops, and percent complete/accurate. You
   can present these on your VSM as kaizen bursts.
 
-<a href="/images/value-stream-map.png" target="_blank">
-  <img src="/images/value-stream-map.png" width="100%">
-</a>
+[![](/images/value-stream-map.png)](/images/value-stream-map.png)
 
 ## Tips
 

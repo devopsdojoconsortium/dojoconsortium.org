@@ -1,6 +1,6 @@
 ---
 title: Spikes
-aliases: [/work-decomposition/spikes/]
+
 tags: [teamwork, decomposition]
 ---
 
@@ -16,7 +16,7 @@ infrequently when the team has no idea on how to proceed with a work item. They
 should result in information that can be used to better refine work into something
 valuable, for some iteration in the future.
 
-Spikes should follow a [Definition of Done](/docs/workflow-management/definition-of-done),
+Spikes should follow a [Definition of Done](/en/docs/workflow-management/definition-of-done),
 with acceptance criteria, that can be demoed at the end of its timebox.
 
 A spike should have a definite timebox, usually within 1-3 days. At the end of

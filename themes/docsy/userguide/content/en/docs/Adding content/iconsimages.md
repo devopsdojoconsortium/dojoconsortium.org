@@ -47,9 +47,9 @@ If you have special favicon requirements, you can create your own `layouts/parti
 
 ### Landing pages
 
-Docsy's [`blocks/cover` shortcode](/docs/adding-content/shortcodes/#blocks-cover) make it easy to add large cover images to your landing pages. The shortcode looks for an image with the word "background" in the name inside the landing page's [Page Bundle](https://gohugo.io/content-management/page-bundles/) - so, for example, if you've copied the example site, the landing page image in `content/en/_index.html` is `content/en/featured-background.jpg`.
+Docsy's [`blocks/cover` shortcode](/en/docs/adding-content/shortcodes/#blocks-cover) make it easy to add large cover images to your landing pages. The shortcode looks for an image with the word "background" in the name inside the landing page's [Page Bundle](https://gohugo.io/content-management/page-bundles/) - so, for example, if you've copied the example site, the landing page image in `content/en/_index.html` is `content/en/featured-background.jpg`.
 
-You specify the preferred display height of a cover block container (and hence its image) using the block's `height` parameter.  For a full viewport height, use `full`: 
+You specify the preferred display height of a cover block container (and hence its image) using the block's `height` parameter.  For a full viewport height, use `full`:
 
 ```html
 {{</* blocks/cover title="Welcome to the Docsy Example Project!" image_anchor="top" height="full" color="orange" */>}}
@@ -67,9 +67,8 @@ For a shorter image, as in the example site's About page, use one of `min`, `med
 
 ### Other pages
 
-To add inline images to other pages, use the [`imgproc` shortcode](/docs/adding-content/shortcodes/#imgproc). Alternatively, if you prefer, just use regular Markdown or HTML images and add your image files to your project's `static` directory. You can find out more about using this directory in [Adding static content](/docs/adding-content/content/#adding-static-content).
+To add inline images to other pages, use the [`imgproc` shortcode](/en/docs/adding-content/shortcodes/#imgproc). Alternatively, if you prefer, just use regular Markdown or HTML images and add your image files to your project's `static` directory. You can find out more about using this directory in [Adding static content](/en/docs/adding-content/content/#adding-static-content).
 
 ## Images used on this site
 
 Images used as background images in this site are in the [public domain](https://commons.wikimedia.org/wiki/User:Bep/gallery#Wed_Aug_01_16:16:51_CEST_2018) and can be used freely. The porridge image in the example site is by <a href="https://pixabay.com/users/iha31-560629/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=531209">iha31</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=531209">Pixabay</a>.
-

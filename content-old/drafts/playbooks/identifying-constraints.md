@@ -1,5 +1,5 @@
 ---
-draft: true
+
 title: Identifying Constraints
 ---
 

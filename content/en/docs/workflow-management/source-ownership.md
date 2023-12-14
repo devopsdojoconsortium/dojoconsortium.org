@@ -1,7 +1,7 @@
 ---
 title: Source Ownership
-draft: true
-aliases: [/tech-tips/source-ownership/]
+
+
 weight: 1
 ---
 
@@ -18,7 +18,7 @@ what's happening in the code._**
 
 ## Tips
 
-- Teams looking to create an [InnerSourcing](../innersource) policy can start by applying their Definition of Done to any external contributions.
+- Teams looking to create an [InnerSourcing](https://innersourcecommons.org/) policy can start by applying their Definition of Done to any external contributions.
 - If any developer on the team does not have the ability to merge code, ask "Why?".
 
 ## Value
@@ -30,13 +30,13 @@ As a team we want to create a culture of source ownership so that we can increas
 - No contributions to source bypass the team's approval.
 - Automated pipelines validate that PRs from internal and external contributors conform to quality standards.
 - All team members have access to merge to trunk.
-- [InnerSourcing](../innersource) and/or external contributions **fork the repository they do not branch**.
+- [InnerSourcing](https://innersourcecommons.org/) and/or external contributions **fork the repository they do not branch**.
 - Teams no larger than 12 people per team.
 
 ## References
 
-- Go check out the [CD Anti Patterns](../../cd-anti-patterns)
-  page to learn about [Team Structure](../../cd-anti-patterns#team-structure)
+- Go check out the [CD Anti Patterns](/en/docs/cd-anti-patterns)
+  page to learn about [Team Structure](/en/docs/cd-anti-patterns#team-structure)
   and many other anti-patterns to avoid in your journey.
 
 ---

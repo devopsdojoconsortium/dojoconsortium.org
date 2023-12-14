@@ -8,7 +8,7 @@ description: >
 
 ## Top-level menu
 
-The top level menu (the one that appears in the top navigation bar for the entire site) uses your site's [`main` menu](https://gohugo.io/content-management/menus/). All Hugo sites have a `main` menu array of menu entries, accessible via the `.Site.Menus` site variable and populatable via page front matter or your site's `config.toml`. 
+The top level menu (the one that appears in the top navigation bar for the entire site) uses your site's [`main` menu](https://gohugo.io/content-management/menus/). All Hugo sites have a `main` menu array of menu entries, accessible via the `.Site.Menus` site variable and populatable via page front matter or your site's `config.toml`.
 
 To add a page or section to this menu, add it to the site's `main` menu in either `config.toml` or in the destination page's front matter (in `_index.md` or `_index.html` for a section, as that's the section landing page). For example, here's how we added the Documentation section landing page to the main menu in this site:
 
@@ -44,7 +44,7 @@ As described in the [Hugo docs](https://gohugo.io/content-management/menus/#add-
     weight = 50
     url = "https://github.com/google/docsy/"
     pre = "<i class='fab fa-github'></i>"
-    post = "<span class='alert'>New!</span>" 
+    post = "<span class='alert'>New!</span>"
 ```
 
 You can find a complete list of icons to use in the [FontAwesome documentation](https://fontawesome.com/icons?d=gallery&p=2). Docsy includes the free FontAwesome icons by default.
@@ -54,14 +54,14 @@ You can find a complete list of icons to use in the [FontAwesome documentation](
 If you add some `[params.versions]` in `config.toml`, the Docsy theme adds a
 version selector drop down to the top-level menu.
 
-You can find out more in the guide to 
-[versioning your docs](/docs/adding-content/versioning/).
+You can find out more in the guide to
+[versioning your docs](/en/docs/adding-content/versioning/).
 
 ### Adding a language drop-down
 
 If you configure more than one language in `config.toml`, the Docsy theme adds a language selector drop down to the top-level menu. Selecting a language takes the user to the translated version of the current page, or the home page for the given language.
 
-You can find out more in [Multi-language support](/docs/language/).
+You can find out more in [Multi-language support](/en/docs/language/).
 
 ## Section menu
 
@@ -78,7 +78,7 @@ description: >
 ---
 ```
 
-To hide a page or section from the left navigation menu, set `toc_hide: true` in the front matter. 
+To hide a page or section from the left navigation menu, set `toc_hide: true` in the front matter.
 
 To hide a page from the section summary on a [docs section landing page]({{< ref "content#docs-section-landing-pages" >}}), set `hide_summary: true` in the front matter. If you want to hide a page from both the TOC menu and the section summary list, you need to set both `toc_hide` and `hide_summary` to `true` in the front matter.
 
@@ -105,7 +105,7 @@ On large sites (default: > 2000 pages) the section menu is not generated for eac
 
 ### Add icons to the section menu
 
-You can add icons to the section menu in the sidebar by setting the `icon` parameter in the page front matter (e.g. `icon: fas fa-tools`). 
+You can add icons to the section menu in the sidebar by setting the `icon` parameter in the page front matter (e.g. `icon: fas fa-tools`).
 
 You can find a complete list of icons to use in the [FontAwesome documentation](https://fontawesome.com/icons?d=gallery&p=2). Docsy includes the free FontAwesome icons by default.
 
@@ -113,9 +113,9 @@ Out of the box, if you want to use icons, you should define icons for all items 
 
 ### Add manual links to the section menu
 
-By default the section menu is entirely generated from your section's pages. If you want to add a manual link to this menu, such as a link to an external site or a page in a different section of your site, you can do this by creating a *placeholder page file* in the doc hierarchy with the appropriate weight and some special parameters in its metadata (frontmatter) to specify the link details. 
+By default the section menu is entirely generated from your section's pages. If you want to add a manual link to this menu, such as a link to an external site or a page in a different section of your site, you can do this by creating a *placeholder page file* in the doc hierarchy with the appropriate weight and some special parameters in its metadata (frontmatter) to specify the link details.
 
-To create a placeholder page, create a page file as usual in the directory where you want the link to show up in the menu, and add a `manualLink` parameter to its metadata. If a page has `manualLink` in its metadata, Docsy generates a link for it in the section menu for this page and in the section index (the list of the child pages of a section on a landing page - see [description in the Docsy docs](/docs/adding-content/content/#docs-section-landing-pages)), but the link destination is replaced by the value of `manualLink`. The link text is the `title` (or `linkTitle` if set) of your placeholder page. You can optionally also set the `title` attribute of the link with the parameter `manualLinkTitle` and a link target with `manualLinkTarget` - for example if you want an external link to open in a new tab you can set the link target to `_blank`. Docsy automatically adds `rel=noopener` to links that open new tabs as a security best practice.
+To create a placeholder page, create a page file as usual in the directory where you want the link to show up in the menu, and add a `manualLink` parameter to its metadata. If a page has `manualLink` in its metadata, Docsy generates a link for it in the section menu for this page and in the section index (the list of the child pages of a section on a landing page - see [description in the Docsy docs](/en/docs/adding-content/content/#docs-section-landing-pages)), but the link destination is replaced by the value of `manualLink`. The link text is the `title` (or `linkTitle` if set) of your placeholder page. You can optionally also set the `title` attribute of the link with the parameter `manualLinkTitle` and a link target with `manualLinkTarget` - for example if you want an external link to open in a new tab you can set the link target to `_blank`. Docsy automatically adds `rel=noopener` to links that open new tabs as a security best practice.
 
  You can also use `manualLink` to add an additional cross reference to another existing page of your site. For internal links you can choose to use the parameter `manualLinkRelref` instead of `manualLink` to use the built-in Hugo function [relref](https://gohugo.io/functions/relref/ "External link to official Hugo Docs"). If `relref` can't find a unique page in your site, Hugo throws a error message.
 
@@ -149,16 +149,16 @@ sidebar_search_disable = true
 
 ## Configure search with a Google Custom Search Engine
 
-By default Docsy uses a [Google Custom Search Engine](https://cse.google.com/cse/all) (GCSE) to search your site. To enable this feature, you'll first need to make sure that you have built and deployed [a production version of your site](/docs/deployment#build-environments-and-indexing), as otherwise your site won't be crawled and indexed.
+By default Docsy uses a [Google Custom Search Engine](https://cse.google.com/cse/all) (GCSE) to search your site. To enable this feature, you'll first need to make sure that you have built and deployed [a production version of your site](/en/docs/deployment#build-environments-and-indexing), as otherwise your site won't be crawled and indexed.
 
 ### Setting up site search
 
-1.  Create a Google Custom Search Engine for your deployed site by clicking **New search engine** on the [Custom Search page](https://cse.google.com/cse/all) and following the instructions. Make a note of the ID for your new search engine.
-1.  Add any further configuration you want to your search engine using the **Edit search engine** options. In particular you may want to do the following:
+1. Create a Google Custom Search Engine for your deployed site by clicking **New search engine** on the [Custom Search page](https://cse.google.com/cse/all) and following the instructions. Make a note of the ID for your new search engine.
+1. Add any further configuration you want to your search engine using the **Edit search engine** options. In particular you may want to do the following:
 
     * Select **Look and feel**. Change from the default **Overlay** layout to **Results only**, as this option means your search results are embedded in your search page rather than appearing in a separate box. Click **Save** to save your changes.
     * Edit the default result link behavior so that search results from your site don't open in a new tab. To do this, select **Search Features** - **Advanced** - **Websearch Settings**. In the **Link Target** field, type "\_parent". Click **Save** to save your changes.
-    
+
 {{% alert title="Tip" %}}
 Your site search results should show up within a couple of days. If it takes longer than that, you can manually request that your site is indexed by [submitting a sitemap through the Google Search Console](https://support.google.com/webmasters/answer/183668?hl=en).
 {{% /alert %}}
@@ -210,7 +210,7 @@ If you are accepted to the program, you will receive the JavaScript code to add 
 
 3. Disable the sidebar search in `config.toml` as this is not currently supported for Algolia DocSearch. See [Disabling the sidebar search box](#disabling-the-sidebar-search-box).
 
-3. Add the JavaScript code provided to you by Algolia to the head and body of every page on your site. See [Add code to head or before body end](/docs/adding-content/lookandfeel/#add-code-to-head-or-before-body-end) for details.
+3. Add the JavaScript code provided to you by Algolia to the head and body of every page on your site. See [Add code to head or before body end](/en/docs/adding-content/lookandfeel/#add-code-to-head-or-before-body-end) for details.
 
 4. Update the `inputSelector` field in the body end Javascript with the appropriate CSS selector (e.g. `.td-search-input` to use the default CSS from this theme).
 
@@ -234,7 +234,7 @@ To add Lunr search to your Docsy site:
 Once you've completed these steps, local search is enabled for your site and results appear in a drop down when you use the search box.
 
 {{% alert title="Tip" %}}
-If you're [testing this locally](/docs/deployment/#serving-your-site-locally) using Hugo’s local server functionality, you need to build your `offline-search-index.xxx.json` file first by running `hugo`. If you have the Hugo server running while you build `offline-search-index.xxx.json`, you may need to stop the server and restart it in order to see your search results.
+If you're [testing this locally](/en/docs/deployment/#serving-your-site-locally) using Hugo’s local server functionality, you need to build your `offline-search-index.xxx.json` file first by running `hugo`. If you have the Hugo server running while you build `offline-search-index.xxx.json`, you may need to stop the server and restart it in order to see your search results.
 {{% /alert %}}
 
 ### Changing the summary length of the local search results

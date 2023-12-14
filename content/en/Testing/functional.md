@@ -1,23 +1,24 @@
 ---
 title: Functional Testing
-aliases: [/test-architecture/functional/]
+
 type: docs
 ---
 
-> A functional test is a [deterministic test](/testing/glossary#deterministic-test) that verifies that all modules of a sub-system are working together. They should avoid integrating with other sub-systems as this tends to reduce determinism. Instead, test doubles are preferred. Examples could include testing the behavior of a user interface through the UI or testing the business logic of individual services through the API.
+> A functional test is a [deterministic test](/en/testing/glossary#deterministic-test) that verifies that all modules of a sub-system are working together. They should avoid integrating with other sub-systems as this tends to reduce determinism. Instead, test doubles are preferred. Examples could include testing the behavior of a user interface through the UI or testing the business logic of individual services through the API.
 >
-> -- [Testing Glossary](/testing/glossary#functional-test)
+> -- [Testing Glossary](/en/testing/glossary#functional-test)
 
 ![Functional Test](/images/testing-images/functional-test.png)
 
-At a high level functional testing is a means of verifying a systems specification and fundamental requirements in a systematic and deterministic way. Functional tests further unit and integration tests by introducing an actor, typically a user or service consumer, and validating the ingress and egress of that actor. Functional tests allow for capturing, within specific consumer environments, potential issues that are inherit to that context. More often than not a functional test will cover broad-spectrum behavioral tests such as UI interactions, presentation-logic, and business-logic and their respective side-effects; Side-effects at this level are mocked and do not cross or proxy to boundaries outside of the systems control – contrast that to [E2E tests](/testing/e2e) where there are no mocks.
+At a high level functional testing is a means of verifying a systems specification and fundamental requirements in a systematic and deterministic way. Functional tests further unit and integration tests by introducing an actor, typically a user or service consumer, and validating the ingress and egress of that actor. Functional tests allow for capturing, within specific consumer environments, potential issues that are inherit to that context. More often than not a functional test will cover broad-spectrum behavioral tests such as UI interactions, presentation-logic, and business-logic and their respective side-effects; Side-effects at this level are mocked and do not cross or proxy to boundaries outside of the systems control – contrast that to [E2E tests](/en/testing/e2e) where there are no mocks.
 
 ## Recommended Best Practices
 
 - Tests should be written from the lens of an "actor" be that a user interacting with a UI component or a service interacting with a potentially stateful API.
 - Proxying or otherwise real I/O should be avoided to reduce flakiness and ensure deterministic side-effects.
-- [Test doubles](/testing/test-doubles) should generally always be used in the case where the system under test needs to interact with an out-of-context sub-system.
-- [Test doubles](/testing/
+- [Test doubles](/en/testing/test-doubles/) should generally always be used in the case where the system under test needs to interact with an out-of-context sub-system.
+- [Test doubles](/en/testing/
+
 ## Alternate Terms
 
 - Component test
@@ -32,8 +33,6 @@ At a high level functional testing is a means of verifying a systems specificati
 🚧 Under Construction 🚧
 
 ## Recommended Tooling
-
-Tooling recommendations based on [Testing Strategy ADR](/adrs/001).
 
 | Platform   | Tools                                                                                                                                                                                                |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

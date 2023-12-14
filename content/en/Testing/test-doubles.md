@@ -1,12 +1,12 @@
 ---
 title: Test Doubles
-aliases: [/test-architecture/test-doubles/]
+
 type: docs
 ---
 
 > Test doubles are one of the main concepts we use to create fast, independent, deterministic and reliable tests. Similar to the way Hollywood uses a \_stunt double\* to film dangerous scenes in a movie to avoid the costly risk a high paid actor gets hurt, we use a _test double_ in early test stages to avoid the speed and dollar cost of using the piece of software the _test double_ is standing in for. We also use _test doubles_ to force certain conditions or states of the application we want to test. _Test doubles_ can be used in any stage of testing but in general, they are heavily used during the initial testing stages in our CD pipeline and used much less in the later stages. There are many different kinds of _test doubles_ such as _stubs_, _mocks_, _spies_, etc.
 >
-> -- [Testing Glossary](/testing/glossary#test-doubles)
+> -- [Testing Glossary](/en/testing/glossary#test-doubles)
 
 ![Test Double](/images/testing-images/test-double.png)
 
@@ -63,8 +63,6 @@ type: docs
 {{< /tabpane >}}
 
 ## Recommended Frameworks
-
-Recommendations are derived from the [Testing Strategy ADR](/adrs/001).
 
 ### Platform Independent Mocking Frameworks
 

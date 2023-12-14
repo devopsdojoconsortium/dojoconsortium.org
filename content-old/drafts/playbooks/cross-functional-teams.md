@@ -1,5 +1,5 @@
 ---
-draft: true
+
 title: Cross Functional Teams
 ---
 
@@ -31,7 +31,7 @@ death.
 - All team members should perform all aspects to some level of competency.
   Prevent knowledge silos that put development or recovery time at risk.
 - Avoid flexing resources between teams. Consider
-  [innersourcing](./tech-tips/innersource.html) if a team needs extra help.
+  [innersourcing](https://innersourcecommons.org/) if a team needs extra help.
 
 ## Value
 

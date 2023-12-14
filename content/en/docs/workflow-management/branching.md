@@ -1,6 +1,6 @@
 ---
 title: Source Branching
-aliases: [/tech-tips/branching/]
+
 weight: 1
 ---
 
@@ -14,9 +14,9 @@ weight: 1
 - Trunk can always be built and deployed without breaking production.
   - When needed, use techniques like the Branch by Abstraction pattern or feature flags to ensure backwards compatibility.
 - All changes to trunk include _all_ appropriate automated tests.
-  - [Unit tests](/testing/unit)
-  - [Functional test](/testing/functional)
-  - [Contract tests](/testing/contract)
+  - [Unit tests](/en/testing/unit)
+  - [Functional test](/en/testing/functional)
+  - [Contract tests](/en//testing/contract)
   - etc.
 - Branching vs. Forking: It is important that the right process be use for the right reason. Branches are the primary flow for CI
   and are critical for allowing the team to have visibility to work in progress that the team is responsible for completing. Forks
@@ -30,7 +30,7 @@ weight: 1
 
 ### Tips
 
-- [Story Slicing](../../work-decomposition/story-slicing) helps break
+- [Story Slicing](/en/docs/work-decomposition/story-slicing) helps break
   development work into more easily consumable, testable chunks.
 - You don't have to wait to be story/feature complete as long as you have tested
   and won't break production.
@@ -41,10 +41,10 @@ weight: 1
 Trunk based continuous integration often takes workflow adjustments on the team.
 The main reasons teams struggle with CI are:
 
-- [Test architecture](../../test-architecture/cd-testing)
-- [Work that is too big and / or lacks proper refinement](/docs/work-decomposition/work-breakdown)
-- Issues with [source code ownership](../source-ownership) (one repo owned by more than one team)
-- [Workflow management](../../workflow-management/workflow-process) within the team
+- [Test architecture](/en/testing)
+- [Work that is too big and / or lacks proper refinement](/en/docs/work-decomposition/work-breakdown)
+- Issues with [source code ownership](/en/docs/workflow-management/source-ownership) (one repo owned by more than one team)
+- [Workflow management](/en/docs/workflow-management/workflow-process) within the team
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: Unit Testing
-aliases: [/test-architecture/unit/]
+
 type: docs
 ---
 
-> Unit tests are [deterministic tests](/testing/glossary#deterministic-test) that exercise a discrete unit of the application, such as a function, method, or UI component, in isolation to determine whether it behaves as expected.
+> Unit tests are [deterministic tests](/en/testing/glossary#deterministic-test) that exercise a discrete unit of the application, such as a function, method, or UI component, in isolation to determine whether it behaves as expected.
 >
-> -- [Testing Glossary](/testing/glossary#unit-test)
+> -- [Testing Glossary](/en/testing/glossary#unit-test)
 
 When testing the specs of functions, prefer testing public API (methods, interfaces, functions) to private API: the spec of private functions and methods are meant to change easily in the future, and unit-testing them would amount to writing a Change Detector Test, which is an anti-pattern.
 
@@ -100,8 +100,6 @@ The purpose of unit tests are to:
 {{< /tabpane >}}
 
 ## Recommended Tooling
-
-Tooling recommendations based on [Testing Strategy ADR](/adrs/001)
 
 | Platform   | Tools                                                                                                                                                                                                |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

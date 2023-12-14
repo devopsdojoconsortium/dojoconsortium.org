@@ -1,7 +1,7 @@
 ---
 title: Task Decomposition
 weight: 10
-aliases: [/work-decomposition/task-decomposition/]
+
 tags: [decomposition]
 ---
 
@@ -25,7 +25,7 @@ Task: Add Integration Frequency as Score Entry.
 Task: Update Score Entry for Integration Frequency.
 ```
 
-Use [Definition of Done](/docs/workflow-management/definition-of-done) as your
+Use [Definition of Done](/en/docs/workflow-management/definition-of-done) as your
 checklist for completing a development task.
 
 ---

@@ -1,5 +1,6 @@
 
 ---
+
 title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
@@ -7,7 +8,6 @@ date: 2018-07-30
 description: >
   This page tells you how to get started with the Docsy theme, including installation and basic configuration.
 ---
-
 
 ## Prerequisites and installation
 
@@ -20,9 +20,9 @@ You can see how to get started with this approach by following our [Docker
 Quickstart tutorial](quickstart-docker). If you don't want to use Docker,
 follow the instructions below to install Hugo and PostCSS.
 
-### Install Hugo 
+### Install Hugo
 
-You need a [recent **extended** version](https://github.com/gohugoio/hugo/releases) (we recommend version 0.75.0 or later) of [Hugo](https://gohugo.io/) to do local builds and previews of sites (like this one) that use Docsy. If you install from the release page, make sure to get the `extended` Hugo version, which supports [SCSS](https://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html); you may need to scroll down the list of releases to see it. 
+You need a [recent **extended** version](https://github.com/gohugoio/hugo/releases) (we recommend version 0.75.0 or later) of [Hugo](https://gohugo.io/) to do local builds and previews of sites (like this one) that use Docsy. If you install from the release page, make sure to get the `extended` Hugo version, which supports [SCSS](https://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html); you may need to scroll down the list of releases to see it.
 
 For comprehensive Hugo documentation, see [gohugo.io](https://gohugo.io/).
 
@@ -35,25 +35,26 @@ If you've already installed Hugo, check your version:
 ```
 hugo version
 ```
+
 If the result is `v0.75` or earlier, or if you don't see `Extended`, you'll need to install the latest version. You can see a complete list of Linux installation options in [Install Hugo](https://gohugo.io/getting-started/installing/#linux). The following shows you how to install Hugo from the release page:
-    
-1.  Go to the [Hugo releases](https://github.com/gohugoio/hugo/releases) page.
-2.  In the most recent release, scroll down until you find a list of
+
+1. Go to the [Hugo releases](https://github.com/gohugoio/hugo/releases) page.
+2. In the most recent release, scroll down until you find a list of
     **Extended** versions.
-3.  Download the latest extended version (`hugo_extended_0.5X_Linux-64bit.tar.gz`).
-4.  Create a new directory:
+3. Download the latest extended version (`hugo_extended_0.5X_Linux-64bit.tar.gz`).
+4. Create a new directory:
 
         mkdir hugo
 
-5.  Extract the files you downloaded to `hugo`.
+5. Extract the files you downloaded to `hugo`.
 
-6.  Switch to your new directory:
+6. Switch to your new directory:
 
         cd hugo
 
-7.  Install Hugo:
+7. Install Hugo:
 
-        sudo install hugo /usr/bin    
+        sudo install hugo /usr/bin
 
 #### macOS
 
@@ -90,16 +91,16 @@ Note that versions of `PostCSS` later than 5.0.1 will not load `autoprefixer` if
 
 To use the Docsy Hugo theme, you have a couple of options:
 
-*   **Copy and edit the source for the [Docsy example site](https://github.com/google/docsy-example).** This approach gives you a skeleton structure for your site, with top-level and documentation sections and templates that you can modify as necessary. The example site uses Docsy as a [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules), so it's easy to [keep up to date](/docs/updating/).
-*   **Build your own site using the Docsy theme.** Specify the [Docsy theme](https://github.com/google/docsy) like any other [Hugo theme](https://gohugo.io/themes/) when creating or updating your site. With this option, you'll get Docsy look and feel, navigation, and other features, but you'll need to specify your own site structure. 
+* **Copy and edit the source for the [Docsy example site](https://github.com/google/docsy-example).** This approach gives you a skeleton structure for your site, with top-level and documentation sections and templates that you can modify as necessary. The example site uses Docsy as a [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules), so it's easy to [keep up to date](/en/docs/updating/).
+* **Build your own site using the Docsy theme.** Specify the [Docsy theme](https://github.com/google/docsy) like any other [Hugo theme](https://gohugo.io/themes/) when creating or updating your site. With this option, you'll get Docsy look and feel, navigation, and other features, but you'll need to specify your own site structure.
 
 ### Option 1: Copy the Docsy example site
 
 The [Example Site](https://example.docsy.dev) gives you a good starting point for building your docs site and is
 pre-configured to use the Docsy theme as a Git submodule. You can copy the Example Site either by:
 
-*  [Using the GitHub UI](#using-the-github-ui)
-*  [Using the command line](#using-the-command-line)
+* [Using the GitHub UI](#using-the-github-ui)
+* [Using the command line](#using-the-command-line)
 
 #### Using the GitHub UI
 
@@ -123,10 +124,10 @@ You can now edit your local versions of the site's source files. To preview your
 
 To copy the example site:
 
-1.  Make a local working copy of the example site directly using `git clone`:
+1. Make a local working copy of the example site directly using `git clone`:
 
         git clone https://github.com/google/docsy-example.git
-    
+
 1. Switch to the root of the cloned project, for example:
 
         cd docsy-example
@@ -134,34 +135,32 @@ To copy the example site:
 1. Get local copies of the project submodules so you can build and run your site locally:
 
         git submodule update --init --recursive
-    
+
 1. Build your site:
-    
+
         hugo server
-    
+
 1. Preview your site in your browser at: http://localhost:1313/. You can use `Ctrl + c` to stop the Hugo server whenever you like.
    [See the known issues on MacOS](#known-issues).
 
 1. Now that you have a site running, you can push it to a new repository:
 
-   1. [Create a new repository in GitHub](https://help.github.com/en/articles/create-a-repo) 
-      for your site with your chosen repo name. For clarity you may also want to rename the root 
-      directory (`docsy-example`) of your working copy to match, though everything will still 
+   1. [Create a new repository in GitHub](https://help.github.com/en/articles/create-a-repo)
+      for your site with your chosen repo name. For clarity you may also want to rename the root
+      directory (`docsy-example`) of your working copy to match, though everything will still
       work even if you don't.
 
-   1. Configure 
+   1. Configure
       [`origin`](https://help.github.com/en/articles/configuring-a-remote-for-a-fork)
-      in your project. From your site's root directory, set the URL for `origin` to your new 
+      in your project. From your site's root directory, set the URL for `origin` to your new
       repo (otherwise you'll be trying to push changes to `google/docsy` rather than to your repo):
 
             git remote set-url origin https://github.com/MY-SITE/EXAMPLE.git
 
-
    1. Verify that your remote is configured correctly by running:
-      
+
             git remote -v
- 
-	   
+
    1. Push your Docsy site to your repository:
 
             git push -u origin master
@@ -175,12 +174,11 @@ Whichever approach you use, for simplicity we recommend copying and editing our 
 #### Using the Docsy theme as a submodule
 
 Adding Docsy as a Git submodule is our recommended approach for using the theme, as it means your project
-always refers to the Docsy repo version at your chosen revision, rather than you having your own copy in 
+always refers to the Docsy repo version at your chosen revision, rather than you having your own copy in
 your repo that may result in merge conflicts when you try to update it. This is the approach used by our
 [example project](https://github.com/google/docsy-example).
 
-
-To create a new Hugo site project and then add the Docs theme as a submodule, run the following commands from your project's root directory. 
+To create a new Hugo site project and then add the Docs theme as a submodule, run the following commands from your project's root directory.
 
 ```shell
 hugo new site myproject
@@ -203,9 +201,6 @@ git submodule update --init --recursive
 
 If you don't want to use a submodules (for example, if you want to customize and maintain your  own copy of the theme directly, or your deployment choice requires you to include a copy of the theme in your repository), you can clone the theme into your project.
 
-
-
-
 To clone Docsy into your project's `theme` folder, run the following commands from your project's root directory:
 
 ```
@@ -213,7 +208,7 @@ cd themes
 git clone https://github.com/google/docsy
 ```
 
-If you want to build and/or serve your site [locally](/docs/deployment/#serving-your-site-locally), you also need to get local copies of the theme’s own submodules:
+If you want to build and/or serve your site [locally](/en/docs/deployment/#serving-your-site-locally), you also need to get local copies of the theme’s own submodules:
 
 ```
 git submodule update --init --recursive
@@ -229,7 +224,7 @@ To build and preview your site locally:
 cd myproject
 hugo server
 ```
-    
+
 By default, your site will be available at http://localhost:1313/. [See the known issues on MacOS](#known-issues).
 
 ## Basic site configuration
@@ -240,7 +235,7 @@ The Docsy example site comes with some defaults you may want to remove or custom
 
 ### Internationalization
 
-The Docsy example site supports content in English, Norwegian and Farsi. You can find out more about how Docsy supports multi-language content in [Multi-language support](/docs/language/).
+The Docsy example site supports content in English, Norwegian and Farsi. You can find out more about how Docsy supports multi-language content in [Multi-language support](/en/docs/language/).
 
 If you don't intend to translate your site, you can remove the language switcher by removing the following lines from `config.toml`:
 
@@ -273,7 +268,7 @@ By default, the Docsy example site uses its own [Google Custom Search Engine](ht
 gcs_engine_id = "011737558837375720776:fsdu1nryfng"
 ```
 
-To use your own Custom Search Engine, replace the value in the `gcs_engine_id` with the ID of your own search engine. Or [choose another search option](/docs/adding-content/navigation/#site-search-options).
+To use your own Custom Search Engine, replace the value in the `gcs_engine_id` with the ID of your own search engine. Or [choose another search option](/en/docs/adding-content/navigation/#site-search-options).
 
 ## Known issues
 
@@ -289,6 +284,7 @@ you might receive one of the following errors when you run [`hugo server`](https
   ```
   ERROR 2020/04/14 12:37:16 Error: listen tcp 127.0.0.1:1313: socket: too many open files
   ```
+
 * POSTCSS v8 and later:
 
   ```
@@ -305,9 +301,9 @@ To temporarily allow more open files:
    sudo launchctl limit maxfiles
    ```
 
-2. Increase the limit to `65535` files by running the following commands. If your site has fewer files, you can set choose to set lower soft (`65535`) and 
-   hard (`200000`) limits. 
-   
+2. Increase the limit to `65535` files by running the following commands. If your site has fewer files, you can set choose to set lower soft (`65535`) and
+   hard (`200000`) limits.
+
    ```shell
    sudo launchctl limit maxfiles 65535 200000
    ulimit -n 65535
@@ -315,7 +311,7 @@ To temporarily allow more open files:
    sudo sysctl -w kern.maxfilesperproc=65535
    ```
 
-Note that you might need to set these limits for each new shell. 
+Note that you might need to set these limits for each new shell.
 [Learn more about these limits and how to make them permanent](https://www.google.com/search?q=mac+os+launchctl+limit+maxfiles+site%3Aapple.stackexchange.com&oq=mac+os+launchctl+limit+maxfiles+site%3Aapple.stackexchange.com).
 
 ### Windows Subsystem for Linux (WSL)
@@ -324,7 +320,6 @@ If you're using WSL, ensure that you're running `hugo` on a Linux mount of the f
 
 ## What's next?
 
-* [Add content and customize your site](/docs/adding-content/)
-* Get some ideas from our [Example Site](https://github.com/google/docsy-example) and other [Examples](/docs/examples/).
-* [Publish your site](/docs/deployment/).
-
+* [Add content and customize your site](/en/docs/adding-content/)
+* Get some ideas from our [Example Site](https://github.com/google/docsy-example) and other [Examples](/en/docs/examples/).
+* [Publish your site](/en/docs/deployment/).

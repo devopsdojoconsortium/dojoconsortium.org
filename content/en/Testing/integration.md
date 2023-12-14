@@ -1,12 +1,12 @@
 ---
 title: Integration Testing
-aliases: [/test-architecture/integration/]
+
 type: docs
 ---
 
-> An integration test is a [deterministic](/testing/glossary#deterministic-test) test to verify how the unit under test interacts with other units without directly accessing external sub-systems. For the purposes of clarity, "integration test" is not a test that broadly integrates multiple sub-systems. That is an [E2E test](/testing/e2e).
+> An integration test is a [deterministic](/en/testing/glossary#deterministic-test) test to verify how the unit under test interacts with other units without directly accessing external sub-systems. For the purposes of clarity, "integration test" is not a test that broadly integrates multiple sub-systems. That is an [E2E test](/en/testing/e2e).
 >
-> -- [Testing Glossary](/testing/glossary#integration-test)
+> -- [Testing Glossary](/en/testing/glossary#integration-test)
 
 Some examples of an integration test are validating how multiple units work together (sometimes called a "sociable unit test") or validating the portion of the code that interfaces to an external network sub-system while using a test double to represent that sub-system.
 
@@ -25,7 +25,7 @@ Some examples of an integration test are validating how multiple units work toge
   </figcaption>
 </figure>
 
-When designing network integration tests, it's recommended to also have [contract tests](/testing/glossary#contract-test) running asynchronously to validate the service test doubles.
+When designing network integration tests, it's recommended to also have [contract tests](/en/testing/glossary#contract-test) running asynchronously to validate the service test doubles.
 
 ## Recommended Best Practices
 
@@ -80,8 +80,8 @@ Good practices include:
 
 ## Alternate Definitions
 
-* When integrating multiple sub-systems into a larger system: this is an [End to End Test](/testing/glossary#end-to-end-test).
-* When testing all modules within a sub-system through the API or user interface: this is a [Functional Test](/testing/glossary#functional-test).
+* When integrating multiple sub-systems into a larger system: this is an [End to End Test](/en/testing/glossary#end-to-end-test).
+* When testing all modules within a sub-system through the API or user interface: this is a [Functional Test](/en/testing/glossary#functional-test).
 
 ## Resources
 
@@ -129,6 +129,4 @@ Good practices include:
 
 ## Recommended Tooling
 
-Tooling recommendations based on [Testing Strategy ADR](/adrs/001)
-
-Integration Tooling is the same as recommended for [Unit Tests](/testing/unit)
+Integration Tooling is the same as recommended for [Unit Tests](/en/testing/unit)

@@ -1,15 +1,15 @@
 ---
 title: Work Decomposition
 weight: 1
-aliases: [/work-decomposition/work-breakdown/]
+
 tags: [decomposition]
 ---
 
 In order to effectively understand and implement the work breakdown flow, the
 team needs to have the following prerequisites and understandings.
 
-- [Definition of Ready](../definition-of-ready)
-- [Definition of Done](/docs/workflow-management/definition-of-done)
+- [Definition of Ready](/en/docs/work-decomposition/definition-of-ready)
+- [Definition of Done](/en/docs/workflow-management/definition-of-done)
 - Backlog refinement cadence with the appropriate team members and stakeholders involved
 
 ---
@@ -51,8 +51,8 @@ Epics become a list of features.
 
 Common struggles for teams when breaking down ideas into epics and features:
 
-- [Unclear requirements](../behavior-driven-development)
-- [Unclear goals](../defining-product-goals)
+- [Unclear requirements](/en/docs/work-decomposition/behavior-driven-development)
+- [Unclear goals](/en/docs/work-decomposition/defining-product-goals)
 
 ---
 
@@ -63,11 +63,11 @@ completed in less than two days. Stories are made up of one or more tasks.
 
 Typical problems teams experience with decomposition are:
 
-- [Stories are too big](../story-slicing)
-- [Stories are too complex](../complexity-workbreakdown)
-- [Stories lack testable acceptance criteria](../behavior-driven-development)
-- [Lack of dependency knowledge](../contract-driven-development)
-- [Managing research tasks](../spikes)
+- [Stories are too big](/en/docs/work-decomposition/story-slicing)
+- [Stories are too complex](/en/docs/work-decomposition/complexity-and-estimation)
+- [Stories lack testable acceptance criteria](/en/docs/work-decomposition/behavior-driven-development)
+- [Lack of dependency knowledge](/en/docs/work-decomposition/contract-driven-development)
+- [Managing research tasks](/en/docs/work-decomposition/spikes)
 
 ---
 
@@ -75,12 +75,12 @@ Typical problems teams experience with decomposition are:
 
 - Tasks are independently deployable changes that can be merged to trunk daily.
 - Breaking stories down into tasks gives teams the ability to swarm work and deliver value faster.
-- For teams to visualize tasks required to implement scenarios, they need to understand what a [good task](../task-decomposition) looks like.
+- For teams to visualize tasks required to implement scenarios, they need to understand what a [good task](/en/docs/work-decomposition/task-decomposition) looks like.
 
 ---
 
 ### Measuring Success
 
-Tracking the team's [Development Cycle Time](/metrics/development-cycle-time) is the best way to judge improvements
+Tracking the team's [Development Cycle Time](/en/metrics/development-cycle-time) is the best way to judge improvements
 to decomposition. Stories should take 1-2 days to deliver and should not have rework, delays waiting for
 explanations, or dependencies on other stories or teams.

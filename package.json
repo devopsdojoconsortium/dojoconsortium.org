@@ -2,20 +2,26 @@
   "name": "dojoconsortium.org",
   "version": "2.0.0",
   "description": "Enterprise Dojo Consortium",
-  "scripts": {
-    "build": "hugo",
-    "start": "hugo server -D",
-    "postinstall": "git submodule update --init",
-    "linkcheck": "linkinator -r --markdown --verbosity error http://localhost:1313/",
-    "test": "start-server-and-test start http://localhost:1313/ linkcheck"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://code.il2.dso.mil/platform-one/products/holocron/engineering-website.git"
   },
+  "scripts": {
+    "build": "hugo",
+    "postinstall": "git submodule update --init",
+    "link-check": "npm run build && linkinator ./public --config .linkinator.config.json ",
+    "lint": "markdownlint ./content/**/*.md",
+    "lint:fix": "markdownlint -f ./content/**/*.md",
+    "prepare": "husky install",
+    "start": "hugo server -D",
+    "test": "npm run lint && npm run link-check",
+    "test:ci": "rm -rf public && hugo && npx check-html-links public"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
+    "husky": "^8.0.3",
     "linkinator": "^4.0.3",
+    "markdownlint-cli": "^0.37.0",
     "postcss": "^8.4.18",
     "postcss-cli": "^10.0.0",
     "start-server-and-test": "^1.14.0"

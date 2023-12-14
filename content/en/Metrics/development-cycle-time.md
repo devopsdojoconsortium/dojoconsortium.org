@@ -2,7 +2,7 @@
 type: docs
 weight: 10
 title: Development Cycle Time
-aliases: [/metrics/development-cycle-time/]
+
 tags:
   - metrics
   - flow
@@ -33,7 +33,7 @@ rapid feedback on quality.
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Quality](/metrics/defect-rate) decreases if quality processes are skipped.
+- [Quality](/en/metrics/defect-rate) decreases if quality processes are skipped.
 - Standard deviation of the control chart can show issues being closed too rapidly.
 
 ## References

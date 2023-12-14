@@ -10,7 +10,7 @@ So you've got a new Hugo website with Docsy, now it's time to add some content! 
 
 ## Content root directory
 
-You add content for your site under the **content root directory** of your Hugo site project - either `content/` or a [language-specific](/docs/language/) root like `content/en/`. The main exception here is static files that you don't want built into your site: you can find out more about where you add these below in [Adding static content](#adding-static-content). The files in your content root directory are typically grouped in subdirectories corresponding to your site's sections and templates, which we'll look at in [Content sections and templates](#content-sections-and-templates).
+You add content for your site under the **content root directory** of your Hugo site project - either `content/` or a [language-specific](/en/docs/language/) root like `content/en/`. The main exception here is static files that you don't want built into your site: you can find out more about where you add these below in [Adding static content](#adding-static-content). The files in your content root directory are typically grouped in subdirectories corresponding to your site's sections and templates, which we'll look at in [Content sections and templates](#content-sections-and-templates).
 
 You can find out more about Hugo directory structure in [Directory Structure Explained](https://gohugo.io/getting-started/directory-structure/#directory-structure-explained).
 
@@ -28,7 +28,7 @@ It also provides a [default "landing page" type of template](https://github.com/
 
 Each top-level **section** in your site corresponds to a **directory** in your site content root. Hugo automatically applies the appropriate **template** for that section, depending on which folder the content is in. For example, this page is in the `docs` subdirectory of the site's content root directory `content/en/`, so Hugo automatically applies the `docs` template. You can override this by explicitly specifying a template or content type for a particular page.
 
-If you've copied the example site, you already have appropriately named top-level section directories for using Docsy's templates, each with an index page ( `_index.md` or `index.html`) page for users to land on. These top-level sections also appear in the example site's [top-level menu](/docs/adding-content/navigation/#top-level-menu).
+If you've copied the example site, you already have appropriately named top-level section directories for using Docsy's templates, each with an index page ( `_index.md` or `index.html`) page for users to land on. These top-level sections also appear in the example site's [top-level menu](/en/docs/adding-content/navigation/#top-level-menu).
 
 ### Custom sections
 
@@ -108,8 +108,7 @@ description: >
 ---
 ```
 
-The minimum frontmatter you need to provide is a title: everything else is up to you! However, if you leave out the page weight, your [navigation](/docs/adding-content/navigation) may get a little disorganized. You may also want to include `description` since Docsy uses that to generate the meta `description` tag used by search engines. See [Search Engine Optimization (SEO) meta tags]({{< ref "feedback#search-engine-optimization-meta-tags" >}}) for details.
-
+The minimum frontmatter you need to provide is a title: everything else is up to you! However, if you leave out the page weight, your [navigation](/en/docs/adding-content/navigation) may get a little disorganized. You may also want to include `description` since Docsy uses that to generate the meta `description` tag used by search engines. See [Search Engine Optimization (SEO) meta tags]({{< ref "feedback#search-engine-optimization-meta-tags" >}}) for details.
 
 ## Page contents and markup
 
@@ -128,12 +127,12 @@ If you've been using earlier versions of Hugo, you may need to make some small c
 Alternatively, if you want to continue using Blackfriday, you can follow the instructions in the [Hugo documentation](https://gohugo.io/getting-started/configuration-markup#blackfriday) to change the Markdown parser.
 {{% /alert %}}
 
-In addition to your marked-up text, you can also use Hugo and Docsy's [shortcodes](/docs/adding-content/shortcodes): reusable chunks of HTML that you can use to quickly build your pages. Find out more about shortcodes in [Docsy Shortcodes](/docs/adding-content/shortcodes).
+In addition to your marked-up text, you can also use Hugo and Docsy's [shortcodes](/en/docs/adding-content/shortcodes): reusable chunks of HTML that you can use to quickly build your pages. Find out more about shortcodes in [Docsy Shortcodes](/en/docs/adding-content/shortcodes).
 
 {{% alert title="Note" color="info" %}}
 Hugo also supports adding content using other markups using [external parsers as helpers](https://gohugo.io/content-management/formats/#additional-formats-through-external-helpers). For example, you can add content in RST using `rst2html` as an external parser (though be aware this does not support all flavors of RST, such as Sphinx RST). Similarly, you can use `asciidoctor` to parse Asciidoc files, or `pandoc` for other formats.
 
-External parsers may not be suitable for use with all deployment options, as you'll need to install the external parser and run Hugo yourself to generate your site (so, for example, you won't be able to use [Netlify's continuous deployment feature](/docs/deployment/#deployment-with-netlify)). In addition, adding an external parser may cause performance issues building larger sites.
+External parsers may not be suitable for use with all deployment options, as you'll need to install the external parser and run Hugo yourself to generate your site (so, for example, you won't be able to use [Netlify's continuous deployment feature](/en/docs/deployment/#deployment-with-netlify)). In addition, adding an external parser may cause performance issues building larger sites.
 {{% /alert %}}
 
 ### Working with links
@@ -142,7 +141,7 @@ Hugo lets you specify links using normal Markdown syntax, though remember that y
 
 Alternatively you can use Hugo's helper [`ref` and `relref` shortcodes](https://gohugo.io/content-management/cross-references/) for creating internal links that resolve to the correct URL. However, be aware this means your links will not appear as links at all if a user views your page outside your generated site, for example using the rendered Markdown feature in GitHub's web UI.
 
-You can find (or add!) tips and gotchas for working with Hugo links in [Hugo Tips](/docs/best-practices/site-guidance).
+You can find (or add!) tips and gotchas for working with Hugo links in [Hugo Tips](/en/docs/best-practices/site-guidance).
 
 ### Content style
 
@@ -152,7 +151,7 @@ We don't mandate any particular style for your page contents. However, if you'd 
 
 You can create site pages as standalone files in their section or subsection directory, or as folders where the content is in the folder's index page. Creating a folder for your page lets you [bundle](https://gohugo.io/content-management/page-bundles/) images and other resources together with the content.
 
-You can see examples of both approaches in this and our example site. For example, the source for this page is just a standalone file `/content/en/docs/adding-content.md`. However the source for [Docsy Shortcodes](/docs/adding-content/shortcodes/) in this site lives in `/content/en/docs/adding-content/shortcodes/index.md`, with the image resource used by the page in the same `/shortcodes/` directory. In Hugo terminology, this is called a *leaf bundle* because it's a folder containing all the data for a single site page without any child pages (and uses `index.md` without an underscore).
+You can see examples of both approaches in this and our example site. For example, the source for this page is just a standalone file `/content/en/docs/adding-content.md`. However the source for [Docsy Shortcodes](/en/docs/adding-content/shortcodes/) in this site lives in `/content/en/docs/adding-content/shortcodes/index.md`, with the image resource used by the page in the same `/shortcodes/` directory. In Hugo terminology, this is called a *leaf bundle* because it's a folder containing all the data for a single site page without any child pages (and uses `index.md` without an underscore).
 
 You can find out much more about managing resources with Hugo bundles in [Page Bundles](https://gohugo.io/content-management/page-bundles/).
 
@@ -164,7 +163,7 @@ The template you'll probably use most often is the [`docs` template](https://git
 * GitHub links (populated from your site config) for readers to edit the page or create issues
 * a page menu
 
-as well as the common header and footer used by all your site's pages. Which template is applied depends on whether you've added the content to the `blog` or `docs` content directory. You can find out more about how the nav and page menu are created in [Navigation and Search](/docs/adding-content/navigation/).
+as well as the common header and footer used by all your site's pages. Which template is applied depends on whether you've added the content to the `blog` or `docs` content directory. You can find out more about how the nav and page menu are created in [Navigation and Search](/en/docs/adding-content/navigation/).
 
 ### Organizing your documentation
 
@@ -172,13 +171,13 @@ While Docsy's top-level sections let you create site sections for different type
 
 Docsy's `docs` layout gives you a left nav pane with an autogenerated nested menu based on your `docs` file structure. Each standalone page or subsection `_index.md` or `_index.html`  page in the `docs/` directory gets a top level menu item, using the link name and `weight` metadata from the page or index.
 
-To add docs to a subsection, just add your page files to the relevant subdirectory. Any pages that you add to a subsection in addition to the subsection index page will appear in a submenu (look to the left to see one in action!), again ordered by page `weight`. Find out more about adding Docsy's navigation metadata in [Navigation and Search](/docs/adding-content/navigation/)
+To add docs to a subsection, just add your page files to the relevant subdirectory. Any pages that you add to a subsection in addition to the subsection index page will appear in a submenu (look to the left to see one in action!), again ordered by page `weight`. Find out more about adding Docsy's navigation metadata in [Navigation and Search](/en/docs/adding-content/navigation/)
 
-If you've copied the example site, you'll already have some suggested subdirectories in your `docs` directory, with guidance for what types of content to put in them and some example Markdown pages. You can find out more about organizing your content with Docsy in [Organizing Your Content](/docs/best-practices/organizing-content/).
+If you've copied the example site, you'll already have some suggested subdirectories in your `docs` directory, with guidance for what types of content to put in them and some example Markdown pages. You can find out more about organizing your content with Docsy in [Organizing Your Content](/en/docs/best-practices/organizing-content/).
 
 #### Docs section landing pages
 
-By default a docs section landing page (the `_index.md` or `_index.html` in the section directory) uses a layout that adds a formatted list of links to the pages in the section, with their frontmatter descriptions. The [Content and Customization](/docs/adding-content/) landing page in this site is a good example.
+By default a docs section landing page (the `_index.md` or `_index.html` in the section directory) uses a layout that adds a formatted list of links to the pages in the section, with their frontmatter descriptions. The [Content and Customization](/en/docs/adding-content/) landing page in this site is a good example.
 
 To display a simple bulleted list of links to the section's pages instead, specify `simple_list: true` in the landing page's frontmatter:
 
@@ -232,22 +231,21 @@ resources:
 
 If you've copied the example site and you don't want a blog section, or want to link to an external blog instead, just delete the `blog` subdirectory.
 
-
-## Working with top-level landing pages.
+## Working with top-level landing pages
 
 Docsy's [default page template](https://github.com/google/docsy/blob/master/layouts/docs/baseof.html) has no left nav and is useful for creating a home page for your site or other "landing" type pages.
 
 ### Customizing the example site pages
 
-If you've copied the example site, you already have a simple site landing page in `content/en/_index.html`. This is made up of Docsy's provided Hugo shortcode [page blocks](/docs/adding-content/shortcodes/#shortcode-blocks).
+If you've copied the example site, you already have a simple site landing page in `content/en/_index.html`. This is made up of Docsy's provided Hugo shortcode [page blocks](/en/docs/adding-content/shortcodes/#shortcode-blocks).
 
-To customize the large landing image, which is in a [cover](/docs/adding-content/shortcodes/#blockscover) block, replace the `content/en/featured-background.jpg` file in your project with your own image (it can be called whatever you like as long as it has `background` in the file name). You can remove or add as many blocks as you like, as well as adding your own custom content.
+To customize the large landing image, which is in a [cover](/en/docs/adding-content/shortcodes/#blockscover) block, replace the `content/en/featured-background.jpg` file in your project with your own image (it can be called whatever you like as long as it has `background` in the file name). You can remove or add as many blocks as you like, as well as adding your own custom content.
 
-The example site also has an About page in `content/en/about/_index.html` using the same Docsy template. Again, this is made up of [page blocks](/docs/adding-content/shortcodes/#shortcode-blocks), including another background image in `content/en/about/featured-background.jpg`. As with the site landing page, you can replace the image, remove or add blocks, or just add your own content.
+The example site also has an About page in `content/en/about/_index.html` using the same Docsy template. Again, this is made up of [page blocks](/en/docs/adding-content/shortcodes/#shortcode-blocks), including another background image in `content/en/about/featured-background.jpg`. As with the site landing page, you can replace the image, remove or add blocks, or just add your own content.
 
 ### Building your own landing pages
 
-If you've just used the theme, you can still use all Docsy's provided [page blocks](/docs/adding-content/shortcodes/#shortcode-blocks) (or any other content you want) to build your own landing pages in the same file locations.
+If you've just used the theme, you can still use all Docsy's provided [page blocks](/en/docs/adding-content/shortcodes/#shortcode-blocks) (or any other content you want) to build your own landing pages in the same file locations.
 
 ## Adding a community page
 
@@ -257,35 +255,35 @@ The `community` landing page template has boilerplate content that's automatical
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-	name = "User mailing list"
-	url = "https://example.org/mail"
-	icon = "fa fa-envelope"
+ name = "User mailing list"
+ url = "https://example.org/mail"
+ icon = "fa fa-envelope"
         desc = "Discussion and help from your fellow users"
 [[params.links.user]]
-	name ="Twitter"
-	url = "https://example.org/twitter"
-	icon = "fab fa-twitter"
+ name ="Twitter"
+ url = "https://example.org/twitter"
+ icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news!"
 [[params.links.user]]
-	name = "Stack Overflow"
-	url = "https://example.org/stack"
-	icon = "fab fa-stack-overflow"
+ name = "Stack Overflow"
+ url = "https://example.org/stack"
+ icon = "fab fa-stack-overflow"
         desc = "Practical questions and curated answers"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
-	name = "GitHub"
-	url = "https://github.com/google/docsy"
-	icon = "fab fa-github"
+ name = "GitHub"
+ url = "https://github.com/google/docsy"
+ icon = "fab fa-github"
         desc = "Development takes place here!"
 [[params.links.developer]]
-	name = "Slack"
-	url = "https://example.org/slack"
-	icon = "fab fa-slack"
+ name = "Slack"
+ url = "https://example.org/slack"
+ icon = "fab fa-slack"
         desc = "Chat with other project developers"
 [[params.links.developer]]
-	name = "Developer mailing list"
-	url = "https://example.org/mail"
-	icon = "fa fa-envelope"
+ name = "Developer mailing list"
+ url = "https://example.org/mail"
+ icon = "fa fa-envelope"
         desc = "Discuss development issues around the project"
 ```
 
@@ -306,6 +304,7 @@ Hugo will, by default, create an RSS feed for the home page and any section. For
 ```toml
 rss_sections = ["blog"]
 ```
+
 To disable all RSS feeds, add the following to your `config.toml`:
 
 ```toml
@@ -313,12 +312,13 @@ disableKinds = ["RSS"]
 ```
 
 {{% alert title="Note" color="info" %}}
-If you have enabled our [print feature](/docs/adding-content/print/) or otherwise specified section-level output formats in `config.toml`, make sure that `"RSS"` is listed as an output format, otherwise you won't get section-level RSS feeds (and your blog section won't get a nice orange RSS button). Your `config.toml` specification overrides the Hugo default [output formats](https://gohugo.io/templates/output-formats/) for sections, which are HTML and RSS.
+If you have enabled our [print feature](/en/docs/adding-content/print/) or otherwise specified section-level output formats in `config.toml`, make sure that `"RSS"` is listed as an output format, otherwise you won't get section-level RSS feeds (and your blog section won't get a nice orange RSS button). Your `config.toml` specification overrides the Hugo default [output formats](https://gohugo.io/templates/output-formats/) for sections, which are HTML and RSS.
 
 ```toml
 [outputs]
 section = [ "HTML", "RSS", "print" ]
 ```
+
 {{% /alert %}}
 
 ## Sitemap
@@ -349,4 +349,3 @@ sitemap:
 ```
 
 To learn more about configuring sitemaps, see [Sitemap Template](https://gohugo.io/templates/sitemap-template/).
-

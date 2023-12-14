@@ -2,7 +2,7 @@
 type: docs
 weight: 10
 title: Code Integration Frequency
-aliases: [/metrics/integration-frequency/]
+
 tags:
   - metrics
   - throughput
@@ -23,7 +23,7 @@ at least 5 per day.
 ## How to improve it
 
 - Decompose code changes into smaller units to incrementally deliver features.
-- Use [BDD](/docs/work-decomposition/behavior-driven-development) to aid functional breakdown.
+- Use [BDD](/en/docs/work-decomposition/behavior-driven-development) to aid functional breakdown.
 - Use TDD to design more modular code that can be integrated more frequently.
 - USe feature flags, branch by abstraction, or other coding techniques to control the release of new features.
 
@@ -36,7 +36,7 @@ at least 5 per day.
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Quality](/metrics/defect-rate) decreases if testing is skipped.
+- [Quality](/en/metrics/defect-rate) decreases if testing is skipped.
 
 ## Recommended Practices
 

@@ -2,7 +2,7 @@
 type: docs
 weight: 10
 title: Change Fail Rate
-aliases: [/metrics/change-fail-rate/]
+
 tags:
   - metrics
   - stability
@@ -31,8 +31,8 @@ Reduce the percentage of failed changes.
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Delivery frequency](/metrics/release-frequency) can decrease if focus is placed on "zero defect" changes.
-- [Defect rates](/metrics/defect-rate) can increase as reduced delivery frequency increases code change batch size and delivery risk.
+- [Delivery frequency](/en/metrics/release-frequency) can decrease if focus is placed on "zero defect" changes.
+- [Defect rates](/en/metrics/defect-rate) can increase as reduced delivery frequency increases code change batch size and delivery risk.
 
 ## References
 

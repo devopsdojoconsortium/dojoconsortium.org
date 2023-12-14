@@ -1,7 +1,7 @@
 ---
 title: 24 Capabilities to Drive Improvement
 linkTitle: DORA Recommendations
-aliases: [/continuous-delivery/dora-recommendations/]
+
 weight: 2
 tags:
   - cd
@@ -27,7 +27,7 @@ Deployment automation is the degree to which deployments are fully automated and
 
 ### Implement continuous integration
 
-[Continuous integration](/docs/glossary/#continuous-integration) (CI) is the **first step** towards continuous delivery.
+[Continuous integration](/en/docs/glossary/#continuous-integration) (CI) is the **first step** towards continuous delivery.
 This is a development practice where code is regularly
 checked in, and each check-in triggers a set of quick tests to discover serious regressions, which developers fix immediately. The
 CI process creates canonical builds and packages that are ultimately deployed and released.

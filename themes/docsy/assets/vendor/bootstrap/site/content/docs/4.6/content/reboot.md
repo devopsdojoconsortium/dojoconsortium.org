@@ -3,7 +3,7 @@ layout: docs
 title: Reboot
 description: Reboot, a collection of element-specific CSS changes in a single file, kickstart Bootstrap to provide an elegant, consistent, and simple baseline to build upon.
 group: content
-aliases: "/docs/4.6/content/"
+
 toc: true
 ---
 
@@ -125,6 +125,7 @@ All lists—`<ul>`, `<ol>`, and `<dl>`—have their `margin-top` removed and a `
 3. It has the same overall look
 4. As the previous unordered list
 {{< /markdown >}}
+
 </div>
 
 For simpler styling, clear hierarchy, and better spacing, description lists have updated `margin`s. `<dd>`s reset `margin-left` to `0` and add `margin-bottom: .5rem`. `<dt>`s are **bolded**.
@@ -352,6 +353,7 @@ HTML5 adds [a new global attribute named `[hidden]`](https://developer.mozilla.o
 ```
 
 {{< callout warning >}}
+
 ##### jQuery incompatibility
 
 `[hidden]` is not compatible with jQuery's `$(...).hide()` and `$(...).show()` methods. Therefore, we don't currently especially endorse `[hidden]` over other techniques for managing the `display` of elements.

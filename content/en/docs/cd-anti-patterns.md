@@ -1,7 +1,6 @@
 ---
 title: Common Blockers
 weight: 2
-aliases: [/continuous-delivery/cd-anti-patterns/]
 tags:
   - cd
 ---
@@ -47,7 +46,7 @@ Definition of Ready
 
 ### No definition of "Done"
 
-Having an explicit definition of done is important to keeping [WIP](/docs/glossary#WIP) low and finishing work.
+Having an explicit definition of done is important to keeping [WIP](/en/docs/glossary#WIP) low and finishing work.
 
 ```shell
 Definition of Done
