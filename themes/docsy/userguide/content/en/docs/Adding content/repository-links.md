@@ -4,9 +4,9 @@ weight: 9
 description: Help your users interact with your source repository.
 ---
 
-The Docsy [docs and blog layouts](/docs/adding-content/content/#adding-docs-and-blog-posts) include links for readers to edit the page or create issues for your docs or project via your site's source repository. The current generated links for each docs or blog page are:
+The Docsy [docs and blog layouts](/en/docs/adding-content/content/#adding-docs-and-blog-posts) include links for readers to edit the page or create issues for your docs or project via your site's source repository. The current generated links for each docs or blog page are:
 
-* **View page source**: Brings the user to the page source in your docs repo. 
+* **View page source**: Brings the user to the page source in your docs repo.
 * **Edit this page**: Brings the user to an editable version of the page content in their fork (if available) of your docs repo. If the user doesn't have a current fork of your docs repo, they are invited to create one before making their edit. The user can then create a pull request for your docs.
 * **Create child page**: Brings the user to a create new file form in their fork of your docs repo.  The new file will be located as a child of the page they clicked the link on.  The form will be pre-populated with a template the user can edit to create their page.  You can change this by adding `assets/stubs/new-page-template.md` to your own project.
 * **Create documentation issue**: Brings the user to a new issue form in your docs repo with the name of the current page as the issue's title.
@@ -14,7 +14,7 @@ The Docsy [docs and blog layouts](/docs/adding-content/content/#adding-docs-and-
 
 This page shows you how to configure these links.
 
-Currently, Docsy supports only GitHub repository links "out of the box". If you are using another repository such as Bitbucket and would like generated repository links, feel free to [add a feature request or update our theme](/docs/contribution-guidelines/).
+Currently, Docsy supports only GitHub repository links "out of the box". If you are using another repository such as Bitbucket and would like generated repository links, feel free to [add a feature request or update our theme](/en/docs/contribution-guidelines/).
 
 ## Link configuration
 

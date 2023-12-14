@@ -29,6 +29,6 @@ the speed of feedback from the end user. Improving this cycle improves roadmap d
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Delivery frequency](/metrics/release-frequency) may reduce if more manual quality steps are added
-- [Build cycle time](/metrics/build-duration) may increase as additional tests are added to the pipeline
-- [Lead time](/metrics/lead-time) can increase as more time is spent on business analysis
+- [Delivery [frequency](/en/metrics/release-frequency) may be reduced if more manual quality steps are added
+- [Build cycle time](/en/metrics/build-duration) may increase as additional tests are added to the pipeline
+- [Lead time](/en/metrics/lead-time) can increase as more time is spent on business analysis

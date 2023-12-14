@@ -39,5 +39,5 @@ the team may decompose work includes product owners,
 tech leads, and project managers.
 
 Product teams should use the processes effective for
-[Work Decomposition](./../work-breakdown), to breakdown
+[Work Decomposition](/en/docs/work-decomposition/work-breakdown), to breakdown
 epics into smaller epics, stories, and tasks.

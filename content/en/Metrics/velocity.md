@@ -18,7 +18,7 @@ and focusing on teamwork.
 ## How to improve it
 
 - Reduce story size so they are easier to understand and more predictable.
-- Minimize [hard dependencies](/docs/glossary/#dependency-hard). Each hard dependency reduces the odds of on-time
+- Minimize [hard dependencies](/en/docs/glossary/#dependency-hard). Each hard dependency reduces the odds of on-time
   delivery by 50%.
 - Swarm stories by decomposing them into tasks that can be executed in parallel so that the team is working as a unit to deliver faster.
 
@@ -33,8 +33,8 @@ and focusing on teamwork.
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Quality](/metrics/quality) defect ratio goes up as more defects are reported.
-- [WIP](/metrics/work-in-progress) increases as teams start more work to look more
+- [Quality](/en/metrics/quality) defect ratio goes up as more defects are reported.
+- [WIP](/en/metrics/work-in-progress) increases as teams start more work to look more
   busy.
 
 ## References

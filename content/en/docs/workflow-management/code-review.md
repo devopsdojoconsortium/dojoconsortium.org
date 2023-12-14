@@ -15,14 +15,14 @@ developers' skills."
 - Small changes allow for faster code review and enhance the feedback loops.
 - Everyone on the team is capable of performing code review.
 - Code reviews are the second highest priority for a team behind blocked issues and
-  ahead of [WIP](/metrics/work-in-progress).
+  ahead of [WIP](/en/metrics/work-in-progress).
 
 ## Tips
 
 - Automated Code Review processes like linting and static code analysis.
 - Code review that there are tests that meet the acceptance criteria agreed upon by
   the team.
-- Keep pull requests small. Look in to [Work Decomposition](/docs/work-decomposition/work-breakdown)
+- Keep pull requests small. Look in to [Work Decomposition](/en/docs/work-decomposition/work-breakdown)
   for guidance.
 - As the person being reviewed, remember the 10 Commandments of Code Review
   - Thou shalt not take it personally
@@ -45,8 +45,8 @@ developers' skills."
 ## Value
 
 - Finds issues before deployment, saving time and money.
-- Increased [Quality](/metrics/quality).
-- Decreased [Change Failure Rate](/metrics/change-fail-rate).
+- Increased [Quality](/en/metrics/quality).
+- Decreased [Change Failure Rate](/en/metrics/change-fail-rate).
 
 ## Acceptance Criteria
 

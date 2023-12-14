@@ -9,7 +9,7 @@ dependencies, and estimating based on complexity and effort, not time.
 
 Small things can be estimated more accurately than big things because the margin
 of error is lower and dependencies are clear. Eliminating or reducing
-[hard dependencies](/docs/glossary/#dependency-hard) is critical because the probability that something will
+[hard dependencies](/en/docs/glossary/#dependency-hard) is critical because the probability that something will
 be delivered late doubles for every hard dependency. Those
 could include database changes, coordination with other teams, or changes that are
 tightly coupled with another component.
@@ -18,8 +18,8 @@ tightly coupled with another component.
 
 ## Recommended Practices
 
-Decompose stories using [Behavior Driven Development](../behavior-driven-development).
-This not only helps with feature discovery and uncovering dependencies but also aids with [story slicing](../story-slicing) since each acceptance test
+Decompose stories using [Behavior Driven Development](/en/docs/work-decomposition/behavior-driven-development).
+This not only helps with feature discovery and uncovering dependencies but also aids with [story slicing](/en/docs/work-decomposition/story-slicing) since each acceptance test
 is naturally a thin, vertical
 slice.
 

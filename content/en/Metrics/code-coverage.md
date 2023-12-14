@@ -78,5 +78,5 @@ it('Should not return null if both numbers are integers' () => {
 
 Test coverage should never be used as a goal or an indicator of application health. Measure outcomes. If testing is poor, the following metrics will show poor results.
 
-- [Defect Rates](/metrics/defect-rate) will increase as poor-quality tests are created to meet coverage targets that do not reliably catch defects.
-- [Development Cycle Time](/metrics/development-cycle-time) will increase as more emphasis is placed on improper testing methods (manual functional testing, testing teams, etc.) to overcome the lack of reliable tests.
+- [Defect Rates](/en/metrics/defect-rate) will increase as poor-quality tests are created to meet coverage targets that do not reliably catch defects.
+- [Development Cycle Time](/en/metrics/development-cycle-time) will increase as more emphasis is placed on improper testing methods (manual functional testing, testing teams, etc.) to overcome the lack of reliable tests.

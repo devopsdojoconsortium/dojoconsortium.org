@@ -89,7 +89,7 @@ Here are the big ticket items you'll want to be aware of when moving from v3 to 
 - Build system overhauled to use a series of npm scripts instead of Grunt. See `package.json` for all scripts, or our project readme for local development needs.
 - Non-responsive usage of Bootstrap is no longer supported.
 - Dropped the online Customizer in favor of more extensive setup documentation and customized builds.
-- Added dozens of new [utility classes](/docs/{{< param docs_version >}}/utilities/) for common CSS property-value pairs and margin/padding spacing shortcuts.
+- Added dozens of new [utility classes](/en/docs/{{< param docs_version >}}/utilities/) for common CSS property-value pairs and margin/padding spacing shortcuts.
 
 ### Grid system
 

@@ -36,8 +36,8 @@ begin the journey of improvement.
 2. Identify scenarios
    - Behavior Driven Development
 3. Split stories
-   - Meets [INVEST](../glossary.html#invest)
-   - [Vertically Sliced](../glossary.html#vertical-sliced-story)
+   - Meets [INVEST](/en/testing/glossary.html#invest)
+   - [Vertically Sliced](/en/testing/glossary.html#vertical-sliced-story)
    - [Acceptance Criteria](#acceptance-criteria)
 4. Refine in the now
    - Only worry about refining work that can be picked up for the next 2.5 days

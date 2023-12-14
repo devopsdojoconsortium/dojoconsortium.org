@@ -32,16 +32,16 @@ The **blocks/cover** shortcode creates a landing page type of block that fills t
 ```html
 {{</* blocks/cover title="Welcome!" image_anchor="center" height="full" color="primary" */>}}
 <div class="mx-auto">
-	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{</* relref "/docs" */>}}">
-		Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
-	</a>
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://example.org">
-		Download <i class="fab fa-github ml-2 "></i>
-	</a>
-	<p class="lead mt-5">This program is now available in <a href="#">AppStore!</a></p>
-	<div class="mx-auto mt-5">
-		{{</* blocks/link-down color="info" */>}}
-	</div>
+ <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{</* relref "/docs" */>}}">
+  Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+ </a>
+ <a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://example.org">
+  Download <i class="fab fa-github ml-2 "></i>
+ </a>
+ <p class="lead mt-5">This program is now available in <a href="#">AppStore!</a></p>
+ <div class="mx-auto mt-5">
+  {{</* blocks/link-down color="info" */>}}
+ </div>
 </div>
 {{</* /blocks/cover */>}}
 ```
@@ -52,17 +52,15 @@ Note that the relevant shortcode parameters above will have sensible defaults, b
 > Using the bracket styled shortcode delimiter, `>}}`, tells Hugo that the inner content is HTML/plain text and needs no further processing. Changing the delimiter to `%}}` means Hugo will treat the content as Markdown. You can use both styles in your pages.
 {{% /alert %}}
 
-
 | Parameter        | Default    | Description  |
 | ---------------- |------------| ------------|
-| title | | The main display title for the block. | 
+| title | | The main display title for the block. |
 | image_anchor | |
 | height | | See above.
-| color | | See above. 
+| color | | See above.
 | byline | Byline text on featured image. |
 
-
-To set the background image, place an image with the word "background" in the name in the page's [Page Bundle](/docs/adding-content/content/#page-bundles). For example, in our the example site the background image in the home page's cover block is [`featured-background.jpg`](https://github.com/google/docsy-example/tree/master/content/en), in the same directory.
+To set the background image, place an image with the word "background" in the name in the page's [Page Bundle](/en/docs/adding-content/content/#page-bundles). For example, in our the example site the background image in the home page's cover block is [`featured-background.jpg`](https://github.com/google/docsy-example/tree/master/content/en), in the same directory.
 
 {{% alert title="Tip" %}}
 If you also include the word **featured** in the image name, e.g. `my-featured-background.jpg`, it will also be used as the Twitter Card image when shared.
@@ -76,7 +74,7 @@ The **blocks/lead** block shortcode is a simple lead/title block with centred te
 
 ```go-html-template
 {{%/* blocks/lead color="dark" */%}}
-TechOS is the OS of the future. 
+TechOS is the OS of the future.
 
 Runs on **bare metal** in the **cloud**!
 {{%/* /blocks/lead */%}}
@@ -85,14 +83,13 @@ Runs on **bare metal** in the **cloud**!
 | Parameter        | Default    | Description  |
 | ---------------- |------------| ------------|
 | height | | See above.
-| color | | See above. 
+| color | | See above.
 
 ### blocks/section
 
 The **blocks/section** shortcode is meant as a general-purpose content container. It comes in two "flavors", one for general content and one with styling more suitable for wrapping a horizontal row of feature sections.
 
 The example below shows a section wrapping 3 feature sections.
-
 
 ```go-html-template
 {{</* blocks/section color="dark" */>}}
@@ -112,7 +109,7 @@ For announcement of latest features etc.
 | Parameter        | Default    | Description  |
 | ---------------- |------------| ------------|
 | height | | See above.
-| color | | See above. 
+| color | | See above.
 | type  | | Specify "section" if you want a general container,  omit this parameter if you want this section to contain a horizontal row of features.
 
 ### blocks/feature
@@ -131,7 +128,6 @@ We do a [Pull Request](https://github.com/gohugoio/hugo/pulls) contributions wor
 | url | | The URL to link to.
 | icon | | The icon class to use.
 
-
 ### blocks/link-down
 
 The **blocks/link-down** shortcode creates a navigation link down to the next section. It's meant to be used in combination with the other blocks shortcodes.
@@ -139,17 +135,17 @@ The **blocks/link-down** shortcode creates a navigation link down to the next se
 ```go-html-template
 
 <div class="mx-auto mt-5">
-	{{</* blocks/link-down color="info" */>}}
+ {{</* blocks/link-down color="info" */>}}
 </div>
 ```
 
 | Parameter        | Default    | Description  |
 | ---------------- |------------| ------------|
-| color | info | See above. 
+| color | info | See above.
 
 ## Shortcode helpers
 
-###  alert
+### alert
 
 The **alert** shortcode creates an alert block that can be used to display notices or warnings.
 
@@ -170,7 +166,7 @@ This is a warning.
 | ---------------- |------------| ------------|
 | color | primary | One of the theme colors, eg `primary`, `info`, `warning` etc.
 
-###  pageinfo
+### pageinfo
 
 The **pageinfo** shortcode creates a text box that you can use to add banner information for a page: for example, letting users know that the page contains placeholder content, that the content is deprecated, or that it documents a beta feature.
 
@@ -191,11 +187,9 @@ This is placeholder content
 | ---------------- |------------| ------------|
 | color | primary | One of the theme colors, eg `primary`, `info`, `warning` etc.
 
+### imgproc
 
-###  imgproc
-
-The **imgproc** shortcode finds an image in the current [Page Bundle](/docs/adding-content/content/#page-bundles) and scales it given a set of processing instructions.
-
+The **imgproc** shortcode finds an image in the current [Page Bundle](/en/docs/adding-content/content/#page-bundles) and scales it given a set of processing instructions.
 
 ```go-html-template
 {{</* imgproc spruce Fill "400x450" */>}}
@@ -209,14 +203,12 @@ Norway Spruce Picea abies shoot with foliage buds.
 
 The example above has also a byline with photo attribution added. When using illustrations with a free license from [WikiMedia](https://commons.wikimedia.org/) and similar, you will in most situations need a way to attribute the author or licensor. You can add metadata to your page resources in the page front matter. The `byline` param is used by convention in this theme:
 
-
 ```yaml
 resources:
 - src: "**spruce*.jpg"
   params:
     byline: "Photo: Bjørn Erik Pedersen / CC-BY-SA"
 ```
-
 
 | Parameter        | Description  |
 | ----------------: |------------|
@@ -226,7 +218,7 @@ resources:
 
 ### swaggerui
 
-The `swaggerui` shortcode can be placed anywhere inside a page with the [`swagger` layout](https://github.com/google/docsy/tree/master/layouts/swagger); it renders [Swagger UI](https://swagger.io/tools/swagger-ui/) using any OpenAPI YAML or JSON file as source. This can be hosted anywhere you like, for example in your site's root [`/static` folder](/docs/adding-content/content/#adding-static-content).
+The `swaggerui` shortcode can be placed anywhere inside a page with the [`swagger` layout](https://github.com/google/docsy/tree/master/layouts/swagger); it renders [Swagger UI](https://swagger.io/tools/swagger-ui/) using any OpenAPI YAML or JSON file as source. This can be hosted anywhere you like, for example in your site's root [`/static` folder](/en/docs/adding-content/content/#adding-static-content).
 
 ```yaml
 ---
@@ -260,8 +252,8 @@ With this shortcode you can embed external content into a Docsy page as an inlin
 {{% alert title="Warning" color="warning" %}}
 You can only embed external content from a server when its `X-Frame-Options` is not set or if it specifically allows embedding for your site. See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options for details.
 
-There are several tools you can use to check if a website can be embedded via iframe - e.g.: https://gf.dev/x-frame-options-test. Be aware that when this test says "Couldn’t find the X-Frame-Options header 
-in the response headers." you __CAN__ embed it, but when the test says "Great! X-Frame-Options header was found in the HTTP response headers as highlighted below.", you __CANNOT__ - unless it has been explicitly enabled for your site.
+There are several tools you can use to check if a website can be embedded via iframe - e.g.: https://gf.dev/x-frame-options-test. Be aware that when this test says "Couldn’t find the X-Frame-Options header
+in the response headers." you **CAN** embed it, but when the test says "Great! X-Frame-Options header was found in the HTTP response headers as highlighted below.", you **CANNOT** - unless it has been explicitly enabled for your site.
 {{% /alert %}}
 
 ## Tabbed panes
@@ -270,8 +262,10 @@ Sometimes it's very useful to have tabbed panes when authoring content. One comm
 
 {{< tabpane langEqualsHeader=true >}}
   {{< tab header="C" >}}
-#include <stdio.h>
-#include <stdlib.h>
+
+# include <stdio.h>
+
+# include <stdlib.h>
 
 int main(void)
 {
@@ -280,7 +274,8 @@ int main(void)
 }
 {{< /tab >}}
 {{< tab header="C++" >}}
-#include <iostream>
+
+# include <iostream>
 
 int main()
 {
@@ -403,6 +398,7 @@ Imagine all the people living for today…
 …
 {{</* /card */>}}
 ```
+
 This code translates to the left card shown below, showing the lyrics of John Lennon's famous song `Imagine`. A second explanatory card element to the right indicates and explains the individual components of a card:
 
 {{< cardpane >}}
@@ -417,7 +413,7 @@ Imagine all the people living life in peace…
 
 Imagine no possessions, I wonder if you can<br/>
 No need for greed or hunger - a brotherhood of man<br/>
-Imagine all the people sharing all the world… 
+Imagine all the people sharing all the world…
 
 You may say I'm a dreamer, but I'm not the only one<br/>
 I hope someday you'll join us and the world will live as one
@@ -449,8 +445,10 @@ int main(void)
 This code translates to the card shown below:
 
 {{< card-code header="**C**" lang="C" highlight="" >}}
-#include <stdio.h>
-#include <stdlib.h>
+
+# include <stdio.h>
+
+# include <stdlib.h>
 
 int main(void)
 {
@@ -496,4 +494,3 @@ File[] hiddenFiles = new File("directory_name")
   .listFiles(File::isHidden);
 {{< /card-code >}}
 {{< /cardpane >}}
-

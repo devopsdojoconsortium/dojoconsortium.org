@@ -7,11 +7,11 @@ Whenever teams or areas want to improve their ability to deliver, there is a rec
 improvement is effective. This value stream improvement journey's goal is to provide the steps and guide you to good implementation
 practices.
 
-Prerequisite: Please review [CD Getting Started](../starting-ci-cd.html) guide for context.
+Prerequisite: Please review [CD Getting Started](/en/docs/starting-ci-cd) guide for context.
 
 - [1. Build a Deployment Pipeline](#1-build-a-deployment-pipeline)
   - [Entangled Architecture - Requires Remediation](#entangled-architecture---requires-remediation)
-    - [Common Entangled Practices:](#common-entangled-practices)
+    - [Common Entangled Practices](#common-entangled-practices)
     - [Improvement Plan](#improvement-plan)
   - [Tightly Coupled Architecture - Transitional](#tightly-coupled-architecture---transitional)
     - [Common Tightly Coupled Practices](#common-tightly-coupled-practices)
@@ -43,11 +43,11 @@ With an entangled architecture there is no clear ownership of individual compone
 defect anywhere in the system because they are not working within product boundaries. The pipeline's quality signal will
 be delayed compared to better optimized team architectures. When a defect is found, it will require effort to identify
 which team
-created the defect and a multi-team effort to improve the development process to prevent regression. [Continuous delivery](../glossary.html#continuous-delivery)
+created the defect and a multi-team effort to improve the development process to prevent regression. [Continuous delivery](/en/testing/glossary#continuous-delivery)
 is difficult with this architecture.
 
 The journey to CD begins with each team executing [continuous
-integration](../improvement-capabilities.html#implement-continuous-integration) on a team branch and those branches are
+integration](https://minimumcd.org/minimumcd/#continuous-integration) on a team branch and those branches are
 integrated automatically into a master CI flow daily.
 
 <img src="/images/multi-team-branching.png" width="80%">
@@ -100,11 +100,11 @@ quality with less overhead.
 
 **Team Structure**: Product teams focused on further de-coupling sub-systems
 
-**Development Process**: [Continuous integration](../glossary.html#continuous-integration). Small, tested changes are applied to
+**Development Process**: [Continuous integration](/en/testing/glossary#continuous-integration). Small, tested changes are applied to
 trunk as soon as complete on each product team. In addition, a larger CI pipeline is required to frequently run larger tests on the
 integrated system, at least once per day.
 
-**Branching**: Because [CI](../glossary.html#continuous-integration) requires frequent updates to trunk, [Trunk-Based
+**Branching**: Because [CI](/en/testing/glossary#continuous-integration) requires frequent updates to trunk, [Trunk-Based
 Development](https://trunkbaseddevelopment.com) is used for CI.
 
 **[Developer Driven Testing](https://medium.com/@LaSoft/developer-driven-testing-991ca1dab63a)**: The team is responsible for
@@ -134,8 +134,8 @@ complexity and improves quality feedback loops. This not only relies on clean se
 but also on mature testing practices that include the use of virtual services to verify integration.
 
 It's critical when planning to decompose to smaller services that [Domain Driven
-Design](./devops-learning-path.html#domain-driven-design) is used to inform service boundaries, value objects, and team
-ownership. Services should use [good micro-service design patterns](../cloud-native-checklist.html)
+Design](/en/docs/devops-learning-path#domain-driven-design) is used to inform service boundaries, value objects, and team
+ownership. Services should use [good micro-service design patterns](/en/docs/cloud-checklist)
 
 Once we have built our production deployment pipeline, the next most critical constraint to address is the trustworthiness of our
 tests.
@@ -144,10 +144,10 @@ tests.
 
 **Team Structure**: Product teams maintaining independent components with well defined APIs.
 
-**Development Process**: [Continuous integration](../glossary.html#continuous-integration). Small, tested changes are applied to
+**Development Process**: [Continuous integration](/en/testing/glossary#continuous-integration). Small, tested changes are applied to
 trunk as soon as complete on each product team.
 
-**Branching**: Because [CI](../glossary.html#continuous-integration) requires frequent updates to trunk, [Trunk-Based
+**Branching**: Because [CI](/en/testing/glossary#continuous-integration) requires frequent updates to trunk, [Trunk-Based
 Development](https://trunkbaseddevelopment.com) is used for CI.
 
 **[Developer Driven Testing](https://medium.com/@LaSoft/developer-driven-testing-991ca1dab63a)**: The team is responsible for
@@ -194,7 +194,7 @@ that are constraining the entire flow. The process for doing this and the effect
 Constraints" (TOC)](https://www.tocinstitute.org/theory-of-constraints.html). The TOC states that the entire system is constrained
 by one constraint and improvement of the system will only be effective once that constraint is resolved.
 
-1. [Identify the system constraint](./vsm.html).
+1. [Identify the system constraint](/en/docs/vsm).
 2. Decide how to exploit the system constraint.
 3. Subordinate everything else to above decisions.
 4. Elevate the constraint.

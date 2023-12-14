@@ -118,5 +118,4 @@ While practices may change over time, principles are expected to be less volatil
 
 - [Building Microservices](http://shop.oreilly.com/product/0636920033158.do) by Sam Newman
 - [12 Factor Application](https://12factor.net)
-- [Production Ready Microservices (PDF)](assets/Production-Ready_Microservices_excerpt.pdf)
 - [Choosing an HTTP Status Code](https://www.codetinkerer.com/2015/12/04/choosing-an-http-status-code.html)

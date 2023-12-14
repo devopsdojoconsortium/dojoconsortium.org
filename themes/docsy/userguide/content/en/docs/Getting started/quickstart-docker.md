@@ -1,11 +1,12 @@
 
 ---
+
 title: "Docker Quickstart"
 linkTitle: "Docker Quickstart"
 weight: 3
 date: 2018-07-30
 description: >
-  This page helps you to setup and run a local Docsy site with Docker in 5 minutes. 
+  This page helps you to setup and run a local Docsy site with Docker in 5 minutes.
 ---
 
 ## Install the prerequisites
@@ -14,9 +15,9 @@ description: >
    Desktop](https://www.docker.com/get-started).  On Linux, install [Docker
    engine](https://docs.docker.com/engine/install/#server) and [Docker
    compose](https://docs.docker.com/compose/install/).
-   
+
    The installation may require you to reboot your computer for the changes to
-   take effect. 
+   take effect.
 
 1. [Install git](https://github.com/git-guides/install-git).
 
@@ -73,6 +74,6 @@ To cleanup your system and delete the container image follow the next steps.
 
 ## What's next?
 
-* Learn about [basic setup and configurations for Docsy](/docs/getting-started/).
-* [Add content and customize your site](/docs/adding-content/)
-* [Publish your site](/docs/deployment/).
+* Learn about [basic setup and configurations for Docsy](/en/docs/getting-started/).
+* [Add content and customize your site](/en/docs/adding-content/)
+* [Publish your site](/en/docs/deployment/).

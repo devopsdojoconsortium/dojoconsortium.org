@@ -67,10 +67,10 @@ Note that if you decide to go with a font with different weights (in the built-i
 
 For documentation of available CSS utility classes, see the [Bootstrap Documentation](https://getbootstrap.com/). This theme adds very little on its own in this area. However, we have added some color state CSS classes that can be useful in a dynamic context:
 
-* `.-bg-<color>`
-* `.-text-<color>`
+- `.-bg-<color>`
+- `.-text-<color>`
 
-You can use these classes, for example, to style your text in an appropriate color when you don't know if the `primary` color is dark or light, to ensure proper color contrast. They are also useful when you receive the color code as a [shortcode](/docs/adding-content/shortcodes/) parameter.
+You can use these classes, for example, to style your text in an appropriate color when you don't know if the `primary` color is dark or light, to ensure proper color contrast. They are also useful when you receive the color code as a [shortcode](/en/docs/adding-content/shortcodes/) parameter.
 
 The value of `<color>` can be any of the color names, `primary`, `white`, `dark`, `warning`, `light`, `success`, `300`, `blue`, `orange` etc.
 
@@ -130,9 +130,9 @@ Prism is a popular open source syntax highlighter which supports over 200 [langu
 
 Docsy includes JavaScript and CSS files for a basic Prism configuration, which supports:
 
-* Code blocks styled with the Prism `Default` theme
-* Copy to clipboard buttons on code blocks
-* Syntax highlighting for a number of common languages, as specified in the following Prism download link:
+- Code blocks styled with the Prism `Default` theme
+- Copy to clipboard buttons on code blocks
+- Syntax highlighting for a number of common languages, as specified in the following Prism download link:
 
 ```none
     https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript+bash+c+csharp+cpp+go+java+markdown+python+scss+sql+toml+yaml&plugins=toolbar+copy-to-clipboard
@@ -148,9 +148,8 @@ If the included Prism configuration is not sufficient for your requirements, and
 
 1. Download your own Prism JS and CSS files from <https://prismjs.com/download.html>
 2. Replace the included Prism JS and CSS with the files you downloaded:
-    * Copy the Javascript file to `static/js/prism.js`
-    * Copy the CSS file to `static/css/prism.css`
-
+    - Copy the Javascript file to `static/js/prism.js`
+    - Copy the CSS file to `static/css/prism.css`
 
 ## Navbar
 
@@ -172,8 +171,6 @@ site's [configuration file][].
 [configuration file]: https://gohugo.io/getting-started/configuration/#configuration-file
 [primary color]: #color-palette-and-other-styles
 
-
-
 ## Customizing templates
 
 ### Add code to head or before body end
@@ -185,7 +182,6 @@ layouts/partials/hooks/head-end.html
 ```
 
 And add the code you need in that file. Your partial code is automatically included just before the end of the theme partial [`head.html`](https://github.com/google/docsy/blob/master/layouts/partials/head.html). The theme version of [`head-end.html`](https://github.com/google/docsy/blob/master/layouts/partials/hooks/head-end.html) is empty.
-
 
 Similarly, if you want to add some code right before the `body` end, create your own version of the following file:
 
@@ -217,4 +213,3 @@ Both `head.html` and `scripts.html` are then used to build Docsy's [base page la
   </body>
 </html>
 ```
-

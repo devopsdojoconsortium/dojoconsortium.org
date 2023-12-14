@@ -16,7 +16,7 @@ At a high level functional testing is a means of verifying a systems specificati
 
 - Tests should be written from the lens of an "actor" be that a user interacting with a UI component or a service interacting with a potentially stateful API.
 - Proxying or otherwise real I/O should be avoided to reduce flakiness and ensure deterministic side-effects.
-- [Test doubles](../test-doubles/) should generally always be used in the case where the system under test needs to interact with an out-of-context sub-system.
+- [Test doubles](/en/testing/test-doubles/) should generally always be used in the case where the system under test needs to interact with an out-of-context sub-system.
 - [Test doubles](/en/testing/
 
 ## Alternate Terms

@@ -32,13 +32,13 @@ A static test is a test that evaluates non-running code against rules for known 
 
 Unit tests are [deterministic tests](#deterministic-test) that exercise a discrete unit of the application, such as a function, method, or UI component, in isolation to determine whether it behaves as expected.
 
-[More on Unit Testing](../unit)
+[More on Unit Testing](/en/testing/unit)
 
 ### Integration Test
 
 An integration test is a [deterministic](#deterministic-test) test to verify how the unit under test interacts with other units without directly accessing external sub-systems. For the purposes of clarity, "integration test" is not a test that broadly integrates multiple sub-systems. That is an [E2E test](#end-to-end-test).
 
-[More on Integration Testing](../integration)
+[More on Integration Testing](/en/testing/integration)
 
 ### Contract Test
 
@@ -46,28 +46,28 @@ A contract test is used to validate the test doubles used in a network [integrat
 
 **A contact test validates contract format, not specific data.**
 
-[More on Contract Testing](../contract)
+[More on Contract Testing](/en/testing/contract)
 
 ### Functional Test
 
 A functional test is a [deterministic test](#deterministic-test) that verifies that all modules of a sub-system are working together. They should avoid integrating with other sub-systems as this tends to reduce determinism. Instead, test doubles are preferred. Examples could include testing the behavior of a user interface through the UI or testing the business logic of individual services through the API.
 
-[More on Functional Testing](../functional)
+[More on Functional Testing](/en/testing/functional)
 
 ### End to End Test
 
 End to end tests are typically [non-deterministic](#non-deterministic-test) tests that validate the software system along with its integration with external interfaces. The purpose of end-to-end Test is to exercise a complete production-like scenario. Along with the software system, it also validates batch/data processing from other upstream/downstream systems. Hence, the name "End-to-End". End to End Testing is usually executed after [functional testing](#functional-test). It uses actual production like data and test environment to simulate real-time settings.
 
-[More on E2E Testing](../e2e)
+[More on E2E Testing](/en/testing/e2e)
 
 ### Customer Experience Alarms
 
 Customer Experience Alarms are a type of active alarm. It is a piece of software that sends requests to your system much like a user would. We use it to test the happy-path of critical customer workflows. These requests happen every minute (ideally, but can be as long as every 5 minutes). If they fail to work, or fail to run, we emit metrics that cause alerts. We run these in all of our environments, not just production, to ensure that they work and we catch errors early.
 
-[More on Customer Experience Alarms](../experience-alarms/)
+[More on Customer Experience Alarms](/en/testing/experience-alarms)
 
 ### Test Doubles
 
-Test doubles*are one of the main concepts we use to create fast, independent, deterministic and reliable tests. Similar to the way Hollywood uses a \_stunt double* to film dangerous scenes in a movie to avoid the costly risk a high paid actor gets hurt, we use a *test double* in early test stages to avoid the speed and dollar cost of using the piece of software the *test double* is standing in for. We also use *test doubles* to force certain conditions or states of the application we want to test. *Test doubles* can be used in any stage of testing but in general, they are heavily used during the initial testing stages in our CD pipeline and used much less in the later stages. There are many different kinds of *test doubles* such as *stubs*, *mocks*, *spies*, etc.
+Test doubles are one of the main concepts we use to create fast, independent, deterministic and reliable tests. Similar to the way Hollywood uses a \_stunt double* to film dangerous scenes in a movie to avoid the costly risk a high paid actor gets hurt, we use a *test double* in early test stages to avoid the speed and dollar cost of using the piece of software the *test double* is standing in for. We also use *test doubles* to force certain conditions or states of the application we want to test. *Test doubles* can be used in any stage of testing but in general, they are heavily used during the initial testing stages in our CD pipeline and used much less in the later stages. There are many different kinds of *test doubles* such as *stubs*, *mocks*, *spies*, etc.
 
-[More on Test Doubles](../test-doubles/)
+[More on Test Doubles](/en/testing/test-doubles/)
