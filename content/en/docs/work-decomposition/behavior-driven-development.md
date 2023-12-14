@@ -8,7 +8,7 @@ tags:
 
 Behavior Driven Development is the collaborative process where we discuss the intent and behaviors of a feature and
 document the understanding in a declarative, testable way. These testable acceptance criteria should be the
-[Definition of Done](/docs/workflow-management/definition-of-done) for a
+[Definition of Done](/en/docs/workflow-management/definition-of-done) for a
 user story.
 BDD is **not** a technology or automated tool. BDD is the process of **defining** the behavior. We can then
 automate tests for those behaviors.
