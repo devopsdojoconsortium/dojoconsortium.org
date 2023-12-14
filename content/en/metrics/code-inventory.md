@@ -19,7 +19,7 @@ manual steps that add risk.
 
 ## How to improve it
 
-- Improve [continuous integration](/en/metrics/integration-frequency) behavior where changes are integrated to the trunk and
+- Improve [continuous integration](/metrics/integration-frequency) behavior where changes are integrated to the trunk and
   verified multiple times per day.
 
 ## How to game it
@@ -30,4 +30,4 @@ manual steps that add risk.
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Quality](/en/metrics/defect-rate) can decrease as quality steps are skipped or batch size increases.
+- [Quality](/metrics/defect-rate) can decrease as quality steps are skipped or batch size increases.

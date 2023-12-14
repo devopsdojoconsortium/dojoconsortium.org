@@ -12,12 +12,12 @@ Every step in CD requires clear, testable acceptance criteria as a prerequisite.
 discussion that informs acceptance test driven development.
 
 - Videos
-  - [What is BDD](https://www.youtube.com/watch?v=zYj70EsD7uI) Dave Farley co-author of [Continuous Delivery](https://learning.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/) - 16:28 min
+  - [What is BDD](https://www.youtube.com/watch?v=zYj70EsD7uI) Dave Farley co-author of [Continuous Delivery](https://continuousdelivery.com) - 16:28 min
   - [Acceptance Testing](https://www.youtube.com/watch?v=JDD5EEJgpHU)
-    By Dave Farley co-author of [Continuous Delivery](https://learning.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/) - 14:49 min
+    By Dave Farley - 14:49 min
 - Recommended Reading
-  - [BDD In Action](https://learning.oreilly.com/library/view/bdd-in-action/9781617291654/) by John Ferguson Smart
-  - [Behavior-Driven Development with Cucumber: Better Collaboration for Better Software](https://learning.oreilly.com/library/view/behavior-driven-development-with/9780132748544/)
+  - [BDD In Action](https://www.manning.com/books/bdd-in-action) by John Ferguson Smart
+  - [Behavior-Driven Development with Cucumber: Better Collaboration for Better Software](https://www.amazon.com/Behavior-Driven-Development-Cucumber-Specification-Example/dp/0321772636)
     by Richard Lawrence, Paul Rayner
 
 ## Continuous-Integration
@@ -31,7 +31,7 @@ Continuous integration is a requirement for CD. It requires very frequent integr
   - [Continuous-Integration](https://www.linkedin.com/learning/devops-foundations-microservices/continuous-integration?u=26192810)
     on Linkedin Learning. Instructor by Laura Stone - 4 min.
 - Recommended Reading
-  - [Continuous Integration: Improving Software Quality and Reducing Risk](https://learning.oreilly.com/api/v1/dashboard/continue/9780321336385)
+  - [Continuous Integration: Improving Software Quality and Reducing Risk](https://www.amazon.com/Continuous-Integration-Improving-Software-Reducing/dp/0321336380)
     by Paul M. Duvall, Steve Matyas, Andrew Glover.
 
 ## Conway's law
@@ -44,8 +44,7 @@ Loosely coupled teams create loosely coupled systems. The opposite is also true.
 - Videos
   - [Don't Forget Conway's Law](https://www.youtube.com/watch?v=zA1EXJV1JWQ) Sarah Novotny - 8:50 mins.
 - Recommended Reading
-  - [Conway's Law and System Design](https://learning.oreilly.com/library/view/building-microservices/9781491950340/ch10.html) by Sam Newman.
-  - [How to Design Our Organization and Architecture with Conway's Law in Mind](https://learning.oreilly.com/library/view/the-devops-handbook/9781457191381/DOHB-ch_07.xhtml) co-author Gene Kim.
+  - [Building Microservices - Ch 10](https://www.oreilly.com/library/view/building-microservices/9781491950340/ch10.html) by Sam Newman.
 
 ## Domain-Driven Design
 
@@ -55,7 +54,7 @@ This is another key design tool both for organizational and system design. This 
   - [What is DDD](https://www.youtube.com/watch?v=pMuiVlnGqjk) Eric Evans - 57:06 min.
   - [Software Architecture: Domain-Driven Design](https://www.linkedin.com/learning/software-architecture-domain-driven-design/better-apps-with-domain-driven-design?u=26192810) LinkedIn Training Course.
 - Recommended Reading
-  - [What Is Domain-Driven Design?](https://learning.oreilly.com/api/v1/dashboard/continue/9781492057802) by Vladik Khononov.
+  - [What Is Domain-Driven Design?](https://www.oreilly.com/library/view/what-is-domain-driven/9781492057802/preface01.html#:~:text=DDD%20is%20a%20methodology%20that,domain%2C%20needs%2C%20and%20strategy) by Vladik Khononov.
 
 ## Pipeline Steps
 
@@ -91,7 +90,7 @@ The core principles that define DevOps:
   - [The 3 Ways of The Phoenix Project](https://www.youtube.com/watch?v=nUOXDEvplRc) co-author [Gene Kim](https://learning.oreilly.com/library/view/the-phoenix-project/9781457191350/) - 3:30 mins.
 - Recommended Reading
   - [The Three Ways: The Principles Underpinning DevOps](https://itrevolution.com/the-three-ways-principles-underpinning-devops/) by Gene Kim
-  - [The DevOps Handbook](https://learning.oreilly.com/library/view/the-devops-handbook/9781457191381/DOHB-ch_01.xhtml/) co-author Gene Kim
+  - [The DevOps Handbook](https://itrevolution.com/product/the-devops-handbook-second-edition/) - Gene Kim et al
 
 ## Value Stream Mapping
 

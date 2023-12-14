@@ -25,7 +25,7 @@ There are common patterns to show how much of each kind of test is generally rec
 
 ## Recommended Test Pattern
 
-Most of the tests are [integration](/en/testing/integration) tests and emphasize maximizing deterministic test coverage in process with the development cycle, so developers can find errors sooner. [E2E](/en/testing/e2e) & [functional](/en/testing/functional) tests should primarily focus on happy/critical path and tests that absolutely require a browser/app.
+Most of the tests are [integration](/testing/integration) tests and emphasize maximizing deterministic test coverage in process with the development cycle, so developers can find errors sooner. [E2E](/testing/e2e) & [functional](/testing/functional) tests should primarily focus on happy/critical path and tests that absolutely require a browser/app.
 
 When executing continuous delivery, test code is a first class citizen that requires as much design and maintenance as production code. Flakey tests undermine confidence and should be terminated with extreme prejudice.
 
@@ -43,7 +43,7 @@ When executing continuous delivery, test code is a first class citizen that requ
 
 ### Testing Anti-pattern
 
-"Ice cream cone testing" is the **anti-pattern** where the most expensive, fragile, [non-deterministic](/en/docs/glossary#non-deterministic-test) tests are prioritized over faster and less expensive [deterministic](/en/docs/glossary#deterministic-test) tests because it "feels" right.
+"Ice cream cone testing" is the **anti-pattern** where the most expensive, fragile, [non-deterministic](/docs/glossary#non-deterministic-test) tests are prioritized over faster and less expensive [deterministic](/docs/glossary#deterministic-test) tests because it "feels" right.
 
 [Google Test Blog: Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
 
@@ -51,7 +51,7 @@ When executing continuous delivery, test code is a first class citizen that requ
 
 ### Testing Best Practices
 
-General testing best practices are documented [here](/en/testing/best-practices).  Best practices specific to test types are documented within each test type page.
+General testing best practices are documented [here](/testing/best-practices).  Best practices specific to test types are documented within each test type page.
 
 ## Test Pattern Resources
 

@@ -9,7 +9,7 @@
   "scripts": {
     "build": "hugo",
     "postinstall": "git submodule update --init",
-    "link-check": "npm run build && linkinator ./public --config .linkinator.config.json ",
+    "link-check": "rm -rf public && npm run build && linkinator ./public --config .linkinator.config.json ",
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "prepare": "husky install",

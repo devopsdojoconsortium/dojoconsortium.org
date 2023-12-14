@@ -16,7 +16,7 @@ be of lower relative value.
 Stories should be sliced vertically.
 That is, the story should be aligned such that it fulfills a consumer request
 without requiring another story being deployed. After slicing, they should still
-meet the [INVEST principle](/en/docs/glossary).
+meet the [INVEST principle](/docs/glossary).
 
 Example stories:
 
@@ -49,14 +49,14 @@ have sliced horizontally.
 ## Tips
 
 - If you're unsure if a story can be sliced thinner, look at the acceptance
-  tests from the [BDD activity](/en/docs/work-decomposition/behavior-driven-development) and see if it
+  tests from the [BDD activity](/docs/work-decomposition/behavior-driven-development) and see if it
   makes sense to defer some of the tests to a later release.
 
 - While stories should be sliced vertically, it's quite possible that multiple
   developers can work the story with each developer picking up a task that
   represents a layer of the slice.
 
-- Minimize [hard dependencies](/en/docs/glossary/#dependency-hard) in a story. The odds of delivering on time for any
+- Minimize [hard dependencies](/docs/glossary/#dependency-hard) in a story. The odds of delivering on time for any
   activity are `1 in 2^n` where `n` is the number of hard dependencies.
 
 ---

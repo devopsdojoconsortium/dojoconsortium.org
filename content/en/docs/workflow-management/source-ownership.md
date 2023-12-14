@@ -35,8 +35,8 @@ As a team we want to create a culture of source ownership so that we can increas
 
 ## References
 
-- Go check out the [CD Anti Patterns](/en/docs/cd-anti-patterns)
-  page to learn about [Team Structure](/en/docs/cd-anti-patterns#team-structure)
+- Go check out the [CD Anti Patterns](/docs/cd-anti-patterns)
+  page to learn about [Team Structure](/docs/cd-anti-patterns#team-structure)
   and many other anti-patterns to avoid in your journey.
 
 ---

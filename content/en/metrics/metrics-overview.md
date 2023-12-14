@@ -61,9 +61,9 @@ quality issues will be found and the smaller those issues will be.
 
 ## Workflow Management
 
-- [Velocity / Throughput](/en/metrics/velocity): Planning metric to allow the team to predict date ranges for delivery. The
+- [Velocity / Throughput](/metrics/velocity): Planning metric to allow the team to predict date ranges for delivery. The
   standard deviation of this metric is a KPI for predictability. The average value of the metric has no meaning outside
   the team.
-- [Lead Time](/en/metrics/lead-time): Total time from when a request is made until it is delivered. KPI for team over-utilization.
+- [Lead Time](/metrics/lead-time): Total time from when a request is made until it is delivered. KPI for team over-utilization.
   As the team's utilization approaches 100%, this metric approaches infinity.
 - [Work In Process (WIP)](../work-in-progress): Key flow metric. Excessive WIP results in rework and delivery delays.

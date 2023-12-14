@@ -1,6 +1,5 @@
 {
   "recurse": true,
-  "skip": "^(https://.*youtube.com),^(https://.*github.com),^(https://.*oreilly.com)",
   "verbosity": "error",
   "timeout": 0,
   "markdown": true,

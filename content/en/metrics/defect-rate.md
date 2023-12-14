@@ -34,5 +34,5 @@ to detect defects.
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Delivery frequency](/en/metrics/release-frequency) is reduced if too much emphasis is place on zero defects. This can be
+- [Delivery frequency](/metrics/release-frequency) is reduced if too much emphasis is place on zero defects. This can be
   self-defeating as large change batches will contain more defects.
