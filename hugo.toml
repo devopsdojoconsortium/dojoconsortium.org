@@ -88,7 +88,6 @@ pygmentsUseClassic = false
     # Everything below this are Site Params
 
 [params]
-  algolia_docsearch         = false
   archived_version          = false
   copyright                 = "Licensed Creative Commons 4.0"
   github_branch             = "main"
