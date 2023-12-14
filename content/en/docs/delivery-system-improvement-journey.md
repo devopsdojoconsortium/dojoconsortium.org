@@ -7,7 +7,7 @@ Whenever teams or areas want to improve their ability to deliver, there is a rec
 improvement is effective. This value stream improvement journey's goal is to provide the steps and guide you to good implementation
 practices.
 
-Prerequisite: Please review the [CD Getting Started](/en/docs/starting-ci-cd) guide for context.
+Prerequisite: Please review the [CD Getting Started](/docs/starting-ci-cd) guide for context.
 
 - [1. Build a Deployment Pipeline](#1-build-a-deployment-pipeline)
   - [Entangled Architecture - Requires Remediation](#entangled-architecture---requires-remediation)
@@ -42,7 +42,7 @@ With an entangled architecture, there is no clear ownership of individual compon
 defect anywhere in the system because they are not working within product boundaries. The pipeline's quality signal will
 be delayed compared to better-optimized team architectures. When a defect is found, it will require effort to identify
 which team
-created the defect and a multi-team effort to improve the development process to prevent regression. [Continuous delivery](/en/testing/glossary#continuous-delivery)
+created the defect and a multi-team effort to improve the development process to prevent regression. [Continuous delivery](/testing/glossary#continuous-delivery)
 is difficult with this architecture.
 
 The journey to CD begins with each team executing [continuous
@@ -98,10 +98,10 @@ quality with less overhead.
 
 **Team Structure**: Product teams focused on further de-coupling sub-systems
 
-**Development Process**: [Continuous integration](/en/testing/glossary#continuous-integration). Small, tested changes are applied to the trunk as soon as complete on each product team. In addition, a larger CI pipeline is required to frequently run larger tests on the
+**Development Process**: [Continuous integration](/testing/glossary#continuous-integration). Small, tested changes are applied to the trunk as soon as complete on each product team. In addition, a larger CI pipeline is required to frequently run larger tests on the
 integrated system, at least once per day.
 
-**Branching**: Because [CI](/en/testing/glossary#continuous-integration) requires frequent updates to the trunk, [Trunk-Based](https://trunkbaseddevelopment.com)
+**Branching**: Because [CI](/testing/glossary#continuous-integration) requires frequent updates to the trunk, [Trunk-Based](https://trunkbaseddevelopment.com)
 Development](https://trunkbaseddevelopment.com) is used for CI.
 
 **[Developer Driven Testing](https://medium.com/@LaSoft/developer-driven-testing-991ca1dab63a)**: The team is responsible for
@@ -114,8 +114,8 @@ for the outcomes of poor testing, such as L1 support. This is a critical feedbac
 
 #### Improvement Plan
 
-1. As more changes are needed, the team continues extracting [independent domain
-   services](https://learning.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/) with
+1. As more changes are needed, the team continues extracting independent domain
+   services](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577) with
    [well-defined APIs](https://www.openapis.org/)
 2. For infrequently changed portions of the application that are poorly tested, re-writing may result in lost business
    capabilities. Wrapping these components in an API without re-architecting may be a better solution.
@@ -130,8 +130,8 @@ With a loosely coupled architecture, components are delivered independently of e
 complexity and improves quality feedback loops. This not only relies on clean separations of teams and sub-assemblies but also on mature testing practices that include the use of virtual services to verify integration.
 
 It's critical when planning to decompose to smaller services that [Domain Driven
-Design](/en/docs/devops-learning-path#domain-driven-design) is used to inform service boundaries, value objects, and team
-ownership. Services should use [good micro-service design patterns](/en/docs/cloud-checklist)
+Design](/docs/devops-learning-path#domain-driven-design) is used to inform service boundaries, value objects, and team
+ownership. Services should use [good micro-service design patterns](/docs/cloud-checklist)
 
 Once we have built our production deployment pipeline, the next most critical constraint to address is the trustworthiness of our
 tests.
@@ -140,9 +140,9 @@ tests.
 
 **Team Structure**: Product teams maintain independent components with well-defined APIs.
 
-**Development Process**: [Continuous integration](/en/testing/glossary#continuous-integration). Small, tested changes are applied to the trunk as soon as complete on each product team.
+**Development Process**: [Continuous integration](/testing/glossary#continuous-integration). Small, tested changes are applied to the trunk as soon as complete on each product team.
 
-**Branching**: Because [CI](/en/testing/glossary#continuous-integration) requires frequent updates to the trunk, [Trunk-Based](https://trunkbaseddevelopment.com)
+**Branching**: Because [CI](/testing/glossary#continuous-integration) requires frequent updates to the trunk, [Trunk-Based](https://trunkbaseddevelopment.com)
 Development](https://trunkbaseddevelopment.com) is used for CI.
 
 **[Developer Driven Testing](https://medium.com/@LaSoft/developer-driven-testing-991ca1dab63a)**: The team is responsible for
@@ -187,7 +187,7 @@ that are constraining the entire flow. The process for doing this and the effect
 Constraints" (TOC)](https://www.tocinstitute.org/theory-of-constraints.html). The TOC states that the entire system is constrained
 by one constraint and improvement of the system will only be effective once that constraint is resolved.
 
-1. [Identify the system constraint](/en/docs/vsm).
+1. [Identify the system constraint](/docs/vsm).
 2. Decide how to exploit the system constraint.
 3. Subordinate everything else to the above decisions.
 4. Elevate the constraint.
@@ -206,8 +206,8 @@ stability, and speed all improve.
 
 ## References
 
-- ["Accelerate"](https://learning.oreilly.com/library/view/accelerate/9781457191435/) - Forsgren, Humble, & Kim - 2018
+- ["Accelerate"](https://itrevolution.com/product/accelerate/) - Forsgren, Humble, & Kim - 2018
 - ["Engineering the Digital Transformation"](https://garygruver.com/engineering-digital-transformation.php) Gruver - 2019
 - ["A Practical Approach to Large-Scale Agile Development: How HP Transformed LaserJet FutureSmart
-  Firmware"](https://learning.oreilly.com/library/view/a-practical-approach/9780132980982/) Gruver et al - 2012
+  Firmware"](https://www.amazon.com/Practical-Approach-Large-Scale-Agile-Development/dp/0321821726) Gruver et al - 2012
 - [Theory of Constraints](https://www.tocinstitute.org/theory-of-constraints.html) - Goldratt

@@ -6,7 +6,7 @@ type: docs
 
 > Test doubles are one of the main concepts we use to create fast, independent, deterministic and reliable tests. Similar to the way Hollywood uses a \_stunt double\* to film dangerous scenes in a movie to avoid the costly risk a high paid actor gets hurt, we use a _test double_ in early test stages to avoid the speed and dollar cost of using the piece of software the _test double_ is standing in for. We also use _test doubles_ to force certain conditions or states of the application we want to test. _Test doubles_ can be used in any stage of testing but in general, they are heavily used during the initial testing stages in our CD pipeline and used much less in the later stages. There are many different kinds of _test doubles_ such as _stubs_, _mocks_, _spies_, etc.
 >
-> -- [Testing Glossary](/en/testing/glossary#test-doubles)
+> -- [Testing Glossary](/testing/glossary#test-doubles)
 
 ![Test Double](/images/testing-images/test-double.png)
 
@@ -24,7 +24,7 @@ type: docs
 
 ## Examples
 
-{{< tabpane langEqualsHeader="true" >}}
+{{< tabpane langEqualsHeader=true >}}
   {{< tab header="Java" >}}
     @Before
     public void init() throws Exception {
@@ -84,7 +84,7 @@ type: docs
 
 | Framework                                               | Reasoning                                              |
 | ------------------------------------------------------- | ------------------------------------------------------ |
-| [expect(jest)](https://jestjs.io/docs/en/expect)        | For all generic assertions/mocking                     |
+| [expect(jest)](https://jestjs.io/docs/expect)        | For all generic assertions/mocking                     |
 | [jest-dom](https://github.com/testing-library/jest-dom) | For DOM assertions                                     |
 | [supertest](https://github.com/visionmedia/supertest)   | For in-process test a http server                      |
 | [nock](https://github.com/nock/nock)                    | for http server endpoint assertion/mocking with NodeJS |

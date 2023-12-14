@@ -47,7 +47,7 @@ enforced, it's completely useless.
 
 ## Tips
 
-1. Using [Behavior Driven Development](/en/docs/work-decomposition/behavior-driven-development) is one
+1. Using [Behavior Driven Development](/docs/work-decomposition/behavior-driven-development) is one
    of the best ways to define testable acceptance criteria.
 2. Definition of Ready is also useful for support tickets or other types of work
    that the team can be responsible for. It's not just for development work!

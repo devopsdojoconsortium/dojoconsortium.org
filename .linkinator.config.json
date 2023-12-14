@@ -1,11 +1,11 @@
 {
   "recurse": true,
-  "skip": "^(https://.*youtube.com),^(https://.*github.com),^(https://.*oreilly.com)",
   "verbosity": "error",
   "timeout": 0,
   "markdown": true,
   "directoryListing": true,
   "retry": true,
   "retryErrors": true,
-  "retryErrorsCount": 3
+  "retryErrorsCount": 3,
+  "skip": "^(https://.*github.com)"
 }

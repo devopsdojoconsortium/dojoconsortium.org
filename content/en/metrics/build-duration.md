@@ -13,7 +13,7 @@ referenced as "hard lead time" in Accelerate
 
 ## What is the intended behavior?
 
-Reduce pipeline duration to improve [MTTR](/en/metrics/mean-time-to-repair) and improve test efficiency to
+Reduce pipeline duration to improve [MTTR](/metrics/mean-time-to-repair) and improve test efficiency to
 give the team more rapid feedback to any issues. Long build cycle times delay quality feedback
 and create more opportunity for defect penetration.
 
@@ -32,4 +32,4 @@ and create more opportunity for defect penetration.
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Defect rates](/en/metrics/defect-rate) increase if quality gates are skipped to reduce build time.
+- [Defect rates](/metrics/defect-rate) increase if quality gates are skipped to reduce build time.

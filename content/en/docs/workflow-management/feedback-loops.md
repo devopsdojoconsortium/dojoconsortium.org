@@ -33,7 +33,7 @@ You produce something, measure information on that production, and use that info
 
 - How effective are our tests?
 
-  [Testing](/en/testing) is one of the most effective feedback loops a team can have in place.
+  [Testing](/testing) is one of the most effective feedback loops a team can have in place.
   Automated tests for example, provide feedback about your system in seconds.
 
 - How well does what we're producing, match the users' actual needs?
