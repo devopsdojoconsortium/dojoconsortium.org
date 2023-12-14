@@ -7,7 +7,7 @@ Whenever teams or areas want to improve their ability to deliver, there is a rec
 improvement is effective. This value stream improvement journey's goal is to provide the steps and guide you to good implementation
 practices.
 
-Prerequisite: Please review [CD Getting Started](/en/docs/starting-ci-cd) guide for context.
+Prerequisite: Please review the [CD Getting Started](/en/docs/starting-ci-cd) guide for context.
 
 - [1. Build a Deployment Pipeline](#1-build-a-deployment-pipeline)
   - [Entangled Architecture - Requires Remediation](#entangled-architecture---requires-remediation)
@@ -26,22 +26,21 @@ Prerequisite: Please review [CD Getting Started](/en/docs/starting-ci-cd) guide 
 ## 1. Build a Deployment Pipeline
 
 Before any meaningful improvement can happen, the first constraint must be cleared. We need to make sure there is a single,
-automated deployment pipeline to production. Human intervention after code is integrated should be limited to approving
+automated deployment pipeline to production. Human intervention after the code is integrated should be limited to approving
 stage gates to trigger automation where needed.
-
-A well architected pipeline will build an artifact once and deploy that artifact to all required test environments for validation
+A well-architected pipeline will build an artifact once and deploy that artifact to all required test environments for validation
 and deliver changes safely to production.
-It will also trigger all of the tests and provide rapid feedback as near to the source of failure as possible. This is critical for
+It will also trigger all of the tests and provide rapid feedback as near the source of failure as possible. This is critical for
 informing the developer who created the defect so that they have the chance to learn the reasons the defect was created and prevent
 future occurrences.
 
 ### Entangled Architecture - Requires Remediation
 
-<img src="/images/entangled-pipelines.png" width="100%">
+[![Entangled Architecture](/images/entangled-pipelines.png)](/images/entangled-pipelines.png)
 
-With an entangled architecture there is no clear ownership of individual components or their quality. Every team could cause a
+With an entangled architecture, there is no clear ownership of individual components or their quality. Every team could cause a
 defect anywhere in the system because they are not working within product boundaries. The pipeline's quality signal will
-be delayed compared to better optimized team architectures. When a defect is found, it will require effort to identify
+be delayed compared to better-optimized team architectures. When a defect is found, it will require effort to identify
 which team
 created the defect and a multi-team effort to improve the development process to prevent regression. [Continuous delivery](/en/testing/glossary#continuous-delivery)
 is difficult with this architecture.
@@ -50,7 +49,7 @@ The journey to CD begins with each team executing [continuous
 integration](https://minimumcd.org/minimumcd/#continuous-integration) on a team branch and those branches are
 integrated automatically into a master CI flow daily.
 
-<img src="/images/multi-team-branching.png" width="80%">
+[![Multi-team Branching](/images/multi-team-branching.png)](/images/multi-team-branching.png)
 
 Any breaks in the pipeline should be addressed immediately by the team who owns the branch.
 
@@ -58,12 +57,12 @@ Any breaks in the pipeline should be addressed immediately by the team who owns 
 
 **Team Structure**: Feature teams focused on cross-cutting deliverables instead of product ownership and capability expertise.
 
-**Development Process**: Long lived feature branches integrated after features are complete
+**Development **Process**: Long-lived feature branches integrated after features are complete
 
 **Branching**: Team branches with each team working towards CI on their branch and daily integration of team branches
-to the trunk that re-runs the team level tests.
+to the trunk that re-runs the team-level tests.
 
-**[Inverted Test Pyramid](https://watirmelon.blog/testing-pyramids/)**: The "ice cream cone testing" anti-pattern is
+**[Inverted Test Pyramid](https://alisterscott.github.io/TestingPyramids.html)**: The "ice cream cone testing" anti-pattern is
 common. However, the teams should be focusing on improving the quality feedback and engineering tests that alert earlier
 in the build cycle.
 
@@ -77,14 +76,13 @@ change delta and high risk.
 Find the architectural boundaries in the application that can be used to divide sub-systems between the
 teams to create product teams. This step will realign the teams to a [tightly coupled
 architecture](#tightly-coupled-architecture---transitional) with defined ownership, will improve quality outcomes, and
-allow them to further decouple the system with the
-[Strangler](https://martinfowler.com/bliki/StranglerFigApplication.html) process
+allow them to further decouple the system using the [Strangler](https://martinfowler.com/bliki/StranglerFigApplication.html)](https://martinfowler.com/bliki/StranglerFigApplication.html) process
 
 ---
 
 ### Tightly Coupled Architecture - Transitional
 
-<img src="/images/coupled-pipelines.png" width="100%">
+[![coupled pipelines](/images/coupled-pipelines.png)](/images/coupled-pipelines.png)
 
 With tightly coupled architecture, changes in one portion of the application can cause unexpected changes in another portion of
 the application. It's quite common for even simple changes to take days or weeks of analysis to verify the implications of the
@@ -100,15 +98,14 @@ quality with less overhead.
 
 **Team Structure**: Product teams focused on further de-coupling sub-systems
 
-**Development Process**: [Continuous integration](/en/testing/glossary#continuous-integration). Small, tested changes are applied to
-trunk as soon as complete on each product team. In addition, a larger CI pipeline is required to frequently run larger tests on the
+**Development Process**: [Continuous integration](/en/testing/glossary#continuous-integration). Small, tested changes are applied to the trunk as soon as complete on each product team. In addition, a larger CI pipeline is required to frequently run larger tests on the
 integrated system, at least once per day.
 
-**Branching**: Because [CI](/en/testing/glossary#continuous-integration) requires frequent updates to trunk, [Trunk-Based
+**Branching**: Because [CI](/en/testing/glossary#continuous-integration) requires frequent updates to the trunk, [Trunk-Based](https://trunkbaseddevelopment.com)
 Development](https://trunkbaseddevelopment.com) is used for CI.
 
 **[Developer Driven Testing](https://medium.com/@LaSoft/developer-driven-testing-991ca1dab63a)**: The team is responsible for
-architecting and continuously improving a suite of tests that give rapid feedback to quality issues. The team is also responsible
+architecting and continuously improving a suite of tests that give rapid feedback on quality issues. The team is also responsible
 for the outcomes of poor testing, such as L1 support. This is a critical feedback loop for quality improvement.
 
 **Pipeline**: CI pipeline working to progress to continuous delivery.
@@ -120,18 +117,17 @@ for the outcomes of poor testing, such as L1 support. This is a critical feedbac
 1. As more changes are needed, the team continues extracting [independent domain
    services](https://learning.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/) with
    [well-defined APIs](https://www.openapis.org/)
-2. For infrequently changed portions of the application that poorly tested, re-writing may result in lost business
+2. For infrequently changed portions of the application that are poorly tested, re-writing may result in lost business
    capabilities. Wrapping these components in an API without re-architecting may be a better solution.
 
 ---
 
 ### Loosely Coupled Architecture - Goal
 
-<img src="/images/decoupled-pipelines.png" width="100%">
+[![](/images/decoupled-pipelines.png)](/images/decoupled-pipelines.png)
 
 With a loosely coupled architecture, components are delivered independently of each other in any sequence. This reduces
-complexity and improves quality feedback loops. This not only relies on clean separations of teams and sub-assemblies,
-but also on mature testing practices that include the use of virtual services to verify integration.
+complexity and improves quality feedback loops. This not only relies on clean separations of teams and sub-assemblies but also on mature testing practices that include the use of virtual services to verify integration.
 
 It's critical when planning to decompose to smaller services that [Domain Driven
 Design](/en/docs/devops-learning-path#domain-driven-design) is used to inform service boundaries, value objects, and team
@@ -142,21 +138,20 @@ tests.
 
 #### Common Loosely Coupled Practices
 
-**Team Structure**: Product teams maintaining independent components with well defined APIs.
+**Team Structure**: Product teams maintain independent components with well-defined APIs.
 
-**Development Process**: [Continuous integration](/en/testing/glossary#continuous-integration). Small, tested changes are applied to
-trunk as soon as complete on each product team.
+**Development Process**: [Continuous integration](/en/testing/glossary#continuous-integration). Small, tested changes are applied to the trunk as soon as complete on each product team.
 
-**Branching**: Because [CI](/en/testing/glossary#continuous-integration) requires frequent updates to trunk, [Trunk-Based
+**Branching**: Because [CI](/en/testing/glossary#continuous-integration) requires frequent updates to the trunk, [Trunk-Based](https://trunkbaseddevelopment.com)
 Development](https://trunkbaseddevelopment.com) is used for CI.
 
 **[Developer Driven Testing](https://medium.com/@LaSoft/developer-driven-testing-991ca1dab63a)**: The team is responsible for
-architecting and continuously improving a suite of tests that give rapid feedback to quality issues. The team is also responsible
+architecting and continuously improving a suite of tests that give rapid feedback on quality issues. The team is also responsible
 for the outcomes of poor testing, such as L1 support. This is a critical feedback loop for quality improvement.
 
 **Pipeline**: One or more CD pipelines that are independently deployable at any time in any sequence.
 
-**Deploy Cadence / Risk**: Deliveries can on demand or immediately after being verified by the pipeline. Risk is
+**Deploy Cadence / Risk**: Deliveries can occur on demand or immediately after being verified by the pipeline. Risk is
 inversely proportional to delivery frequency.
 
 ## 2. Stabilize the Quality Signal
@@ -167,7 +162,7 @@ unstable tests.
 
 ### Remediating Test Instability
 
-Unstable test results will create lack of trust in the test results and encourage bypassing test failure. To correct this:
+Unstable test results will create a lack of trust in the test results and encourage bypassing test failure. To correct this:
 
 - Remove flaky tests from the pipeline
   to ensure that tests in the pipeline are trusted by the team
@@ -181,9 +176,7 @@ duration of the pipeline and enacting a quality gate for maximum pipeline durati
 
 After stabilizing the quality signal, we can track where most of the defects are detected and the type of defects they
 are. Start tracking the trends for the number of defects found in each environment and the root cause distribution of
-the defects to inform the test suite improvement plan. Then focus the improvements on moving the majority of defect
-detection to
-closer to the developer. The ultimate goal is for most defects to be trapped in the developers environment and not leak into the
+the defects to inform the test suite improvement plan. Then focus the improvements on moving the majority of defect detection closer to the developer. The ultimate goal is for most defects to be trapped in the developer's environment and not leak into the
 deployment pipeline.
 
 ## 3. Continuous Improvement
@@ -196,17 +189,16 @@ by one constraint and improvement of the system will only be effective once that
 
 1. [Identify the system constraint](/en/docs/vsm).
 2. Decide how to exploit the system constraint.
-3. Subordinate everything else to above decisions.
+3. Subordinate everything else to the above decisions.
 4. Elevate the constraint.
-5. If in the previous steps a constraint has been broken, go
+5. If, in the previous steps, a constraint has been broken, go
    back to step one but do not allow the inertia to cause a system constraint.
 
 Some common constraints are:
 
-- **Resource Constraints** - resources such as number of people who can perform the task, access to environments, and etc. which
-  blocks the flow based on its limited capacity with respect to desired outcomes.
-- **Policy Constraints** - policies, practices or metrics that artificially impede flow due to their poor alignment to
-  the overall performance of the system.
+- **Resource Constraints** - resources such as the number of people who can perform the task, access to environments, etc. which
+  block the flow based on its limited capacity for the desired outcomes.
+- **Policy Constraints** - policies, practices or metrics that artificially impede flow due to their poor alignment with the overall performance of the system.
 
 Working daily to relentlessly remove constraints is the most important work a team can do. Doing so means they are constantly
 testing their improved delivery system by delivering value and constantly improving their ability to do so. Quality, predictability,

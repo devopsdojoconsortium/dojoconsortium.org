@@ -11,7 +11,7 @@ functions just as well at the program level.
 In order to have an effective work breakdown process, goals and priorities need
 to be established and understood.
 
-<img src="/images/program-roadmap.png" width="60%">
+[![](/images/program-roadmap.png)](/images/program-roadmap.png)
 
 Stakeholders and leadership teams must define the high-level initiatives, and
 their priorities, so that work may be dispersed among product teams.

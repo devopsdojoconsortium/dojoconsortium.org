@@ -55,7 +55,6 @@ General testing best practices are documented [here](/en/testing/best-practices)
 
 ## Test Pattern Resources
 
-- [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 - [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
-- [Testing Pyramids & Ice-Cream Cones](https://watirmelon.blog/testing-pyramids/)
+- [Testing Pyramids & Ice-Cream Cones](https://alisterscott.github.io/TestingPyramids.html)
 - [Test Trophy](https://kentcdodds.com/blog/write-tests)
