@@ -16,7 +16,7 @@ weight: 1
 - All changes to trunk include _all_ appropriate automated tests.
   - [Unit tests](/testing/unit)
   - [Functional test](/testing/functional)
-  - [Contract tests](//testing/contract)
+  - [Contract tests](/testing/contract)
   - etc.
 - Branching vs. Forking: It is important that the right process be use for the right reason. Branches are the primary flow for CI
   and are critical for allowing the team to have visibility to work in progress that the team is responsible for completing. Forks
