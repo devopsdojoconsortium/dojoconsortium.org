@@ -91,7 +91,7 @@ Good practices include:
 
 ## Examples
 
-{{< tabpane langEqualsHeader="true" >}}
+{{< tabpane langEqualsHeader=true >}}
   {{< tab header="JavaScript" >}}
     describe("retrieving Hygieia data", () => {
       it("should return counts of merged pull requests per day", async () => {

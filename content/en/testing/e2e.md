@@ -47,7 +47,7 @@ Integration test and end to end are often used internchangeably.
 
 ## Examples
 
-{{< tabpane langEqualsHeader="true" >}}
+{{< tabpane langEqualsHeader=true >}}
   {{< tab header="Java" >}}
     @Test(priority = 1, dependsOnMethods = { "navigate" })
     @Parameters({ "validUserId" })

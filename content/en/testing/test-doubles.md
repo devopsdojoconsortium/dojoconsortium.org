@@ -24,7 +24,7 @@ type: docs
 
 ## Examples
 
-{{< tabpane langEqualsHeader="true" >}}
+{{< tabpane langEqualsHeader=true >}}
   {{< tab header="Java" >}}
     @Before
     public void init() throws Exception {

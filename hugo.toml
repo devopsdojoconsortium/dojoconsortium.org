@@ -3,10 +3,6 @@ description     = "Dojo Consortium Playbooks"
 enableRobotsTXT = true
 title           = "Dojo Consortium"
 
-# Hugo allows theme composition (and inheritance). The precedence is from left to right.
-theme = ["docsy"]
-
-# Will give values to .Lastmod etc.
 enableGitInfo = true
 
 pygmentsCodeFences = true
@@ -124,3 +120,12 @@ pygmentsUseClassic = false
     icon = "fab fa-github"
     name = "GitHub"
     url  = "https://github.com/devopsdojoconsortium/dojoconsortium.org"
+
+[module]
+  proxy = "direct"
+  [module.hugoVersion]
+    extended = true
+    min      = "0.73.0"
+  [[module.imports]]
+    disable = false
+    path    = "github.com/google/docsy"

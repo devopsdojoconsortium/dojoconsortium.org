@@ -41,7 +41,7 @@ The purpose of unit tests are to:
 
 ## Examples
 
-{{< tabpane langEqualsHeader="true" >}}
+{{< tabpane langEqualsHeader=true >}}
   {{< tab header="JavaScript" >}}
     // Example from lodash
     describe('castArray', () => {

@@ -65,7 +65,7 @@ People often confuse writing tests in general with TDD. Writing tests after impl
 
 Test names should generally be descriptive and inclusive of what is being tested. A good rule of thumb when deciding a test name is to follow the "given-when-then" or "arrange-act-assert" conventions focusing on the "when" and "act" terms respectively. In both of these cases there is an implied action or generalized assertion that is expected, a test name should include this implication explicitly with an appropriate result effect description. For example:
 
-{{< tabpane langEqualsHeader="true" >}}
+{{< tabpane langEqualsHeader=true >}}
   {{< tab header="JavaScript" >}}
     // Jest Example
     // "input validator with valid inputs should contain a single valid field caller receives success state"
@@ -100,7 +100,7 @@ For test environments that require method names to describe its tests and suites
 
 Where possible suites and their respective tests should be grouped to allow for higher readability and identification; If the environment supports it nested groups is also a useful and good practice to employ. For example a logical nesting of "unit-scenario-expectation" allows for encapsulating multiple scenarios that could potentially apply to a unit under test. For example:
 
-{{< tabpane langEqualsHeader="true" >}}
+{{< tabpane langEqualsHeader=true >}}
   {{< tab header="JavaScript" >}}
     describe("unit-under-test", () => {
         describe("scenario-for-unit", () => {
