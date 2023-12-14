@@ -1,5 +1,5 @@
 baseURL         = "https://dojoconsortium.org/"
-description     = "Dojo Consortium Playbooks"
+description     = "Production tested playbooks and methods for delivering software better"
 enableRobotsTXT = true
 title           = "Dojo Consortium"
 
@@ -32,7 +32,7 @@ pygmentsUseClassic = false
   languageName = "English"
 
   [languages.en.params]
-    description = "Dojo Consortium Playbooks"
+    description = "Production tested playbooks and methods for delivering software better"
     title       = "Dojo Consortium"
 
 [markup.goldmark.parser.attribute]
