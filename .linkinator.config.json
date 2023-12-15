@@ -7,5 +7,5 @@
   "retry": true,
   "retryErrors": true,
   "retryErrorsCount": 3,
-  "skip": "^(https://.*github.com)"
+  "skip": "^(https://.*github.com),(/tags/)"
 }

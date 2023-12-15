@@ -20,7 +20,7 @@ discussion that informs acceptance test driven development.
   - [Behavior-Driven Development with Cucumber: Better Collaboration for Better Software](https://www.amazon.com/Behavior-Driven-Development-Cucumber-Specification-Example/dp/0321772636)
     by Richard Lawrence, Paul Rayner
 
-## Continuous-Integration
+## Continuous Integration
 
 Continuous integration is a requirement for CD. It requires very frequent integration of non-breaking code.
 

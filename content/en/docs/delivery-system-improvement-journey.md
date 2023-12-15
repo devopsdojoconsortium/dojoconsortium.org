@@ -46,7 +46,7 @@ created the defect and a multi-team effort to improve the development process to
 is difficult with this architecture.
 
 The journey to CD begins with each team executing [continuous
-integration](https://minimumcd.org/minimumcd/#continuous-integration) on a team branch and those branches are
+integration](/docs/glossary/#continuous-integration) on a team branch and those branches are
 integrated automatically into a master CI flow daily.
 
 [![Multi-team Branching](/images/multi-team-branching.png)](/images/multi-team-branching.png)
@@ -98,10 +98,10 @@ quality with less overhead.
 
 **Team Structure**: Product teams focused on further de-coupling sub-systems
 
-**Development Process**: [Continuous integration](/testing/glossary#continuous-integration). Small, tested changes are applied to the trunk as soon as complete on each product team. In addition, a larger CI pipeline is required to frequently run larger tests on the
+**Development Process**: [Continuous integration](/docs/glossary#continuous-integration). Small, tested changes are applied to the trunk as soon as complete on each product team. In addition, a larger CI pipeline is required to frequently run larger tests on the
 integrated system, at least once per day.
 
-**Branching**: Because [CI](/testing/glossary#continuous-integration) requires frequent updates to the trunk, [Trunk-Based](https://trunkbaseddevelopment.com)
+**Branching**: Because [CI](/docs/glossary#continuous-integration) requires frequent updates to the trunk, [Trunk-Based](https://trunkbaseddevelopment.com)
 Development](https://trunkbaseddevelopment.com) is used for CI.
 
 **[Developer Driven Testing](https://medium.com/@LaSoft/developer-driven-testing-991ca1dab63a)**: The team is responsible for
@@ -140,9 +140,9 @@ tests.
 
 **Team Structure**: Product teams maintain independent components with well-defined APIs.
 
-**Development Process**: [Continuous integration](/testing/glossary#continuous-integration). Small, tested changes are applied to the trunk as soon as complete on each product team.
+**Development Process**: [Continuous integration](/docs/glossary#continuous-integration). Small, tested changes are applied to the trunk as soon as complete on each product team.
 
-**Branching**: Because [CI](/testing/glossary#continuous-integration) requires frequent updates to the trunk, [Trunk-Based](https://trunkbaseddevelopment.com)
+**Branching**: Because [CI](/docs/glossary#continuous-integration) requires frequent updates to the trunk, [Trunk-Based](https://trunkbaseddevelopment.com)
 Development](https://trunkbaseddevelopment.com) is used for CI.
 
 **[Developer Driven Testing](https://medium.com/@LaSoft/developer-driven-testing-991ca1dab63a)**: The team is responsible for

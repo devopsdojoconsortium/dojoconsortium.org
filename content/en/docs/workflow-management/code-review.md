@@ -1,14 +1,10 @@
 ---
 title: Code Review
-
 weight: 1
+tags:
+  - Testing
+  - Teamwork
 ---
-
-As Wikipedia puts it, "Code review is systematic examination of computer
-source
-code. It is intended to find and fix mistakes overlooked in the initial
-development phase, improving both the overall quality of software and the
-developers' skills."
 
 ## Recommended Practices
 
@@ -19,11 +15,12 @@ developers' skills."
 
 ## Tips
 
-- Automated Code Review processes like linting and static code analysis.
-- Code review that there are tests that meet the acceptance criteria agreed upon by
+- Automate coding standards instead of reviewing for them.
+- Focus the review on the tests and code readability. The tests should meet the acceptance criteria agreed upon by
   the team.
-- Keep pull requests small. Look in to [Work Decomposition](/docs/work-decomposition/work-breakdown)
+- Keep pull requests small. Look into [Work Decomposition](/docs/work-decomposition/work-breakdown)
   for guidance.
+- Use synchronous code review to remove communication delays.
 - As the person being reviewed, remember the 10 Commandments of Code Review
   - Thou shalt not take it personally
   - Thou shalt not marry thy code
@@ -40,19 +37,6 @@ developers' skills."
 
 ## References
 
-- [The 10 commandments of navigating code reviews](https://techbeacon.com/app-dev-testing/10-commandments-navigating-code-reviews)
-
-## Value
-
-- Finds issues before deployment, saving time and money.
-- Increased [Quality](/metrics/quality).
-- Decreased [Change Failure Rate](/metrics/change-fail-rate).
-
-## Acceptance Criteria
-
-- Automated checks for standards and complexity.
-- Code is reviewed for testing and clarity.
-- Pull requests are small and last no more than a day.
-- CI tests run upon opening and modifying pull requests.
+- [The 10 Commandments of Navigating Code Reviews](https://techbeacon.com/app-dev-testing/10-commandments-navigating-code-reviews)
 
 ---

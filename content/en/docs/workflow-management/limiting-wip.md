@@ -1,26 +1,23 @@
 ---
 title: Work in Progress
-
 tags:
-  - workflow management
-  - teamwork
+  - Teamwork
+  - Workflow
+  - Work Decomposition
 ---
 
 ## Why Limit WIP?
 
-Work in Progress is defined as work that has started but is not yet finished. Limiting WIP helps teams reduce context switching, find workflow issues, and keeps teams focused on collaboration and finishing work.
+Work in Progress is defined as work that has started but is not yet finished. Limiting WIP helps teams reduce context switching, find workflow issues, and keep teams focused on collaboration and finishing work.
 
 ---
 
 ### How do we limit WIP?
 
-Limiting Work in Progress is an experiment. Start with one lane on your board.
-
-Set your WIP limit to n+2("n" being the number of people contributing to that lane)
-
-Continue setting WIP lower.
-
-Once the WIP limit is reached, no more cards can enter that lane until one exits.
+- Start with one lane on your board.
+- Set your WIP limit to N+2 ("N" being the number of people contributing to that lane)
+- Continue setting WIP lower.
+- Once the WIP limit is reached, no more cards can enter that lane until one exits.
 
 ---
 
@@ -74,20 +71,6 @@ Visually distinguish important information.
 - Has this work been in progress for too long?
 - Is this work blocked from progressing?
 - Have we reached our WIP limit?
-
----
-
-## Value
-
-As a team, we want to limit our WIP, so that we may deliver the most valuable
-thing first.
-
----
-
-## Acceptance Criteria
-
-- Set a WIP limit within reason and follow it shamelessly.
-- Work on one thing at a time.
 
 ---
 

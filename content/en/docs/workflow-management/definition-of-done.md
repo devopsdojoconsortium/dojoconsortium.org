@@ -1,16 +1,15 @@
 ---
 title: Definition of Done
-
 tags:
-  - teamwork
-  - workflow management
+  - Teamwork
+  - Workflow
   - Work Decomposition
 ---
 
-> Is it DONE, is it DONE DONE, or is it DONE DONE DONE?
+> Is it __DONE__, __DONE DONE__, or is it __DONE DONE DONE__?
 
 All teams need a Definition of Done. The Definition of Done is an agreement made between the team
-that a unit of work isn't actually complete without meeting certain conditions.
+that a unit of work isn't complete without meeting certain conditions.
 
 ## Recommended Practices
 

@@ -1,8 +1,8 @@
 ---
 title: Visualizing Workflow
-
 tags:
-  - workflow management
+  - Workflow
+  - Teamwork
 ---
 
 Making work visible to ourselves, as well as our stakeholders is imperative in
@@ -58,20 +58,6 @@ Work is work, and without visibility to all of the team's work it's impossible t
 
 Bring visibility to dependencies across teams, to help people anticipate
 what's headed their way, and prevent delays from unknowns and invisible work.
-
----
-
-## Value
-
-As a development team, we want to visualize our workflow, so that we may
-improve workflow efficiency.
-
----
-
-## Acceptance Criteria
-
-- Use a visual board
-- Show any and all work
 
 ---
 
