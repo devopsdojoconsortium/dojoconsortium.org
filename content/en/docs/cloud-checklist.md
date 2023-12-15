@@ -2,7 +2,7 @@
 title: Cloud Native Checklist
 
 tags:
-  - cd
+  - CD
 ---
 
 - [Cloud Native checklist](#cloud-native-checklist)

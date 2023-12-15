@@ -2,10 +2,8 @@
 type: docs
 weight: 10
 title: Development Cycle Time
-
 tags:
-  - metrics
-  - flow
+  - Flow Metrics
 ---
 
 The average time from starting work until release to production.
@@ -33,7 +31,7 @@ rapid feedback on quality.
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Quality](/metrics/defect-rate) decreases if quality processes are skipped.
+- [Quality](/docs/metrics/defect-rate) decreases if quality processes are skipped.
 - Standard deviation of the control chart can show issues being closed too rapidly.
 
 ## References

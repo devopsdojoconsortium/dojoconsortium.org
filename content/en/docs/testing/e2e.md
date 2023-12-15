@@ -4,11 +4,11 @@ title: E2E Testing
 type: docs
 ---
 
-> End to end tests are typically [non-deterministic](/testing/glossary#non-deterministic-test) tests that validate the software system along with its integration with external interfaces. The purpose of end-to-end Test is to exercise a complete production-like scenario. Along with the software system, it also validates batch/data processing from other upstream/downstream systems. Hence, the name "End-to-End". End to End Testing is usually executed after [functional testing](/testing/glossary#functional-test). It uses actual production like data and test environment to simulate real-time settings
+> End to end tests are typically [non-deterministic](/docs/testing/glossary#non-deterministic-test) tests that validate the software system along with its integration with external interfaces. The purpose of end-to-end Test is to exercise a complete production-like scenario. Along with the software system, it also validates batch/data processing from other upstream/downstream systems. Hence, the name "End-to-End". End to End Testing is usually executed after [functional testing](/docs/testing/glossary#functional-test). It uses actual production like data and test environment to simulate real-time settings
 >
-> -- [Testing Glossary](/testing/glossary#end-to-end-test)
+> -- [Testing Glossary](/docs/testing/glossary#end-to-end-test)
 
-End to end tests have the advantage of exercising the system in ways that [functional tests](/testing/glossary#functional-test) cannot. However, they also have
+End to end tests have the advantage of exercising the system in ways that [functional tests](/docs/testing/glossary#functional-test) cannot. However, they also have
 the disadvantage of being slower to provide feedback, require more state management, constant maintenance, and can fail for reasons unrelated to code defects. As such, it is recommended
 that they be the smallest number of tests executed.
 

@@ -36,7 +36,7 @@ at least 5 per day.
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Quality](/metrics/defect-rate) decreases if testing is skipped.
+- [Quality](/docs/metrics/defect-rate) decreases if testing is skipped.
 
 ## Recommended Practices
 

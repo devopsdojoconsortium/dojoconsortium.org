@@ -2,7 +2,7 @@
 weight: 3
 title: Team Workflow
 tags:
-  - workflow management
+  - Workflow
 ---
 
 Working together as a team is how we move things from "In Progress" to "Done", as rapidly as possible in value sequence. It's important for minimizing WIP that the team looks at the backlog as the team's work and does not pre-assign work to individuals.
@@ -63,5 +63,5 @@ Challenges associated with the improvement process:
 A good measure to implement in your team's workflow is [WIP](/docs/workflow-management/limiting-wip).
 Limiting work in progress can help reduce constraints in your workflow.
 
-[Development cycle time](/metrics/development-cycle-time) is a key
+[Development cycle time](/docs/metrics/development-cycle-time) is a key
 measure of success when trying to optimize and automate your team's workflow.

@@ -1,7 +1,7 @@
 ---
 title: Pipeline & Application Architecture
 tage:
-  - Continuous Delivery
+  - CD
   - Pipeline Architecture
 ---
 
@@ -44,7 +44,7 @@ With an entangled architecture, there is no clear ownership of individual compon
 defect anywhere in the system because they are not working within product boundaries. The pipeline's quality signal will
 be delayed compared to better-optimized team architectures. When a defect is found, it will require effort to identify
 which team
-created the defect and a multi-team effort to improve the development process to prevent regression. [Continuous delivery](/testing/glossary#continuous-delivery)
+created the defect and a multi-team effort to improve the development process to prevent regression. [Continuous delivery](/docs/testing/glossary#continuous-delivery)
 is difficult with this architecture.
 
 The journey to CD begins with each team executing [continuous
@@ -132,7 +132,7 @@ With a loosely coupled architecture, components are delivered independently of e
 complexity and improves quality feedback loops. This not only relies on clean separations of teams and sub-assemblies but also on mature testing practices that include the use of virtual services to verify integration.
 
 It's critical when planning to decompose to smaller services that [Domain Driven
-Design](/docs/devops-learning-path#domain-driven-design) is used to inform service boundaries, value objects, and team
+Design](/docs#domain-driven-design) is used to inform service boundaries, value objects, and team
 ownership. Services should use [good micro-service design patterns](/docs/cloud-checklist)
 
 Once we have built our production deployment pipeline, the next most critical constraint to address is the trustworthiness of our

@@ -6,7 +6,7 @@ type: docs
 
 > A static test is a test that evaluates non-running code against rules for known good practices to check for security, structure, or practice issues.
 >
-> -- [Testing Glossary](/testing/glossary#static-test)
+> -- [Testing Glossary](/docs/testing/glossary#static-test)
 
 Static code analysis has many key purposes.
 

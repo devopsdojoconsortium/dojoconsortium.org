@@ -1,6 +1,8 @@
 ---
 title: Glossary
 weight: 1
+tags:
+    - Glossary
 ---
 
 - [Continuous Delivery](#continuous-delivery)

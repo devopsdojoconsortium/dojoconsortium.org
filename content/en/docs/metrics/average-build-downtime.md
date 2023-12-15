@@ -4,8 +4,9 @@ weight: 10
 
 title: Average Build Downtime
 tags:
-  - metrics
-  - throughput
+  - Metrics
+  - Throughput
+  - Stability
 ---
 
 The average length of time between when a build breaks and when it is fixed.

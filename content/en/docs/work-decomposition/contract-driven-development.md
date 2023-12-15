@@ -3,9 +3,9 @@ title: Contract Driven Development
 tags: 
    - Batch Size
    - Testing
-   - Architecture
    - Planning
-   - Evolutionary Change
+   - Evolutionary Development
+   - API Management
 ---
 
 Contract Driven Development is the process of defining the contract changes

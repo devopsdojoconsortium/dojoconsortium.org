@@ -11,7 +11,7 @@ tags:
 - Small changes allow for faster code review and enhance the feedback loops.
 - Everyone on the team is capable of performing code review.
 - Code reviews are the second highest priority for a team behind blocked issues and
-  ahead of [WIP](/metrics/work-in-progress).
+  ahead of [WIP](/docs/metrics/work-in-progress).
 
 ## Tips
 

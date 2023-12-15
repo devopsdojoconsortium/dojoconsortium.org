@@ -3,7 +3,6 @@ title: Source Ownership
 weight: 1
 tags:
   - Teamwork
-  - Quality
   - Ownership
 ---
 

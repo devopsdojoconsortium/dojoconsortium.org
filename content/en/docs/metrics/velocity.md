@@ -33,8 +33,8 @@ and focusing on teamwork.
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Quality](/metrics/quality) defect ratio goes up as more defects are reported.
-- [WIP](/metrics/work-in-progress) increases as teams start more work to look more
+- [Quality](/docs/metrics/quality) defect ratio goes up as more defects are reported.
+- [WIP](/docs/metrics/work-in-progress) increases as teams start more work to look more
   busy.
 
 ## References

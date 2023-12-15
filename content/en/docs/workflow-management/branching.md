@@ -4,7 +4,7 @@ weight: 1
 tags:
   - Workflow
   - Testing
-  - Feedback
+  - CI
 ---
 
 ## Use Trunk Based Development
@@ -16,9 +16,9 @@ tags:
 - The trunk can always be built and deployed without breaking production.
   - When needed, use techniques such as [Branch by Abstraction](https://www.branchbyabstraction.com/) or feature flags to ensure backward compatibility.
 - The change includes __all__ appropriate automated tests to validate that the change is deliverable.
-  - [Unit tests](/testing/unit)
-  - [Functional test](/testing/functional)
-  - [Contract tests](/testing/contract)
+  - [Unit tests](/docs/testing/unit)
+  - [Functional test](/docs/testing/functional)
+  - [Contract tests](/docs/testing/contract)
   - etc.
   
 ## Branching vs. Forking
@@ -47,7 +47,7 @@ Use the right pattern for the right reason. Branches are the primary flow for CI
 Trunk-based development and continuous integration often take workflow adjustments on the team.
 The main reasons teams struggle with CI are:
 
-- [Test architecture](/testing)
+- [Test architecture](/docs/testing)
 - [Work that is too big and/or lacks proper refinement](/docs/work-decomposition/work-breakdown)
 - Issues with [source code ownership](/docs/workflow-management/source-ownership) (one repo owned by more than one team)
 - [Workflow management](/docs/workflow-management/) within the team

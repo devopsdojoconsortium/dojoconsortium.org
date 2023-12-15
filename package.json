@@ -13,7 +13,7 @@
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "prepare": "husky install",
-    "start": "hugo server -D",
+    "start": "hugo server",
     "test": "npm run lint && npm run link-check",
     "test:ci": "rm -rf public && hugo && npx check-html-links public",
     "update": "hugo mod get -u ./... && hugo mod tidy && npx npm-check-updates -u && npm install"

@@ -2,9 +2,8 @@
 title: Value Stream Mapping
 weight: 9
 tags:
-  - cd
-  - process improvement
-  - lean
+  - CD
+  - Lean
 ---
 
 The purpose of the Value Stream Mapping Workshop is to uncover all of the steps required to take an idea from conception to production. The goal is to uncover the following:

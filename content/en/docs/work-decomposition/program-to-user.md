@@ -3,10 +3,7 @@ title: From Roadmap to User Story
 weight: 1
 tags: 
    - Planning
-   - Product Ownership
-   - Roadmaps
-   - Vision
-   - Goals
+   - Product Ownership=
 ---
 
 Aligning priorities across multi-team products can be challenging. However, the process used at the team level to decompose work

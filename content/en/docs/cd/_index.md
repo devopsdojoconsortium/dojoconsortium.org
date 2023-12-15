@@ -1,6 +1,8 @@
 ---
-title: Getting Started with CD
+title: Starting CD
 weight: 2
+description: >
+  Migrating your system to Continuous Delivery
 tags:
   - CD
 ---
@@ -86,18 +88,18 @@ This working agreement for CI focuses on developing teamwork and delivering qual
 
 **Desired outcomes:**
 
-- [More frequent](/metrics/integration-frequency) integration of smaller, higher quality, lower risk changes.
+- [More frequent](/docs/metrics/integration-frequency) integration of smaller, higher quality, lower risk changes.
 - More efficient and effective test architecture
 - [Lean code review process](/docs/workflow-management/code-review)
 - Reduced [Work In Progress](/docs/workflow-management/limiting-wip) (WIP)
 
 ### Continuous Delivery/Deploy
 
-- Increased [delivery frequency](/metrics/release-frequency)
-- [Increased stability](/metrics/quality)
-- Improved [deploy success](/metrics/change-fail-rate)
-- Reduced [development cycle time](/metrics/development-cycle-time)
-- Improved [time to restore service](/metrics/mean-time-to-repair)
+- Increased [delivery frequency](/docs/metrics/release-frequency)
+- [Increased stability](/docs/metrics/quality)
+- Improved [deploy success](/docs/metrics/change-fail-rate)
+- Reduced [development cycle time](/docs/metrics/development-cycle-time)
+- Improved [time to restore service](/docs/metrics/mean-time-to-repair)
 - Reduced process waste
 - Smaller, less risky production releases.
 - Small, cohesive, high morale, high-performing product teams with business domain expertise.
@@ -200,9 +202,9 @@ There should be no manual intervention after the code is integrated into the tru
 
 ## Tips
 
-Use [trunk merge frequency](/metrics/integration-frequency),
-[development cycle time](/metrics/development-cycle-time), and
-[delivery frequency](/metrics/release-frequency) to uncover pain points. The team has
+Use [trunk merge frequency](/docs/metrics/integration-frequency),
+[development cycle time](/docs/metrics/development-cycle-time), and
+[delivery frequency](/docs/metrics/release-frequency) to uncover pain points. The team has
 complete control merge frequency and development cycle time and can
 uncover most issues by working to improve those two metrics.
 

@@ -2,7 +2,7 @@
 title: Common Blockers
 weight: 2
 tags:
-  - cd
+  - CD
 ---
 
 The following are very frequent issues that teams encounter when working to improve the flow of delivery.

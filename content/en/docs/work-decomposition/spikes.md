@@ -2,7 +2,6 @@
 title: Spikes
 tags: 
    - Batch Size
-   - Continuous Learning
    - Planning
 ---
 

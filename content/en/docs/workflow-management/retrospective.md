@@ -1,9 +1,7 @@
 ---
 title: Retrospectives
-
 tags:
   - Teamwork
-  - Improvement
 ---
 
 **Retrospectives are critical** for teams that are serious about continuous

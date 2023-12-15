@@ -11,11 +11,11 @@ tags:
 Mean Time to Repair is the average time between when a incidents is
 detected and when it is resolved.
 
-"Software delivery performance is a combination of three metrics: [lead time](/metrics/development-cycle-time), [release
-frequency](/metrics/release-frequency), and MTTR. [Change fail rate](/metrics/change-fail-rate) is not included, though it
+"Software delivery performance is a combination of three metrics: [lead time](/docs/metrics/development-cycle-time), [release
+frequency](/docs/metrics/release-frequency), and MTTR. [Change fail rate](/docs/metrics/change-fail-rate) is not included, though it
 is highly correlated."
 
-["Accelerate"](https://itrevolution.com/book/accelerate/) uses Lead Time for [Development Cycle Time](/metrics/development-cycle-time).
+["Accelerate"](https://itrevolution.com/book/accelerate/) uses Lead Time for [Development Cycle Time](/docs/metrics/development-cycle-time).
 
 ## What is the intended behavior?
 
@@ -24,7 +24,7 @@ Improve the ability to more rapidly resolve system instability and service outag
 ## How to improve it
 
 - Make sure the pipeline alway deployable.
-- Keep [build cycle time](/metrics/build-duration) short to allow roll-forward.
+- Keep [build cycle time](/docs/metrics/build-duration) short to allow roll-forward.
 - Implement feature flags for larger feature changes to allow the them to be deactivated without re-deploying.
 - Identify stability issues and prioritize them in the backlog.
 
@@ -36,7 +36,7 @@ Improve the ability to more rapidly resolve system instability and service outag
 
 Metrics to use in combination with this metric to prevent unintended consequences.
 
-- [Quality](/metrics/defect-rate) decreases if issues re-occur due to lack of improving pipeline quality gates.
+- [Quality](/docs/metrics/defect-rate) decreases if issues re-occur due to lack of improving pipeline quality gates.
 
 ## References
 
