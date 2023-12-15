@@ -1,9 +1,9 @@
 ---
-title: From Program to User Story
+title: From Roadmap to User Story
 weight: 1
 tags: 
    - Planning
-   - Prodcut Ownership
+   - Product Ownership
    - Roadmaps
    - Vision
    - Goals
