@@ -68,7 +68,7 @@ Architecting a system of delivery is about designing efficient quality gates for
 - Recommended Reading
   - [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://learning.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/) Jez Humble and David Farley
 
-## Test-Driven Development (Design)
+## Test-Driven Development
 
 TDD highly correlates with application architecture that is easy to maintain and easy to upgrade.
 
