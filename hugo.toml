@@ -103,7 +103,8 @@ pygmentsUseClassic = false
     footer_about_disable                  = false
     navbar_logo                           = false
     navbar_translucent_over_cover_disable = true
-    sidebar_menu_compact                  = false
+    sidebar_menu_compact                  = true
+    sidebar_menu_foldable                 = true
     sidebar_search_disable                = true
     [params.ui.feedback]
       enable = false

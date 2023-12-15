@@ -1,13 +1,15 @@
 ---
-
-title: Improving Pipeline Architecture
+title: Pipeline & Application Architecture
+tage:
+  - Continuous Delivery
+  - Pipeline Architecture
 ---
 
 Whenever teams or areas want to improve their ability to deliver, there is a recommended order of operations to ensure the
 improvement is effective. This value stream improvement journey's goal is to provide the steps and guide you to good implementation
 practices.
 
-Prerequisite: Please review the [CD Getting Started](/docs/starting-ci-cd) guide for context.
+Prerequisite: Please review the [CD Getting Started](/docs/cd) guide for context.
 
 - [1. Build a Deployment Pipeline](#1-build-a-deployment-pipeline)
   - [Entangled Architecture - Requires Remediation](#entangled-architecture---requires-remediation)
@@ -206,8 +208,9 @@ stability, and speed all improve.
 
 ## References
 
-- ["Accelerate"](https://itrevolution.com/product/accelerate/) - Forsgren, Humble, & Kim - 2018
-- ["Engineering the Digital Transformation"](https://garygruver.com/engineering-digital-transformation.php) Gruver - 2019
-- ["A Practical Approach to Large-Scale Agile Development: How HP Transformed LaserJet FutureSmart
-  Firmware"](https://www.amazon.com/Practical-Approach-Large-Scale-Agile-Development/dp/0321821726) Gruver et al - 2012
-- [Theory of Constraints](https://www.tocinstitute.org/theory-of-constraints.html) - Goldratt
+|Title|Author|
+|---|---|
+| [Accelerate](https://itrevolution.com/product/accelerate/) | Forsgren, Humble, & Kim - 2018|
+| [Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php)| Gruver - 2019|
+|[A Practical Approach to Large-Scale Agile Development: <br> How HP Transformed LaserJet FutureSmart Firmware](https://www.amazon.com/Practical-Approach-Large-Scale-Agile-Development/dp/0321821726)| Gruver et al - 2012|
+| [Theory of Constraints](https://www.tocinstitute.org/theory-of-constraints.html)| Goldratt|

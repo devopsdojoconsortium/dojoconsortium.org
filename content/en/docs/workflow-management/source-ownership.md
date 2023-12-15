@@ -29,8 +29,8 @@ what's happening in the code and dilutes quality responsibility._**
 
 ## References
 
-- Go check out the [CD Anti Patterns](/docs/cd-anti-patterns)
-  page to learn about [Team Structure](/docs/cd-anti-patterns#team-structure)
+- Go check out the [CD Anti Patterns](/docs/cd/cd-anti-patterns)
+  page to learn about [Team Structure](/docs/cd/cd-anti-patterns#team-structure)
   and many other anti-patterns to avoid in your journey.
 
 ---

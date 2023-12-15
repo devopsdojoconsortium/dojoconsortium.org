@@ -49,7 +49,7 @@ Process smells identified for completing work include:
 ### Improve Work
 
 In order to plan and complete work effectively, there must be [an improvement
-process](/docs/delivery-system-improvement-journey#3-continuous-improvement) in place. The improvement process is centered around feedback loops.
+process](/docs/cd/delivery-system-improvement-journey#3-continuous-improvement) in place. The improvement process is centered around feedback loops.
 
 Challenges associated with the improvement process:
 

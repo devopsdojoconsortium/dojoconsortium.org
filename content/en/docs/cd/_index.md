@@ -210,7 +210,7 @@ uncover most issues by working to improve those two metrics.
 Make sure to keep all metrics visible and refer to them often to help drive the
 change.
 
-See [CD best practices](/docs/starting-ci-cd/#recommended-practices) and [CD anti-patterns](/docs/cd-anti-patterns) for more tips on effectively introducing CICD improvements to your team processes.
+See [CD best practices](/docs/cd/#recommended-practices) and [CD anti-patterns](/docs/cd/cd-anti-patterns) for more tips on effectively introducing CICD improvements to your team processes.
 
 ---
 
