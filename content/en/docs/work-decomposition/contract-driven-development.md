@@ -1,7 +1,11 @@
 ---
 title: Contract Driven Development
-
-tags: [testing, architecture]
+tags: 
+   - Batch Size
+   - Testing
+   - Architecture
+   - Planning
+   - Evolutionary Change
 ---
 
 Contract Driven Development is the process of defining the contract changes

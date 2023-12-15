@@ -1,6 +1,12 @@
 ---
 title: From Program to User Story
-
+weight: 1
+tags: 
+   - Planning
+   - Prodcut Ownership
+   - Roadmaps
+   - Vision
+   - Goals
 ---
 
 Aligning priorities across multi-team products can be challenging. However, the process used at the team level to decompose work

@@ -1,7 +1,8 @@
 ---
 title: Story Slicing
-
-tags: [decomposition]
+tags: 
+   - Batch Size
+   - Teamwork
 ---
 
 Story slicing is the activity of taking large stories and splitting them into

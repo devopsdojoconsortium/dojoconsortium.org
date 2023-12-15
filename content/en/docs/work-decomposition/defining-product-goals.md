@@ -1,7 +1,7 @@
 ---
 title: Defining Product Goals
-
-tags: [product management]
+tags: 
+   - Product Ownership
 ---
 
 ## Product Goals

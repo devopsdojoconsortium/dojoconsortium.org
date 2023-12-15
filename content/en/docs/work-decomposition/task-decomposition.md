@@ -1,8 +1,9 @@
 ---
 title: Task Decomposition
 weight: 10
-
-tags: [decomposition]
+tags: 
+   - Batch Size
+   - Teamwork
 ---
 
 ## What does a good task look like?

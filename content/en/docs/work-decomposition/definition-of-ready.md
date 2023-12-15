@@ -1,7 +1,10 @@
 ---
 title: Definition of Ready
-
-tags: [teamwork, decomposition]
+tags: 
+   - Batch Size
+   - Teamwork
+   - Planning
+   - Product Ownership
 ---
 
 _Is it REALLY Ready?_

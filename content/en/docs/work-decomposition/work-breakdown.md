@@ -1,8 +1,11 @@
 ---
 title: Work Decomposition
 weight: 1
-
-tags: [decomposition]
+tags: 
+   - Batch Size
+   - Teamwork
+   - Planning
+   - Product Ownership
 ---
 
 In order to effectively understand and implement the work breakdown flow, the
@@ -63,8 +66,7 @@ completed in less than two days. Stories are made up of one or more tasks.
 
 Typical problems teams experience with decomposition are:
 
-- [Stories are too big](/docs/work-decomposition/story-slicing)
-- [Stories are too complex](/docs/work-decomposition/complexity-and-estimation/)
+- [Stories are too big or complex](/docs/work-decomposition/story-slicing)
 - [Stories lack testable acceptance criteria](/docs/work-decomposition/behavior-driven-development)
 - [Lack of dependency knowledge](/docs/work-decomposition/contract-driven-development)
 - [Managing research tasks](/docs/work-decomposition/spikes)

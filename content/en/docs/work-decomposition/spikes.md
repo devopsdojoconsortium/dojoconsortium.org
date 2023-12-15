@@ -1,11 +1,13 @@
 ---
 title: Spikes
-
-tags: [teamwork, decomposition]
+tags: 
+   - Batch Size
+   - Continuous Learning
+   - Planning
 ---
 
 Spikes are an exploration of potential solutions for work or research items that cannot be estimated. They
-should be time-boxed in short increments (2-3 days).
+should be time-boxed in short increments (1-3 days).
 
 ---
 
@@ -19,9 +21,10 @@ valuable, for some iteration in the future.
 Spikes should follow a [Definition of Done](/docs/workflow-management/definition-of-done),
 with acceptance criteria, that can be demoed at the end of its timebox.
 
-A spike should have a definite timebox, usually within 1-3 days. At the end of
-this timebox, the team should be able to decide how, when, and even if the work
-can be considered for upcoming iterations.
+A spike should have a definite timebox with frequent feedback to the team on what's been learned so far. It can be
+tempting to learn everything about the problem and all of the solutions before trying anything, but the best way to
+learn is to learn using the problem in front of us right now. Batching learning is worse than batching other kinds of
+work because effective learning requires applying the learning immediately or it's lost.
 
 ---
 

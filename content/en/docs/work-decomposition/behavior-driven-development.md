@@ -1,9 +1,12 @@
 ---
 title: Behavior Driven Development
-
+weight: 2
 tags: 
- - testing
- - decomposition
+   - Batch Size
+   - Teamwork
+   - Testing
+   - Planning
+   - Product Ownership
 ---
 
 Behavior Driven Development is the collaborative process where we discuss the intent and behaviors of a feature and
