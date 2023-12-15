@@ -1,9 +1,8 @@
 ---
 title: Getting Started with CD
-
-weight: 1
+weight: 2
 tags:
-  - cd
+  - CD
 ---
 
 - [Introduction to CD](#introduction-to-cd)

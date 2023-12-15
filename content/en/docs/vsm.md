@@ -1,5 +1,6 @@
 ---
 title: Value Stream Mapping
+weight: 9
 tags:
   - cd
   - process improvement
