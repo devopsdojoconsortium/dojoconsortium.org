@@ -6,7 +6,6 @@ description: >
 tags:
   - CD
 ---
-
 - [Introduction to CD](#introduction-to-cd)
 - [Goals](#goals)
 - [CD Maturity](#cd-maturity)
@@ -14,11 +13,6 @@ tags:
   - [Good](#good)
   - [Continuous Integration](#continuous-integration)
   - [Continuous Delivery/Deploy](#continuous-deliverydeploy)
-- [CD Anti-Patterns](#cd-anti-patterns)
-  - [Work Breakdown](#work-breakdown)
-  - [Workflow Management](#workflow-management)
-  - [Teams](#teams)
-  - [Testing Process](#testing-process)
 - [Recommended Practices](#recommended-practices)
   - [Pipeline](#pipeline)
   - [Short CI Cycle Time](#short-ci-cycle-time)
@@ -106,45 +100,6 @@ This working agreement for CI focuses on developing teamwork and delivering qual
 
 ---
 
-## CD Anti-Patterns
-
-### Work Breakdown
-
-| Issue                 | Description                                      | Good Practice                                                                                                                     |
-| --------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| Unclear requirements  | Stories without testable acceptance criteria     | Work should be defined with acceptance tests to improve clarity and enable developer driven testing.                              |
-| Long development Time | Stories take too long to deliver to the end user | Use BDD to decompose work to testable acceptance criteria to find smaller deliverables that can be completed in less than 2 days. |
-
-### Workflow Management
-
-| Issue                                   | Description                                                                                                                                                                                                           | Good Practice                                                                                                                                                                                |
-| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Rubber band scope                       | Scope that keeps expanding over time                                                                                                                                                                                  | Use BDD to clearly define the scope of a story and never expand it after it begins.                                                                                                          |
-| Focusing on individual productivity     | Attempting to manage a team by reporting the "productivity" of individual team members. This is the fastest way to destroy teamwork.                                                                                  | Measure team efficiency, effectiveness, and morale                                                                                                                                           |
-| Estimation based on resource assignment | Pre-allocating backlog items to the people based on skill and hoping that those people do not have life events.                                                                                                       | The whole team should own the team's work. Work should be pulled in priority sequence and the team should work daily to remove knowledge silos.                                             |
-| Meaningless retrospectives              | Having a retrospective where the outcome does not results in team improvement items.                                                                                                                                  | Focus the retrospective on the main constraints to daily delivery of value.                                                                                                                  |
-| Skipping demo                           | No work that can be demoed was completed.                                                                                                                                                                             | Demo the fact that no work is ready to demo                                                                                                                                                  |
-| No definition of "Done" or "Ready"      | Obvious                                                                                                                                                                                                               | Make sure there are clear entry gates for "ready" and "done" and that the gates are applied without exception                                                                                |
-| One or fewer deliveries per sprint      | The sprint results in one or fewer changes that are production ready                                                                                                                                                  | Sprints are planning increments, not delivery increments. Plan what will be delivered daily during the sprint. Uncertainty increases with time. Distant deliverables need detailed analysis. |
-| Pre-assigned work                       | Assigning the list of tasks each person will do as part of sprint planning. This results in each team member working in isolation on a task list instead of the team focusing on delivering the next high value item. | The whole team should own the team's work. Work should be pulled in priority sequence and the team should work daily to remove knowledge silos.                                             |
-
-### Teams
-
-| Issue                | Description                                                                                                                                                                                       | Good Practice                                                                                                                                                    |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Unstable Team Tenure | People are frequently moved between teams                                                                                                                                                         | Teams take time to grow. Adding or removing anyone from a team lowers the team's maturity and average expertise in the solution. Be mindful of change management |
-| Poor teamwork        | Poor communication between team members due to time delays or "expert knowledge" silos                                                                                                            | Make sure there is sufficient time overlap and that specific portions of the system are not assigned to individuals                                              |
-| Multi-team deploys   | Requiring more than one team to deliver synchronously reduces the ability to respond to production issues in a timely manner and delays delivery of any feature to the speed of he slowest teams. | Make sure all dependencies between teams are handled in ways that allow teams to deploy independently in any sequence.                                           |
-
-### Testing Process
-
-| Issue              | Description                                                                                                | Good Practice                                                                                                                                                              |
-| ------------------ | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Outsourced testing | Some or all of acceptance testing performed by a different team or an assigned subset of the product team. | Building in the quality feedback and continuously improving the same is the responsibility of the development team.                                                        |
-| Manual testing     | Using manual testing for functional acceptance testing.                                                    | Manual tests should only be used for things that cannot be automated. In addition, manual tests should not be blockers to delivery but should be asynchronous validations. |
-
----
-
 ## Recommended Practices
 
 While implementation is contextual to the product, there are key
@@ -211,7 +166,7 @@ uncover most issues by working to improve those two metrics.
 Make sure to keep all metrics visible and refer to them often to help drive the
 change.
 
-See [CD best practices](/docs/cd/#recommended-practices) and [CD anti-patterns](/docs/cd/cd-anti-patterns) for more tips on effectively introducing CICD improvements to your team processes.
+See [CD best practices](/docs/cd/#recommended-practices) and [CD Roadblocks](/docs/cd/cd-problems) for more tips on effectively introducing CICD improvements to your team processes.
 
 ---
 
