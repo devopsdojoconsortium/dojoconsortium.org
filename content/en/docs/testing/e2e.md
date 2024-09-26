@@ -1,67 +1,70 @@
 ---
-title: E2E Testing
-
-type: docs
+title: "E2E Testing"
+linkTitle: "E2E Testing"
+weight: 4
+description: >
+  Understanding and implementing End-to-End (E2E) testing in software development
+tags: ["Testing", "E2E"]
 ---
 
-> End to end tests are typically [non-deterministic](/docs/testing/glossary#non-deterministic-test) tests that validate the software system along with its integration with external interfaces. The purpose of end-to-end Test is to exercise a complete production-like scenario. Along with the software system, it also validates batch/data processing from other upstream/downstream systems. Hence, the name "End-to-End". End to End Testing is usually executed after [functional testing](/docs/testing/glossary#functional-test). It uses actual production like data and test environment to simulate real-time settings
->
-> -- [Testing Glossary](/docs/testing/glossary#end-to-end-test)
+{{% pageinfo %}}
+End-to-end tests validate the entire software system, including its integration with external interfaces. They exercise complete production-like scenarios, typically executed after functional testing.
+{{% /pageinfo %}}
 
-End to end tests have the advantage of exercising the system in ways that [functional tests](/docs/testing/glossary#functional-test) cannot. However, they also have
-the disadvantage of being slower to provide feedback, require more state management, constant maintenance, and can fail for reasons unrelated to code defects. As such, it is recommended
-that they be the smallest number of tests executed.
+{{< figure src="/images/testing-images/e2e-test.png" title="E2E Test" >}}
 
-!["E2E Test"](/images/testing-images/e2e-test.png)
-
-End-to-end tests are segmented into two categories: vertical and horizontal tests.
+## Types of E2E Tests
 
 ### Vertical E2E Tests
 
-Vertical tests are end to end tests which target features under the control of a single team. Examples of these may be "when I click the heart icon on an item, it's favorited and that persists across a refresh" or "a user can create a new saved list and add items to it".
+Target features under the control of a single team. Examples:
+
+- Favoriting an item and persisting across refresh
+- Creating a new saved list and adding items to it
 
 ### Horizontal E2E Tests
 
-A horizontal test, by contrast, spans multiple teams. An example of this may be going from the homepage through checkout. That involves coordination across the homepage, item page, cart, and checkout teams.
+Span multiple teams. Example:
 
-Because of the inherent complexity of horizontal tests (multi-team), they are unsuitable for blocking release pipelines.
+- Going from homepage through checkout (involves homepage, item page, cart, and checkout teams)
+
+{{% alert title="Note" color="warning" %}}
+Due to their complexity, horizontal tests are unsuitable for blocking release pipelines.
+{{% /alert %}}
 
 ## Recommended Best Practices
 
-* E2E tests should be the least used due to their cost in run time and in maintenance required.
-* Focus on happy-path validation of business flows
-* E2E tests can fail for reasons unrelated to the coding issues. Capture the frequency and cause of failures so that efforts can be made to make them more stable.
-* Vertical E2E tests should be maintained by the team at the start of the flow and versioned with the component (UI or service).
-* CD pipelines should be optimized for the rapid recovery of production issues. Therefore, horizontal E2E tests should not be used to block delivery due to their size and relative failure surface area.
-* A team may choose to run vertical E2E in their pipeline to block delivery, but efforts must be made to decrease false positives to make this valuable.
+ E2E tests should be the least used due to their cost in run time and in maintenance required.
+- Focus on happy-path validation of business flows
+- E2E tests can fail for reasons unrelated to the coding issues. Capture the frequency and cause of failures so that efforts can be made to make them more stable.
+- Vertical E2E tests should be maintained by the team at the start of the flow and versioned with the component (UI or service).
+- CD pipelines should be optimized for the rapid recovery of production issues. Therefore, horizontal E2E tests should not be used to block delivery due to their size and relative failure surface area.
+- A team may choose to run vertical E2E in their pipeline to block delivery, but efforts must be made to decrease false positives to make this valuable.
 
 ## Alternate Terms
 
-Integration test and end to end are often used internchangeably.
+"Integration test" and "end-to-end test" are often used interchangeably.
 
 ## Resources
 
-* [Testing Strategies in a Microservice Architecture: E2E Introduction](https://martinfowler.com/articles/microservice-testing/#testing-end-to-end-introduction)
-* [The Practical Test Pyramid: E2E Tests](https://martinfowler.com/articles/practical-test-pyramid.html#End-to-endTests)
-* [Google Test Blog \* Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
+- [Testing Strategies in a Microservice Architecture: E2E Introduction](https://martinfowler.com/articles/microservice-testing/#testing-end-to-end-introduction)
+- [The Practical Test Pyramid: E2E Tests](https://martinfowler.com/articles/practical-test-pyramid.html#End-to-endTests)
+- [Google Test Blog: Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
 
-## Examples
+## Example
 
 {{< tabpane langEqualsHeader=true >}}
   {{< tab header="Java" >}}
-    @Test(priority = 1, dependsOnMethods = { "navigate" })
-    @Parameters({ "validUserId" })
-    public void verifyValidUserId(@Optional(TestConstants.userId) String validUserId) throws Exception {
-
-    // ************************************************************
+@Test(priority = 1, dependsOnMethods = { "navigate" })
+@Parameters({ "validUserId" })
+public void verifyValidUserId(@Optional(TestConstants.userId) String validUserId) throws Exception {
     // Valid UserId Test
-    // ************************************************************
-    
-    // ===============Act===============
+
+    // Act
     homePage.getUserData(validUserId);
-    TestUtil.explicitWait(wait,By.xpath(TestConstants.NAME_XPATH));
+    TestUtil.explicitWait(wait, By.xpath(TestConstants.NAME_XPATH));
     
-    // ===============Assert===============
+    // Assert
     Assert.assertEquals(homePage.getName(), TestConstants.NAME, TestConstants.NAME_CONFIRM);
     Assert.assertEquals(homePage.getManagerName(), TestConstants.MANAGER_NAME,
         TestConstants.MANAGER_NAME_CONFIRM);
@@ -69,6 +72,6 @@ Integration test and end to end are often used internchangeably.
     Assert.assertEquals(homePage.getOrgName(), TestConstants.ORG_NAME, TestConstants.ORG_NAME_CONFIRM);
     Assert.assertEquals(homePage.getDirName(), TestConstants.DIR_NAME, TestConstants.DIR_NAME_CONFIRM);
     Assert.assertEquals(homePage.getCcName(), TestConstants.CC_NAME, TestConstants.CC_NAME_CONFIRM);
-    }
+}
   {{< /tab >}}
 {{< /tabpane >}}

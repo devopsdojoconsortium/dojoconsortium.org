@@ -1,6 +1,9 @@
 ---
-title: Work Decomposition
+title: "Work Decomposition"
+linkTitle: "Work Decomposition"
 weight: 1
+description: >
+  A guide to effectively breaking down work into manageable, deliverable units
 tags: 
    - Batch Size
    - Teamwork
@@ -8,81 +11,73 @@ tags:
    - Product Ownership
 ---
 
-In order to effectively understand and implement the work breakdown flow, the
-team needs to have the following prerequisites and understandings.
+{{% pageinfo %}}
+Effective work decomposition is crucial for delivering value faster with less rework. This guide outlines the process and best practices for breaking down work from ideas to tasks.
+{{% /pageinfo %}}
+
+## Prerequisites
+
+Before implementing the work breakdown flow, ensure your team has:
 
 - [Definition of Ready](/docs/work-decomposition/definition-of-ready)
 - [Definition of Done](/docs/workflow-management/definition-of-done)
-- Backlog refinement cadence with the appropriate team members and stakeholders involved
-
----
+- Backlog refinement cadence with appropriate team members and stakeholders
 
 ## Work Breakdown Process
 
-The goal of the work breakdown process is to decompose work into small batches
-that can be delivered frequently, multiple times a week, to deliver value faster with less rework.
+{{< figure src="/images/work-breakdown.png" title="Work Breakdown Flow" width="80%" >}}
 
-The general work breakdown process involves:
+{{% alert title="Goal" color="primary" %}}
+Decompose work into small batches that can be delivered frequently, multiple times a week.
+{{% /alert %}}
 
-![Work Breakdown Flow](/images/work-breakdown.png#width=80%)
+### Key Tips for Work Decomposition
 
-It is important that the team keep these tips in mind when decomposing work:
+1. Known poor quality should not flow downstream
+2. Plan refinement meetings when people are mentally alert
+3. Good acceptance criteria come from good communication
+4. Focus on outcomes, not volume, during refinement
 
-1. Known poor quality should not flow downstream. This includes acceptance criteria that require interpretation. If the
-   acceptance criteria cannot be understood by the whole team then we are developing defects, not value.
-2. Refining work requires significant brainpower and is the primary quality process. Meetings should be planned around
-   this. Hold them when people are mentally alert and time box them to prevent mental fatigue.
-3. Good acceptance criteria come from good communication. Avoid the following anti-patterns:
-   1. Someone outside the team writes acceptance criteria and hands it to the team. Since the team was not involved with
-      the conversation, there's no chance to uncover assumptions and the team has less investment in the outcomes.
-   2. One person on the team writes acceptance criteria. The same problem is above.
-   3. Each team member is assigned work based on their expertise. This removes communication and also ensures that
-      people are only focused on understanding **their** tasks. Again, the team as a whole isn't invested in the
-      outcomes. This typically results in finger-pointing when something fails. Also, if someone is unavailable, the
-      rest of the team lacks context to pick it up.
-4. Refining should be focused on outcomes, not volume. If we have a 1-hour meeting and 10 stories to refine, it's better
-   to have one fully refined story we can work on than 10 partially refined stories that we'll "figure out during
-   development". Stop refining a story when we agree on the acceptance criteria or agree it's blocked and needs more
-   information. Only then should we move to the next story. Stop the meeting at the scheduled time.
+{{< figure src="/images/work-breakdown-flow.png" title="Workflow" width="10%" >}}
 
-![Workflow](/images/work-breakdown-flow.png#width=10%)
+## Stages of Work Breakdown
 
-### Intake/Product Ideas
+### 1. Intake/Product Ideas
 
-Ideas become epics with defined outcomes, clear goals and value.
-Epics become a list of features.
+- Ideas become epics with defined outcomes, clear goals, and value
+- Epics become a list of features
 
-Common struggles for teams when breaking down ideas into epics and features:
+Common struggles:
 
 - [Unclear requirements](/docs/work-decomposition/behavior-driven-development)
 - [Unclear goals](/docs/work-decomposition/defining-product-goals)
 
----
+### 2. Refining Epics/Features into Stories
 
-### Refining Epics/Features into Stories
+Stories are observable changes with clear acceptance criteria, completable in less than two days.
 
-Stories are observable changes that have clear acceptance criteria and can be
-completed in less than two days. Stories are made up of one or more tasks.
-
-Typical problems teams experience with decomposition are:
+Typical problems:
 
 - [Stories are too big or complex](/docs/work-decomposition/story-slicing)
 - [Stories lack testable acceptance criteria](/docs/work-decomposition/behavior-driven-development)
 - [Lack of dependency knowledge](/docs/work-decomposition/contract-driven-development)
 - [Managing research tasks](/docs/work-decomposition/spikes)
 
----
+### 3. Refining Stories into Development Tasks
 
-### Refining Stories into Development Tasks
+- Tasks are independently deployable changes, mergeable to trunk daily
+- Breaking stories into tasks allows teams to swarm work and deliver value faster
+- Teams need to understand [what makes a good task](/docs/work-decomposition/task-decomposition)
 
-- Tasks are independently deployable changes that can be merged to trunk daily.
-- Breaking stories down into tasks gives teams the ability to swarm work and deliver value faster.
-- For teams to visualize tasks required to implement scenarios, they need to understand what a [good task](/docs/work-decomposition/task-decomposition) looks like.
+## Measuring Success
 
----
+{{% alert title="Key Metric" color="info" %}}
+Track the team's [Development Cycle Time](/docs/metrics/development-cycle-time) to judge improvements in decomposition.
+{{% /alert %}}
 
-### Measuring Success
+Ideal characteristics:
 
-Tracking the team's [Development Cycle Time](/docs/metrics/development-cycle-time) is the best way to judge improvements
-to decomposition. Stories should take 1-2 days to deliver and should not have rework, delays waiting for
-explanations, or dependencies on other stories or teams.
+- Stories take 1-2 days to deliver
+- No rework
+- No delays waiting for explanations
+- No dependencies on other stories or teams

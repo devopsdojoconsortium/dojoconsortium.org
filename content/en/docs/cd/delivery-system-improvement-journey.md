@@ -1,216 +1,119 @@
 ---
-title: Pipeline & Application Architecture
-tage:
-  - CD
-  - Pipeline Architecture
+title: "Pipeline & Application Architecture"
+linkTitle: "Pipeline & Architecture"
+weight: 3
+description: >
+  A guide to improving your delivery pipeline and application architecture for Continuous Delivery
+tags: ["CD", "Pipeline Architecture"]
 ---
 
-Whenever teams or areas want to improve their ability to deliver, there is a recommended order of operations to ensure the
-improvement is effective. This value stream improvement journey's goal is to provide the steps and guide you to good implementation
-practices.
-
-Prerequisite: Please review the [CD Getting Started](/docs/cd) guide for context.
-
-- [1. Build a Deployment Pipeline](#1-build-a-deployment-pipeline)
-  - [Entangled Architecture - Requires Remediation](#entangled-architecture---requires-remediation)
-    - [Common Entangled Practices](#common-entangled-practices)
-    - [Improvement Plan](#improvement-plan)
-  - [Tightly Coupled Architecture - Transitional](#tightly-coupled-architecture---transitional)
-    - [Common Tightly Coupled Practices](#common-tightly-coupled-practices)
-    - [Improvement Plan](#improvement-plan-1)
-  - [Loosely Coupled Architecture - Goal](#loosely-coupled-architecture---goal)
-    - [Common Loosely Coupled Practices](#common-loosely-coupled-practices)
-- [2. Stabilize the Quality Signal](#2-stabilize-the-quality-signal)
-  - [Remediating Test Instability](#remediating-test-instability)
-- [3. Continuous Improvement](#3-continuous-improvement)
-- [References](#references)
+{{% pageinfo %}}
+This guide provides steps and best practices for improving your delivery pipeline and application architecture. Please review the [CD Getting Started](/docs/cd) guide for context.
+{{% /pageinfo %}}
 
 ## 1. Build a Deployment Pipeline
 
-Before any meaningful improvement can happen, the first constraint must be cleared. We need to make sure there is a single,
-automated deployment pipeline to production. Human intervention after the code is integrated should be limited to approving
-stage gates to trigger automation where needed.
-A well-architected pipeline will build an artifact once and deploy that artifact to all required test environments for validation
-and deliver changes safely to production.
-It will also trigger all of the tests and provide rapid feedback as near the source of failure as possible. This is critical for
-informing the developer who created the defect so that they have the chance to learn the reasons the defect was created and prevent
-future occurrences.
+The first step is to create a single, automated deployment pipeline to production. Human intervention should be limited to approving stage gates where necessary.
 
 ### Entangled Architecture - Requires Remediation
 
-[![Entangled Architecture](/images/entangled-pipelines.png)](/images/entangled-pipelines.png)
+{{< figure src="/images/entangled-pipelines.png" title="Entangled Architecture" width="80%" >}}
 
-With an entangled architecture, there is no clear ownership of individual components or their quality. Every team could cause a
-defect anywhere in the system because they are not working within product boundaries. The pipeline's quality signal will
-be delayed compared to better-optimized team architectures. When a defect is found, it will require effort to identify
-which team
-created the defect and a multi-team effort to improve the development process to prevent regression. [Continuous delivery](/docs/testing/glossary#continuous-delivery)
-is difficult with this architecture.
+{{% alert title="Characteristics" color="warning" %}}
 
-The journey to CD begins with each team executing [continuous
-integration](/docs/glossary/#continuous-integration) on a team branch and those branches are
-integrated automatically into a master CI flow daily.
-
-[![Multi-team Branching](/images/multi-team-branching.png)](/images/multi-team-branching.png)
-
-Any breaks in the pipeline should be addressed immediately by the team who owns the branch.
+- No clear ownership of components or quality
+- Delayed quality signal
+- Difficult to implement Continuous Delivery
+{{% /alert %}}
 
 #### Common Entangled Practices
 
-**Team Structure**: Feature teams focused on cross-cutting deliverables instead of product ownership and capability expertise.
+- **Team Structure**: Feature teams focused on cross-cutting deliverables
+- **Development Process**: Long-lived feature branches
+- **Branching**: Team branches with daily integration to trunk
+- **Testing**: Inverted test pyramid common
+- **Pipeline**: Focus on establishing reliable build/deploy automation
+- **Deploy Cadence / Risk**: Extended delivery cadence, high risk
 
-**Development **Process**: Long-lived feature branches integrated after features are complete
+#### Entangled Improvement Plan
 
-**Branching**: Team branches with each team working towards CI on their branch and daily integration of team branches
-to the trunk that re-runs the team-level tests.
-
-**[Inverted Test Pyramid](https://alisterscott.github.io/TestingPyramids.html)**: The "ice cream cone testing" anti-pattern is
-common. However, the teams should be focusing on improving the quality feedback and engineering tests that alert earlier
-in the build cycle.
-
-**Pipeline**: Establishing reliable build/deploy automation is a high priority.
-
-**Deploy Cadence / Risk**: Delivery cadence in this architecture tends to be extended. This in turn leads to large code
-change delta and high risk.
-
-#### Improvement Plan
-
-Find the architectural boundaries in the application that can be used to divide sub-systems between the
-teams to create product teams. This step will realign the teams to a [tightly coupled
-architecture](#tightly-coupled-architecture---transitional) with defined ownership, will improve quality outcomes, and
-allow them to further decouple the system using the [Strangler](https://martinfowler.com/bliki/StranglerFigApplication.html)](https://martinfowler.com/bliki/StranglerFigApplication.html) process
-
----
+Find architectural boundaries to divide sub-systems between teams, creating product teams. This will realign to a [tightly coupled architecture](#tightly-coupled-architecture---transitional).
 
 ### Tightly Coupled Architecture - Transitional
 
-[![coupled pipelines](/images/coupled-pipelines.png)](/images/coupled-pipelines.png)
+{{< figure src="/images/coupled-pipelines.png" title="Tightly Coupled Architecture" width="80%" >}}
 
-With tightly coupled architecture, changes in one portion of the application can cause unexpected changes in another portion of
-the application. It's quite common for even simple changes to take days or weeks of analysis to verify the implications of the
-change.
+{{% alert title="Characteristics" color="info" %}}
 
-Tightly coupled applications have sub-assemblies assigned to product teams along logical application boundaries. This enables each
-team to establish a quality signal for their components and have the feedback required for improving their quality process. This
-architecture requires a more complicated integration pipeline to make sure each of the components can be tested
-individually and as a larger application. Simplifying the pipelines and decoupling the application will result in higher
-quality with less overhead.
+- Changes in one part can affect other parts unexpectedly
+- Sub-assemblies assigned to product teams
+- Requires a more complex integration pipeline
+{{% /alert %}}
 
 #### Common Tightly Coupled Practices
 
-**Team Structure**: Product teams focused on further de-coupling sub-systems
+- **Team Structure**: Product teams focused on decoupling sub-systems
+- **Development Process**: Continuous integration
+- **Branching**: Trunk-Based Development
+- **Testing**: Developer Driven Testing
+- **Pipeline**: Working towards continuous delivery
+- **Deploy Cadence / Risk**: More frequent deliveries, lower risk
 
-**Development Process**: [Continuous integration](/docs/glossary#continuous-integration). Small, tested changes are applied to the trunk as soon as complete on each product team. In addition, a larger CI pipeline is required to frequently run larger tests on the
-integrated system, at least once per day.
+#### Tightly Coupled Improvement Plan
 
-**Branching**: Because [CI](/docs/glossary#continuous-integration) requires frequent updates to the trunk, [Trunk-Based](https://trunkbaseddevelopment.com)
-Development](https://trunkbaseddevelopment.com) is used for CI.
-
-**[Developer Driven Testing](https://medium.com/@LaSoft/developer-driven-testing-991ca1dab63a)**: The team is responsible for
-architecting and continuously improving a suite of tests that give rapid feedback on quality issues. The team is also responsible
-for the outcomes of poor testing, such as L1 support. This is a critical feedback loop for quality improvement.
-
-**Pipeline**: CI pipeline working to progress to continuous delivery.
-
-**Deploy Cadence / Risk**: Deliveries can be more frequent. Risk is inversely proportional to delivery frequency.
-
-#### Improvement Plan
-
-1. As more changes are needed, the team continues extracting independent domain
-   services](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577) with
-   [well-defined APIs](https://www.openapis.org/)
-2. For infrequently changed portions of the application that are poorly tested, re-writing may result in lost business
-   capabilities. Wrapping these components in an API without re-architecting may be a better solution.
-
----
+1. Extract independent domain services with well-defined APIs
+2. Consider wrapping infrequently changed, poorly tested components in APIs
 
 ### Loosely Coupled Architecture - Goal
 
-[![](/images/decoupled-pipelines.png)](/images/decoupled-pipelines.png)
+{{< figure src="/images/decoupled-pipelines.png" title="Loosely Coupled Architecture" width="80%" >}}
 
-With a loosely coupled architecture, components are delivered independently of each other in any sequence. This reduces
-complexity and improves quality feedback loops. This not only relies on clean separations of teams and sub-assemblies but also on mature testing practices that include the use of virtual services to verify integration.
+{{% alert title="Characteristics" color="success" %}}
 
-It's critical when planning to decompose to smaller services that [Domain Driven
-Design](/docs#domain-driven-design) is used to inform service boundaries, value objects, and team
-ownership. Services should use [good micro-service design patterns](/docs/cloud-checklist)
-
-Once we have built our production deployment pipeline, the next most critical constraint to address is the trustworthiness of our
-tests.
+- Components delivered independently
+- Reduced complexity
+- Improved quality feedback loops
+- Relies on clean team separations and mature testing practices
+{{% /alert %}}
 
 #### Common Loosely Coupled Practices
 
-**Team Structure**: Product teams maintain independent components with well-defined APIs.
-
-**Development Process**: [Continuous integration](/docs/glossary#continuous-integration). Small, tested changes are applied to the trunk as soon as complete on each product team.
-
-**Branching**: Because [CI](/docs/glossary#continuous-integration) requires frequent updates to the trunk, [Trunk-Based](https://trunkbaseddevelopment.com)
-Development](https://trunkbaseddevelopment.com) is used for CI.
-
-**[Developer Driven Testing](https://medium.com/@LaSoft/developer-driven-testing-991ca1dab63a)**: The team is responsible for
-architecting and continuously improving a suite of tests that give rapid feedback on quality issues. The team is also responsible
-for the outcomes of poor testing, such as L1 support. This is a critical feedback loop for quality improvement.
-
-**Pipeline**: One or more CD pipelines that are independently deployable at any time in any sequence.
-
-**Deploy Cadence / Risk**: Deliveries can occur on demand or immediately after being verified by the pipeline. Risk is
-inversely proportional to delivery frequency.
+- **Team Structure**: Product teams maintain independent components
+- **Development Process**: Continuous integration
+- **Branching**: Trunk-Based Development
+- **Testing**: Developer Driven Testing
+- **Pipeline**: One or more independently deployable CD pipelines
+- **Deploy Cadence / Risk**: On-demand or immediate delivery, lowest risk
 
 ## 2. Stabilize the Quality Signal
 
-Establishing a production pipeline allows us to evaluate and improve our quality signal. Quality gates should
-be designed to inform the team of poor quality as close to the source as possible. This goal will be disrupted by
-unstable tests.
+After establishing a production pipeline, focus on improving the quality signal:
 
-### Remediating Test Instability
-
-Unstable test results will create a lack of trust in the test results and encourage bypassing test failure. To correct this:
-
-- Remove flaky tests from the pipeline
-  to ensure that tests in the pipeline are trusted by the team
-- Identify the causes for test instability and take corrective action
-  - If the test can be stabilized and provides value, correct it and move it back into the pipeline
-  - If it cannot be stabilized but is required, schedule it to run outside the pipeline
-  - If not required, remove it
-
-In general, bias should be towards testing **enough**, but not over-testing. Tracking the
-duration of the pipeline and enacting a quality gate for maximum pipeline duration (from PR merge to production) is a good way to keep testing efficient.
-
-After stabilizing the quality signal, we can track where most of the defects are detected and the type of defects they
-are. Start tracking the trends for the number of defects found in each environment and the root cause distribution of
-the defects to inform the test suite improvement plan. Then focus the improvements on moving the majority of defect detection closer to the developer. The ultimate goal is for most defects to be trapped in the developer's environment and not leak into the
-deployment pipeline.
+1. Remove flaky tests from the pipeline
+2. Identify causes for test instability and take corrective action
+3. Bias towards testing enough, but not over-testing
+4. Track pipeline duration and set a quality gate for maximum duration
 
 ## 3. Continuous Improvement
 
-After removing noise from the quality signal, we need to find and remove more waste on a
-continuous basis. We start by mapping the deployment process from coding to production delivery and identifying the choke points
-that are constraining the entire flow. The process for doing this and the effectiveness are documented in Goldratt's ["Theory of
-Constraints" (TOC)](https://www.tocinstitute.org/theory-of-constraints.html). The TOC states that the entire system is constrained
-by one constraint and improvement of the system will only be effective once that constraint is resolved.
+Use the [Theory of Constraints (TOC)](https://www.tocinstitute.org/theory-of-constraints.html) to continuously improve your delivery process:
 
-1. [Identify the system constraint](/docs/vsm).
-2. Decide how to exploit the system constraint.
-3. Subordinate everything else to the above decisions.
-4. Elevate the constraint.
-5. If, in the previous steps, a constraint has been broken, go
-   back to step one but do not allow the inertia to cause a system constraint.
+1. [Identify the system constraint](/docs/vsm)
+2. Decide how to exploit the constraint
+3. Subordinate everything else to the above decisions
+4. Elevate the constraint
+5. If a constraint is broken, return to step one
 
-Some common constraints are:
+Common constraints include:
 
-- **Resource Constraints** - resources such as the number of people who can perform the task, access to environments, etc. which
-  block the flow based on its limited capacity for the desired outcomes.
-- **Policy Constraints** - policies, practices or metrics that artificially impede flow due to their poor alignment with the overall performance of the system.
+- **Resource Constraints**: Limited capacity of people or environments
+- **Policy Constraints**: Policies or practices that impede flow
 
-Working daily to relentlessly remove constraints is the most important work a team can do. Doing so means they are constantly
-testing their improved delivery system by delivering value and constantly improving their ability to do so. Quality, predictability,
-stability, and speed all improve.
+## Further Reading
 
-## References
-
-|Title|Author|
-|---|---|
-| [Accelerate](https://itrevolution.com/product/accelerate/) | Forsgren, Humble, & Kim - 2018|
-| [Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php)| Gruver - 2019|
-|[A Practical Approach to Large-Scale Agile Development: <br> How HP Transformed LaserJet FutureSmart Firmware](https://www.amazon.com/Practical-Approach-Large-Scale-Agile-Development/dp/0321821726)| Gruver et al - 2012|
-| [Theory of Constraints](https://www.tocinstitute.org/theory-of-constraints.html)| Goldratt|
+| Title | Author |
+|-------|--------|
+| [Accelerate](https://itrevolution.com/product/accelerate/) | Forsgren, Humble, & Kim - 2018 |
+| [Engineering the Digital Transformation](https://garygruver.com/engineering-digital-transformation.php) | Gruver - 2019 |
+| [A Practical Approach to Large-Scale Agile Development](https://www.amazon.com/Practical-Approach-Large-Scale-Agile-Development/dp/0321821726) | Gruver et al - 2012 |
+| [Theory of Constraints](https://www.tocinstitute.org/theory-of-constraints.html) | Goldratt |

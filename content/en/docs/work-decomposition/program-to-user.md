@@ -1,46 +1,58 @@
 ---
-title: From Roadmap to User Story
+title: "From Roadmap to User Story"
+linkTitle: "Roadmap to User Story"
 weight: 1
+description: >
+  A guide to aligning priorities and breaking down work across multi-team products
 tags: 
    - Planning
-   - Product Ownership=
+   - Product Ownership
 ---
 
-Aligning priorities across multi-team products can be challenging. However, the process used at the team level to decompose work
-functions just as well at the program level.
+{{% pageinfo %}}
+Aligning priorities across multi-team products can be challenging. This guide outlines how to effectively break down work from program-level roadmaps to team-level user stories.
+{{% /pageinfo %}}
 
 ## Program Roadmap
 
-In order to have an effective work breakdown process, goals and priorities need
-to be established and understood.
+{{% alert title="Key Point" color="primary" %}}
+Establishing and understanding goals and priorities is crucial for an effective work breakdown process.
+{{% /alert %}}
 
-[![](/images/program-roadmap.png)](/images/program-roadmap.png)
+{{< figure src="/images/program-roadmap.png" title="Program Roadmap" link="/images/program-roadmap.png" width="50%" >}}
 
-Stakeholders and leadership teams must define the high-level initiatives, and
-their priorities, so that work may be dispersed among product teams.
-
-Leadership teams can be made up of a core group of product owners.
+- Stakeholders and leadership teams must define high-level initiatives and their priorities
+- Work can then be dispersed among product teams
+- Leadership teams can be composed of a core group of product owners
 
 ## Product Roadmap
 
-The program roadmap should breakdown into the product roadmap, which includes
-the prioritized list of epics for each product.
+The program roadmap should break down into the product roadmap, which includes the prioritized list of epics for each product.
 
-<img src="/images/product-vision.png" width="40%">
+{{< figure src="/images/product-vision.png" title="Product Vision" width="40%" >}}
 
-The leadership team should define the product vision, roadmap, and dependencies
-for each product.
+The leadership team should define:
+
+1. Product vision
+2. Roadmap
+3. Dependencies for each product
 
 ## Team Backlog
 
-The team backlog should be comprised of the prioritized epics from the product roadmap.
+The team backlog should comprise the prioritized epics from the product roadmap.
 
-<img src="/images/feature-backlog.png" width="50%">
+{{< figure src="/images/feature-backlog.png" title="Feature Backlog" width="50%" >}}
 
-The core group needed to effectively break down high level requirements so that
-the team may decompose work includes product owners,
-tech leads, and project managers.
+{{% alert title="Effective Work Breakdown" color="info" %}}
+The core group needed to effectively break down high-level requirements includes:
 
-Product teams should use the processes effective for
-[Work Decomposition](/docs/work-decomposition/work-breakdown), to breakdown
-epics into smaller epics, stories, and tasks.
+- Product owners
+- Tech leads
+- Project managers
+{{% /alert %}}
+
+Product teams should use processes effective for [Work Decomposition](/docs/work-decomposition/work-breakdown) to break down epics into:
+
+- Smaller epics
+- Stories
+- Tasks
