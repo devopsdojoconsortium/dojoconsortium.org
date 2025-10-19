@@ -6,3 +6,9 @@
         GO_VERSION   = "1.23.0"
         HUGO_VERSION = "0.134.3"
         NODE_VERSION = "20"
+
+[[redirects]]
+    from = "/"
+    to = "/docs/"
+    status = 301
+    force = true
