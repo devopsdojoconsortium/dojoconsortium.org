@@ -1,14 +1,34 @@
 {
-  "name": "dojoconsortium.org",
-  "version": "2.0.0",
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {
+      "autoprefixer": "project",
+      "husky": "project",
+      "linkinator": "project",
+      "markdownlint-cli": "project",
+      "postcss": "project",
+      "postcss-cli": "project",
+      "start-server-and-test": "project"
+    }
+  },
+  "dependencies": {},
   "description": "Enterprise Dojo Consortium",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "husky": "^9.1.7",
+    "linkinator": "^7.1.3",
+    "markdownlint-cli": "^0.45.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "start-server-and-test": "^2.1.2"
+  },
+  "name": "dojoconsortium.org",
   "repository": {
     "type": "git",
     "url": "git+https://code.il2.dso.mil/platform-one/products/holocron/engineering-website.git"
   },
   "scripts": {
     "build": "hugo",
-    "postinstall": "git submodule update --init",
     "link-check": "rm -rf public && npm run build && linkinator ./public --config .linkinator.config.json ",
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
@@ -18,13 +38,5 @@
     "test:ci": "rm -rf public && hugo && npx check-html-links public",
     "update": "hugo mod get -u ./... && hugo mod tidy && npx npm-check-updates -u && npm install"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "husky": "^9.1.7",
-    "linkinator": "^7.1.3",
-    "markdownlint-cli": "^0.45.0",
-    "postcss": "^8.5.6",
-    "postcss-cli": "^11.0.1",
-    "start-server-and-test": "^2.1.2"
-  }
+  "version": "2.0.0"
 }
