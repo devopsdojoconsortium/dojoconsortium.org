@@ -24,7 +24,7 @@ an API, that both provider and consumer can use to validate the integration inde
 
 For more complicated interaction that require something more than simple canned
 responses, a common repository that represents a fake of the new service or tools
-like [Mountebank](http://www.mbtest.org/) or [WireMock](http://wiremock.org/)
+like [WireMock](http://wiremock.org/)
 can be used to virtualize more complex behavior. It's important that both
 components are testing the same behaviors.
 

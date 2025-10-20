@@ -69,7 +69,6 @@ The main reasons teams struggle with CI are:
 - [Handling Bug Fixes](https://trunkbaseddevelopment.com/branch-for-release/#fix-production-bugs-on-trunk)
 - [Handling Incomplete Code/Features](https://trunkbaseddevelopment.com/feature-flags/)
 - [Validating Release Quality](https://trunkbaseddevelopment.com/continuous-integration/#ci-services-bots-verifying-human-actions)
-- [Transitioning to Trunk Based Development](https://medium.com/super-dispatch/the-transition-to-trunk-based-development-c131fd3ae361)
 - [Trunk Based Development- You're doing it wrong](https://trunkbaseddevelopment.com/youre-doing-it-wrong/)
 
 ---
