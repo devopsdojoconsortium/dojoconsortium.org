@@ -7,6 +7,10 @@ weight: 3
 
 There are common patterns to show how much of each kind of test is generally recommended. The most used are the [Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) and the [Test Trophy](https://kentcdodds.com/blog/write-tests). Both are trying to communicate the same thing: design a test suite that is fast, gives you confidence, and is not more expensive to maintain than the value it brings.
 
+{{% alert title="Quick Start" color="success" %}}
+📚 **[Testing Quickstart](/docs/testing/testing-quickstart)** - Get your test suite production-ready in one week
+{{% /alert %}}
+
 ## Testing Principles
 
 - Balance cost and confidence

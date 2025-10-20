@@ -72,6 +72,14 @@ Aims to achieve:
 - Smaller, less risky production releases
 - High-performing product teams with domain expertise
 
+## Getting Started
+
+New to Continuous Delivery? Start here:
+
+{{% alert title="Quick Start" color="success" %}}
+📚 **[Getting Started with CD](/docs/cd/getting-started)** - Practical first steps for your first week
+{{% /alert %}}
+
 ## Recommended Practices
 
 1. Conduct a [Value Stream Map](/docs/vsm)

@@ -11,6 +11,10 @@ tags: ["Metrics"]
 Metrics are crucial for organizational improvement. Without measurement, improvement attempts are aimless. This guide outlines key metrics for Continuous Delivery (CD) and Continuous Integration (CI).
 {{% /pageinfo %}}
 
+{{% alert title="Quick Start" color="success" %}}
+📚 **[Metrics Quickstart](/docs/metrics/metrics-quickstart)** - Set up essential CD metrics in one day
+{{% /alert %}}
+
 {{< figure src="/images/Goodharts-law.jpg" title="Goodhart's Law" width="50%" >}}
 
 ## CD Execution Metrics
