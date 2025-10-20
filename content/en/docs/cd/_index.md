@@ -49,7 +49,7 @@ While avoiding rigid "maturity models," we can outline competency levels:
 
 {{% alert title="CI Working Agreement" color="primary" %}}
 
-- Branches originate from and are deleted within 24 hours
+- Branches originate from trunk and are deleted within 24 hours
 - Changes must pass existing tests before merging
 - Team prioritizes completing work in progress over starting new work
 - Fixing a broken build is the highest priority
