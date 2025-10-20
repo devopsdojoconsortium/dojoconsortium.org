@@ -1,12 +1,11 @@
 ---
 type: docs
 weight: 10
-
-title: Average Build Downtime
-tags:
-  - Metrics
-  - Throughput
-  - Stability
+title: "Average Build Downtime"
+linkTitle: "Build Downtime"
+description: >
+  Time the build stays broken before being fixed - measures team discipline and CI commitment
+tags: ["Metrics", "CI", "Team"]
 ---
 
 The average length of time between when a build breaks and when it is fixed.

@@ -1,7 +1,7 @@
 ---
 title: "Starting CD"
 linkTitle: "Starting CD"
-weight: 2
+weight: 1
 description: >
   Migrating your system to Continuous Delivery
 tags: ["CD"]
@@ -80,9 +80,13 @@ New to Continuous Delivery? Start here:
 📚 **[Getting Started with CD](/docs/cd/getting-started)** - Practical first steps for your first week
 {{% /alert %}}
 
+### Understanding CD Practices
+
+**[CD Dependencies](/docs/cd/cd-dependency-tree)** - Visual guide showing how practices like TDD, BDD, and Trunk-Based Development build upon each other to enable CD. See [practices.minimumcd.org](https://practices.minimumcd.org) for detailed implementation guides.
+
 ## Recommended Practices
 
-1. Conduct a [Value Stream Map](/docs/vsm)
+1. Conduct a [Value Stream Map](/docs/reference/value-stream-mapping)
 2. Build a roadmap to remove constraints
 3. Align with the CI working agreement
 4. Implement a single CD automated pipeline per repository

@@ -1,11 +1,11 @@
 ---
 type: docs
 weight: 10
-title: Defect Rate
-
-tags:
-  - metrics
-  - stability
+title: "Defect Rate"
+linkTitle: "Defect Rate"
+description: >
+  Measure of escaped defects found in production, indicating test effectiveness and quality processes
+tags: ["Metrics", "Quality", "Stability"]
 ---
 
 Defect rates are the total number of defects by severity reported for a period of time.

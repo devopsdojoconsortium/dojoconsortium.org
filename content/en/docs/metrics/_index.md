@@ -1,7 +1,7 @@
 ---
 title: "Metrics Overview"
 linkTitle: "Metrics Overview"
-weight: 3
+weight: 5
 description: >
   An overview of key metrics for measuring and improving Continuous Delivery performance
 tags: ["Metrics"]

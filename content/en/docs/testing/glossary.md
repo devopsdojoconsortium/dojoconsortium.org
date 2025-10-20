@@ -1,11 +1,11 @@
 ---
-title: Testing Terms Glossary
-linkTitle: Glossary
+title: "Testing Terms Glossary"
+linkTitle: "Glossary"
 type: docs
 weight: 1
-tags:
-    - Testing
-    - Glossary
+description: >
+  Standardized definitions for testing terms to establish ubiquitous language and reduce ambiguity in testing discussions
+tags: ["Testing", "Glossary", "Reference"]
 ---
 
 Testing terms and they are notoriously overloaded. If you ask 3 people what integration testing means you will get 4 different answers. This ambiguity within an organization slows down the engineering process as the lack of ubiquitous language causes communication errors. For us to help each other improve our quality processes, it is important that we align on a common language. In doing so, we understand that many may not agree 100% on the definitions we align to. That is ok. It is more important to be aligned to consensus than to be 100% in agreement. We'll iterate and adjust as needed.

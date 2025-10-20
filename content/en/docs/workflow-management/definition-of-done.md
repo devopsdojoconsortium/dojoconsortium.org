@@ -1,9 +1,10 @@
 ---
-title: Definition of Done
-tags:
-  - Teamwork
-  - Workflow
-  - Work Decomposition
+title: "Definition of Done"
+linkTitle: "Definition of Done"
+weight: 1
+description: >
+  Team agreement on conditions that must be met before work is considered complete, ensuring consistent quality standards
+tags: ["Workflow", "Team", "Quality"]
 ---
 
 > Is it __DONE__, __DONE DONE__, or is it __DONE DONE DONE__?

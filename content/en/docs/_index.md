@@ -2,6 +2,10 @@
 title: "Flow Improvement Learning Path"
 linkTitle: "Learning Path"
 weight: 20
+toc: true
+description: >
+  Core skills and recommended learning resources for executing Continuous Delivery including BDD, CI, TDD, and value stream mapping
+tags: ["Learning", "CD", "Getting Started"]
 menu:
   main:
     weight: 10

@@ -1,7 +1,10 @@
 ---
-title: Retrospectives
-tags:
-  - Teamwork
+title: "Retrospectives"
+linkTitle: "Retrospectives"
+weight: 3
+description: >
+  Regular team practice for inspecting and adapting how work gets done, critical for continuous improvement and preventing entropy
+tags: ["Workflow", "Team", "Continuous Improvement"]
 ---
 
 **Retrospectives are critical** for teams that are serious about continuous

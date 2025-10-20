@@ -1,11 +1,11 @@
 ---
 type: docs
 weight: 10
-title: MTTR
-
-tags:
-  - metrics
-  - stability
+title: "Mean Time to Repair (MTTR)"
+linkTitle: "MTTR"
+description: >
+  Average time to restore service after an incident - a key DORA stability metric measuring recovery capability
+tags: ["Metrics", "Stability", "DORA"]
 ---
 
 Mean Time to Repair is the average time between when a incidents is

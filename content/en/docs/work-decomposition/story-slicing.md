@@ -1,8 +1,10 @@
 ---
-title: Story Slicing
-tags: 
-   - Batch Size
-   - Teamwork
+title: "Story Slicing"
+linkTitle: "Story Slicing"
+weight: 3
+description: >
+  Techniques for splitting large stories into smaller, vertically-sliced deliveries that provide value independently and reduce batch size
+tags: ["Work Decomposition", "Planning", "Agile"]
 ---
 
 Story slicing is the activity of taking large stories and splitting them into
@@ -17,7 +19,7 @@ be of lower relative value.
 Stories should be sliced vertically.
 That is, the story should be aligned such that it fulfills a consumer request
 without requiring another story being deployed. After slicing, they should still
-meet the [INVEST principle](/docs/glossary).
+meet the [INVEST principle](/docs/reference/glossary).
 
 Example stories:
 
@@ -57,7 +59,7 @@ have sliced horizontally.
   developers can work the story with each developer picking up a task that
   represents a layer of the slice.
 
-- Minimize [hard dependencies](/docs/glossary/#dependency-hard) in a story. The odds of delivering on time for any
+- Minimize [hard dependencies](/docs/reference/glossary/#dependency-hard) in a story. The odds of delivering on time for any
   activity are `1 in 2^n` where `n` is the number of hard dependencies.
 
 ---

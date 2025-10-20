@@ -1,8 +1,11 @@
 ---
-title: Testing Best Practices
-linkTitle: Best Practices
-
+title: "Testing Best Practices"
+linkTitle: "Best Practices"
+weight: 10
 type: docs
+description: >
+  Comprehensive guide to test-first approaches, naming conventions, test effectiveness, and practices for building maintainable test suites
+tags: ["Testing", "Best Practices", "TDD", "BDD"]
 ---
 
 ## General

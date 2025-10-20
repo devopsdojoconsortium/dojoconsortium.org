@@ -1,11 +1,11 @@
 ---
 type: docs
 weight: 10
-title: Quality
-
-tags:
-  - metrics
-  - stability
+title: "Quality Metrics"
+linkTitle: "Quality"
+description: >
+  Comprehensive view of quality indicators including defects, test coverage, and technical debt
+tags: ["Metrics", "Quality"]
 ---
 
 Quality is measured as the percentage of finished work that is unused, unstable, unavailable, or defective according to the end user.

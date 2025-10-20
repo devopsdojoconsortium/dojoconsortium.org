@@ -1,11 +1,11 @@
 ---
 type: docs
 weight: 10
-title: Code Inventory
-
-tags:
-  - metrics
-  - throughput
+title: "Code Inventory"
+linkTitle: "Code Inventory"
+description: >
+  Amount of code written but not yet delivered to production - represents unrealized value and risk
+tags: ["Metrics", "Flow"]
 ---
 
 The lines of code that have been changed but have not been delivered to production. This can be measured at several points in the

@@ -1,11 +1,11 @@
 ---
 type: docs
 weight: 10
-title: Code Coverage
-
-tags:
-  - metrics
-  - stability
+title: "Code Coverage"
+linkTitle: "Code Coverage"
+description: >
+  Percentage of code exercised by tests - useful indicator but can be gamed, use with caution
+tags: ["Metrics", "Testing", "Quality"]
 ---
 
 A measure of the amount of code that is executed by test code.

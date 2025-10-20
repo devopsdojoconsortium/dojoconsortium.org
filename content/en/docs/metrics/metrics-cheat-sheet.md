@@ -1,10 +1,11 @@
 ---
 weight: 2
-title: Metrics Cheat Sheet
+title: "Metrics Cheat Sheet"
+linkTitle: "Cheat Sheet"
 type: docs
-
-tags:
-  - metrics
+description: >
+  Quick reference guide for key CD metrics with targets and improvement strategies
+tags: ["Metrics", "Reference"]
 ---
 
 ## Organizational Metrics

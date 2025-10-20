@@ -1,9 +1,10 @@
 ---
-title: Code Review
-weight: 1
-tags:
-  - Testing
-  - Teamwork
+title: "Code Review"
+linkTitle: "Code Review"
+weight: 7
+description: >
+  Lean code review practices prioritizing small changes, team-wide capability, and fast feedback loops with review as second-highest priority
+tags: ["Workflow", "Team", "Quality", "Collaboration"]
 ---
 
 ## Recommended Practices

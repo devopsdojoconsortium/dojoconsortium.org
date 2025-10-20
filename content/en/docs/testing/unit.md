@@ -1,7 +1,11 @@
 ---
-title: Unit Testing
-
+title: "Unit Testing"
+linkTitle: "Unit Testing"
+weight: 2
 type: docs
+description: >
+  Fast, deterministic tests that verify individual functions, methods, or components in isolation with test doubles for dependencies
+tags: ["Testing", "Quality", "CI", "TDD"]
 ---
 
 > Unit tests are [deterministic tests](/docs/testing/glossary#deterministic-test) that exercise a discrete unit of the application, such as a function, method, or UI component, in isolation to determine whether it behaves as expected.

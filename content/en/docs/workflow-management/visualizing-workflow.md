@@ -1,8 +1,10 @@
 ---
-title: Visualizing Workflow
-tags:
-  - Workflow
-  - Teamwork
+title: "Visualizing Workflow"
+linkTitle: "Visualizing Workflow"
+weight: 5
+description: >
+  Making work visible through visual workflow boards to increase ownership, accountability, and stakeholder transparency
+tags: ["Workflow", "Team", "Visibility"]
 ---
 
 Making work visible to ourselves, as well as our stakeholders is imperative in

@@ -1,10 +1,10 @@
 ---
-title: Definition of Ready
-tags: 
-   - Batch Size
-   - Teamwork
-   - Planning
-   - Product Ownership
+title: "Definition of Ready"
+linkTitle: "Definition of Ready"
+weight: 1
+description: >
+  Team-agreed criteria that defines when work is ready to begin, helping manage uncertainty and set clear expectations
+tags: ["Work Decomposition", "Planning", "Team"]
 ---
 
 _Is it REALLY Ready?_

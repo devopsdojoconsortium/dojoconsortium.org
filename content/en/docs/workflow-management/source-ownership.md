@@ -1,9 +1,10 @@
 ---
-title: Source Ownership
-weight: 1
-tags:
-  - Teamwork
-  - Ownership
+title: "Source Ownership"
+linkTitle: "Source Ownership"
+weight: 8
+description: >
+  Team ownership model where everyone takes responsibility for code quality, reducing process overhead and improving delivery
+tags: ["Workflow", "Team", "Ownership"]
 ---
 
 **_Delivery and quality are significantly impacted by teams sharing

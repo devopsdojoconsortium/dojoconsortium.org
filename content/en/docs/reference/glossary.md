@@ -1,8 +1,10 @@
 ---
-title: Glossary
+title: "Glossary"
+linkTitle: "Glossary"
 weight: 1
-tags:
-    - Glossary
+description: >
+  Key terms and definitions used throughout the Continuous Delivery documentation
+tags: ["Reference", "Glossary"]
 ---
 
 - [Continuous Delivery](#continuous-delivery)

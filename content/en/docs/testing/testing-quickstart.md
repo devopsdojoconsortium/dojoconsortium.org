@@ -2,6 +2,7 @@
 title: "Testing Quickstart"
 linkTitle: "Testing Quickstart"
 weight: 1
+toc: true
 description: >
   Get your test suite to production-ready in one week
 tags: ["Testing", "Getting Started", "CI"]

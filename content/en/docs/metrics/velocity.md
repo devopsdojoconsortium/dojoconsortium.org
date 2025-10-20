@@ -1,10 +1,11 @@
 ---
 type: docs
 weight: 10
-title: Velocity / Throughput
-
-tags:
-  - metrics
+title: "Velocity / Throughput"
+linkTitle: "Velocity"
+description: >
+  Amount of work completed per iteration - team capacity planning metric that should be used carefully, not as productivity measure
+tags: ["Metrics", "Planning"]
 ---
 
 The average amount of the backlog delivered during a sprint by the team. Used by the product team for planning. There is no such thing as good or bad velocity. This is commonly misunderstood to be a productivity metric. It is not.
@@ -18,7 +19,7 @@ and focusing on teamwork.
 ## How to improve it
 
 - Reduce story size so they are easier to understand and more predictable.
-- Minimize [hard dependencies](/docs/glossary/#dependency-hard). Each hard dependency reduces the odds of on-time
+- Minimize [hard dependencies](/docs/reference/glossary/#dependency-hard). Each hard dependency reduces the odds of on-time
   delivery by 50%.
 - Swarm stories by decomposing them into tasks that can be executed in parallel so that the team is working as a unit to deliver faster.
 

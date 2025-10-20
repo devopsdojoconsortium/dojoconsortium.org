@@ -1,10 +1,23 @@
 ---
-
-title: CD Dependencies
-draft: true
-tags:
-  - CD Dependencies
+title: "CD Dependencies"
+linkTitle: "CD Dependencies"
+weight: 4
+description: >
+  Visual guide to the dependencies and practices that enable Continuous Delivery
+tags: ["CD", "Reference", "Practices"]
 ---
+
+{{% pageinfo %}}
+The practices and capabilities shown below are based on research and industry standards documented at [MinimumCD.org Practices](https://practices.minimumcd.org).
+{{% /pageinfo %}}
+
+## Overview
+
+Continuous Delivery is built on a foundation of practices that depend on each other. This dependency tree shows how fundamental practices like Trunk-Based Development, Test-Driven Development, and Behavior-Driven Development support Continuous Integration, which in turn enables Continuous Delivery.
+
+For detailed information about each practice, including implementation guides and research backing, visit **[practices.minimumcd.org](https://practices.minimumcd.org)**.
+
+## CD Dependency Tree
 
 ```mermaid
 %%{init: {'securityLevel': 'loose', 'theme': 'base', 'themeVariables': { 'primaryColor': '#ff0000'}}}%%

@@ -1,7 +1,11 @@
 ---
-title: Contract Testing
-
+title: "Contract Testing"
+linkTitle: "Contract Testing"
+weight: 4
 type: docs
+description: >
+  Non-deterministic tests that validate test doubles by verifying contract format against live external systems
+tags: ["Testing", "Integration", "API"]
 ---
 
 > A contract test is used to validate the test doubles used in a network [integration test](/docs/testing/glossary#integration-test). Contract tests are run against the live external sub-system and exercises the portion of the code that interfaces to the sub-system. Because of this, they are [non-deterministic tests](/docs/testing/glossary#non-deterministic-test) and should not break the build, but should trigger work to review why they failed and potentially correct the contract.

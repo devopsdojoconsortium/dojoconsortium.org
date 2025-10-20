@@ -1,12 +1,10 @@
 ---
-title: Behavior Driven Development
+title: "Behavior Driven Development"
+linkTitle: "BDD"
 weight: 2
-tags: 
-   - Batch Size
-   - Teamwork
-   - Testing
-   - Planning
-   - Product Ownership
+description: >
+  Collaborative process for defining feature behaviors through declarative, testable acceptance criteria that serve as Definition of Done
+tags: ["Work Decomposition", "BDD", "Testing", "Planning"]
 ---
 
 Behavior Driven Development is the collaborative process where we discuss the intent and behaviors of a feature and

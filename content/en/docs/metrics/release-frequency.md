@@ -1,11 +1,11 @@
 ---
 type: docs
 weight: 10
-title: Delivery Frequency
-
-tags:
-  - metrics
-  - throughput
+title: "Delivery Frequency"
+linkTitle: "Delivery Frequency"
+description: >
+  How often changes are deployed to production - a key DORA metric measuring throughput and team capability
+tags: ["Metrics", "Throughput", "DORA"]
 ---
 
 How frequently per day the team releases changes to production.
@@ -21,7 +21,7 @@ rapidly, reduce [MTTR](/docs/metrics/mean-time-to-repair), increase quality, and
 - Remove handoffs to other teams.
 - Remove manual processes.
 - Improve testing and move quality ownership into the team.
-- Move [hard dependencies](/docs/glossary/#dependency-hard) to [soft dependencies](/docs/glossary/#dependency-soft) with [feature flags](https://martinfowler.com/articles/feature-toggles.html) and [service virtualization](https://www.digitalocean.com/community/tutorials/how-to-mock-services-using-mountebank-and-node-js).
+- Move [hard dependencies](/docs/reference/glossary/#dependency-hard) to [soft dependencies](/docs/reference/glossary/#dependency-soft) with [feature flags](https://martinfowler.com/articles/feature-toggles.html) and [service virtualization](https://www.digitalocean.com/community/tutorials/how-to-mock-services-using-mountebank-and-node-js).
 - Focus on [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html) with small changes integrated to the trunk continuously.
 - Use [Trunk Based Development](https://trunkbaseddevelopment.com/) to reduce the risk of lost changes and process overhead.
 

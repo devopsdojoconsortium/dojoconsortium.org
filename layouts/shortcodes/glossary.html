@@ -1,0 +1,19 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{/*
+  Glossary Shortcode
+
+  Creates a link to a term in the glossary with optional custom display text.
+
+  Usage:
+    {{< glossary "Continuous Integration" >}}
+    {{< glossary term="Continuous Integration" >}}
+    {{< glossary term="WIP" display="Work in Progress" >}}
+
+  Parameters:
+    - term (required): The glossary term to link to (must match heading in glossary.md)
+    - display (optional): Text to display instead of the term
+*/}}
+{{- $term := .Get "term" | default (.Get 0) -}}
+{{- $display := .Get "display" | default $term -}}
+{{- $anchor := $term | lower | replaceRE " " "-" | replaceRE "[()]" "" -}}
+<a href="/docs/reference/glossary#{{ $anchor }}" title="See glossary definition for {{ $term }}" class="glossary-term">{{ $display }}</a>

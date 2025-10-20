@@ -1,11 +1,11 @@
 ---
 type: docs
 weight: 10
-title: Change Fail Rate
-
-tags:
-  - metrics
-  - stability
+title: "Change Fail Rate"
+linkTitle: "Change Fail Rate"
+description: >
+  Percentage of changes that result in degraded service or require remediation - a key DORA stability metric
+tags: ["Metrics", "Stability", "DORA", "Quality"]
 ---
 
 The percentage of changes that result in negative customer impact, or rollback.

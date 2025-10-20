@@ -1,7 +1,10 @@
 ---
-title: Defining Product Goals
-tags: 
-   - Product Ownership
+title: "Defining Product Goals"
+linkTitle: "Product Goals"
+weight: 6
+description: >
+  Transform product vision into measurable objectives with clear timeframes and success criteria to align team efforts
+tags: ["Work Decomposition", "Planning", "Product"]
 ---
 
 ## Product Goals

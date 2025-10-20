@@ -1,8 +1,10 @@
 ---
-title: Spikes
-tags: 
-   - Batch Size
-   - Planning
+title: "Spikes"
+linkTitle: "Spikes"
+weight: 4
+description: >
+  Time-boxed explorations (1-3 days) for work items with high uncertainty that cannot be estimated, used sparingly to reduce risk
+tags: ["Work Decomposition", "Planning", "Risk Management"]
 ---
 
 Spikes are an exploration of potential solutions for work or research items that cannot be estimated. They

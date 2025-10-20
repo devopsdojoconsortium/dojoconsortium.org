@@ -1,8 +1,10 @@
 ---
-title: Unplanned Work
-tags:
-  - Workflow
-  - Product Ownership
+title: "Unplanned Work"
+linkTitle: "Unplanned Work"
+weight: 4
+description: >
+  Managing interruptions that prevent finishing planned work, balancing necessary changes with risk, uncertainty, and predictability
+tags: ["Workflow", "Planning", "Risk Management"]
 ---
 
 Unplanned work is any interruption that prevents us from finishing something as planned. There are times when unplanned work is necessary and understandable, but you

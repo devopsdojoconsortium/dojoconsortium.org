@@ -1,9 +1,10 @@
 ---
-title: Task Decomposition
+title: "Task Decomposition"
+linkTitle: "Task Decomposition"
 weight: 10
-tags: 
-   - Batch Size
-   - Teamwork
+description: >
+  Breaking stories into smallest independently deployable changes that implement acceptance criteria and maintain flow
+tags: ["Work Decomposition", "Planning", "Team"]
 ---
 
 ## What does a good task look like?

@@ -1,9 +1,11 @@
 ---
 type: docs
 weight: 10
-title: Development Cycle Time
-tags:
-  - Flow Metrics
+title: "Development Cycle Time"
+linkTitle: "Development Cycle Time"
+description: >
+  Average time from starting work until release to production - a key flow metric for identifying delivery bottlenecks and improving feedback speed
+tags: ["Metrics", "Flow", "DORA"]
 ---
 
 The average time from starting work until release to production.

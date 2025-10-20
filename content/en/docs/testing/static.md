@@ -1,7 +1,11 @@
 ---
-title: Static Testing
-
+title: "Static Testing"
+linkTitle: "Static Testing"
+weight: 1
 type: docs
+description: >
+  Code analysis tools that evaluate non-running code for security vulnerabilities, complexity, and best practice violations
+tags: ["Testing", "Quality", "CI", "Security"]
 ---
 
 > A static test is a test that evaluates non-running code against rules for known good practices to check for security, structure, or practice issues.

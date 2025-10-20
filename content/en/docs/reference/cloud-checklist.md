@@ -1,8 +1,10 @@
 ---
-title: Cloud Native Checklist
-
-tags:
-  - CD
+title: "Cloud Native Checklist"
+linkTitle: "Cloud Checklist"
+weight: 3
+description: >
+  A comprehensive checklist for cloud-native architecture principles and practices
+tags: ["Reference", "Cloud", "Architecture"]
 ---
 
 - [Cloud Native checklist](#cloud-native-checklist)

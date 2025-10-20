@@ -2,6 +2,7 @@
 title: "Getting Started with Continuous Delivery"
 linkTitle: "Getting Started"
 weight: 1
+toc: true
 description: >
   Practical first steps to begin your Continuous Delivery journey
 tags: ["CD", "Getting Started"]
@@ -324,7 +325,7 @@ Duration: 1 hour
 
 **Solution:**
 - You can merge incomplete features using:
-  - [Feature flags](/docs/glossary#feature-flag)
+  - [Feature flags](/docs/reference/glossary#feature-flag)
   - [Branch by Abstraction](https://www.branchbyabstraction.com/)
   - Hidden UI elements
   - API versioning

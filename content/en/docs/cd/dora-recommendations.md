@@ -1,9 +1,10 @@
 ---
-title: 24 Capabilities to Drive Improvement
-linkTitle: DORA Recommendations
-weight: 9
-tags:
-  - CD
+title: "24 Capabilities to Drive Improvement"
+linkTitle: "DORA Recommendations"
+weight: 5
+description: >
+  Research-backed practices from the State of DevOps reports and DORA metrics
+tags: ["CD", "Metrics", "Research"]
 ---
 
 > "Our research has uncovered 24 key capabilities that drive improvements in software delivery performance in a statistically significant way. Our book details these findings."
@@ -26,7 +27,7 @@ Deployment automation is the degree to which deployments are fully automated and
 
 ### Implement continuous integration
 
-[Continuous integration](/docs/glossary/#continuous-integration) (CI) is the **first step** towards continuous delivery.
+[Continuous integration](/docs/reference/glossary/#continuous-integration) (CI) is the **first step** towards continuous delivery.
 This is a development practice where code is regularly
 checked in, and each check-in triggers a set of quick tests to discover serious regressions, which developers fix immediately. The
 CI process creates canonical builds and packages that are ultimately deployed and released.

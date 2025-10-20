@@ -1,10 +1,10 @@
 ---
-title: Source Management
-weight: 1
-tags:
-  - Workflow
-  - Testing
-  - CI
+title: "Source Management"
+linkTitle: "Branching Strategy"
+weight: 6
+description: >
+  Trunk-Based Development practices with short-lived branches, frequent integration, and small pull requests to reduce risk
+tags: ["Workflow", "Git", "CI", "TBD"]
 ---
 
 ## Use Trunk Based Development

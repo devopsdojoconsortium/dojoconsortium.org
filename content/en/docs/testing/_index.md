@@ -2,7 +2,10 @@
 title: "Designing Tests for CD"
 linkTitle: "Test Patterns"
 type: docs
-weight: 3
+weight: 4
+description: >
+  Test patterns, principles, and best practices for building fast, reliable test suites that enable Continuous Delivery
+tags: ["Testing", "Quality", "CI"]
 ---
 
 There are common patterns to show how much of each kind of test is generally recommended. The most used are the [Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) and the [Test Trophy](https://kentcdodds.com/blog/write-tests). Both are trying to communicate the same thing: design a test suite that is fast, gives you confidence, and is not more expensive to maintain than the value it brings.
@@ -38,7 +41,7 @@ When executing continuous delivery, test code is a first class citizen that requ
 
 ### Testing Anti-patterns
 
-"Ice cream cone testing" is the **anti-pattern** where the most expensive, fragile, [non-deterministic](/docs/glossary#non-deterministic-test) tests are prioritized over faster and less expensive [deterministic](/docs/glossary#deterministic-test) tests because it "feels" right.
+"Ice cream cone testing" is the **anti-pattern** where the most expensive, fragile, [non-deterministic](/docs/reference/glossary#non-deterministic-test) tests are prioritized over faster and less expensive [deterministic](/docs/reference/glossary#deterministic-test) tests because it "feels" right.
 
 [Google Test Blog: Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
 

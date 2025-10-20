@@ -2,6 +2,7 @@
 title: "Metrics Quickstart"
 linkTitle: "Metrics Quickstart"
 weight: 1
+toc: true
 description: >
   Set up essential CD metrics in one day and start improving delivery performance
 tags: ["Metrics", "Getting Started", "CD"]

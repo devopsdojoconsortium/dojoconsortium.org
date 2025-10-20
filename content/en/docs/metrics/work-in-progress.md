@@ -1,9 +1,11 @@
 ---
 type: docs
 weight: 10
-title: WIP
-tags:
-  - Flow Metrics
+title: "Work in Progress (WIP)"
+linkTitle: "WIP"
+description: >
+  Count of started but unfinished work - leading indicator of flow problems and context switching
+tags: ["Metrics", "Flow"]
 ---
 
 Work in Progress (WIP) is the total work that has been started but not

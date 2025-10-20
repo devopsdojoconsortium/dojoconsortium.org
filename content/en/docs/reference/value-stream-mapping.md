@@ -1,10 +1,10 @@
 ---
 title: "Value Stream Mapping"
 linkTitle: "Value Stream Mapping"
-weight: 9
+weight: 2
 description: >
   A guide to conducting a Value Stream Mapping Workshop to optimize your development process.
-tags: ["CD", "Lean"]
+tags: ["Reference", "VSM", "Lean", "Process Improvement"]
 ---
 
 {{% pageinfo %}}

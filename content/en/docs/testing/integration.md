@@ -1,7 +1,11 @@
 ---
-title: Integration Testing
-
+title: "Integration Testing"
+linkTitle: "Integration Testing"
+weight: 3
 type: docs
+description: >
+  Deterministic tests that verify how units interact together or with external systems using test doubles for non-deterministic dependencies
+tags: ["Testing", "Quality", "CI"]
 ---
 
 > An integration test is a [deterministic](/docs/testing/glossary#deterministic-test) test to verify how the unit under test interacts with other units without directly accessing external sub-systems. For the purposes of clarity, "integration test" is not a test that broadly integrates multiple sub-systems. That is an [E2E test](/docs/testing/e2e).

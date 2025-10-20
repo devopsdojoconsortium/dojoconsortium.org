@@ -1,11 +1,11 @@
 ---
 type: docs
 weight: 10
-title: Code Integration Frequency
-
-tags:
-  - metrics
-  - throughput
+title: "Code Integration Frequency"
+linkTitle: "Integration Frequency"
+description: >
+  How often code is integrated to trunk/main - indicator of CI practice maturity and team collaboration
+tags: ["Metrics", "CI", "Flow"]
 ---
 
 The average number of production-ready pull requests a team closes per day, normalized by the number of developers on

@@ -1,11 +1,10 @@
 ---
-title: Contract Driven Development
-tags: 
-   - Batch Size
-   - Testing
-   - Planning
-   - Evolutionary Development
-   - API Management
+title: "Contract Driven Development"
+linkTitle: "Contract Driven Development"
+weight: 5
+description: >
+  Define contracts between dependencies during design to enable asynchronous development using mocks and fakes for parallel work
+tags: ["Work Decomposition", "API", "Testing", "Planning"]
 ---
 
 Contract Driven Development is the process of defining the contract changes

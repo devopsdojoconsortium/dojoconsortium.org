@@ -1,8 +1,10 @@
 ---
-title: Common Blockers
+title: "Common Blockers"
 weight: 2
-tags:
-  - CD
+toc: true
+description: >
+  Common issues teams encounter when implementing Continuous Delivery and how to resolve them
+tags: ["CD", "Troubleshooting"]
 ---
 
 The following are very frequent issues that teams encounter when working to improve the flow of delivery.
@@ -45,7 +47,7 @@ Definition of Ready
 
 ### No definition of "Done"
 
-Having an explicit definition of done is important to keeping [WIP](/docs/glossary#WIP) low and finishing work.
+Having an explicit definition of done is important to keeping [WIP](/docs/reference/glossary#WIP) low and finishing work.
 
 ```shell
 Definition of Done

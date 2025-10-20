@@ -1,9 +1,10 @@
 ---
-title: Work in Progress
-tags:
-  - Teamwork
-  - Workflow
-  - Work Decomposition
+title: "Limiting Work in Progress"
+linkTitle: "Limiting WIP"
+weight: 2
+description: >
+  Reduce context switching and improve flow by limiting started-but-unfinished work, helping teams focus on collaboration and completion
+tags: ["Workflow", "Team", "Flow"]
 ---
 
 ## Why Limit WIP?

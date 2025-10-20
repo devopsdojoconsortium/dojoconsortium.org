@@ -1,9 +1,11 @@
 ---
 type: docs
 weight: 10
-title: Lead Time
-tags:
-  - Flow Metrics
+title: "Lead Time"
+linkTitle: "Lead Time"
+description: >
+  Total time from customer request to delivery in production - measures entire value stream efficiency
+tags: ["Metrics", "Flow"]
 ---
 
 This shows the average time it takes for a new request to be delivered. This is

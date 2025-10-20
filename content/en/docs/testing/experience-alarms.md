@@ -1,10 +1,11 @@
 ---
-
+title: "Customer Experience Alarms"
+linkTitle: "Experience Alarms"
+weight: 8
 type: docs
-title: Customer Experience Alarms
-linkTitle: Experience Alarms
-tags:
-  - Testing
+description: >
+  Active monitoring that sends requests to test critical customer workflows every minute to ensure system health and catch errors early
+tags: ["Testing", "Monitoring", "Observability"]
 ---
 
 > Customer Experience Alarms are a type of active alarm. It is a piece of software that sends requests to your system much like a user would. We use it to test the happy-path of critical customer workflows. These requests happen every minute (ideally, but can be as long as every 5 minutes). If they fail to work, or fail to run, we emit metrics that cause alerts. We run these in all of our environments, not just production, to ensure that they work and we catch errors early.

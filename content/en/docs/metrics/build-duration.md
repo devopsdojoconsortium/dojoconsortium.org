@@ -1,11 +1,11 @@
 ---
 type: docs
 weight: 10
-title: Build Cycle Time
-
-tags:
-  - metrics
-  - throughput
+title: "Build Duration"
+linkTitle: "Build Duration"
+description: >
+  Time for CI pipeline to complete - critical for fast feedback and should be under 10 minutes
+tags: ["Metrics", "CI", "Quality"]
 ---
 
 The time from code commit to production deploy. This is the minimum time changes can be applied to production. This is
