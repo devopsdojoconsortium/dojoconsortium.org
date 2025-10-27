@@ -60,10 +60,12 @@ enforced, it's completely useless.
 
 ---
 
-## Caution: The Hidden Dangers of a Definition of Ready
+## Be Careful: The Hidden Dangers of a Definition of Ready
 
-A Definition of Ready can easily become a **bureaucratic gate** that undermines agility. When treated as a contract or checklist to “pass,” it creates a **false sense of certainty** that complex work rarely allows. Teams may delay valuable discovery, reject valuable but ambiguous items, or confuse readiness with completeness.
+A Definition of Ready can help you set boundaries, but it can also become a **bureaucratic gate** that slows you down. When you treat it like a contract or a checklist to pass, you create a **false sense of certainty** that doesn’t exist in complex work.
 
-Scrum is an **empirical system**, not a linear one. The goal of readiness is to create enough shared understanding to begin, **not to eliminate uncertainty**. If the Definition of Ready ever stops the flow of learning, it has become part of the problem, not the solution.
+If you wait until everything is perfectly known, you’ll block learning and delay value. Teams that overuse readiness criteria often reject valuable but unclear work, mistaking uncertainty for risk.
+
+Scrum is **empirical**, not linear. Use the Definition of Ready to create enough shared understanding to begin, **not to eliminate uncertainty**. If it stops the flow of learning, it has become part of the problem, not the solution.
 
 ---
