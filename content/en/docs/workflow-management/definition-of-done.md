@@ -9,26 +9,25 @@ tags: ["Workflow", "Team", "Quality"]
 
 > Is it __DONE__, __DONE DONE__, or is it __DONE DONE DONE__?
 
-All teams need a Definition of Done. The Definition of Done is an agreement made between the team
-that a unit of work isn't complete without meeting certain conditions.
+All organisations need a Definition of Done, and every team should define what Done means for the things they deliver within the context of the organisation’s Definition. The Definition of Done is a shared agreement that no unit of work is complete until it meets all agreed conditions.
 
 ## Recommended Practices
 
-We use the Definition of Done most commonly for user stories. The team and
-product owner must agree that the story has met all criteria for it to be
-considered done.
+While the Definition of Done applies to the entire product, you can test it against individual backlog items such as user stories. The whole team, including the Product Owner, must agree that each item meets all criteria before it is considered done.
 
-A definition of done can include anything a team cares about, but must include
-these criteria:
+Each organisation should create a core Definition of Done that reflects what it values, but it must include at least these criteria:
 
-- All tests passed
-- All acceptance criteria have been met
-- Code reviewed by team member and merged to trunk
-- Demoed to team/stakeholders as close to prod as possible
-- All code associated with the acceptance criteria deployed to production
+* Deployed to at least a subset of real users
+* Collecting telemetry to validate the original hypothesis
 
-Once your team has identified all criteria that a unit of work needs to be
-considered done, you must hold yourself accountable to your Definition of Done.
+Each product, and subsequently each team, should define its own criteria within those organisational boundaries. At a minimum, include the following:
+
+* All tests passed
+* Code reviewed by a team member and merged to trunk
+* Demoed to the team or stakeholders in a production-like environment
+* All code associated with the work deployed to production
+
+Once you have agreed on your Definition of Done, hold yourselves accountable to it for every unit of work.
 
 ## Value
 
@@ -39,6 +38,6 @@ be delivered to our customers.
 ## Acceptance Criteria
 
 - Identify what your team cares about as a Definition of Done.
-- Use your Definition of Done as a tool to ensure quality stories are being
+- Use your Definition of Done as a tool to ensure quality items are being
   released into production.
 - Revisit and evaluate your Definition of Done.
