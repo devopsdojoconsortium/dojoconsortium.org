@@ -44,7 +44,7 @@ enforced, it's completely useless.
 2. Any work that is planned for a sprint/iteration must meet the Definition of
    Ready. Do not accept work that isn't ready!
 3. If work needs to be expedited, it needs to go through the same process.
-   (Unless there is immediate production impact, of course)
+   (Unless there is an immediate production impact, of course)
 
 ---
 
@@ -57,5 +57,13 @@ enforced, it's completely useless.
 3. It's up to everyone on the team, including the Product Owner, to make sure
    that non-ready work is refined appropriately.
 4. The recommended DoR for CD is that any story can be completed, either by the team or a single developer, in 2 days or less
+
+---
+
+## Caution: The Hidden Dangers of a Definition of Ready
+
+A Definition of Ready can easily become a **bureaucratic gate** that undermines agility. When treated as a contract or checklist to “pass,” it creates a **false sense of certainty** that complex work rarely allows. Teams may delay valuable discovery, reject valuable but ambiguous items, or confuse readiness with completeness.
+
+Scrum is an **empirical system**, not a linear one. The goal of readiness is to create enough shared understanding to begin, **not to eliminate uncertainty**. If the Definition of Ready ever stops the flow of learning, it has become part of the problem, not the solution.
 
 ---
